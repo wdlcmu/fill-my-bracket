@@ -1,3 +1,40 @@
 User-agent: *
 Allow: /
+
+# OpenAI search/browsing crawlers (ChatGPT answers, search index)
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# OpenAI training crawler (explicit allow, same as pickmycostume.com)
+User-agent: GPTBot
+Allow: /
+
+# Perplexity search crawler
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+
+# Anthropic crawlers (Claude search index + training)
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+
+# Google's AI crawler (Gemini)
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft/Bing and Apple
+User-agent: Bingbot
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
 Sitemap: https://fillmybracket.com/sitemap.xml
