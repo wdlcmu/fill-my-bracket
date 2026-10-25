@@ -11,47 +11,79 @@
 <meta property="og:site_name" content="Fill My Bracket">
 <meta property="og:title" content="Fill My Bracket · Coming March 2027">
 <meta property="og:description" content="Five questions. One full March Madness bracket. Zero basketball knowledge required. Free forever. No ads. No accounts.">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://fillmybracket.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Fill My Bracket. Five questions. One full bracket. Zero basketball knowledge required.">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Fill My Bracket · Coming March 2027">
 <meta name="twitter:description" content="Five questions. One full March Madness bracket. Zero basketball knowledge required. Free forever. No ads. No accounts.">
+<meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <style>
-  :root { --accent: #e03131; --ink: #1a1a1a; --muted: #6b7280; }
+  :root {
+    --navy: #081c3a;
+    --navy-2: #0d2b57;
+    --navy-3: #123263;
+    --orange: #ff7a1a;
+    --orange-soft: #ffa25e;
+    --cream: #f7f2e7;
+    --muted: #aebdd6;
+    --line: #2a4a7f;
+  }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: var(--ink); background: #fffafa; line-height: 1.5;
+    color: var(--cream); background: var(--navy); line-height: 1.5;
     display: flex; flex-direction: column; min-height: 100vh;
     -webkit-font-smoothing: antialiased;
   }
   main {
     flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;
-    text-align: center; padding: 3rem 1.5rem; max-width: 42rem; margin: 0 auto; width: 100%;
+    text-align: center; padding: 2.5rem 1.25rem 2rem; max-width: 62rem; margin: 0 auto; width: 100%;
   }
   .kicker {
-    display: inline-block; font-size: 0.875rem; font-weight: 600; letter-spacing: 0.08em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 1.25rem;
-    border: 1px solid var(--accent); border-radius: 999px; padding: 0.35rem 1rem;
+    display: inline-block; font-size: 0.875rem; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--orange); margin-bottom: 1.1rem;
+    border: 1px solid var(--orange); border-radius: 999px; padding: 0.35rem 1rem;
   }
-  h1 { font-size: clamp(2.5rem, 8vw, 4rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 1rem; }
-  .tagline { font-size: clamp(1.125rem, 4vw, 1.5rem); color: #374151; max-width: 32rem; margin-bottom: 2rem; }
-  .promise { font-size: 1rem; font-weight: 600; color: var(--ink); }
-  .promise span { color: var(--accent); }
-  footer {
-    text-align: center; padding: 2rem 1.5rem; border-top: 1px solid #e5e7eb;
-    font-size: 0.9375rem; color: var(--muted);
+  h1 { font-size: clamp(2.5rem, 8vw, 4rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.9rem; }
+  .tagline { font-size: clamp(1.125rem, 4vw, 1.5rem); color: var(--cream); max-width: 34rem; margin-bottom: 1.1rem; }
+  .promise { font-size: 1rem; font-weight: 600; color: var(--cream); }
+  .promise span { color: var(--orange); }
+  .countdown { margin-top: 0.6rem; font-size: 0.9375rem; color: var(--muted); }
+  .bracket-art {
+    margin-top: 2rem; width: 100%; max-width: 46rem;
+    background: var(--navy-2); border: 1px solid var(--line); border-radius: 16px;
+    padding: 1.25rem 1rem 0.9rem;
   }
-  footer p { margin-bottom: 0.5rem; }
-  footer a { color: var(--accent); font-weight: 600; text-decoration: none; }
-  footer a:hover { text-decoration: underline; }
-  .countdown { margin-top: 1rem; font-size: 0.9375rem; color: var(--muted); }
+  .bracket-art svg { display: block; width: 100%; height: auto; }
+  .bracket-art figcaption { margin-top: 0.6rem; font-size: 0.9375rem; font-weight: 600; color: var(--muted); }
+  .bracket-art figcaption strong { color: var(--orange); }
   section.details { max-width: 42rem; margin: 0 auto; width: 100%; padding: 0 1.5rem 1rem; }
   section.details h2 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em; text-align: center; margin: 2rem 0 1.25rem; }
   .steps { list-style: none; text-align: left; }
-  .steps li { margin-bottom: 1.25rem; }
-  .steps h3 { font-size: 1.0625rem; margin-bottom: 0.35rem; }
-  .steps p, .faq-item p { color: #374151; }
+  .steps li { margin-bottom: 1.25rem; background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; }
+  .steps h3 { font-size: 1.0625rem; margin-bottom: 0.35rem; color: var(--cream); }
+  .steps p, .faq-item p { color: var(--muted); }
   .faq-item { text-align: left; margin-bottom: 1.25rem; }
   .faq-item h3 { font-size: 1.0625rem; margin-bottom: 0.35rem; }
+  .poster-strip {
+    max-width: 42rem; margin: 0 auto; width: 100%; padding: 0 1.5rem;
+  }
+  .poster-card {
+    border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2);
+    padding: 1.25rem 1.4rem; text-align: left;
+  }
+  .poster-card .pc-kicker { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--orange); margin-bottom: 0.4rem; }
+  .poster-card .pc-champ { font-size: 1.5rem; font-weight: 800; margin-bottom: 0.3rem; color: var(--cream); }
+  .poster-card p { color: var(--muted); font-size: 0.9375rem; }
+  footer {
+    text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line);
+    font-size: 0.9375rem; color: var(--muted); margin-top: 2rem;
+  }
+  footer p { margin: 0; }
 </style>
 <script type="application/ld+json">
 {
@@ -92,8 +124,88 @@
   <h1>Fill My Bracket</h1>
   <p class="tagline">Five questions. One full bracket. Zero basketball knowledge required.</p>
   <p class="promise"><span>Free forever.</span> No ads. No accounts.</p>
-  <p class="countdown" id="countdown">The field is set Sunday, March 14, 2027.</p>
+  <p class="countdown" id="countdown">The field is set on Sunday, March 14, 2027.</p>
+
+  <figure class="bracket-art">
+    <svg viewBox="0 0 720 360" role="img" aria-label="A tournament bracket: eight first-round slots narrow round by round to one champion spot.">
+      <!-- connectors: round 1 to round 2 -->
+      <g stroke="#ffa25e" stroke-width="3" fill="none" stroke-linecap="round">
+        <path d="M130 35 H165 V57 H200"/>
+        <path d="M130 79 H165 V57"/>
+        <path d="M130 123 H165 V145 H200"/>
+        <path d="M130 167 H165 V145"/>
+        <path d="M130 211 H165 V233 H200"/>
+        <path d="M130 255 H165 V233"/>
+        <path d="M130 299 H165 V321 H200"/>
+        <path d="M130 343 H165 V321"/>
+        <!-- round 2 to final four -->
+        <path d="M310 57 H345 V101 H380"/>
+        <path d="M310 145 H345 V101"/>
+        <path d="M310 233 H345 V277 H380"/>
+        <path d="M310 321 H345 V277"/>
+        <!-- final four to champion -->
+        <path d="M490 101 H515 V180 H540"/>
+        <path d="M490 277 H515 V180"/>
+      </g>
+      <!-- round 1 slots -->
+      <g>
+        <g font-family="inherit" font-size="15" font-weight="700" fill="#f7f2e7">
+          <rect x="10" y="20" width="120" height="30" rx="8" fill="#123263" stroke="#2a4a7f"/>
+          <circle cx="28" cy="35" r="9" fill="#ff7a1a"/><text x="28" y="40" text-anchor="middle" font-size="12" fill="#081c3a">1</text>
+          <text x="46" y="41">Seed 1</text>
+          <rect x="10" y="64" width="120" height="30" rx="8" fill="#123263" stroke="#2a4a7f"/>
+          <circle cx="28" cy="79" r="9" fill="#f7f2e7"/><text x="28" y="84" text-anchor="middle" font-size="11" fill="#081c3a">16</text>
+          <text x="46" y="85">Seed 16</text>
+          <rect x="10" y="108" width="120" height="30" rx="8" fill="#123263" stroke="#2a4a7f"/>
+          <circle cx="28" cy="123" r="9" fill="#ff7a1a"/><text x="28" y="128" text-anchor="middle" font-size="12" fill="#081c3a">8</text>
+          <text x="46" y="129">Seed 8</text>
+          <rect x="10" y="152" width="120" height="30" rx="8" fill="#123263" stroke="#2a4a7f"/>
+          <circle cx="28" cy="167" r="9" fill="#f7f2e7"/><text x="28" y="172" text-anchor="middle" font-size="12" fill="#081c3a">9</text>
+          <text x="46" y="173">Seed 9</text>
+          <rect x="10" y="196" width="120" height="30" rx="8" fill="#123263" stroke="#2a4a7f"/>
+          <circle cx="28" cy="211" r="9" fill="#ff7a1a"/><text x="28" y="216" text-anchor="middle" font-size="12" fill="#081c3a">5</text>
+          <text x="46" y="217">Seed 5</text>
+          <rect x="10" y="240" width="120" height="30" rx="8" fill="#123263" stroke="#2a4a7f"/>
+          <circle cx="28" cy="255" r="9" fill="#f7f2e7"/><text x="28" y="260" text-anchor="middle" font-size="11" fill="#081c3a">12</text>
+          <text x="46" y="261">Seed 12</text>
+          <rect x="10" y="284" width="120" height="30" rx="8" fill="#123263" stroke="#2a4a7f"/>
+          <circle cx="28" cy="299" r="9" fill="#ff7a1a"/><text x="28" y="304" text-anchor="middle" font-size="12" fill="#081c3a">4</text>
+          <text x="46" y="305">Seed 4</text>
+          <rect x="10" y="328" width="120" height="30" rx="8" fill="#123263" stroke="#2a4a7f"/>
+          <circle cx="28" cy="343" r="9" fill="#f7f2e7"/><text x="28" y="348" text-anchor="middle" font-size="11" fill="#081c3a">13</text>
+          <text x="46" y="349">Seed 13</text>
+        </g>
+        <!-- round 2 slots -->
+        <g fill="#0d2b57" stroke="#ffa25e" stroke-width="2">
+          <rect x="200" y="42" width="110" height="30" rx="8"/>
+          <rect x="200" y="130" width="110" height="30" rx="8"/>
+          <rect x="200" y="218" width="110" height="30" rx="8"/>
+          <rect x="200" y="306" width="110" height="30" rx="8"/>
+        </g>
+        <!-- final four slots -->
+        <g fill="#0d2b57" stroke="#ffa25e" stroke-width="2">
+          <rect x="380" y="86" width="110" height="30" rx="8"/>
+          <rect x="380" y="262" width="110" height="30" rx="8"/>
+        </g>
+        <!-- champion box -->
+        <rect x="540" y="128" width="170" height="104" rx="14" fill="#ff7a1a"/>
+        <path d="M625 148 l7.6 15.4 17 2.5 -12.3 12 2.9 16.9 -15.2 -8 -15.2 8 2.9 -16.9 -12.3 -12 17 -2.5 Z" fill="#081c3a"/>
+        <text x="625" y="216" text-anchor="middle" font-family="inherit" font-size="17" font-weight="800" fill="#081c3a" letter-spacing="1">CHAMPION</text>
+      </g>
+    </svg>
+    <figcaption>Every game picked for you. <strong>One champion at the end.</strong></figcaption>
+  </figure>
 </main>
+
+<section class="poster-strip" aria-labelledby="poster-heading">
+  <h2 id="poster-heading" style="font-size:1.5rem;font-weight:700;letter-spacing:-0.01em;text-align:center;margin:2rem 0 1.25rem;">Your bracket, as a poster</h2>
+  <div class="poster-card">
+    <p class="pc-kicker">Fill My Bracket</p>
+    <p class="pc-champ">Champion: your pick here</p>
+    <p>Print it. Pin it up. Every game, round by round.</p>
+  </div>
+</section>
+
 <section class="details" aria-labelledby="how-heading">
   <h2 id="how-heading">How it will work</h2>
   <ol class="steps">
@@ -144,7 +256,7 @@
     } else if (days === 0) {
       el.textContent = "Selection Sunday is today, Sunday, March 14, 2027. The field is set tonight.";
     } else {
-      el.textContent = "The field was set Sunday, March 14, 2027. Brackets are open now.";
+      el.textContent = "The field was set Sunday, March 14, 2027.";
     }
   })();
 </script>
