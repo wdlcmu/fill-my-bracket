@@ -84,6 +84,8 @@
     font-size: 0.9375rem; color: var(--muted); margin-top: 2rem;
   }
   footer p { margin: 0; }
+  footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
+  footer a:hover { text-decoration: underline; }
 </style>
 <script type="application/ld+json">
 {
@@ -132,7 +134,7 @@
   <h1>Fill My Bracket</h1>
   <p class="tagline">Five questions. One full bracket. Zero basketball knowledge required.</p>
   <p class="promise"><span>Free forever.</span> No ads. No accounts.</p>
-  <p class="countdown" id="countdown">The field is set on Sunday, March 14, 2027.</p>
+  <p class="countdown" id="countdown">The field will be set on Sunday, March 14, 2027.</p>
 
   <figure class="bracket-art">
     <svg viewBox="0 0 720 360" role="img" aria-label="A tournament bracket: eight first-round slots narrow round by round to one champion spot.">
@@ -252,6 +254,7 @@
 </section>
 <footer>
   <p>Built with Muse.</p>
+  <p><a href="/privacy">Privacy</a> <a href="/terms">Terms</a></p>
 </footer>
 <script>
   (function () {
