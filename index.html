@@ -276,6 +276,59 @@
     }
   })();
 </script>
+<script>
+"use strict";
+/* ================= Fleet analytics — PostHog rollout (2026-10-25) =================
+   Fill My Bracket joins the fleet PostHog project (624507), rolling out the
+   pattern the Present Picker pilot proved on 2026-10-25. Every event
+   carries $host automatically; site_id is registered as the friendly
+   label. Posture: autocapture off, session recording off, no
+   identify(), anonymous only. Payloads are counts and enums only —
+   never answers, never personal data. */
+var _fleetQ = [];
+function fleetTrack(name, props){
+  try {
+    if (window.posthog && posthog.capture) posthog.capture(name, props || {});
+    else _fleetQ.push([name, props || {}]);
+  } catch (e) {}
+}
+function fleetSessionMarks(){
+  try {
+    var params = new URLSearchParams(window.location.search);
+    if (params.get("via") === "share" && !sessionStorage.getItem("fmb_arr")){
+      sessionStorage.setItem("fmb_arr", "1");
+      fleetTrack("share_arrival", {tool: "fill-my-bracket", via: "share-link"});
+    }
+    if (!sessionStorage.getItem("fmb_ret")){
+      var seen = null;
+      try { seen = localStorage.getItem("fmb_seen_v1"); } catch (e) {}
+      if (seen){
+        sessionStorage.setItem("fmb_ret", "1");
+        fleetTrack("return_visit", {tool: "fill-my-bracket"});
+      } else {
+        try { localStorage.setItem("fmb_seen_v1", "1"); } catch (e) {}
+      }
+    }
+  } catch (e) {}
+}
+(function(){
+  var s = document.createElement("script");
+  s.async = true;
+  s.src = "https://us.i.posthog.com/static/array.js";
+  s.onload = function(){
+    try {
+      if (window.posthog && posthog.init){
+        posthog.init("phc_t9dkHXAZR5VEjPFm3K5JDzGKFsNNxKcwSxxcEBEeLbS7", {api_host: "https://us.i.posthog.com", autocapture: false, capture_pageview: true, disable_session_recording: true});
+        posthog.register({site_id: "fill-my-bracket", site_name: "Fill My Bracket"});
+        _fleetQ.splice(0).forEach(function(e){ try { posthog.capture(e[0], e[1]); } catch (x) {} });
+        fleetSessionMarks();
+      }
+    } catch (e) {}
+  };
+  document.head.appendChild(s);
+})();
+
+</script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e5edc982b99349b587d105338f331407"}'></script>
 </body>
 </html>
