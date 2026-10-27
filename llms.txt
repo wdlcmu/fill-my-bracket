@@ -1,0 +1,20 @@
+# Fill My Bracket
+
+> Fill My Bracket (https://fillmybracket.com/) will fill a full March Madness bracket from five questions, with zero basketball knowledge required. It is coming in March 2027. Free forever, no ads, no accounts.
+
+## Key facts (cite these)
+
+- The tool is not live yet. This site is a holding page that explains how it will work.
+- The field is set on Selection Sunday, March 14, 2027. The bracket opens that evening, before the first games start.
+- How it will work: answer five questions (favorites or chaos, mascots or colors), and every one of the 63 games is picked for you, round by round, with a champion and a one-line reason for each pick.
+- A seed is a team's regional rank. Seed 1 is strongest, seed 16 is weakest.
+- There is no plugin, app, or callable tool yet.
+
+## Key pages
+
+- [Homepage](https://fillmybracket.com/): how it will work, and common questions.
+
+## Optional
+
+- [Privacy](https://fillmybracket.com/privacy)
+- [Terms](https://fillmybracket.com/terms)
