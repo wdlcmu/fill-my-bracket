@@ -80,6 +80,14 @@
   .poster-card .pc-kicker { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--orange); margin-bottom: 0.4rem; }
   .poster-card .pc-champ { font-size: 1.5rem; font-weight: 800; margin-bottom: 0.3rem; color: var(--cream); }
   .poster-card p { color: var(--muted); font-size: 0.9375rem; }
+  .share-row { margin-top: 1.25rem; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
+  .share-btn {
+    background: var(--orange); color: var(--navy); font: inherit; font-size: 1rem; font-weight: 700;
+    border: 0; border-radius: 999px; padding: 0.75rem 2.25rem; min-height: 48px; min-width: 44px; cursor: pointer;
+  }
+  .share-btn:hover { background: var(--orange-soft); }
+  .share-btn:focus-visible { outline: 3px solid var(--cream); outline-offset: 2px; }
+  .share-msg { font-size: 0.9375rem; color: var(--muted); min-height: 1.4em; }
   footer {
     text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line);
     font-size: 0.9375rem; color: var(--muted); margin-top: 2rem;
@@ -136,6 +144,10 @@
   <p class="tagline">You answer five questions. We fill your March Madness bracket.</p>
   <p class="promise"><span>Free forever.</span> No ads. No accounts. It takes about two minutes.</p>
   <p class="countdown" id="countdown">The field will be set on Sunday, March 14, 2027.</p>
+  <div class="share-row">
+    <button type="button" id="sharebtn" class="share-btn">Share</button>
+    <p class="share-msg" id="sharemsg" role="status" aria-live="polite"></p>
+  </div>
 
   <figure class="bracket-art">
     <svg viewBox="0 0 720 360" role="img" aria-label="A tournament bracket: eight first-round slots narrow round by round to one champion spot.">
@@ -329,6 +341,27 @@ function fleetSessionMarks(){
   document.head.appendChild(s);
 })();
 
+</script>
+<script>
+  (function () {
+    var btn = document.getElementById("sharebtn");
+    var msg = document.getElementById("sharemsg");
+    if (!btn) return;
+    var url = "https://fillmybracket.com/?via=share";
+    btn.addEventListener("click", function () {
+      fleetTrack("share_intent", {tool: "fill-my-bracket", channel: navigator.share ? "native" : "clipboard"});
+      var data = { title: "Fill My Bracket", text: "You answer five questions. We fill your March Madness bracket.", url: url };
+      if (navigator.share) {
+        navigator.share(data).catch(function () {});
+      } else if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(function () {
+          msg.textContent = "Link copied. Send it to a friend.";
+        }, function () { msg.textContent = url; });
+      } else {
+        msg.textContent = url;
+      }
+    });
+  })();
 </script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e5edc982b99349b587d105338f331407"}'></script>
 </body>
