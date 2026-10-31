@@ -16,5 +16,6 @@
 
 ## Optional
 
+- [Full page text](https://fillmybracket.com/llms-full.txt): the complete text of every page, for readers that prefer one file.
 - [Privacy](https://fillmybracket.com/privacy)
 - [Terms](https://fillmybracket.com/terms)
