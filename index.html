@@ -4,23 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fill My Bracket · Coming March 2027</title>
-<meta name="description" content="You answer five questions. We fill your March Madness bracket. Free forever. No ads. No accounts.">
+<meta name="description" content="Five questions start it. You finish it. Free forever. No ads. No accounts.">
 <link rel="canonical" href="https://fillmybracket.com/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://fillmybracket.com/">
 <meta property="og:site_name" content="Fill My Bracket">
 <meta property="og:title" content="Fill My Bracket · Coming March 2027">
-<meta property="og:description" content="You answer five questions. We fill your March Madness bracket. Free forever. No ads. No accounts.">
+<meta property="og:description" content="Five questions start it. You finish it. Free forever. No ads. No accounts.">
 <meta property="og:image" content="https://fillmybracket.com/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:alt" content="Fill My Bracket. You answer five questions. We fill your March Madness bracket.">
+<meta property="og:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Fill My Bracket · Coming March 2027">
-<meta name="twitter:description" content="You answer five questions. We fill your March Madness bracket. Free forever. No ads. No accounts.">
+<meta name="twitter:description" content="Five questions start it. You finish it. Free forever. No ads. No accounts.">
 <meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
-<meta name="twitter:image:alt" content="Fill My Bracket. You answer five questions. We fill your March Madness bracket.">
+<meta name="twitter:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <style>
   :root {
@@ -158,7 +158,7 @@
 <main>
   <span class="kicker">Coming March 2027</span>
   <h1>Fill My Bracket</h1>
-  <p class="tagline">You answer five questions. We fill your March Madness bracket.</p>
+  <p class="tagline">Five questions start it. You finish it.</p>
   <p class="promise"><span>Free forever.</span> No ads. No accounts. It takes about two minutes.</p>
   <p class="countdown" id="countdown">The field will be set on Sunday, March 14, 2027.</p>
   <div class="share-row">
@@ -233,7 +233,7 @@
         <text x="625" y="216" text-anchor="middle" font-family="inherit" font-size="24" font-weight="800" fill="#081c3a" letter-spacing="1">CHAMPION</text>
       </g>
     </svg>
-    <figcaption>We pick all 63 games for you. <strong>One champion at the end.</strong></figcaption>
+    <figcaption>Five questions start all 63 games. You finish it — one tap flips any pick.</figcaption>
   </figure>
 </main>
 
@@ -405,7 +405,7 @@ function fleetSessionMarks(){
     var url = "https://fillmybracket.com/?via=share";
     btn.addEventListener("click", function () {
       fleetTrack("share_intent", {tool: "fill-my-bracket", channel: navigator.share ? "native" : "clipboard"});
-      var data = { title: "Fill My Bracket", text: "You answer five questions. We fill your March Madness bracket.", url: url };
+      var data = { title: "Fill My Bracket", text: "Five questions start it. You finish it.", url: url };
       if (navigator.share) {
         navigator.share(data).catch(function () {});
       } else if (navigator.clipboard && navigator.clipboard.writeText) {
