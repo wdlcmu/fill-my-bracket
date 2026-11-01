@@ -53,7 +53,7 @@
   .tagline { font-size: clamp(1.125rem, 4vw, 1.5rem); color: var(--cream); max-width: 34rem; margin-bottom: 1.1rem; }
   .promise { font-size: 1rem; font-weight: 600; color: var(--cream); }
   .promise span { color: var(--orange); }
-  .countdown { margin-top: 0.6rem; font-size: 0.9375rem; color: var(--muted); }
+  .countdown { margin-top: 0.6rem; font-size: 0.9375rem; color: var(--muted); font-variant-numeric: tabular-nums; }
   .bracket-art {
     margin-top: 2rem; width: 100%; max-width: 46rem;
     background: var(--navy-2); border: 1px solid var(--line); border-radius: 16px;
@@ -245,6 +245,11 @@
     <p class="pc-champ">Champion: your pick here</p>
     <p>Print it. Pin it up. Every game, round by round.</p>
   </div>
+</section>
+
+<section class="details" aria-labelledby="maker-heading">
+  <h2 id="maker-heading">Made by a dad, on the side</h2>
+  <p>I&apos;m Billy, a dad in Redmond, Washington. I build these tools on the side, with AI &mdash; one idea, one website, no company behind it. This one starts with five questions and fills all 63 games. You finish it.</p>
 </section>
 
 <section class="details" aria-labelledby="how-heading">
@@ -449,19 +454,63 @@
   (function () {
     var el = document.getElementById("countdown");
     if (!el) return;
-    var target = new Date(2027, 2, 14);
-    var now = new Date();
-    var start = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-    var days = Math.round((target - start) / 86400000);
-    if (days > 1) {
-      el.textContent = days + " days until Selection Sunday, March 14, 2027.";
-    } else if (days === 1) {
-      el.textContent = "1 day until Selection Sunday, March 14, 2027.";
-    } else if (days === 0) {
-      el.textContent = "Selection Sunday is today, March 14, 2027. The field is set tonight.";
-    } else {
-      el.textContent = "The field was set Sunday, March 14, 2027.";
+    /* 2026-11-01 countdown fleet pass: live clock to Selection Sunday.
+       Known dates: Sunday, March 14, 2027 and Sunday, March 12, 2028
+       (NCAA future schedule: 2028 Opening Round is Mar 14-15, so the
+       field is picked the Sunday before). Ticks every second (days,
+       hours, minutes, seconds) to the end of the day; the day itself
+       says the field is set tonight. Reduced motion: static day count. */
+
+    function cdUnit(n, w) { return n + " " + w + (n === 1 ? "" : "s"); }
+    function cdTick(ms, tail) {
+      var s = Math.floor(ms / 1000);
+      var d = Math.floor(s / 86400); s -= d * 86400;
+      var h = Math.floor(s / 3600); s -= h * 3600;
+      var m = Math.floor(s / 60); var sec = s - m * 60;
+      var seg = [];
+      if (d > 0) seg.push(cdUnit(d, "day"));
+      if (d > 0 || h > 0) seg.push(cdUnit(h, "hour"));
+      seg.push(cdUnit(m, "minute"));
+      seg.push(cdUnit(sec, "second"));
+      return seg.join(", ") + " until " + tail;
     }
+    var DATES = [new Date(2027, 2, 14), new Date(2028, 2, 12)];
+    function fmt(d) { return d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" }); }
+    function pick(today) {
+      for (var i = 0; i < DATES.length; i++) { if (today <= DATES[i]) return DATES[i]; }
+      return null;
+    }
+    function dayText(now) {
+      var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      var target = pick(today);
+      if (!target) return "The field is set. The tournament is on.";
+      var days = Math.round((target - today) / 86400000);
+      if (days === 0) return "Selection Sunday is today, " + fmt(target) + ". The field is set tonight.";
+      return days + (days === 1 ? " day" : " days") + " until Selection Sunday, " + fmt(target) + ".";
+    }
+  var RM = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (RM) { el.textContent = dayText(new Date()); return; }
+    var lastLabel = "";
+    function render() {
+      var now = new Date();
+      var label = dayText(now);
+      if (label !== lastLabel) { lastLabel = label; el.setAttribute("aria-label", label); }
+      var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      var target = pick(today);
+      var text;
+      if (!target) {
+        text = "The field is set. The tournament is on.";
+      } else if (today.getTime() === target.getTime()) {
+        text = "Selection Sunday is today, " + fmt(target) + ". The field is set tonight.";
+      } else {
+        var end = new Date(target.getFullYear(), target.getMonth(), target.getDate() + 1);
+        text = cdTick(end - now, "Selection Sunday, " + fmt(target) + ".");
+      }
+      el.textContent = text;
+    }
+    render();
+    setInterval(render, 1000);
   })();
 </script>
 <script>
