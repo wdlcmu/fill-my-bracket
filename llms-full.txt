@@ -1,6 +1,6 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, six bracket-basics guides, privacy, and terms.
+> Complete text of fillmybracket.com: the homepage, eight bracket-basics guides, privacy, and terms.
 > Fill My Bracket starts a full March Madness bracket from five questions — you finish
 > it, with zero basketball knowledge required. It is coming in March 2027. Free forever, no ads, no accounts.
 > Text captured from the live pages, 2026-10-31.
@@ -203,3 +203,31 @@ How often do upsets happen in March Madness?
 Every year. Since 1985, the lower seed has won about one first-round game in three. The famous 12-over-5 upset happens about 35 times in 100 tries, and 11 seeds beat 6 seeds about 38 times in 100.
 Has a 16 seed ever beaten a 1 seed?
 Yes, twice. UMBC beat Virginia in 2018, and Fairleigh Dickinson beat Purdue in 2023. In more than 160 tries, those are the only two.
+
+## What is a seed in March Madness? (https://fillmybracket.com/what-is-a-seed-in-march-madness)
+
+What is a seed in March Madness?
+A seed is a team's rank inside its region. Seed 1 is the strongest team there. Seed 16 is the weakest.
+Who sets the seeds?
+A committee ranks the teams before the tournament starts. It splits the field into four regions. Each region gets seeds 1 through 16. In 2027, the tournament starts with 76 teams. An opening round trims the field to 64 first. Then every region holds the same 16 seeds.
+How the first round pairs up
+First-round games pair seeds that add up to 17. 1 seed vs 16 seed: best team vs weakest team. 2 seed vs 15 seed: same idea, one step closer. 3 seed vs 14 seed: strong favorite. 4 seed vs 13 seed: strong favorite. 5 seed vs 12 seed: the famous upset game. 6 seed vs 11 seed: favorite, but not by much. 7 seed vs 10 seed: nearly even. 8 seed vs 9 seed: a coin flip. The best teams get the weakest first games. Big teams meet late, if they keep winning.
+A worked example, from our picker
+Our picker scores every team by seed strength. A 1 seed starts at 32. A 16 seed starts at 2. So a 5 seed starts at 24, and a 12 seed starts at 10. The favorite starts 14 points ahead in that game. Your answers can still flip it. That is the fun part.
+A seed is a rank, not a promise
+Since 1985, the lower seed has won about one first-round game in three. The lowest seed to win the title is 8. That was Villanova, in 1985.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+
+## How to pick upsets (https://fillmybracket.com/how-to-pick-upsets)
+
+How to pick upsets in March Madness
+Pick a few, in the right spots. About one first-round game in three is an upset, and most of them live in the same few matchups.
+Five rules, from the seed math
+Start with the 12-over-5 game. It hits about 35 times in 100. Add an 11 seed over a 6 seed. About 38 in 100, since 1985. Take two or three first-round upsets. That matches history without betting the bracket. Stop before the late rounds. Favorites rule late. Keep your champion a 1 or 2 seed. Never spend a pick on 16 over 1. Twice, ever, in more than 160 tries. Treat the 8-vs-9 game as a coin flip, not an upset. One low seed in your Sweet 16 is normal. Two is a story.
+A worked example
+Say you take two 12 seeds and one 11 seed. History gives each pick about a one-in-three chance. In a normal year, at least one of the three lands. Your other 29 first-round picks can stay safe. One landed upset beats every all-favorite bracket on that game.
+How our picker does it
+Our picker scores every team by seed strength. A 5 seed starts at 24. A 12 seed starts at 10. Your chaos answer hands the lower seed a bonus. Turn chaos up, and the 12 seed can pass the 5. Turn it down, and the favorite holds. It is the same math as March, run by your answers.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
