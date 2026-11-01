@@ -200,5 +200,87 @@
   <p><a href="/">Home</a> <a href="/privacy">Privacy</a> <a href="/terms">Terms</a></p>
 </footer>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e5edc982b99349b587d105338f331407"}'></script>
+<!-- ASK PANEL START -->
+<style>
+.askp-pill{position:fixed;right:16px;bottom:16px;z-index:9998;min-height:48px;padding:.65rem 1.1rem;border:0;border-radius:999px;background:#ff7a1a;color:#081c3a;font-weight:800;font-size:1rem;cursor:pointer;box-shadow:0 6px 24px rgba(0,0,0,.35);font-family:inherit}
+.askp-pill:focus-visible,.askp-close:focus-visible,.askp-chip:focus-visible,.askp-send:focus-visible,.askp-input:focus-visible{outline:3px solid #ffa25e;outline-offset:2px}
+.askp-panel{position:fixed;right:0;left:0;bottom:0;z-index:9999;background:#0d2b57;color:#f7f2e7;border-top:2px solid #ff7a1a;border-radius:16px 16px 0 0;padding:1rem 1.1rem 1.1rem;max-height:88vh;overflow-y:auto;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55;box-shadow:0 -8px 32px rgba(0,0,0,.4)}
+@media(min-width:641px){.askp-panel{left:auto;right:16px;bottom:16px;width:26rem;max-width:calc(100vw - 32px);border:2px solid #ff7a1a;border-radius:16px}}
+.askp-panel[hidden]{display:none}
+.askp-head{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:.6rem}
+.askp-head strong{font-size:1.125rem;color:#f7f2e7}
+.askp-close{background:#123263;color:#f7f2e7;border:1px solid #2a4a7f;border-radius:10px;min-width:44px;min-height:44px;font-size:1.35rem;line-height:1;cursor:pointer}
+.askp-how{border:1px solid #2a4a7f;border-radius:12px;padding:.7rem .85rem;margin-bottom:.85rem}
+.askp-how p{color:#aebdd6;font-size:.9375rem;margin:0}
+.askp-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:.9rem}
+.askp-chip{background:#123263;color:#f7f2e7;border:1px solid #2a4a7f;border-radius:10px;min-height:44px;padding:.5rem .8rem;font-size:.9375rem;font-weight:600;cursor:pointer;font-family:inherit}
+.askp-reply{background:#0d2b57;border:2px solid #ff7a1a;border-radius:14px;padding:.9rem 1rem;margin:0 0 .9rem;display:none}
+.askp-reply p{color:#f7f2e7;margin:0 0 .6rem;white-space:pre-wrap}
+.askp-reply p:last-child{margin-bottom:0}
+.askp-row{display:flex;gap:.6rem;flex-wrap:wrap}
+.askp-input{flex:1 1 12rem;font-size:16px;min-height:48px;padding:.6rem .8rem;border-radius:10px;border:1px solid #2a4a7f;background:#081c3a;color:#f7f2e7;font-family:inherit}
+.askp-send{background:#ff7a1a;color:#081c3a;border:0;border-radius:10px;font-weight:700;cursor:pointer;min-height:48px;padding:.6rem 1.1rem;font-size:1rem;font-family:inherit}
+.askp-send:disabled{opacity:.55}
+.askp-full{display:inline-block;margin-top:.8rem;color:#ffa25e;font-weight:600;font-size:.9375rem;text-decoration:none;padding:.35rem 0}
+.askp-full:hover{text-decoration:underline}
+@media(prefers-reduced-motion:reduce){.askp-pill,.askp-panel{transition:none!important;animation:none!important}}
+</style>
+<button type="button" class="askp-pill" id="askpBtn" aria-haspopup="dialog" aria-expanded="false">Ask in your own words</button>
+<div class="askp-panel" id="askpPanel" role="dialog" aria-modal="true" aria-labelledby="askpTitle" hidden>
+  <div class="askp-head"><strong id="askpTitle">Ask in your own words</strong><button type="button" class="askp-close" id="askpClose" aria-label="Close ask panel">&times;</button></div>
+  <div class="askp-how"><p>A small open-source helper answers only from this site's own guides. It cannot pick your 2027 bracket. Nothing you type is stored.</p></div>
+  <div class="askp-chips">
+    <button type="button" class="askp-chip">What is a seed?</button>
+    <button type="button" class="askp-chip">How does scoring work?</button>
+    <button type="button" class="askp-chip">How often do upsets happen?</button>
+    <button type="button" class="askp-chip">When is Selection Sunday 2027?</button>
+    <button type="button" class="askp-chip">What are the five questions?</button>
+  </div>
+  <div class="askp-reply" id="askpReply" role="status" aria-live="polite"></div>
+  <div class="askp-row">
+    <input class="askp-input" id="askpInput" type="text" autocomplete="off" placeholder="What is a seed?" maxlength="300" aria-label="Your question">
+    <button type="button" class="askp-send" id="askpSend">Ask</button>
+  </div>
+  <a class="askp-full" href="/ask">Open the full ask page</a>
+</div>
+<script>
+(function(){
+  var btn=document.getElementById("askpBtn"),panel=document.getElementById("askpPanel"),inited=false,prevOverflow="";
+  function close(){panel.hidden=true;btn.setAttribute("aria-expanded","false");document.documentElement.style.overflow=prevOverflow;btn.focus();}
+  function init(){
+    if(inited)return;inited=true;
+    var input=document.getElementById("askpInput"),send=document.getElementById("askpSend"),box=document.getElementById("askpReply"),closeBtn=document.getElementById("askpClose");
+    var reduce=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    function show(text){
+      box.style.display="block";box.innerHTML="";
+      String(text).split(/\n+/).forEach(function(para){if(!para.trim())return;var p=document.createElement("p");p.textContent=para;box.appendChild(p);});
+      box.scrollIntoView({block:"nearest",behavior:reduce?"auto":"smooth"});
+    }
+    function ask(text){
+      var t=(text||"").trim();
+      if(!t){show("Ask a few words first. Try one of the example questions above.");return;}
+      send.disabled=true;send.textContent="Thinking...";
+      fetch("/api/ask",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({text:t})})
+        .then(function(r){return r.json();})
+        .then(function(j){if(j&&j.reply)show(j.reply);else show("The helper had a hiccup. The guides below answer the same things, in plain words.");})
+        .catch(function(){show("The helper had a hiccup. The guides below answer the same things, in plain words.");})
+        .finally(function(){send.disabled=false;send.textContent="Ask";});
+    }
+    send.addEventListener("click",function(){ask(input.value);});
+    input.addEventListener("keydown",function(e){if(e.key==="Enter")ask(input.value);});
+    panel.querySelectorAll(".askp-chip").forEach(function(ch){ch.addEventListener("click",function(){input.value=ch.textContent;ask(ch.textContent);});});
+    closeBtn.addEventListener("click",close);
+    document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!panel.hidden)close();});
+  }
+  btn.addEventListener("click",function(){
+    init();
+    prevOverflow=document.documentElement.style.overflow;
+    panel.hidden=false;btn.setAttribute("aria-expanded","true");
+    document.documentElement.style.overflow="hidden";
+    document.getElementById("askpInput").focus();
+  });
+})();
+</script>
+<!-- ASK PANEL END -->
 </body>
 </html>
