@@ -39,6 +39,8 @@
 - [What is a conference tournament?](https://fillmybracket.com/what-is-a-conference-tournament): the short playoff each of the 32 leagues holds after the season. Its winner earns an automatic bid, whatever its record.
 - [What are NET rankings?](https://fillmybracket.com/what-are-net-rankings): the NCAA Evaluation Tool rankings, the committee's main sorting tool since 2018-19. Two parts, four quadrants, and no say on their own.
 - [What is a bid stealer?](https://fillmybracket.com/what-is-a-bid-stealer): a team with no at-large case that wins its conference tournament and takes one at-large spot. NC State stole one in 2024 and reached the Final Four.
+- [What is the selection committee?](https://fillmybracket.com/what-is-the-selection-committee): the 12-member NCAA committee that picks the at-large teams, seeds all 76 teams, and builds the bracket. Members serve five-year terms and cannot vote for their own school.
+- [What is Wins Above Bubble?](https://fillmybracket.com/what-is-wins-above-bubble): a results-based metric counting how many more wins a team earned than a bubble team would average on the same schedule. It ignores margin and efficiency.
 - [Ask in your own words](https://fillmybracket.com/ask): ask about seeds, scoring, upsets, or the 2027 dates. Answers come only from this site's own pages.
 
 ## Optional
