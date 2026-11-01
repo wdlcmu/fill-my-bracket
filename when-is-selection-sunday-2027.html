@@ -60,6 +60,10 @@
   .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
   .picker-note p { color: var(--cream); margin: 0; }
   .picker-note .line { font-weight: 800; }
+  .faqsec { margin-top: 2rem; }
+  .faqsec details { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.9rem 1.1rem; margin-bottom: 0.75rem; }
+  .faqsec summary { color: var(--cream); font-weight: 700; cursor: pointer; padding: 0.35rem 0; min-height: 44px; display: flex; align-items: center; }
+  .faqsec details p { margin: 0.55rem 0 0.1rem; }
   footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
@@ -134,6 +138,12 @@
     <p class="line">Five questions start it. You finish it.</p>
     <p>Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.</p>
   </div>
+
+  <section class="faqsec" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">Common questions</h2>
+    <details><summary>When is Selection Sunday 2027?</summary><p>Selection Sunday is Sunday, March 14, 2027. The full tournament field is announced on TV that evening, and brackets open right after.</p></details>
+    <details><summary>When does March Madness 2027 start?</summary><p>The opening round is March 16 and 17, 2027. The first round of the main bracket starts Thursday, March 18. The Final Four is April 3 in Detroit, and the title game is April 5.</p></details>
+  </section>
 
   <div class="nextup">
     <h2>More bracket basics</h2>
