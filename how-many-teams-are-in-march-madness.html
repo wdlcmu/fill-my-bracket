@@ -53,8 +53,8 @@
   td strong { color: var(--cream); }
   .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
   .nextup h2 { margin-top: 0; font-size: 1.125rem; }
-  .nextup ul { list-style: none; }
-  .nextup li { margin-bottom: 0.5rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
   .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
   .nextup a:hover, main a.inline:hover { text-decoration: underline; }
   .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
@@ -67,6 +67,28 @@
   footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -98,31 +120,32 @@
 <main>
   <span class="kicker">Bracket basics</span>
   <h1>How many teams are in March Madness?</h1>
-  <p class="answer">From 2027, 76 teams make each March Madness tournament. There is a men's field of 76. There is a women's field of 76 too.</p>
+  <p class="answer">From 2027, each March Madness tournament, men's and women's, holds 76 teams.</p>
+  <figure class="viz" role="img" aria-label="Bar showing the 76-team field: 32 automatic bids and 44 at-large bids."><div class="bar"><div class="seg-a" style="width:42.1%">32 automatic</div><div class="seg-b" style="width:57.9%">44 at-large</div></div><p class="viz-cap">Conference champions take 32. The committee picks <strong>44</strong>.</p></figure>
   <h2>The short answer, and what changed</h2>
   <p>Through 2026, each tournament held 68 teams.</p>
   <p>The NCAA announced a bigger field in 2026.</p>
   <p>NCAA.com published the new format on May 7, 2026.</p>
   <p>From 2027, each field grows to <strong>76 teams</strong>.</p>
-  <p>That is eight more teams in each tournament.</p>
+  
   <p>It is the first men's expansion since 2011.</p>
   <p>The women's field last grew in 2022.</p>
-  <p>Both tournaments change in the same year.</p>
+  
 
   <h2>How 76 teams become a 64-team bracket</h2>
   <p>The main bracket still holds 64 teams.</p>
   <p>It still has the same 63 games.</p>
-  <p>So the bigger field needs an early trim.</p>
+  
   <p><strong>24 teams</strong> play in the Opening Round.</p>
   <p>They play 12 games over two days.</p>
   <p>The 12 winners move into the main bracket.</p>
   <p>They join 52 teams that waited.</p>
-  <p>That makes the 64 teams everyone knows.</p>
+  
   <p>Read <a class="inline" href="/what-is-the-opening-round-in-march-madness">how the Opening Round works</a>.</p>
 
   <h2>How teams get in</h2>
   <p>Every conference champion earns an automatic spot.</p>
-  <p>Win your conference tournament, and you are in.</p>
+  
   <p>The selection committee picks the other teams.</p>
   <p>Those picks are called at-large bids.</p>
   <p>The committee also gives every team a seed.</p>
@@ -133,24 +156,24 @@
 
   <h2>How the field grew</h2>
   <p>The first men's tournament had just 8 teams.</p>
-  <p>That was in 1939, the first year.</p>
+  
   <p>The field reached 16 teams in 1951.</p>
   <p>It reached 64 teams in 1985.</p>
-  <p>That year set the modern bracket shape.</p>
+  
   <p>It grew to 68 teams in 2011.</p>
-  <p>The First Four games came with that change.</p>
+  
   <p>Now it grows again, to 76 in 2027.</p>
-  <p>The women's tournament began in 1982.</p>
-  <p>It started with 32 teams that year.</p>
+  <p>The women's tournament began in 1982, with 32 teams.</p>
+  
   <p>It reached 68 teams in 2022.</p>
   <p>It also grows to 76 in 2027.</p>
 
   <h2>What this means for your bracket</h2>
   <p>Your bracket still covers the main 63 games.</p>
-  <p>The count of picks does not change.</p>
+  
   <p>Selection Sunday just names more teams.</p>
-  <p>A few more small schools get their shot.</p>
-  <p>A few more strong teams get in too.</p>
+  
+  
   <p>Pools, scoring, and deadlines work as before.</p>
   <p>See <a class="inline" href="/how-does-bracket-scoring-work">how bracket scoring works</a>.</p>
   <div class="picker-note">

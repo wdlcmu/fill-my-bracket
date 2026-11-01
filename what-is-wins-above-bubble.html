@@ -53,8 +53,8 @@
   td strong { color: var(--cream); }
   .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
   .nextup h2 { margin-top: 0; font-size: 1.125rem; }
-  .nextup ul { list-style: none; }
-  .nextup li { margin-bottom: 0.5rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
   .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
   .nextup a:hover, main a.inline:hover { text-decoration: underline; }
   .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
@@ -67,6 +67,28 @@
   footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -99,9 +121,10 @@
   <span class="kicker">Bracket basics</span>
   <h1>What is Wins Above Bubble?</h1>
   <p class="answer">Wins Above Bubble counts results, not style. It compares your wins with a bubble team's expected wins. Same schedule, two different totals.</p>
+  <figure class="viz" role="img" aria-label="Wins Above Bubble scale: below zero means behind the bubble, zero is the bubble line, above zero means ahead of the bubble."><div class="bar"><div class="seg-b" style="width:40%">Below 0: behind</div><div class="seg-a" style="width:20%">0: the line</div><div class="seg-b" style="width:40%">Above 0: ahead</div></div><p class="viz-cap">Each game adds <strong>-1 to +1</strong>.</p></figure>
   <h2>A resume score, in wins</h2>
   <p>WAB stands for Wins Above Bubble.</p>
-  <p>It scores what a team accomplished.</p>
+  
   <p>Each game adds one small value.</p>
   <p>Values run from 1 to minus 1.</p>
   <p>Those values add into one total.</p>
@@ -113,7 +136,7 @@
   <p>Count the wins it would average.</p>
   <p>Beat that count, and WAB rises.</p>
   <p>Fall short, and WAB drops below zero.</p>
-  <p>Meet the <a class="inline" href="/what-is-a-bubble-team">bubble teams</a> it measures.</p>
+  
 
   <h2>Results only, never style</h2>
   <p>Margin of victory never counts.</p>
@@ -128,7 +151,7 @@
   <p>They are the NET and WAB.</p>
   <p>The NET measures efficiency and strength.</p>
   <p>WAB measures what actually happened.</p>
-  <p>Together they balance the team sheets.</p>
+  
   <p>No single metric decides a bid.</p>
   <p>See who weighs them: the <a class="inline" href="/what-is-the-selection-committee">selection committee</a>.</p>
   <div class="picker-note">

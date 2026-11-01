@@ -53,8 +53,8 @@
   td strong { color: var(--cream); }
   .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
   .nextup h2 { margin-top: 0; font-size: 1.125rem; }
-  .nextup ul { list-style: none; }
-  .nextup li { margin-bottom: 0.5rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
   .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
   .nextup a:hover, main a.inline:hover { text-decoration: underline; }
   .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
@@ -67,6 +67,28 @@
   footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -99,13 +121,14 @@
   <span class="kicker">Bracket basics</span>
   <h1>What is a Cinderella team?</h1>
   <p class="answer">A Cinderella is a team nobody expected to win. It is a low seed that beats big teams and stays alive late into the tournament.</p>
+  <figure class="viz" role="img" aria-label="Saint Peter's in 2022: a 15 seed that beat Kentucky, a 2 seed, then beat Purdue and reached the Elite Eight, the first 15 seed ever to get that far."><div class="chips"><span class="chip">15 seed<small>Saint Peter's</small></span><span class="chip">Beat Kentucky<small>a 2 seed</small></span><span class="chip">Beat Purdue</span><span class="chip">Elite Eight<small>first 15 seed ever</small></span></div><p class="viz-cap">Saint Peter's, <strong>2022</strong>.</p></figure>
 
   <h2>Why the fairy tale name?</h2>
   <p>The name comes from the Cinderella story.</p>
   <p>A girl in rags shows up at the ball.</p>
-  <p>She steals the night.</p>
+  
   <p>A small school with a low seed does the same.</p>
-  <p>It walks in past the giants and starts winning.</p>
+  
 
   <h2>Famous Cinderellas</h2>
   <p><strong>Saint Peter's, 2022.</strong> A 15 seed from a tiny school.</p>
@@ -119,10 +142,10 @@
   <p><strong>Florida Gulf Coast, 2013.</strong> The first 15 seed to reach the Sweet 16.</p>
 
   <h2>Why Cinderellas wreck brackets</h2>
-  <p>Most players pick the big teams to win.</p>
+  
   <p>One Cinderella run busts all those picks at once.</p>
   <p>Almost every year, a team seeded 10 or worse reaches the Sweet 16.</p>
-  <p>So picking no upsets is a risk too.</p>
+  
   <p>The art is picking one or two, not ten.</p>
   <p>See <a class="inline" href="/how-often-do-upsets-happen">how often upsets really happen</a>.</p>
 

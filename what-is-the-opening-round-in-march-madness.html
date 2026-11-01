@@ -53,8 +53,8 @@
   td strong { color: var(--cream); }
   .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
   .nextup h2 { margin-top: 0; font-size: 1.125rem; }
-  .nextup ul { list-style: none; }
-  .nextup li { margin-bottom: 0.5rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
   .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
   .nextup a:hover, main a.inline:hover { text-decoration: underline; }
   .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
@@ -67,6 +67,28 @@
   footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -99,12 +121,13 @@
   <span class="kicker">Bracket basics</span>
   <h1>What is the opening round in March Madness?</h1>
   <p class="answer">The Opening Round is how March Madness starts in 2027. Twenty-four teams play 12 games. The winners take the last spots in the main bracket.</p>
+  <figure class="viz" role="img" aria-label="The Opening Round: 12 automatic qualifiers and 12 at-large teams play 12 separate games, and the 12 winners join 52 waiting teams to make the 64-team main bracket."><div class="chips"><span class="chip">12 automatic qualifiers</span><span class="chip">12 at-large teams</span><span class="chip">12 games</span><span class="chip">12 winners join 52</span><span class="chip">64-team bracket</span></div><p class="viz-cap"><strong>No crossover games</strong>.</p></figure>
   <h2>New in 2027: it replaces the First Four</h2>
   <p>For years, the tournament opened with the First Four.</p>
   <p>That was 8 teams playing 4 games.</p>
   <p>It ran from 2011 through 2026.</p>
   <p>In 2027, the field grows to 76 teams.</p>
-  <p>So the early round grows with it.</p>
+  
   <p>Now <strong>24 teams</strong> play <strong>12 games</strong>.</p>
   <p>Six games are played each day.</p>
   <p>NCAA.com calls this round the Opening Round.</p>
@@ -115,7 +138,7 @@
   <p>Twelve are the lowest-seeded automatic qualifiers.</p>
   <p>Those teams won their conference tournaments.</p>
   <p>Twelve are the lowest-seeded at-large teams.</p>
-  <p>The committee picked those teams by hand.</p>
+  
   <p>The two groups never play each other here.</p>
   <p>Automatic qualifiers play only automatic qualifiers.</p>
   <p>At-large teams play only at-large teams.</p>
@@ -126,7 +149,7 @@
   <p>They end on <strong>Wednesday, March 17</strong>.</p>
   <p>They are played in Dayton, Ohio.</p>
   <p>They are also played in Wichita, Kansas.</p>
-    <p>Wichita is the second site in 2027.</p>
+    
   <p>The women's games start a day later.</p>
   <p>They are played March 17 and 18.</p>
   <p>They are held at 12 campus sites.</p>
@@ -137,7 +160,7 @@
   <p>The 12 winners join 52 waiting teams.</p>
   <p>Together they make the 64-team bracket.</p>
   <p>The First Round starts Thursday, March 18.</p>
-  <p>An Opening Round team can still go far.</p>
+  
   <p>In 2011, VCU started in the First Four.</p>
   <p>It went on to reach the Final Four.</p>
   <p>NCAA.com says no team has matched that run.</p>
@@ -148,7 +171,7 @@
   <p>Most pools score only the main bracket.</p>
   <p>Their brackets lock before the First Round.</p>
   <p>That is Thursday morning, March 18, in 2027.</p>
-  <p>Some pools treat the early games differently.</p>
+  
   <p>Ask your pool how it scores them.</p>
     <p>See <a class="inline" href="/how-does-bracket-scoring-work">how bracket scoring works</a>.</p>
   <div class="picker-note">

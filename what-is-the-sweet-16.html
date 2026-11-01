@@ -53,8 +53,8 @@
   td strong { color: var(--cream); }
   .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
   .nextup h2 { margin-top: 0; font-size: 1.125rem; }
-  .nextup ul { list-style: none; }
-  .nextup li { margin-bottom: 0.5rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
   .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
   .nextup a:hover, main a.inline:hover { text-decoration: underline; }
   .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
@@ -67,6 +67,28 @@
   footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -99,11 +121,12 @@
   <span class="kicker">Bracket basics</span>
   <h1>What is the Sweet 16?</h1>
   <p class="answer">The Sweet 16 is the round with 16 teams left. It is the regional semifinal round. Win here, and you reach the Elite Eight.</p>
+  <figure class="viz" role="img" aria-label="The tournament stages with the Sweet 16 highlighted: sixteen teams, eight games, on March 25 and 26, 2027."><div class="chips"><span class="chip">Opening Round<small>76</small></span><span class="chip">First Round<small>64</small></span><span class="chip">Second Round<small>32</small></span><span class="chip on">Sweet 16<small>16</small></span><span class="chip">Elite Eight<small>8</small></span><span class="chip">Final Four<small>4</small></span><span class="chip">Title game<small>2</small></span><span class="chip">Champion<small>1</small></span></div><p class="viz-cap">Eight games: <strong>March 25 and 26, 2027</strong>.</p></figure>
   <h2>Four teams left in each region</h2>
   <p>The 64-team bracket splits into four regions.</p>
   <p>Each region starts with 16 teams.</p>
   <p>Two rounds cut each region to four.</p>
-  <p>Four regions times four teams makes 16.</p>
+  
   <p>NCAA.com calls this round the regional semifinals.</p>
   <p>Every team here has won two straight games.</p>
   <p>An Opening Round team has won three straight.</p>
@@ -117,7 +140,7 @@
   <p>Eight games are played across two days.</p>
   <p>The women's games are Friday and Saturday.</p>
   <p>In 2027, they are March 26 and 27.</p>
-  <p>Both rounds share the same regional arenas.</p>
+  
 
   <h2>The Sweet 16 in 2027</h2>
   <p>The men's South plays in San Antonio, Texas.</p>
@@ -128,21 +151,21 @@
   <p>Its arena is the T-Mobile Center.</p>
   <p>The East plays in New York.</p>
   <p>Its arena is Madison Square Garden.</p>
-  <p>They are Philadelphia and Las Vegas.</p>
+  <p>The women's games are in Philadelphia and Las Vegas.</p>
   <p>See <a class="inline" href="/when-is-selection-sunday-2027">every key date for 2027</a>.</p>
 
   <h2>Where the name came from</h2>
   <p>The name counts the teams still playing.</p>
-  <p>Sixteen teams remain, so it sounds sweet.</p>
+  
   <p>NCAA.com credits CBS commentators in the late 1980s.</p>
   <p>They used it after the field reached 64.</p>
   <p>High schools used the phrase much earlier.</p>
   <p>NCAA.com cites an Iowa newspaper from March 1936.</p>
-  <p>It described a state high school tournament.</p>
+  
 
   <h2>Small schools that reached this round</h2>
   <p>Most teams here are big names.</p>
-  <p>Now and then, a long shot crashes in.</p>
+  
   <p><strong>Florida Gulf Coast, 2013.</strong> A 15 seed.</p>
   <p><strong>Oral Roberts, 2021.</strong> Another 15 seed.</p>
   <p><strong>Cleveland State, 1986.</strong> A 14 seed.</p>

@@ -53,8 +53,8 @@
   td strong { color: var(--cream); }
   .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
   .nextup h2 { margin-top: 0; font-size: 1.125rem; }
-  .nextup ul { list-style: none; }
-  .nextup li { margin-bottom: 0.5rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
   .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
   .nextup a:hover, main a.inline:hover { text-decoration: underline; }
   .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
@@ -67,6 +67,28 @@
   footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -99,32 +121,33 @@
   <span class="kicker">Bracket basics</span>
   <h1>Has anyone ever had a perfect bracket?</h1>
   <p class="answer">No. No one has ever turned in a verifiable perfect bracket. The best proven run is 49 straight right picks, from 2019.</p>
+  <figure class="viz" role="img" aria-label="No perfect bracket has ever been turned in. The longest proven streak is 49 straight right picks, from 2019. Coin-flip odds of a perfect bracket are 1 in 9.2 quintillion."><div class="bigstat"><div class="stat"><b>0</b><span>perfect brackets, ever</span></div><div class="stat"><b>49</b><span>longest proven streak, 2019</span></div><div class="stat"><b>1 in 9.2 quintillion</b><span>coin-flip odds</span></div></div></figure>
 
   <h2>The closest anyone has come</h2>
   <p>In 2019, an Ohio man named Greg Nigl got famous.</p>
   <p>He picked the first <strong>49 games</strong> right, one after another.</p>
-  <p>NCAA.com tracks verifiable brackets across the big games.</p>
+  
   <p>No bracket had ever stayed perfect that long.</p>
   <p>His run broke in the Sweet 16.</p>
   <p>Most brackets bust in the first weekend.</p>
-  <p>One early upset is all it takes.</p>
+  
   <p>Read <a class="inline" href="/how-often-do-upsets-happen">how often upsets happen</a>.</p>
 
   <h2>The math, shown</h2>
   <p>A bracket picks 63 games.</p>
   <p>Each game has 2 possible winners.</p>
-  <p>So the number of possible brackets is 2 times itself 63 times.</p>
+  
   <p>That is <strong>9,223,372,036,854,775,808</strong> possible brackets.</p>
   <p>About 9.2 quintillion. A quintillion is a billion billions.</p>
   <p>Flip a coin for every game, and your odds are 1 in 9.2 quintillion.</p>
   <p>Know basketball, and the odds get better, a little.</p>
   <p>NCAA.com puts them near <strong>1 in 120.2 billion</strong>.</p>
-  <p>Better, and still not going to happen.</p>
+  
 
   <h2>You do not need perfect to win</h2>
   <p>Pools are won by good brackets, not perfect ones.</p>
   <p>NCAA.com says pool winners average about 50 right picks.</p>
-  <p>That is 50 of 63 games.</p>
+  
   <p>A strong first weekend does most of the work.</p>
   <p>So does keeping your champion alive late.</p>
   <p>See <a class="inline" href="/how-does-bracket-scoring-work">how bracket scoring works</a>.</p>

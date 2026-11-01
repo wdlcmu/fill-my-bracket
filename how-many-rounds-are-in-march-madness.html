@@ -53,8 +53,8 @@
   td strong { color: var(--cream); }
   .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
   .nextup h2 { margin-top: 0; font-size: 1.125rem; }
-  .nextup ul { list-style: none; }
-  .nextup li { margin-bottom: 0.5rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
   .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
   .nextup a:hover, main a.inline:hover { text-decoration: underline; }
   .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
@@ -67,6 +67,28 @@
   footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -99,10 +121,11 @@
   <span class="kicker">Bracket basics</span>
   <h1>How many rounds are in March Madness?</h1>
   <p class="answer">Count seven stages in 2027. The Opening Round comes first. Six rounds follow in the main bracket.</p>
+  <figure class="viz" role="img" aria-label="The seven stages of the tournament and the teams left at each: Opening Round 76, First Round 64, Second Round 32, Sweet 16 16, Elite Eight 8, Final Four 4, title game 2, champion 1."><div class="chips"><span class="chip">Opening Round<small>76</small></span><span class="chip">First Round<small>64</small></span><span class="chip">Second Round<small>32</small></span><span class="chip">Sweet 16<small>16</small></span><span class="chip">Elite Eight<small>8</small></span><span class="chip">Final Four<small>4</small></span><span class="chip">Title game<small>2</small></span><span class="chip">Champion<small>1</small></span></div></figure>
   <h2>The ladder, round by round</h2>
   <p>Win, and you climb one rung.</p>
   <p>Lose once, and you go home.</p>
-  <p>The table shows the men's ladder.</p>
+  
   <table>
     <tr><th>Round</th><th>Men's 2027 dates</th><th>Teams playing</th></tr>
     <tr><td>Opening Round</td><td>March 16 and 17</td><td><strong>24</strong></td></tr>
@@ -119,9 +142,9 @@
 
   <h2>Six rounds hold your bracket</h2>
   <p>Your bracket covers the main bracket only.</p>
-  <p>That is six rounds of picks.</p>
-  <p>It starts with 64 teams.</p>
-  <p>It ends with one champion.</p>
+  
+  
+  
   <p>The Opening Round sits outside it.</p>
   <p>Its winners simply join the 64.</p>
   <p>See <a class="inline" href="/how-many-games-are-in-march-madness">how many games are in March Madness</a>.</p>
@@ -129,10 +152,10 @@
   <h2>How many wins make a champion?</h2>
   <p>A main-bracket team needs six wins.</p>
   <p>An Opening Round team needs seven.</p>
-  <p>Each win comes against a survivor.</p>
+  
   <p>The last win crowns the champion.</p>
   <p>No team has ever lost and stayed.</p>
-  <p>That pressure is the whole show.</p>
+  
 
   <h2>The women's ladder matches</h2>
   <p>The women's tournament climbs the same ladder.</p>

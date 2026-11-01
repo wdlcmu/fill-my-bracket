@@ -53,8 +53,8 @@
   td strong { color: var(--cream); }
   .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
   .nextup h2 { margin-top: 0; font-size: 1.125rem; }
-  .nextup ul { list-style: none; }
-  .nextup li { margin-bottom: 0.5rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
   .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
   .nextup a:hover, main a.inline:hover { text-decoration: underline; }
   .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
@@ -67,6 +67,28 @@
   footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -99,6 +121,7 @@
   <span class="kicker">Bracket basics</span>
   <h1>What is bracketology?</h1>
   <p class="answer">Bracketology is predicting the tournament before it exists. Fans and analysts guess the whole field. They guess every seed too.</p>
+  <figure class="viz" role="img" aria-label="Bracketology timeline: the word appears in 1996, predictors publish mock brackets all season, and the real field replaces every projection on Selection Sunday."><div class="chips"><span class="chip">1996<small>the word appears</small></span><span class="chip">All season<small>mock brackets</small></span><span class="chip">Selection Sunday<small>the real field</small></span></div><p class="viz-cap">Every projection dies on <strong>Selection Sunday</strong>.</p></figure>
   <h2>A made-up science, proudly</h2>
   <p>NCAA.com gives the plain definition.</p>
   <p>It is predicting the tournament field.</p>
@@ -107,10 +130,10 @@
   <p>The word itself is made up.</p>
   <p>NCAA.com calls it a made-up ology.</p>
   <p>It jokes: do not change majors.</p>
-  <p>The joke has lasted for decades.</p>
+  
 
   <h2>The man who named it</h2>
-  <p>One name towers over the rest.</p>
+  
   <p>Reports credit ESPN analyst Joe Lunardi.</p>
   <p>He called himself a bracketologist first.</p>
   <p>The Philadelphia Inquirer printed it in 1996.</p>
@@ -126,7 +149,7 @@
   <p>They watch the NET rankings closely.</p>
   <p>They track <a class="inline" href="/what-is-a-bubble-team">bubble teams</a> every week.</p>
   <p>Every update is a mock bracket.</p>
-  <p>It fills all four regions fully.</p>
+  
   <p>It ends with the last four in.</p>
   <p>NCAA.com runs its own predictions too.</p>
   <p>Andy Katz files them all season.</p>
@@ -138,7 +161,7 @@
   <p>The 2027 field holds 76 teams.</p>
   <p>Predictors now project eight more teams.</p>
   <p>The bubble grows wider this year.</p>
-  <p>More edge teams get debated nightly.</p>
+  
   <p>Every projection still dies on Sunday.</p>
   <p>The committee reveals the real field then.</p>
   <p>Check the <a class="inline" href="/when-is-selection-sunday-2027">Selection Sunday 2027</a> date.</p>

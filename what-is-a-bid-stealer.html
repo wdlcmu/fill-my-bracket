@@ -53,8 +53,8 @@
   td strong { color: var(--cream); }
   .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
   .nextup h2 { margin-top: 0; font-size: 1.125rem; }
-  .nextup ul { list-style: none; }
-  .nextup li { margin-bottom: 0.5rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
   .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
   .nextup a:hover, main a.inline:hover { text-decoration: underline; }
   .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
@@ -67,6 +67,28 @@
   footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -99,6 +121,7 @@
   <span class="kicker">Bracket basics</span>
   <h1>What is a bid stealer?</h1>
   <p class="answer">A bid stealer wins its conference tournament unexpectedly. It had no at-large case before. Its win takes one at-large spot.</p>
+  <figure class="viz" role="img" aria-label="Bar showing the 76-team field: 32 automatic bids and 44 at-large bids."><div class="bar"><div class="seg-a" style="width:42.1%">32 automatic</div><div class="seg-b" style="width:57.9%">44 at-large</div></div><p class="viz-cap">One steal takes one <strong>at-large spot</strong>.</p></figure>
   <h2>How a bid gets stolen</h2>
   <p>Start with a team going nowhere.</p>
   <p>Its season was too weak for at-large.</p>
@@ -115,8 +138,8 @@
   <p>It becomes first four out instead.</p>
   <p>Those teams headline the NIT instead.</p>
   <p>Read about the <a class="inline" href="/what-is-the-nit">NIT</a> field.</p>
-  <p>Fans spot steals days before Sunday.</p>
-  <p>Every surprise final raises the stakes.</p>
+  
+  
 
   <h2>The famous steal of 2024</h2>
   <p>NC State won the ACC tournament.</p>
@@ -125,15 +148,15 @@
   <p>The automatic bid saved its season.</p>
   <p>Then it kept winning in March.</p>
   <p>It reached the Final Four.</p>
-  <p>The steal became a storybook run.</p>
+  
 
   <h2>Why steals matter in 2027</h2>
   <p>The 2027 field holds 76 teams.</p>
-  <p>Automatic bids still go to tournament winners.</p>
+  
   <p>Every league final can move the bubble.</p>
   <p>Watch the <a class="inline" href="/what-is-a-conference-tournament">conference tournaments</a> closely.</p>
-  <p>The last weekend decides the edge.</p>
-  <p>Then Sunday reveals the whole field.</p>
+  
+  
   <div class="picker-note">
     <p class="line">Five questions start it. You finish it.</p>
     <p>Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.</p>

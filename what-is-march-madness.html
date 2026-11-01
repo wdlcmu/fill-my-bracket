@@ -53,8 +53,8 @@
   td strong { color: var(--cream); }
   .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
   .nextup h2 { margin-top: 0; font-size: 1.125rem; }
-  .nextup ul { list-style: none; }
-  .nextup li { margin-bottom: 0.5rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
   .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
   .nextup a:hover, main a.inline:hover { text-decoration: underline; }
   .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
@@ -67,6 +67,28 @@
   footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -99,6 +121,7 @@
   <span class="kicker">Bracket basics</span>
   <h1>What is March Madness?</h1>
   <p class="answer">March Madness is the NCAA college basketball tournament. Teams play single-elimination games until one champion is left. Lose once, and your season is over.</p>
+  <figure class="viz" role="img" aria-label="March Madness 2027 dates: Selection Sunday March 14, Opening Round March 16 and 17, First Round starts March 18, Final Four April 3, title game April 5."><div class="chips"><span class="chip">Selection Sunday<small>Mar 14</small></span><span class="chip">Opening Round<small>Mar 16-17</small></span><span class="chip">First Round<small>Mar 18</small></span><span class="chip">Final Four<small>Apr 3</small></span><span class="chip">Title game<small>Apr 5</small></span></div></figure>
 
   <h2>One loss, and you are out</h2>
   <p>The tournament crowns the national champion.</p>
@@ -110,9 +133,9 @@
   <p>Winners move on. Losers go home.</p>
   <p>After the Opening Round, 64 teams remain.</p>
   <p>Then come the First Round and the Second Round.</p>
-  <p>The last rounds have names everyone uses.</p>
+  
   <p>The <strong>Sweet 16</strong>, the <strong>Elite Eight</strong>, and the <strong>Final Four</strong>.</p>
-  <p>Two teams reach the title game. One wins it all.</p>
+  
   <p>New to the chart itself? Read <a class="inline" href="/what-is-a-march-madness-bracket">what a bracket is</a>.</p>
 
   <h2>Where the name came from</h2>
@@ -121,7 +144,7 @@
   <p>The first NCAA tournament was also played in 1939.</p>
   <p>CBS broadcaster Brent Musburger used the phrase on air in 1982.</p>
   <p>He meant the NCAA tournament, and the name stuck.</p>
-  <p>Now March Madness is the name everyone knows.</p>
+  
 
   <h2>Why everyone fills out a bracket</h2>
   <p>Before the games start, fans predict every winner.</p>
@@ -129,7 +152,7 @@
   <p>Offices, schools, and families run pools on it.</p>
   <p>You do not need to follow basketball to play.</p>
   <p>Plenty of brackets are picked by mascot or by colors.</p>
-  <p>That is the whole fun of March.</p>
+  
 
   <h2>March Madness 2027, in short</h2>
   <p>The field is set on <strong>Selection Sunday, March 14, 2027</strong>.</p>

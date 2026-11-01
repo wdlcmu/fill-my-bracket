@@ -53,8 +53,8 @@
   td strong { color: var(--cream); }
   .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
   .nextup h2 { margin-top: 0; font-size: 1.125rem; }
-  .nextup ul { list-style: none; }
-  .nextup li { margin-bottom: 0.5rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
   .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
   .nextup a:hover, main a.inline:hover { text-decoration: underline; }
   .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
@@ -67,6 +67,28 @@
   footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -99,12 +121,13 @@
   <span class="kicker">Bracket basics</span>
   <h1>How to fill out a March Madness bracket</h1>
   <p class="answer">Wait for Selection Sunday, when the teams are announced. Then pick a winner for every game, round by round, until one champion is left. That is the whole job.</p>
+  <figure class="viz" role="img" aria-label="The five steps: wait for the field, pick round one, keep picking winners, end with one champion, hand it in on time."><div class="chips"><span class="chip">1<small>Wait for the field</small></span><span class="chip">2<small>Pick round one</small></span><span class="chip">3<small>Keep picking</small></span><span class="chip">4<small>One champion</small></span><span class="chip">5<small>Hand it in</small></span></div></figure>
 
   <h2>Step 1: Wait for the field</h2>
   <p>Brackets open on Selection Sunday.</p>
   <p>In 2027, that is <strong>Sunday, March 14</strong>.</p>
   <p>The teams and matchups are announced that evening.</p>
-  <p>There is nothing to fill in before then.</p>
+  
 
   <h2>Step 2: Pick the first round</h2>
   <p>The main bracket starts with 32 games.</p>
@@ -116,14 +139,14 @@
   <h2>Step 3: Keep picking winners</h2>
   <p>Every winner moves on to the next round.</p>
   <p>Your picks play each other in round two.</p>
-  <p>Pick those winners too.</p>
+  
   <p>Keep going through the Sweet 16 and the Elite Eight.</p>
-  <p>Six rounds in all.</p>
+  
 
   <h2>Step 4: End with one champion</h2>
   <p>Four teams reach the Final Four.</p>
   <p>Pick two winners, then pick the final.</p>
-  <p>One champion is left at the end.</p>
+  
   <p>Some pools also ask for a tiebreaker.</p>
   <p>That is a guess at the total points in the final game.</p>
 
