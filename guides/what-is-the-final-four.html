@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What Is the Final Four? | Fill My Bracket</title>
+<meta name="description" content="The Final Four is the last four teams in March Madness, one winner from each region. Two semifinal games, then the title game. Plus the 2027 Detroit dates.">
+<link rel="canonical" href="https://fillmybracket.com/what-is-the-final-four">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://fillmybracket.com/what-is-the-final-four">
+<meta property="og:site_name" content="Fill My Bracket">
+<meta property="og:title" content="What Is the Final Four?">
+<meta property="og:description" content="The last four teams, two semifinals, one title game. The plain explainer, plus the 2027 Detroit dates.">
+<meta property="og:image" content="https://fillmybracket.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What Is the Final Four?">
+<meta name="twitter:description" content="The last four teams, two semifinals, one title game. The plain explainer, plus the 2027 Detroit dates.">
+<meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
+<meta name="twitter:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+  :root {
+    --navy: #081c3a; --navy-2: #0d2b57; --navy-3: #123263;
+    --orange: #ff7a1a; --orange-soft: #ffa25e;
+    --cream: #f7f2e7; --muted: #aebdd6; --line: #2a4a7f;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--cream); background: var(--navy); line-height: 1.55;
+    display: flex; flex-direction: column; min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  header.site { padding: 1.1rem 1.25rem; border-bottom: 1px solid var(--line); }
+  header.site a { color: var(--cream); font-weight: 800; font-size: 1.125rem; text-decoration: none; letter-spacing: -0.01em; }
+  header.site a span { color: var(--orange); }
+  main { flex: 1; width: 100%; max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 0.5rem; }
+  .kicker { display: inline-block; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--orange); margin-bottom: 0.9rem; border: 1px solid var(--orange); border-radius: 999px; padding: 0.3rem 0.9rem; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 1rem; }
+  .answer { font-size: 1.1875rem; color: var(--cream); margin-bottom: 1.5rem; }
+  h2 { font-size: 1.3125rem; font-weight: 700; margin: 1.75rem 0 0.6rem; }
+  p { color: var(--muted); margin-bottom: 0.55rem; }
+  p strong, li strong { color: var(--cream); }
+  ol.steps, ul.plain { margin: 0 0 0.5rem 1.25rem; color: var(--muted); }
+  ol.steps li, ul.plain li { margin-bottom: 0.55rem; }
+  table { width: 100%; border-collapse: collapse; margin: 0.75rem 0 1rem; font-size: 0.9375rem; }
+  th, td { text-align: left; padding: 0.45rem 0.6rem; border: 1px solid var(--line); color: var(--muted); }
+  th { color: var(--cream); background: var(--navy-2); }
+  td strong { color: var(--cream); }
+  .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
+  .nextup h2 { margin-top: 0; font-size: 1.125rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
+  .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
+  .nextup a:hover, main a.inline:hover { text-decoration: underline; }
+  .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
+  .picker-note p { color: var(--cream); margin: 0; }
+  .picker-note .line { font-weight: 800; }
+  .faqsec { margin-top: 2rem; }
+  .faqsec details { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.9rem 1.1rem; margin-bottom: 0.75rem; }
+  .faqsec summary { color: var(--cream); font-weight: 700; cursor: pointer; padding: 0.35rem 0; min-height: 44px; display: flex; align-items: center; }
+  .faqsec details p { margin: 0.55rem 0 0.1rem; }
+  footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
+  footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
+  footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Final Four?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Final Four is the last four teams in the NCAA tournament, one winner from each of the four regions. The four teams play two semifinal games, and the winners meet in the national championship game."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When and where is the Final Four in 2027?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The men's Final Four is Saturday, April 3, 2027, at Ford Field in Detroit, with the title game on Monday, April 5. The women's Final Four is Friday, April 2, in Columbus, Ohio, with its title game on Sunday, April 4."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site"><a href="/">Fill My <span>Bracket</span></a></header>
+<main>
+  <span class="kicker">Bracket basics</span>
+  <h1>What is the Final Four?</h1>
+  <p class="answer">The Final Four means four teams are left. Each one won its region in March Madness. They play two semifinal games, then one title game.</p>
+  <figure class="viz" role="img" aria-label="The tournament stages with the Final Four highlighted: four teams, semifinals Saturday April 3 and the title game Monday April 5, 2027, in Detroit."><div class="chips"><span class="chip">Opening Round<small>76</small></span><span class="chip">First Round<small>64</small></span><span class="chip">Second Round<small>32</small></span><span class="chip">Sweet 16<small>16</small></span><span class="chip">Elite Eight<small>8</small></span><span class="chip on">Final Four<small>4</small></span><span class="chip">Title game<small>2</small></span><span class="chip">Champion<small>1</small></span></div><p class="viz-cap">Semifinals Saturday, title game Monday: <strong>April 3 and 5, Detroit</strong>.</p></figure>
+  <h2>Four regions, four winners</h2>
+  <p>The tournament splits into four regions.</p>
+  <p>NCAA.com names them South, East, West, and Midwest.</p>
+  <p>Each region plays down to one winner.</p>
+  <p>That winner is called the regional champion.</p>
+  <p>Reaching this round takes four straight wins.</p>
+  <p>An Opening Round team needs five straight wins.</p>
+  <p>Each region ends with its <strong>Elite Eight</strong> game.</p>
+  <p>New to the chart? Read <a class="inline" href="/what-is-a-march-madness-bracket">what a bracket is</a>.</p>
+
+  <h2>The last weekend of the tournament</h2>
+  <p>The four teams meet in one city.</p>
+  <p>They play in one arena, on one weekend.</p>
+  <p>Two semifinal games are played on Saturday.</p>
+    <p>Then they play the title game on Monday.</p>
+  <p>NCAA.com notes both rounds share one arena.</p>
+  
+  
+
+  <h2>Where the name came from</h2>
+  <p>The name just counts the teams left.</p>
+  <p>Four teams remain, so it is the Final Four.</p>
+  <p>NCAA.com traces the phrase to 1975.</p>
+  <p>Writer Ed Chay used it in a Cleveland newspaper.</p>
+  <p>He wrote about Marquette in the 1974 tournament.</p>
+  <p>The NCAA took up the phrase in 1978.</p>
+  <p>It later made Final Four a registered trademark.</p>
+  <p>No other United States tournament may use it.</p>
+
+  <h2>Teams nobody saw coming</h2>
+  
+  <p><strong>Villanova, 1985.</strong> An 8 seed that won the title.</p>
+  <p>It is still the lowest seed to win.</p>
+  <p><strong>George Mason, 2006.</strong> An 11 seed nobody picked.</p>
+    <p><strong>VCU, 2011.</strong> It started in the First Four.</p>
+  <p>NCAA.com calls it the only team to do that.</p>
+  
+  <p><strong>Loyola Chicago, 2018.</strong> Another 11 seed made it.</p>
+    <p>Read more in <a class="inline" href="/what-is-a-cinderella-team">what a Cinderella team is</a>.</p>
+
+  <h2>The Final Four in 2027</h2>
+  <p>The men's semifinals are <strong>Saturday, April 3, 2027</strong>.</p>
+  <p>They are played at Ford Field in Detroit.</p>
+  <p>The men's title game is <strong>Monday, April 5</strong>.</p>
+  
+  <p>The women's semifinals are <strong>Friday, April 2</strong>.</p>
+  <p>They are played in Columbus, Ohio.</p>
+  <p>The women's title game is <strong>Sunday, April 4</strong>.</p>
+  <p>See <a class="inline" href="/when-is-selection-sunday-2027">every key date for 2027</a>.</p>
+  <div class="picker-note">
+    <p class="line">Five questions start it. You finish it.</p>
+    <p>Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.</p>
+  </div>
+
+  <section class="faqsec" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">Common questions</h2>
+    <details><summary>What is the Final Four?</summary><p>The Final Four is the last four teams in the NCAA tournament, one winner from each of the four regions. The four teams play two semifinal games, and the winners meet in the national championship game.</p></details>
+    <details><summary>When and where is the Final Four in 2027?</summary><p>The men's Final Four is Saturday, April 3, 2027, at Ford Field in Detroit, with the title game on Monday, April 5. The women's Final Four is Friday, April 2, in Columbus, Ohio, with its title game on Sunday, April 4.</p></details>
+  </section>
+
+  <div class="nextup">
+    <h2>More bracket basics</h2>
+    <ul>
+      <li><a href="/how-to-fill-out-a-march-madness-bracket">How to fill out a March Madness bracket</a></li>
+      <li><a href="/what-is-a-march-madness-bracket">What is a March Madness bracket?</a></li>
+      <li><a href="/how-does-bracket-scoring-work">How does bracket scoring work?</a></li>
+      <li><a href="/what-is-a-cinderella-team">What is a Cinderella team?</a></li>
+      <li><a href="/when-is-selection-sunday-2027">When is Selection Sunday 2027?</a></li>
+      <li><a href="/how-often-do-upsets-happen">How often do upsets happen?</a></li>
+      <li><a href="/what-is-a-seed-in-march-madness">What is a seed in March Madness?</a></li>
+      <li><a href="/how-to-pick-upsets">How to pick upsets</a></li>
+      <li><a href="/what-is-march-madness">What is March Madness?</a></li>
+      <li><a href="/has-anyone-ever-had-a-perfect-bracket">Has anyone ever had a perfect bracket?</a></li>
+      <li><a href="/how-to-fill-out-a-bracket-if-you-know-nothing-about-basketball">Fill out a bracket if you know nothing about basketball</a></li>
+      <li><a href="/how-many-teams-are-in-march-madness">How many teams are in March Madness?</a></li>
+      <li><a href="/what-is-the-opening-round-in-march-madness">What is the opening round in March Madness?</a></li>
+      <li><a href="/what-is-the-sweet-16">What is the Sweet 16?</a></li>
+      <li><a href="/what-is-the-elite-eight">What is the Elite Eight?</a></li>
+      <li><a href="/how-many-games-are-in-march-madness">How many games are in March Madness?</a></li>
+      <li><a href="/what-is-an-automatic-bid">What is an automatic bid?</a></li>
+      <li><a href="/what-is-an-at-large-bid">What is an at-large bid?</a></li>
+      <li><a href="/what-is-a-bubble-team">What is a bubble team?</a></li>
+      <li><a href="/what-is-bracketology">What is bracketology?</a></li>
+      <li><a href="/how-many-rounds-are-in-march-madness">How many rounds are in March Madness?</a></li>
+      <li><a href="/what-is-the-nit">What is the NIT?</a></li>
+      <li><a href="/what-is-a-conference-tournament">What is a conference tournament?</a></li>
+      <li><a href="/what-are-net-rankings">What are NET rankings?</a></li>
+      <li><a href="/what-is-a-bid-stealer">What is a bid stealer?</a></li>
+      <li><a href="/what-is-the-selection-committee">What is the selection committee?</a></li>
+      <li><a href="/what-is-wins-above-bubble">What is Wins Above Bubble?</a></li>
+    </ul>
+  </div>
+
+</main>
+<footer>
+  <p>Built with Muse.</p>
+  <p><a href="/">Home</a> <a href="/privacy">Privacy</a> <a href="/terms">Terms</a></p>
+</footer>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e5edc982b99349b587d105338f331407"}'></script>
+</body>
+</html>
