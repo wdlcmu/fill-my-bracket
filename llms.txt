@@ -27,6 +27,9 @@
 - [What is the Final Four?](https://fillmybracket.com/what-is-the-final-four): the last four teams, one winner from each region. Two semifinals, then the title game.
 - [How many teams are in March Madness?](https://fillmybracket.com/how-many-teams-are-in-march-madness): 76 teams in each tournament from 2027, up from 68. The main bracket still has 64 teams.
 - [What is the opening round in March Madness?](https://fillmybracket.com/what-is-the-opening-round-in-march-madness): 24 teams play 12 games before the main bracket. It replaces the First Four in 2027.
+- [What is the Sweet 16?](https://fillmybracket.com/what-is-the-sweet-16): the regional semifinals, when 16 teams remain, four in each region. Winners move on to the Elite Eight.
+- [What is the Elite Eight?](https://fillmybracket.com/what-is-the-elite-eight): the regional finals, when eight teams remain, two in each region. The four winners reach the Final Four.
+- [How many games are in March Madness?](https://fillmybracket.com/how-many-games-are-in-march-madness): 75 games in each 2027 tournament, with 63 in the main bracket. The Opening Round adds 12 games.
 - [Ask in your own words](https://fillmybracket.com/ask): ask about seeds, scoring, upsets, or the 2027 dates. Answers come only from this site's own pages.
 
 ## Optional
