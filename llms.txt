@@ -8,7 +8,7 @@
 - The field is set on Selection Sunday, March 14, 2027. The bracket opens that evening, before the first games start.
 - How it will work: answer five questions (favorites or chaos, mascots or colors). Five questions start all 63 games, round by round. You finish it — one tap flips any pick. There is a champion and a one-line reason for each pick.
 - A seed is a team's regional rank. Seed 1 is strongest, seed 16 is weakest.
-- There is no plugin, app, or callable tool yet.
+- There is no plugin or app yet. The site has one helper page, Ask (https://fillmybracket.com/ask): an open-source model answers questions using only this site's own pages. It cannot pick a 2027 bracket; the field is not set until March 14, 2027.
 
 ## Key pages
 
@@ -21,6 +21,7 @@
 - [How often do upsets happen?](https://fillmybracket.com/how-often-do-upsets-happen): the seed math since 1985. A 12 seed beats a 5 seed about 35 times in 100.
 - [What is a seed in March Madness?](https://fillmybracket.com/what-is-a-seed-in-march-madness): a team's rank in its region, 1 to 16. How seeds are set and paired.
 - [How to pick upsets](https://fillmybracket.com/how-to-pick-upsets): two or three first-round upsets, in the right spots. Where upsets live, and when to stop.
+- [Ask in your own words](https://fillmybracket.com/ask): ask about seeds, scoring, upsets, or the 2027 dates. Answers come only from this site's own pages.
 
 ## Optional
 
