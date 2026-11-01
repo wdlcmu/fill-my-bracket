@@ -1,6 +1,6 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, twenty-three bracket-basics guides, privacy, and terms.
+> Complete text of fillmybracket.com: the homepage, twenty-six bracket-basics guides, privacy, and terms.
 > Fill My Bracket starts a full March Madness bracket from five questions — you finish
 > it, with zero basketball knowledge required. It is coming in March 2027. Free forever, no ads, no accounts.
 > Text captured from the live pages, 2026-10-31.
@@ -411,6 +411,175 @@ What is the NIT?
 The NIT is the National Invitation Tournament, a single-elimination postseason tournament run by the NCAA for teams that miss the NCAA tournament field. In 2027 it holds 24 teams, and its champion is crowned at Detroit Mercy on Sunday, April 4.
 Is the NIT the same as March Madness?
 No. March Madness is the NCAA tournament, which crowns the national champion. The NIT is a separate tournament for the strongest teams left out, including the first four out of the NCAA field, who enter as No. 1 seeds.
+
+## What is a conference tournament? (https://fillmybracket.com/what-is-a-conference-tournament)
+
+What is a conference tournament?
+A conference tournament is each league's own playoff. Every league holds one after the season. Its winner earns an automatic bid.
+Thirty-two leagues hold one
+Division I holds 32 conferences.
+Each conference runs its own tournament.
+It starts after the regular season ends.
+One team leaves with the trophy.
+That team also leaves with a bid.
+The rest must wait and hope.
+The prize is automatic
+Win the tournament, and you are in.
+No committee vote is needed.
+Your season record cannot block it.
+Even a losing season can end here.
+NCAA.com calls these teams automatic qualifiers.
+Read what an
+automatic bid
+means.
+Why the last week feels wild
+Some finals land on Selection Sunday itself.
+A surprise winner is called a bid stealer.
+Meet the
+bid stealer
+up close.
+Its win takes one at-large spot.
+Bubble teams watch these games nervously.
+Their fate sits in other gyms.
+Then the committee takes over
+The committee meets after these games end.
+It picks the at-large teams next.
+Then it seeds the whole field.
+Everything is revealed on Selection Sunday.
+See
+when Selection Sunday 2027
+falls.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Common questions
+What is a conference tournament?
+A conference tournament is the postseason tournament each of the 32 Division I conferences holds after the regular season. The winner earns an automatic bid to the NCAA tournament, no matter how its regular season went.
+Does the regular-season champion get the automatic bid?
+No. The automatic bid goes to the conference tournament winner, not the regular-season champion. A team can finish near the bottom of its league, win the tournament, and still reach March Madness.
+
+## What are NET rankings? (https://fillmybracket.com/what-are-net-rankings)
+
+What are NET rankings?
+NET rankings are the committee's main sorting tool. NET stands for NCAA Evaluation Tool. It ranks teams for selection and seeding.
+What NET stands for
+NET means NCAA Evaluation Tool.
+It arrived for the 2018-19 season.
+It replaced the older RPI ranking.
+The RPI used only winning percentages.
+The NCAA built NET with Google Cloud.
+Men and women get separate lists.
+Each list uses only its own games.
+The two parts of the NET
+Part one is the Team Value Index.
+It rewards beating strong teams.
+Road and neutral wins count extra.
+Part two is adjusted net efficiency.
+It tracks points per hundred possessions.
+It adjusts for foe and place.
+Winning percentage alone no longer counts.
+Scoring margin no longer counts either.
+No past season data sneaks in.
+How the committee uses it
+The NET is a sorting tool only.
+It never decides the field alone.
+The committee still weighs the full season.
+There is no set formula for bids.
+New rankings post daily in season.
+The first list comes in December.
+It is built to peak in March.
+See how
+at-large bids
+get picked.
+Quadrants sort wins by strength
+Team sheets sort games into four quadrants.
+Quadrant 1 holds the hardest wins.
+Quadrant 4 holds the easiest games.
+The men's ranges sit below.
+Quadrant
+Home foe
+Neutral foe
+Road foe
+1
+1 to 30
+1 to 50
+1 to 75
+2
+31 to 75
+51 to 100
+76 to 135
+3
+76 to 160
+101 to 200
+136 to 240
+4
+161 to 353
+201 to 353
+241 to 353
+Place matters as much as rank.
+Road wins get the widest range.
+Bubble teams chase Quadrant 1 wins.
+Meet the
+bubble teams
+chasing them.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Common questions
+What are NET rankings?
+NET rankings are the NCAA Evaluation Tool rankings, the selection committee's primary sorting tool since the 2018-19 season. They combine the Team Value Index with adjusted net efficiency, and they replaced the RPI.
+What is a Quad 1 win?
+A Quad 1 win is a win over a top team in the NET rankings: at home against a team ranked 1 to 30, at a neutral site against 1 to 50, or on the road against 1 to 75. Quad 1 wins are the strongest wins a team can show the committee.
+
+## What is a bid stealer? (https://fillmybracket.com/what-is-a-bid-stealer)
+
+What is a bid stealer?
+A bid stealer wins its conference tournament unexpectedly. It had no at-large case before. Its win takes one at-large spot.
+How a bid gets stolen
+Start with a team going nowhere.
+Its season was too weak for at-large.
+Then it wins its conference tournament.
+That win carries an automatic bid.
+Read how an
+automatic bid
+works.
+The field size never grows.
+So one at-large spot disappears.
+Who pays for the theft
+The bubble pays every single time.
+Meet the
+bubble teams
+at risk.
+One bubble team falls out.
+It becomes first four out instead.
+Those teams headline the NIT instead.
+Read about the
+NIT
+field.
+Fans spot steals days before Sunday.
+Every surprise final raises the stakes.
+The famous steal of 2024
+NC State won the ACC tournament.
+That run came in March 2024.
+Its at-large case was not enough.
+The automatic bid saved its season.
+Then it kept winning in March.
+It reached the Final Four.
+The steal became a storybook run.
+Why steals matter in 2027
+The 2027 field holds 76 teams.
+Automatic bids still go to tournament winners.
+Every league final can move the bubble.
+Watch the
+conference tournaments
+closely.
+The last weekend decides the edge.
+Then Sunday reveals the whole field.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Common questions
+What is a bid stealer?
+A bid stealer is a team that would not have earned an at-large bid but wins its conference tournament and claims the automatic bid instead. Each steal leaves one fewer at-large spot for bubble teams.
+What is the most famous bid stealer?
+NC State in 2024. The Wolfpack won the ACC tournament to secure a bid it would not have earned at large, then made a run to the Final Four.
 
 ## Privacy (https://fillmybracket.com/privacy)
 

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What Are NET Rankings? | Fill My Bracket</title>
+<meta name="description" content="NET rankings are the NCAA Evaluation Tool rankings, the selection committee's main sorting tool since 2018-19. The two parts, and the four quadrants, in plain words.">
+<link rel="canonical" href="https://fillmybracket.com/what-are-net-rankings">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://fillmybracket.com/what-are-net-rankings">
+<meta property="og:site_name" content="Fill My Bracket">
+<meta property="og:title" content="What Are NET Rankings?">
+<meta property="og:description" content="The committee's main sorting tool, in plain words. What NET counts, what it ignores, and how quadrants sort wins.">
+<meta property="og:image" content="https://fillmybracket.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What Are NET Rankings?">
+<meta name="twitter:description" content="The committee's main sorting tool, in plain words. What NET counts, what it ignores, and how quadrants sort wins.">
+<meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
+<meta name="twitter:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+  :root {
+    --navy: #081c3a; --navy-2: #0d2b57; --navy-3: #123263;
+    --orange: #ff7a1a; --orange-soft: #ffa25e;
+    --cream: #f7f2e7; --muted: #aebdd6; --line: #2a4a7f;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--cream); background: var(--navy); line-height: 1.55;
+    display: flex; flex-direction: column; min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  header.site { padding: 1.1rem 1.25rem; border-bottom: 1px solid var(--line); }
+  header.site a { color: var(--cream); font-weight: 800; font-size: 1.125rem; text-decoration: none; letter-spacing: -0.01em; }
+  header.site a span { color: var(--orange); }
+  main { flex: 1; width: 100%; max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 0.5rem; }
+  .kicker { display: inline-block; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--orange); margin-bottom: 0.9rem; border: 1px solid var(--orange); border-radius: 999px; padding: 0.3rem 0.9rem; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 1rem; }
+  .answer { font-size: 1.1875rem; color: var(--cream); margin-bottom: 1.5rem; }
+  h2 { font-size: 1.3125rem; font-weight: 700; margin: 1.75rem 0 0.6rem; }
+  p { color: var(--muted); margin-bottom: 0.55rem; }
+  p strong, li strong { color: var(--cream); }
+  ol.steps, ul.plain { margin: 0 0 0.5rem 1.25rem; color: var(--muted); }
+  ol.steps li, ul.plain li { margin-bottom: 0.55rem; }
+  table { width: 100%; border-collapse: collapse; margin: 0.75rem 0 1rem; font-size: 0.9375rem; }
+  th, td { text-align: left; padding: 0.45rem 0.6rem; border: 1px solid var(--line); color: var(--muted); }
+  th { color: var(--cream); background: var(--navy-2); }
+  td strong { color: var(--cream); }
+  .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
+  .nextup h2 { margin-top: 0; font-size: 1.125rem; }
+  .nextup ul { list-style: none; }
+  .nextup li { margin-bottom: 0.5rem; }
+  .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
+  .nextup a:hover, main a.inline:hover { text-decoration: underline; }
+  .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
+  .picker-note p { color: var(--cream); margin: 0; }
+  .picker-note .line { font-weight: 800; }
+  .faqsec { margin-top: 2rem; }
+  .faqsec details { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.9rem 1.1rem; margin-bottom: 0.75rem; }
+  .faqsec summary { color: var(--cream); font-weight: 700; cursor: pointer; padding: 0.35rem 0; min-height: 44px; display: flex; align-items: center; }
+  .faqsec details p { margin: 0.55rem 0 0.1rem; }
+  footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
+  footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
+  footer a:hover { text-decoration: underline; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are NET rankings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NET rankings are the NCAA Evaluation Tool rankings, the selection committee's primary sorting tool since the 2018-19 season. They combine the Team Value Index with adjusted net efficiency, and they replaced the RPI."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a Quad 1 win?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Quad 1 win is a win over a top team in the NET rankings: at home against a team ranked 1 to 30, at a neutral site against 1 to 50, or on the road against 1 to 75. Quad 1 wins are the strongest wins a team can show the committee."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site"><a href="/">Fill My <span>Bracket</span></a></header>
+<main>
+  <span class="kicker">Bracket basics</span>
+  <h1>What are NET rankings?</h1>
+  <p class="answer">NET rankings are the committee's main sorting tool. NET stands for NCAA Evaluation Tool. It ranks teams for selection and seeding.</p>
+  <h2>What NET stands for</h2>
+  <p>NET means NCAA Evaluation Tool.</p>
+  <p>It arrived for the 2018-19 season.</p>
+  <p>It replaced the older RPI ranking.</p>
+  <p>The RPI used only winning percentages.</p>
+  <p>The NCAA built NET with Google Cloud.</p>
+  <p>Men and women get separate lists.</p>
+  <p>Each list uses only its own games.</p>
+
+  <h2>The two parts of the NET</h2>
+  <p>Part one is the Team Value Index.</p>
+  <p>It rewards beating strong teams.</p>
+  <p>Road and neutral wins count extra.</p>
+  <p>Part two is adjusted net efficiency.</p>
+  <p>It tracks points per hundred possessions.</p>
+  <p>It adjusts for foe and place.</p>
+  <p>Winning percentage alone no longer counts.</p>
+  <p>Scoring margin no longer counts either.</p>
+  <p>No past season data sneaks in.</p>
+
+  <h2>How the committee uses it</h2>
+  <p>The NET is a sorting tool only.</p>
+  <p>It never decides the field alone.</p>
+  <p>The committee still weighs the full season.</p>
+  <p>There is no set formula for bids.</p>
+  <p>New rankings post daily in season.</p>
+  <p>The first list comes in December.</p>
+  <p>It is built to peak in March.</p>
+  <p>See how <a class="inline" href="/what-is-an-at-large-bid">at-large bids</a> get picked.</p>
+
+  <h2>Quadrants sort wins by strength</h2>
+  <p>Team sheets sort games into four quadrants.</p>
+  <p>Quadrant 1 holds the hardest wins.</p>
+  <p>Quadrant 4 holds the easiest games.</p>
+  <p>The men's ranges sit below.</p>
+  <table>
+    <tr><th>Quadrant</th><th>Home foe</th><th>Neutral foe</th><th>Road foe</th></tr>
+    <tr><td><strong>1</strong></td><td>1 to 30</td><td>1 to 50</td><td>1 to 75</td></tr>
+    <tr><td><strong>2</strong></td><td>31 to 75</td><td>51 to 100</td><td>76 to 135</td></tr>
+    <tr><td><strong>3</strong></td><td>76 to 160</td><td>101 to 200</td><td>136 to 240</td></tr>
+    <tr><td><strong>4</strong></td><td>161 to 353</td><td>201 to 353</td><td>241 to 353</td></tr>
+  </table>
+  <p>Place matters as much as rank.</p>
+  <p>Road wins get the widest range.</p>
+  <p>Bubble teams chase Quadrant 1 wins.</p>
+  <p>Meet the <a class="inline" href="/what-is-a-bubble-team">bubble teams</a> chasing them.</p>
+  <div class="picker-note">
+    <p class="line">Five questions start it. You finish it.</p>
+    <p>Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.</p>
+  </div>
+
+  <section class="faqsec" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">Common questions</h2>
+    <details><summary>What are NET rankings?</summary><p>NET rankings are the NCAA Evaluation Tool rankings, the selection committee's primary sorting tool since the 2018-19 season. They combine the Team Value Index with adjusted net efficiency, and they replaced the RPI.</p></details>
+    <details><summary>What is a Quad 1 win?</summary><p>A Quad 1 win is a win over a top team in the NET rankings: at home against a team ranked 1 to 30, at a neutral site against 1 to 50, or on the road against 1 to 75. Quad 1 wins are the strongest wins a team can show the committee.</p></details>
+  </section>
+
+  <div class="nextup">
+    <h2>More bracket basics</h2>
+    <ul>
+      <li><a href="/how-to-fill-out-a-march-madness-bracket">How to fill out a March Madness bracket</a></li>
+      <li><a href="/what-is-a-march-madness-bracket">What is a March Madness bracket?</a></li>
+      <li><a href="/how-does-bracket-scoring-work">How does bracket scoring work?</a></li>
+      <li><a href="/what-is-a-cinderella-team">What is a Cinderella team?</a></li>
+      <li><a href="/when-is-selection-sunday-2027">When is Selection Sunday 2027?</a></li>
+      <li><a href="/how-often-do-upsets-happen">How often do upsets happen?</a></li>
+      <li><a href="/what-is-a-seed-in-march-madness">What is a seed in March Madness?</a></li>
+      <li><a href="/how-to-pick-upsets">How to pick upsets</a></li>
+      <li><a href="/what-is-march-madness">What is March Madness?</a></li>
+      <li><a href="/has-anyone-ever-had-a-perfect-bracket">Has anyone ever had a perfect bracket?</a></li>
+      <li><a href="/how-to-fill-out-a-bracket-if-you-know-nothing-about-basketball">Fill out a bracket if you know nothing about basketball</a></li>
+      <li><a href="/what-is-the-final-four">What is the Final Four?</a></li>
+      <li><a href="/how-many-teams-are-in-march-madness">How many teams are in March Madness?</a></li>
+      <li><a href="/what-is-the-opening-round-in-march-madness">What is the opening round in March Madness?</a></li>
+      <li><a href="/what-is-the-sweet-16">What is the Sweet 16?</a></li>
+      <li><a href="/what-is-the-elite-eight">What is the Elite Eight?</a></li>
+      <li><a href="/how-many-games-are-in-march-madness">How many games are in March Madness?</a></li>
+      <li><a href="/what-is-an-automatic-bid">What is an automatic bid?</a></li>
+      <li><a href="/what-is-an-at-large-bid">What is an at-large bid?</a></li>
+      <li><a href="/what-is-a-bubble-team">What is a bubble team?</a></li>
+      <li><a href="/what-is-bracketology">What is bracketology?</a></li>
+      <li><a href="/how-many-rounds-are-in-march-madness">How many rounds are in March Madness?</a></li>
+      <li><a href="/what-is-the-nit">What is the NIT?</a></li>
+      <li><a href="/what-is-a-conference-tournament">What is a conference tournament?</a></li>
+      <li><a href="/what-is-a-bid-stealer">What is a bid stealer?</a></li>
+    </ul>
+  </div>
+
+</main>
+<footer>
+  <p>Built with Muse.</p>
+  <p><a href="/">Home</a> <a href="/privacy">Privacy</a> <a href="/terms">Terms</a></p>
+</footer>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e5edc982b99349b587d105338f331407"}'></script>
+</body>
+</html>
