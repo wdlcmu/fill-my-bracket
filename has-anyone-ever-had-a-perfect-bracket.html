@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Has Anyone Ever Had a Perfect Bracket? | Fill My Bracket</title>
+<meta name="description" content="No. No verifiable perfect bracket has ever been turned in. The best proven run is 49 straight right picks. Here is the math, shown plainly.">
+<link rel="canonical" href="https://fillmybracket.com/has-anyone-ever-had-a-perfect-bracket">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://fillmybracket.com/has-anyone-ever-had-a-perfect-bracket">
+<meta property="og:site_name" content="Fill My Bracket">
+<meta property="og:title" content="Has Anyone Ever Had a Perfect Bracket?">
+<meta property="og:description" content="No one ever has. The best proven run is 49 straight picks, and the coin-flip odds are 1 in 9.2 quintillion.">
+<meta property="og:image" content="https://fillmybracket.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Has Anyone Ever Had a Perfect Bracket?">
+<meta name="twitter:description" content="No one ever has. The best proven run is 49 straight picks, and the coin-flip odds are 1 in 9.2 quintillion.">
+<meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
+<meta name="twitter:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+  :root {
+    --navy: #081c3a; --navy-2: #0d2b57; --navy-3: #123263;
+    --orange: #ff7a1a; --orange-soft: #ffa25e;
+    --cream: #f7f2e7; --muted: #aebdd6; --line: #2a4a7f;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--cream); background: var(--navy); line-height: 1.55;
+    display: flex; flex-direction: column; min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  header.site { padding: 1.1rem 1.25rem; border-bottom: 1px solid var(--line); }
+  header.site a { color: var(--cream); font-weight: 800; font-size: 1.125rem; text-decoration: none; letter-spacing: -0.01em; }
+  header.site a span { color: var(--orange); }
+  main { flex: 1; width: 100%; max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 0.5rem; }
+  .kicker { display: inline-block; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--orange); margin-bottom: 0.9rem; border: 1px solid var(--orange); border-radius: 999px; padding: 0.3rem 0.9rem; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 1rem; }
+  .answer { font-size: 1.1875rem; color: var(--cream); margin-bottom: 1.5rem; }
+  h2 { font-size: 1.3125rem; font-weight: 700; margin: 1.75rem 0 0.6rem; }
+  p { color: var(--muted); margin-bottom: 0.55rem; }
+  p strong, li strong { color: var(--cream); }
+  ol.steps, ul.plain { margin: 0 0 0.5rem 1.25rem; color: var(--muted); }
+  ol.steps li, ul.plain li { margin-bottom: 0.55rem; }
+  table { width: 100%; border-collapse: collapse; margin: 0.75rem 0 1rem; font-size: 0.9375rem; }
+  th, td { text-align: left; padding: 0.45rem 0.6rem; border: 1px solid var(--line); color: var(--muted); }
+  th { color: var(--cream); background: var(--navy-2); }
+  td strong { color: var(--cream); }
+  .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
+  .nextup h2 { margin-top: 0; font-size: 1.125rem; }
+  .nextup ul { list-style: none; }
+  .nextup li { margin-bottom: 0.5rem; }
+  .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
+  .nextup a:hover, main a.inline:hover { text-decoration: underline; }
+  .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
+  .picker-note p { color: var(--cream); margin: 0; }
+  .picker-note .line { font-weight: 800; }
+  .faqsec { margin-top: 2rem; }
+  .faqsec details { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.9rem 1.1rem; margin-bottom: 0.75rem; }
+  .faqsec summary { color: var(--cream); font-weight: 700; cursor: pointer; padding: 0.35rem 0; min-height: 44px; display: flex; align-items: center; }
+  .faqsec details p { margin: 0.55rem 0 0.1rem; }
+  footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
+  footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
+  footer a:hover { text-decoration: underline; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Has anyone ever had a perfect March Madness bracket?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. No verifiable perfect bracket has ever been turned in. The longest proven streak is 49 straight correct picks, by Greg Nigl in 2019. His bracket broke in the Sweet 16."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the odds of a perfect bracket?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If every game were a coin flip, the odds are 1 in 9,223,372,036,854,775,808, about 1 in 9.2 quintillion. A bracket has 63 games, so there are 2 to the 63rd power possible brackets. NCAA.com puts the odds near 1 in 120.2 billion if you know basketball."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site"><a href="/">Fill My <span>Bracket</span></a></header>
+<main>
+  <span class="kicker">Bracket basics</span>
+  <h1>Has anyone ever had a perfect bracket?</h1>
+  <p class="answer">No. No one has ever turned in a verifiable perfect bracket. The best proven run is 49 straight right picks, from 2019.</p>
+
+  <h2>The closest anyone has come</h2>
+  <p>In 2019, an Ohio man named Greg Nigl got famous.</p>
+  <p>He picked the first <strong>49 games</strong> right, one after another.</p>
+  <p>NCAA.com tracks verifiable brackets across the big games.</p>
+  <p>No bracket had ever stayed perfect that long.</p>
+  <p>His run broke in the Sweet 16.</p>
+  <p>Most brackets bust in the first weekend.</p>
+  <p>One early upset is all it takes.</p>
+  <p>Read <a class="inline" href="/how-often-do-upsets-happen">how often upsets happen</a>.</p>
+
+  <h2>The math, shown</h2>
+  <p>A bracket picks 63 games.</p>
+  <p>Each game has 2 possible winners.</p>
+  <p>So the number of possible brackets is 2 times itself 63 times.</p>
+  <p>That is <strong>9,223,372,036,854,775,808</strong> possible brackets.</p>
+  <p>About 9.2 quintillion. A quintillion is a billion billions.</p>
+  <p>Flip a coin for every game, and your odds are 1 in 9.2 quintillion.</p>
+  <p>Know basketball, and the odds get better, a little.</p>
+  <p>NCAA.com puts them near <strong>1 in 120.2 billion</strong>.</p>
+  <p>Better, and still not going to happen.</p>
+
+  <h2>You do not need perfect to win</h2>
+  <p>Pools are won by good brackets, not perfect ones.</p>
+  <p>NCAA.com says pool winners average about 50 right picks.</p>
+  <p>That is 50 of 63 games.</p>
+  <p>A strong first weekend does most of the work.</p>
+  <p>So does keeping your champion alive late.</p>
+  <p>See <a class="inline" href="/how-does-bracket-scoring-work">how bracket scoring works</a>.</p>
+
+  <div class="picker-note">
+    <p class="line">Five questions start it. You finish it.</p>
+    <p>Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.</p>
+  </div>
+
+  <section class="faqsec" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">Common questions</h2>
+    <details><summary>Has anyone ever had a perfect March Madness bracket?</summary><p>No. No verifiable perfect bracket has ever been turned in. The longest proven streak is 49 straight correct picks, by Greg Nigl in 2019. His bracket broke in the Sweet 16.</p></details>
+    <details><summary>What are the odds of a perfect bracket?</summary><p>If every game were a coin flip, the odds are 1 in 9,223,372,036,854,775,808, about 1 in 9.2 quintillion. A bracket has 63 games, so there are 2 to the 63rd power possible brackets. NCAA.com puts the odds near 1 in 120.2 billion if you know basketball.</p></details>
+  </section>
+
+  <div class="nextup">
+    <h2>More bracket basics</h2>
+    <ul>
+      <li><a href="/how-to-fill-out-a-march-madness-bracket">How to fill out a March Madness bracket</a></li>
+      <li><a href="/what-is-a-march-madness-bracket">What is a March Madness bracket?</a></li>
+      <li><a href="/how-does-bracket-scoring-work">How does bracket scoring work?</a></li>
+      <li><a href="/what-is-a-cinderella-team">What is a Cinderella team?</a></li>
+      <li><a href="/when-is-selection-sunday-2027">When is Selection Sunday 2027?</a></li>
+      <li><a href="/how-often-do-upsets-happen">How often do upsets happen?</a></li>
+      <li><a href="/what-is-a-seed-in-march-madness">What is a seed in March Madness?</a></li>
+      <li><a href="/how-to-pick-upsets">How to pick upsets</a></li>
+      <li><a href="/what-is-march-madness">What is March Madness?</a></li>
+      <li><a href="/how-to-fill-out-a-bracket-if-you-know-nothing-about-basketball">Fill out a bracket if you know nothing about basketball</a></li>
+    </ul>
+  </div>
+
+</main>
+<footer>
+  <p>Built with Muse.</p>
+  <p><a href="/">Home</a> <a href="/privacy">Privacy</a> <a href="/terms">Terms</a></p>
+</footer>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e5edc982b99349b587d105338f331407"}'></script>
+</body>
+</html>

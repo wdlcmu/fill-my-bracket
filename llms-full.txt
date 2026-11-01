@@ -1,6 +1,6 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, eight bracket-basics guides, privacy, and terms.
+> Complete text of fillmybracket.com: the homepage, eleven bracket-basics guides, privacy, and terms.
 > Fill My Bracket starts a full March Madness bracket from five questions — you finish
 > it, with zero basketball knowledge required. It is coming in March 2027. Free forever, no ads, no accounts.
 > Text captured from the live pages, 2026-10-31.
@@ -218,6 +218,11 @@ A seed is a rank, not a promise
 Since 1985, the lower seed has won about one first-round game in three. The lowest seed to win the title is 8. That was Villanova, in 1985.
 Five questions start it. You finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Common questions
+What is a seed in March Madness?
+A seed is a team's rank inside its region, from 1 to 16. A committee ranks every team before the tournament starts. Seed 1 is the strongest team in the region, and seed 16 is the weakest.
+Why does a 1 seed play a 16 seed first?
+To reward the best teams and save the big games for late. First-round games pair seeds that add up to 17: 1 plays 16, 2 plays 15, and so on. A 1 seed has beaten a 16 seed in all but two of more than 160 tries.
 
 ## How to pick upsets (https://fillmybracket.com/how-to-pick-upsets)
 
@@ -231,7 +236,128 @@ How our picker does it
 Our picker scores every team by seed strength. A 5 seed starts at 24. A 12 seed starts at 10. Your chaos answer hands the lower seed a bonus. Turn chaos up, and the 12 seed can pass the 5. Turn it down, and the favorite holds. It is the same math as March, run by your answers.
 Five questions start it. You finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Common questions
+How many upsets should I pick in my bracket?
+Two or three in the first round is the normal range. Since 1985, about one first-round game in three is an upset, but they cluster in a few matchups, like the 12 seed against the 5 seed.
+Should I pick a 16 seed to beat a 1 seed?
+History says no. A 16 seed has beaten a 1 seed twice in more than 160 tries: UMBC in 2018 and Fairleigh Dickinson in 2023. It is a fun pick that almost always costs you a game.
 
+## What is March Madness? (https://fillmybracket.com/what-is-march-madness)
+
+What is March Madness?
+March Madness is the NCAA college basketball tournament. Teams play single-elimination games until one champion is left. Lose once, and your season is over.
+One loss, and you are out
+The tournament crowns the national champion.
+It is played every spring, mostly in March.
+In 2027, 76 teams enter each tournament.
+There is a men's tournament and a women's tournament.
+The field is split into four regions.
+Each team gets a seed, from 1 to 16.
+Winners move on. Losers go home.
+After the Opening Round, 64 teams remain.
+Then come the First Round and the Second Round.
+The last rounds have names everyone uses.
+The Sweet 16, the Elite Eight, and the Final Four.
+Two teams reach the title game. One wins it all.
+New to the chart itself? Read what a bracket is.
+Where the name came from
+The phrase started in Illinois high school basketball.
+An official named Henry V. Porter used it in 1939.
+The first NCAA tournament was also played in 1939.
+CBS broadcaster Brent Musburger used the phrase on air in 1982.
+He meant the NCAA tournament, and the name stuck.
+Now March Madness is the name everyone knows.
+Why everyone fills out a bracket
+Before the games start, fans predict every winner.
+That prediction sheet is the bracket.
+Offices, schools, and families run pools on it.
+You do not need to follow basketball to play.
+Plenty of brackets are picked by mascot or by colors.
+That is the whole fun of March.
+March Madness 2027, in short
+The field is set on Selection Sunday, March 14, 2027.
+The Opening Round is played March 16 and 17.
+The First Round starts Thursday, March 18.
+The men's Final Four is Saturday, April 3, in Detroit.
+The men's title game is Monday, April 5.
+See every key date for 2027.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Common questions
+What is March Madness?
+March Madness is the NCAA Division I college basketball tournament. In 2027, 76 teams enter each tournament, men's and women's. Every game is single-elimination: lose once, and you go home. The last team standing is the national champion.
+Why is it called March Madness?
+An Illinois high school official, Henry V. Porter, used the phrase for basketball in 1939. CBS broadcaster Brent Musburger used it for the NCAA tournament in 1982, and the name stuck. Most of the games are played in March.
+## Has anyone ever had a perfect bracket? (https://fillmybracket.com/has-anyone-ever-had-a-perfect-bracket)
+
+Has anyone ever had a perfect bracket?
+No. No one has ever turned in a verifiable perfect bracket. The best proven run is 49 straight right picks, from 2019.
+The closest anyone has come
+In 2019, an Ohio man named Greg Nigl got famous.
+He picked the first 49 games right, one after another.
+NCAA.com tracks verifiable brackets across the big games.
+No bracket had ever stayed perfect that long.
+His run broke in the Sweet 16.
+Most brackets bust in the first weekend.
+One early upset is all it takes.
+Read how often upsets happen.
+The math, shown
+A bracket picks 63 games.
+Each game has 2 possible winners.
+So the number of possible brackets is 2 times itself 63 times.
+That is 9,223,372,036,854,775,808 possible brackets.
+About 9.2 quintillion. A quintillion is a billion billions.
+Flip a coin for every game, and your odds are 1 in 9.2 quintillion.
+Know basketball, and the odds get better, a little.
+NCAA.com puts them near 1 in 120.2 billion.
+Better, and still not going to happen.
+You do not need perfect to win
+Pools are won by good brackets, not perfect ones.
+NCAA.com says pool winners average about 50 right picks.
+That is 50 of 63 games.
+A strong first weekend does most of the work.
+So does keeping your champion alive late.
+See how bracket scoring works.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Common questions
+Has anyone ever had a perfect March Madness bracket?
+No. No verifiable perfect bracket has ever been turned in. The longest proven streak is 49 straight correct picks, by Greg Nigl in 2019. His bracket broke in the Sweet 16.
+What are the odds of a perfect bracket?
+If every game were a coin flip, the odds are 1 in 9,223,372,036,854,775,808, about 1 in 9.2 quintillion. A bracket has 63 games, so there are 2 to the 63rd power possible brackets. NCAA.com puts the odds near 1 in 120.2 billion if you know basketball.
+## How to fill out a bracket if you know nothing about basketball (https://fillmybracket.com/how-to-fill-out-a-bracket-if-you-know-nothing-about-basketball)
+
+How to fill out a bracket if you know nothing about basketball
+You can. Pick by mascot, by colors, or by seed. Every March, people who never watch basketball finish full brackets, and sometimes win the pool.
+Five ways that need no basketball
+Trust the seeds. A low seed number means a strong team. Pick the lower number in every game. It is the safe way, and it works. New to seeds? Read what a seed is.
+Pick by mascot. The fiercest animal wins. A bear beats a bird. It is as good a reason as any.
+Pick by colors. Your favorite colors keep advancing. Your bracket looks great, too.
+Pick by place. Back schools near you, or places you have lived. Rooting is half the fun.
+Flip a coin on the close ones. The 8-vs-9 game is a true coin flip. Treat it like one.
+Mix them. Seeds for most games, mascots for the rest.
+There is no wrong method here.
+Two rules that keep you in it
+Take a few upsets early. Low seeds win about one first-round game in three.
+The 12 seed beats the 5 seed about 35 times in 100.
+Pick two or three of those, and stop there.
+Read how to pick upsets.
+Keep your champion safe. Champions are almost always 1 or 2 seeds.
+Since 1985, 1 seeds hold more titles than all other seeds combined.
+Pick your champion from the top, whatever method you use.
+How our picker does it
+Our picker asks the same kinds of questions.
+Favorites or chaos. Mascots or colors.
+Your answers start all 63 games, with a reason on each pick.
+You can flip any pick you do not like.
+No basketball knowledge needed, by design.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Common questions
+Can I fill out a bracket if I know nothing about basketball?
+Yes. Pick by seed, by mascot, by colors, or by coin flip. None of these needs basketball knowledge, and every March they fill millions of brackets. Knowledge helps the odds a little. It is not required to play.
+What is the easiest way to fill out a bracket?
+Trust the seeds. In every game, pick the team with the lower seed number. Add two or three upsets in the first round, and keep a 1 or 2 seed as your champion. That is a complete, sensible bracket.
 ## Ask in your own words (https://fillmybracket.com/ask)
 
 Ask in your own words.
