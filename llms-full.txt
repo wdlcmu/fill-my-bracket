@@ -786,7 +786,7 @@ The opening round is March 16 and 17, 2027. The first round of the main bracket 
 
 How often do upsets happen in March Madness?
 Every year. Since 1985, the lower seed has won about one first-round game in four. Picking all favorites is not the safe play it looks like.
-Visual: First-round upset rates since 1985: 10 seeds beat 7 seeds 39 times in 100, 11 over 6 is 39, 12 over 5 is 36, 13 over 4 is 21, 14 over 3 is 14.
+Visual: First-round upset rates since 1985: 9 seeds beat 8 seeds 52 times in 100, 10 seeds beat 7 seeds 39 times in 100, 11 over 6 is 39, 12 over 5 is 36, 13 over 4 is 21, 14 over 3 is 14, 15 over 2 is 7, 16 over 1 is 1.
 The first-round seed math, since 1985
 12 seed vs 5 seed: 57 wins in 160 games. 11 seed vs 6 seed: 62 wins in 160 games. 10 seed vs 7 seed: 62 wins in 160 games. 13 seed vs 4 seed: 33 wins in 160 games. 14 seed vs 3 seed: 23 wins in 160 games. 15 seed vs 2 seed: 11 wins in 160 games. 16 seed vs 1 seed: 2 wins in 160 games.
 The 12-over-5 upset is the famous one. The 8-vs-9 game is a coin flip. In fact, 9 seeds win it a bit more than half the time. We counted every game ourselves. All 2,520 men's tournament games, 1985 to 2025. First Four and Opening Round games are not counted. Every rate here starts at the round of 64. The full chart: which first-round upsets happen most.
@@ -932,7 +932,7 @@ How often does a 13 seed beat a 4 seed?
 About 21 times in 100. The 13 seed has beaten the 4 seed 33 times in 160 games since 1985. It happens most years, and it is still a clear step down from the 12 seed.
 Visual: The 13-over-4 upset, by era: 12 of 60 games from 1985 to 1999, 12 of 52 from 2000 to 2012, 9 of 48 from 2013 to 2025. Flat for 40 years.
 It still happens most years
-At least one 13 seed has won in 28 of 40 tournaments. The most recent was Yale over Auburn in 2024. That is the pattern. One most years, none some years. It is a real upset. It is not a coin flip like the 11 seed.
+At least one 13 seed has won in 28 of 40 tournaments. The most recent was Yale over Auburn in 2024. That is the pattern. One most years, none some years. It is a real upset. It is not close to a coin flip. The 11 seed game is closer lately: half since 2013.
 These runs end fast
 Only 6 of the 33 winning 13 seeds won their next game. The next game is usually against a 5 or 12 seed. Even so, about 18 in 100 of these winners reached the Sweet 16. Pick one 13 seed for fun if you like. History says one is plenty.
 How we counted
