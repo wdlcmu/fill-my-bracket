@@ -30,6 +30,9 @@
 - [What is the Sweet 16?](https://fillmybracket.com/what-is-the-sweet-16): the regional semifinals, when 16 teams remain, four in each region. Winners move on to the Elite Eight.
 - [What is the Elite Eight?](https://fillmybracket.com/what-is-the-elite-eight): the regional finals, when eight teams remain, two in each region. The four winners reach the Final Four.
 - [How many games are in March Madness?](https://fillmybracket.com/how-many-games-are-in-march-madness): 75 games in each 2027 tournament, with 63 in the main bracket. The Opening Round adds 12 games.
+- [What is an automatic bid?](https://fillmybracket.com/what-is-an-automatic-bid): the guaranteed spot a team earns by winning its conference tournament. Every conference sends one winner, whatever its season record.
+- [What is an at-large bid?](https://fillmybracket.com/what-is-an-at-large-bid): the selection committee's invitation for a team that did not win its conference tournament. The committee weighs the whole season, with no limit per conference.
+- [What is a bubble team?](https://fillmybracket.com/what-is-a-bubble-team): a team right on the cut line for the field. It needs one of the last at-large bids, and its qualification could go either way.
 - [Ask in your own words](https://fillmybracket.com/ask): ask about seeds, scoring, upsets, or the 2027 dates. Answers come only from this site's own pages.
 
 ## Optional
