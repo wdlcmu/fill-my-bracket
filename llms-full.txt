@@ -231,3 +231,14 @@ How our picker does it
 Our picker scores every team by seed strength. A 5 seed starts at 24. A 12 seed starts at 10. Your chaos answer hands the lower seed a bonus. Turn chaos up, and the 12 seed can pass the 5. Turn it down, and the favorite holds. It is the same math as March, run by your answers.
 Five questions start it. You finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+
+## Ask in your own words (https://fillmybracket.com/ask)
+
+Ask in your own words.
+Ask about seeds, scoring, upsets, or the 2027 dates. You get a plain answer, from this site's own pages.
+How this helper works. A small open-source helper reads your words. It answers only from this site's own guides.
+It cannot pick your 2027 bracket. The teams are not set until Selection Sunday, March 14, 2027.
+Nothing you type is stored. The site keeps only a daily count of asks, with no words in it.
+Five questions start it. You finish it.
+The picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+The homepage and the bracket-basics list link to this page with the line: Questions before March? Ask in your own words.
