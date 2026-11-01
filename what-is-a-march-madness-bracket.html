@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What Is a March Madness Bracket? | Fill My Bracket</title>
+<meta name="description" content="A bracket is the chart of the whole NCAA tournament. You pick the winner of every game, round by round, until one champion is left. A plain beginner guide.">
+<link rel="canonical" href="https://fillmybracket.com/what-is-a-march-madness-bracket">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://fillmybracket.com/what-is-a-march-madness-bracket">
+<meta property="og:site_name" content="Fill My Bracket">
+<meta property="og:title" content="What Is a March Madness Bracket?">
+<meta property="og:description" content="One chart, 63 games, one champion. How the bracket works, in plain words.">
+<meta property="og:image" content="https://fillmybracket.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What Is a March Madness Bracket?">
+<meta name="twitter:description" content="One chart, 63 games, one champion. How the bracket works, in plain words.">
+<meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
+<meta name="twitter:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+  :root {
+    --navy: #081c3a; --navy-2: #0d2b57; --navy-3: #123263;
+    --orange: #ff7a1a; --orange-soft: #ffa25e;
+    --cream: #f7f2e7; --muted: #aebdd6; --line: #2a4a7f;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--cream); background: var(--navy); line-height: 1.55;
+    display: flex; flex-direction: column; min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  header.site { padding: 1.1rem 1.25rem; border-bottom: 1px solid var(--line); }
+  header.site a { color: var(--cream); font-weight: 800; font-size: 1.125rem; text-decoration: none; letter-spacing: -0.01em; }
+  header.site a span { color: var(--orange); }
+  main { flex: 1; width: 100%; max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 0.5rem; }
+  .kicker { display: inline-block; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--orange); margin-bottom: 0.9rem; border: 1px solid var(--orange); border-radius: 999px; padding: 0.3rem 0.9rem; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 1rem; }
+  .answer { font-size: 1.1875rem; color: var(--cream); margin-bottom: 1.5rem; }
+  h2 { font-size: 1.3125rem; font-weight: 700; margin: 1.75rem 0 0.6rem; }
+  p { color: var(--muted); margin-bottom: 0.55rem; }
+  p strong, li strong { color: var(--cream); }
+  ol.steps, ul.plain { margin: 0 0 0.5rem 1.25rem; color: var(--muted); }
+  ol.steps li, ul.plain li { margin-bottom: 0.55rem; }
+  table { width: 100%; border-collapse: collapse; margin: 0.75rem 0 1rem; font-size: 0.9375rem; }
+  th, td { text-align: left; padding: 0.45rem 0.6rem; border: 1px solid var(--line); color: var(--muted); }
+  th { color: var(--cream); background: var(--navy-2); }
+  td strong { color: var(--cream); }
+  .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
+  .nextup h2 { margin-top: 0; font-size: 1.125rem; }
+  .nextup ul { list-style: none; }
+  .nextup li { margin-bottom: 0.5rem; }
+  .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
+  .nextup a:hover, main a.inline:hover { text-decoration: underline; }
+  .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
+  .picker-note p { color: var(--cream); margin: 0; }
+  .picker-note .line { font-weight: 800; }
+  footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
+  footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
+  footer a:hover { text-decoration: underline; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a March Madness bracket?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A bracket is the chart of the whole NCAA basketball tournament. It lists every game. You fill it in by picking the winner of each game, round by round, until one champion is left."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many games are in a March Madness bracket?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The main bracket has 63 games: 32 in the first round, then 16, 8, 4, 2, and the final. In 2027 the tournament starts with 76 teams, and an opening round trims the field to 64 before the main bracket begins."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site"><a href="/">Fill My <span>Bracket</span></a></header>
+<main>
+  <span class="kicker">Bracket basics</span>
+  <h1>What is a March Madness bracket?</h1>
+  <p class="answer">A bracket is the chart of the whole NCAA basketball tournament. It lists every game. You fill it in by picking the winner of each game, round by round, until one champion is left.</p>
+
+  <h2>Why it is called March Madness</h2>
+  <p>The tournament runs for three weeks in March.</p>
+  <p>Upsets happen almost every day.</p>
+  <p>Big teams fall early. Small schools win games nobody saw coming.</p>
+  <p>Fans call the chaos March Madness.</p>
+
+  <h2>How the chart works</h2>
+  <p>Teams are split into <strong>four regions</strong>.</p>
+  <p>Each region has 16 teams.</p>
+  <p>Every team gets a <strong>seed</strong>, a rank from 1 to 16.</p>
+  <p>Seed 1 is the strongest. Seed 16 is the weakest.</p>
+  <p>First games pair a high seed with a low seed.</p>
+  <p>Lose once and you go home.</p>
+  <p>Win and you move one step right on the chart.</p>
+
+  <h2>How many games?</h2>
+  <p>The main bracket has <strong>63 games</strong>.</p>
+  <p>32 games in the first round. Then 16, then 8, then 4.</p>
+  <p>The last four teams are the Final Four.</p>
+  <p>Two more games leave one champion.</p>
+  <p>In 2027, the tournament grows to 76 teams.</p>
+  <p>An opening round trims the field to 64 first.</p>
+  <p>The main bracket still has 63 games.</p>
+
+  <h2>Why people fill one out</h2>
+  <p>Friends, families, and offices run pools.</p>
+  <p>Everyone fills in a bracket.</p>
+  <p>The best score wins the pool.</p>
+  <p>Most players know very little basketball.</p>
+  <p>That is normal. That is half the fun.</p>
+  <p>Read <a class="inline" href="/how-to-fill-out-a-march-madness-bracket">how to fill out a bracket</a> when you are ready.</p>
+
+  <div class="picker-note">
+    <p class="line">Five questions start it. You finish it.</p>
+    <p>Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.</p>
+  </div>
+
+  <div class="nextup">
+    <h2>More bracket basics</h2>
+    <ul>
+      <li><a href="/how-to-fill-out-a-march-madness-bracket">How to fill out a March Madness bracket</a></li>
+      <li><a href="/how-does-bracket-scoring-work">How does bracket scoring work?</a></li>
+      <li><a href="/what-is-a-cinderella-team">What is a Cinderella team?</a></li>
+      <li><a href="/when-is-selection-sunday-2027">When is Selection Sunday 2027?</a></li>
+      <li><a href="/how-often-do-upsets-happen">How often do upsets happen?</a></li>
+    </ul>
+  </div>
+</main>
+<footer>
+  <p>Built with Muse.</p>
+  <p><a href="/">Home</a> <a href="/privacy">Privacy</a> <a href="/terms">Terms</a></p>
+</footer>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e5edc982b99349b587d105338f331407"}'></script>
+</body>
+</html>

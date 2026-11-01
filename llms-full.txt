@@ -1,6 +1,6 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, privacy, and terms.
+> Complete text of fillmybracket.com: the homepage, six bracket-basics guides, privacy, and terms.
 > Fill My Bracket starts a full March Madness bracket from five questions — you finish
 > it, with zero basketball knowledge required. It is coming in March 2027. Free forever, no ads, no accounts.
 > Text captured from the live pages, 2026-10-31.
@@ -74,3 +74,102 @@ We may update these terms. The new version will live on this page.
 Questions about this page: hello@fillmybracket.com.
 Built with Muse.
 Home Privacy
+
+## How to fill out a March Madness bracket (https://fillmybracket.com/how-to-fill-out-a-march-madness-bracket)
+
+How to fill out a March Madness bracket
+Wait for Selection Sunday, when the teams are announced. Then pick a winner for every game, round by round, until one champion is left. That is the whole job.
+Step 1: Wait for the field
+Brackets open on Selection Sunday. In 2027, that is Sunday, March 14. The teams and matchups are announced that evening. There is nothing to fill in before then.
+Step 2: Pick the first round
+The main bracket starts with 32 games. Pick one winner in each game. Not sure? Trust the seeds. A low seed number means a strong team. Seed 1 is the strongest. Seed 16 is the weakest.
+Step 3: Keep picking winners
+Every winner moves on to the next round. Your picks play each other in round two. Pick those winners too. Keep going through the Sweet 16 and the Elite Eight. Six rounds in all.
+Step 4: End with one champion
+Four teams reach the Final Four. Pick two winners, then pick the final. One champion is left at the end. Some pools also ask for a tiebreaker. That is a guess at the total points in the final game.
+Step 5: Hand it in on time
+Pools lock when the first round starts. In 2027, the first round starts Thursday, March 18. A late bracket counts for nothing. Finish before Thursday morning.
+Three tips that hold up
+Do not send all four 1 seeds to the Final Four. It has happened once, in 2008.
+Pick a few upsets early. Low seeds win about one first-round game in three.
+Keep your champion safe. Most champions are 1 or 2 seeds.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+
+## What is a March Madness bracket? (https://fillmybracket.com/what-is-a-march-madness-bracket)
+
+What is a March Madness bracket?
+A bracket is the chart of the whole NCAA basketball tournament. It lists every game. You fill it in by picking the winner of each game, round by round, until one champion is left.
+Why it is called March Madness
+The tournament runs for three weeks in March. Upsets happen almost every day. Big teams fall early. Small schools win games nobody saw coming. Fans call the chaos March Madness.
+How the chart works
+Teams are split into four regions. Each region has 16 teams. Every team gets a seed, a rank from 1 to 16. Seed 1 is the strongest. Seed 16 is the weakest. First games pair a high seed with a low seed. Lose once and you go home. Win and you move one step right on the chart.
+How many games?
+The main bracket has 63 games. 32 games in the first round. Then 16, then 8, then 4. The last four teams are the Final Four. Two more games leave one champion. In 2027, the tournament grows to 76 teams. An opening round trims the field to 64 first. The main bracket still has 63 games.
+Why people fill one out
+Friends, families, and offices run pools. Everyone fills in a bracket. The best score wins the pool. Most players know very little basketball. That is normal. That is half the fun.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+
+## How does bracket scoring work? (https://fillmybracket.com/how-does-bracket-scoring-work)
+
+How does bracket scoring work?
+You earn points for every pick you get right. Later rounds are worth more points. The highest total after the title game wins the pool.
+One common system
+Many big pools use these points. Points double every round. First round: 10 points per right pick, 32 games. Second round: 20, 16 games. Sweet 16: 40, 8 games. Elite Eight: 80, 4 games. Final Four: 160, 2 games. Title game: 320, 1 game.
+A perfect bracket scores 1,920 points in this system. No one has ever picked one to the end. The longest known run got 49 picks right in a row, in 2019.
+Why late rounds rule
+One right champion pick earns 320 points. That equals 32 right picks in the first round. So a hot start does not win a pool. The pool is won in the last two rounds. Guard your Final Four picks with care.
+Every pool sets its own rules
+Some pools use 1, 2, 4, 8, 16, 32 points. Some give bonus points when a low seed wins. An upset bonus rewards brave early picks. Ask how your pool scores before you pick. Most pools also ask for a tiebreaker. Guess the total points scored in the title game. Closest guess wins a tie.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+
+## What is a Cinderella team? (https://fillmybracket.com/what-is-a-cinderella-team)
+
+What is a Cinderella team?
+A Cinderella is a team nobody expected to win. It is a low seed that beats big teams and stays alive late into the tournament.
+Why the fairy tale name?
+The name comes from the Cinderella story. A girl in rags shows up at the ball. She steals the night. A small school with a low seed does the same. It walks in past the giants and starts winning.
+Famous Cinderellas
+Saint Peter's, 2022. A 15 seed from a tiny school. They beat Kentucky, a 2 seed, in the first round. Then they beat Purdue and reached the Elite Eight. No 15 seed had ever gone that far.
+Villanova, 1985. An 8 seed that won the whole thing. They beat Georgetown in the final, 66 to 64. No seed lower than 8 has ever won the title.
+Loyola Chicago, 2018. An 11 seed in the Final Four.
+Florida Gulf Coast, 2013. The first 15 seed to reach the Sweet 16.
+Why Cinderellas wreck brackets
+Most players pick the big teams to win. One Cinderella run busts all those picks at once. Almost every year, a team seeded 10 or worse reaches the Sweet 16. So picking no upsets is a risk too. The art is picking one or two, not ten.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+
+## When is Selection Sunday 2027? (https://fillmybracket.com/when-is-selection-sunday-2027)
+
+When is Selection Sunday 2027?
+Selection Sunday is Sunday, March 14, 2027. The full field is announced on TV that evening. Brackets open right after the show.
+What happens that night
+A committee names every team in the tournament. Each team learns its seed and its first game. The full bracket appears at once. Then millions of people start filling in picks. You have about three days before the first round.
+The 2027 dates that matter
+Selection Sunday: Sunday, March 14. Opening round (12 games): Tuesday and Wednesday, March 16-17. First round: Thursday and Friday, March 18-19. Second round: Saturday and Sunday, March 20-21. Sweet 16: Thursday and Friday, March 25-26. Elite Eight: Saturday and Sunday, March 27-28. Final Four, in Detroit: Saturday, April 3. Title game, in Detroit: Monday, April 5.
+The women's tournament shares Selection Sunday. Its Final Four is April 2 and 4, in Columbus.
+What is new in 2027
+The field grows to 76 teams, up from 68. It is the first year of the bigger field. Twelve opening-round games trim the field to 64. The main bracket still has 63 games.
+When to fill in your bracket
+Start on Sunday night, March 14. Pools lock before the first round starts. That is the morning of Thursday, March 18.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+
+## How often do upsets happen? (https://fillmybracket.com/how-often-do-upsets-happen)
+
+How often do upsets happen in March Madness?
+Every year. Since 1985, the lower seed has won about one first-round game in three. Picking all favorites is not the safe play it looks like.
+The first-round seed math, since 1985
+12 seed vs 5 seed: about 35 in 100. 11 seed vs 6 seed: about 38 in 100. 10 seed vs 7 seed: about 39 in 100. 13 seed vs 4 seed: about 20 in 100. 14 seed vs 3 seed: about 14 in 100. 15 seed vs 2 seed: 11 wins, ever. 16 seed vs 1 seed: 2 wins, ever.
+The 12-over-5 upset is the famous one. It hits about one time in three. The 8-vs-9 game is a coin flip. In fact, 9 seeds win it a bit more than half the time.
+The two wins nobody forgets
+A 16 seed has beaten a 1 seed twice. UMBC beat Virginia in 2018. Fairleigh Dickinson beat Purdue in 2023. More than 160 tries. Two wins. That is the biggest upset in the sport.
+What happens late
+Upsets thin out as rounds go on. Since 1985, 1 seeds have won more titles than all other seeds put together. A 5 seed has reached the final four times and lost every time. No 5 seed has ever won the title. The lowest seed to win it all is 8. That was Villanova, in 1985.
+What this means for your picks
+Take one or two 12 seeds and an 11 seed in round one. Treat 8 vs 9 as a guess. History gives no real edge. Keep your champion safe. Pick a 1 or 2 seed to win it all.
+History is a guide, not a promise. Every March writes a new one.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
