@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ask in Your Own Words | Fill My Bracket</title>
+<meta name="description" content="Ask about seeds, scoring, upsets, or the 2027 dates in your own words. Plain answers, from this site's own pages only.">
+<link rel="canonical" href="https://fillmybracket.com/ask">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fillmybracket.com/ask">
+<meta property="og:site_name" content="Fill My Bracket">
+<meta property="og:title" content="Ask in Your Own Words">
+<meta property="og:description" content="Plain answers about brackets, from this site's own pages. Five questions start it. You finish it.">
+<meta property="og:image" content="https://fillmybracket.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ask in Your Own Words">
+<meta name="twitter:description" content="Plain answers about brackets, from this site's own pages.">
+<meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
+<meta name="twitter:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+  :root {
+    --navy: #081c3a; --navy-2: #0d2b57; --navy-3: #123263;
+    --orange: #ff7a1a; --orange-soft: #ffa25e;
+    --cream: #f7f2e7; --muted: #aebdd6; --line: #2a4a7f;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--cream); background: var(--navy); line-height: 1.55;
+    display: flex; flex-direction: column; min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  header.site { padding: 1.1rem 1.25rem; border-bottom: 1px solid var(--line); }
+  header.site a { color: var(--cream); font-weight: 800; font-size: 1.125rem; text-decoration: none; letter-spacing: -0.01em; }
+  header.site a span { color: var(--orange); }
+  main { flex: 1; width: 100%; max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 0.5rem; }
+  .kicker { display: inline-block; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--orange); margin-bottom: 0.9rem; border: 1px solid var(--orange); border-radius: 999px; padding: 0.3rem 0.9rem; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 1rem; }
+  .answer { font-size: 1.1875rem; color: var(--cream); margin-bottom: 1.5rem; }
+  h2 { font-size: 1.3125rem; font-weight: 700; margin: 1.75rem 0 0.6rem; }
+  p { color: var(--muted); margin-bottom: 0.55rem; }
+  p strong { color: var(--cream); }
+  main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
+  main a.inline:hover { text-decoration: underline; }
+  .askbox { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1.1rem 1.1rem 1.2rem; margin-bottom: 1.25rem; }
+  .askbox label { display: block; font-weight: 700; color: var(--cream); margin-bottom: 0.6rem; }
+  .row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+  .row input {
+    flex: 1 1 16rem; font-size: 16px; min-height: 48px; padding: 0.6rem 0.8rem;
+    border-radius: 10px; border: 1px solid var(--line); background: var(--navy); color: var(--cream);
+  }
+  .row button, .chip {
+    background: var(--orange); color: var(--navy); border: 0; border-radius: 10px;
+    font-weight: 700; cursor: pointer; min-height: 48px; padding: 0.6rem 1.1rem; font-size: 1rem;
+  }
+  .row button:disabled { opacity: 0.55; }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.9rem; }
+  .chip { background: var(--navy-3); color: var(--cream); border: 1px solid var(--line); min-height: 44px; font-size: 0.9375rem; font-weight: 600; }
+  .reply { background: var(--navy-2); border: 2px solid var(--orange); border-radius: 14px; padding: 1.1rem 1.2rem; margin: 0 0 1.25rem; display: none; }
+  .reply p { color: var(--cream); margin-bottom: 0.6rem; white-space: pre-wrap; }
+  .reply p:last-child { margin-bottom: 0; }
+  .howbox { border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-bottom: 1.5rem; }
+  .howbox p { margin-bottom: 0.4rem; }
+  .howbox p:last-child { margin-bottom: 0; }
+  .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
+  .nextup h2 { margin-top: 0; font-size: 1.125rem; }
+  .nextup ul { list-style: none; }
+  .nextup li { margin-bottom: 0.5rem; }
+  .nextup a { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
+  .nextup a:hover { text-decoration: underline; }
+  footer { border-top: 1px solid var(--line); padding: 1.25rem; text-align: center; margin-top: 2.5rem; }
+  footer p { margin: 0 0 0.4rem; }
+  footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<header class="site"><a href="/">Fill My <span>Bracket</span></a></header>
+<main>
+  <span class="kicker">Ask Fill My Bracket</span>
+  <h1>Ask in your own words.</h1>
+  <p class="answer">Ask about seeds, scoring, upsets, or the 2027 dates. You get a plain answer, from this site's own pages.</p>
+
+  <div class="askbox">
+    <label for="q">Your question</label>
+    <div class="row">
+      <input id="q" type="text" autocomplete="off" placeholder="What is a seed?" maxlength="300">
+      <button type="button" id="ask">Ask</button>
+    </div>
+    <div class="chips">
+      <button type="button" class="chip">What is a seed?</button>
+      <button type="button" class="chip">How does scoring work?</button>
+      <button type="button" class="chip">How often do upsets happen?</button>
+      <button type="button" class="chip">When is Selection Sunday 2027?</button>
+      <button type="button" class="chip">What are the five questions?</button>
+    </div>
+  </div>
+
+  <div class="reply" id="reply" role="status" aria-live="polite"></div>
+
+  <div class="howbox">
+    <p><strong>How this helper works.</strong> A small open-source helper reads your words. It answers only from this site's own guides.</p>
+    <p>It cannot pick your 2027 bracket. The teams are not set until Selection Sunday, March 14, 2027.</p>
+    <p>Nothing you type is stored. The site keeps only a daily count of asks, with no words in it.</p>
+  </div>
+
+  <div class="nextup">
+    <h2>Bracket basics, in plain words</h2>
+    <ul>
+      <li><a href="/how-to-fill-out-a-march-madness-bracket">How to fill out a March Madness bracket</a></li>
+      <li><a href="/what-is-a-seed-in-march-madness">What is a seed in March Madness?</a></li>
+      <li><a href="/how-does-bracket-scoring-work">How does bracket scoring work?</a></li>
+      <li><a href="/how-often-do-upsets-happen">How often do upsets happen?</a></li>
+      <li><a href="/when-is-selection-sunday-2027">When is Selection Sunday 2027?</a></li>
+    </ul>
+  </div>
+
+  <h2>Five questions start it. You finish it.</h2>
+  <p>The picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.</p>
+</main>
+<footer>
+  <p>Built with Muse.</p>
+  <p><a href="/">Home</a> <a href="/privacy">Privacy</a> <a href="/terms">Terms</a></p>
+</footer>
+<script>
+(function () {
+  var input = document.getElementById("q");
+  var btn = document.getElementById("ask");
+  var box = document.getElementById("reply");
+  function show(text) {
+    box.style.display = "block";
+    box.innerHTML = "";
+    String(text).split(/\n+/).forEach(function (para) {
+      if (!para.trim()) return;
+      var p = document.createElement("p");
+      p.textContent = para;
+      box.appendChild(p);
+    });
+    box.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  }
+  function ask(text) {
+    var t = (text || "").trim();
+    if (!t) { show("Ask a few words first. Try one of the example questions above."); return; }
+    btn.disabled = true; btn.textContent = "Thinking...";
+    fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text: t }) })
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        if (j && j.reply) show(j.reply);
+        else show("The helper had a hiccup. The guides below answer the same things, in plain words.");
+      })
+      .catch(function () { show("The helper had a hiccup. The guides below answer the same things, in plain words."); })
+      .finally(function () { btn.disabled = false; btn.textContent = "Ask"; });
+  }
+  btn.addEventListener("click", function () { ask(input.value); });
+  input.addEventListener("keydown", function (e) { if (e.key === "Enter") ask(input.value); });
+  document.querySelectorAll(".chip").forEach(function (ch) {
+    ch.addEventListener("click", function () { input.value = ch.textContent; ask(ch.textContent); });
+  });
+  var q0 = new URLSearchParams(window.location.search).get("q");
+  if (q0) { input.value = q0; ask(q0); }
+})();
+</script>
+</body>
+</html>
