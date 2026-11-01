@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Which First-Round Upsets Happen Most Often? | Fill My Bracket</title>
+<meta name="description" content="Lower seeds win about one first-round game in four. The 10, 11, and 12 seeds win most often. Every matchup counted, men's tournament, 1985 to 2025.">
+<link rel="canonical" href="https://fillmybracket.com/which-first-round-upsets-happen-most">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://fillmybracket.com/which-first-round-upsets-happen-most">
+<meta property="og:site_name" content="Fill My Bracket">
+<meta property="og:title" content="Which First-Round Upsets Happen Most Often?">
+<meta property="og:description" content="Every first-round matchup, counted. Where upsets live, and the patterns behind them.">
+<meta property="og:image" content="https://fillmybracket.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Which First-Round Upsets Happen Most Often?">
+<meta name="twitter:description" content="Every first-round matchup, counted. Where upsets live, and the patterns behind them.">
+<meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
+<meta name="twitter:image:alt" content="Fill My Bracket. Five questions start it. You finish it.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+  :root {
+    --navy: #081c3a; --navy-2: #0d2b57; --navy-3: #123263;
+    --orange: #ff7a1a; --orange-soft: #ffa25e;
+    --cream: #f7f2e7; --muted: #aebdd6; --line: #2a4a7f;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--cream); background: var(--navy); line-height: 1.55;
+    display: flex; flex-direction: column; min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  header.site { padding: 1.1rem 1.25rem; border-bottom: 1px solid var(--line); }
+  header.site a { color: var(--cream); font-weight: 800; font-size: 1.125rem; text-decoration: none; letter-spacing: -0.01em; }
+  header.site a span { color: var(--orange); }
+  main { flex: 1; width: 100%; max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 0.5rem; }
+  .kicker { display: inline-block; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--orange); margin-bottom: 0.9rem; border: 1px solid var(--orange); border-radius: 999px; padding: 0.3rem 0.9rem; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 1rem; }
+  .answer { font-size: 1.1875rem; color: var(--cream); margin-bottom: 1.5rem; }
+  h2 { font-size: 1.3125rem; font-weight: 700; margin: 1.75rem 0 0.6rem; }
+  p { color: var(--muted); margin-bottom: 0.55rem; }
+  p strong, li strong { color: var(--cream); }
+  ol.steps, ul.plain { margin: 0 0 0.5rem 1.25rem; color: var(--muted); }
+  ol.steps li, ul.plain li { margin-bottom: 0.55rem; }
+  table { width: 100%; border-collapse: collapse; margin: 0.75rem 0 1rem; font-size: 0.9375rem; }
+  th, td { text-align: left; padding: 0.45rem 0.6rem; border: 1px solid var(--line); color: var(--muted); }
+  th { color: var(--cream); background: var(--navy-2); }
+  td strong { color: var(--cream); }
+  .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
+  .nextup h2 { margin-top: 0; font-size: 1.125rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
+  .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
+  .nextup a:hover, main a.inline:hover { text-decoration: underline; }
+  .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
+  .picker-note p { color: var(--cream); margin: 0; }
+  .picker-note .line { font-weight: 800; }
+  .faqsec { margin-top: 2rem; }
+  .faqsec details { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.9rem 1.1rem; margin-bottom: 0.75rem; }
+  .faqsec summary { color: var(--cream); font-weight: 700; cursor: pointer; padding: 0.35rem 0; min-height: 44px; display: flex; align-items: center; }
+  .faqsec details p { margin: 0.55rem 0 0.1rem; }
+  footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
+  footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
+  footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many first-round upsets happen in a normal year?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About eight. Since 1985, the count runs from 3 to 13 upsets in a year. The average is 8.3 of the 32 first-round games."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do these numbers include the First Four or the Opening Round?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Every rate here counts the main bracket only, starting at the round of 64. In 2027, 12 Opening Round games come first, and the winners join the same 64-team bracket."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site"><a href="/">Fill My <span>Bracket</span></a></header>
+<main>
+  <span class="kicker">Bracket basics</span>
+  <h1>Which first-round upsets happen most often?</h1>
+  <p class="answer">The close ones. Lower seeds won 333 of 1,280 first-round games since 1985. That is about one game in four. The 10, 11, and 12 seeds do most of the damage.</p>
+  <figure class="viz" role="img" aria-label="First-round upset rates, men's tournament, 1985 to 2025: 9 seeds beat 8 seeds 83 times in 160, 10 seeds beat 7 seeds 62 times in 160, 11 seeds beat 6 seeds 62 times in 160, 12 seeds beat 5 seeds 57 times in 160, 13 seeds beat 4 seeds 33 times in 160, 14 seeds beat 3 seeds 23 times in 160, 15 seeds beat 2 seeds 11 times in 160, 16 seeds beat 1 seeds 2 times in 160."><div class="hbar"><span class="lab">9 vs 8</span><span class="track"><span class="fill" style="display:block;width:52%"></span></span><span class="val">~52%</span></div><div class="hbar"><span class="lab">10 vs 7</span><span class="track"><span class="fill" style="display:block;width:39%"></span></span><span class="val">~39%</span></div><div class="hbar"><span class="lab">11 vs 6</span><span class="track"><span class="fill" style="display:block;width:39%"></span></span><span class="val">~39%</span></div><div class="hbar"><span class="lab">12 vs 5</span><span class="track"><span class="fill" style="display:block;width:36%"></span></span><span class="val">~36%</span></div><div class="hbar"><span class="lab">13 vs 4</span><span class="track"><span class="fill" style="display:block;width:21%"></span></span><span class="val">~21%</span></div><div class="hbar"><span class="lab">14 vs 3</span><span class="track"><span class="fill" style="display:block;width:14%"></span></span><span class="val">~14%</span></div><div class="hbar"><span class="lab">15 vs 2</span><span class="track"><span class="fill" style="display:block;width:7%"></span></span><span class="val">~7%</span></div><div class="hbar"><span class="lab">16 vs 1</span><span class="track"><span class="fill" style="display:block;width:1%"></span></span><span class="val">~1%</span></div><p class="viz-cap">First-round upset rates, men's tournament, 1985 to 2025.</p></figure>
+  <h2>The full count, 1985 to 2025</h2>
+  <table>
+    <tr><th>First-round game</th><th>How often the low seed wins</th></tr>
+    <tr><td>9 seed vs 8 seed</td><td><strong>83 wins in 160 games</strong></td></tr>
+    <tr><td>10 seed vs 7 seed</td><td><strong>62 wins in 160 games</strong></td></tr>
+    <tr><td>11 seed vs 6 seed</td><td><strong>62 wins in 160 games</strong></td></tr>
+    <tr><td>12 seed vs 5 seed</td><td><strong>57 wins in 160 games</strong></td></tr>
+    <tr><td>13 seed vs 4 seed</td><td><strong>33 wins in 160 games</strong></td></tr>
+    <tr><td>14 seed vs 3 seed</td><td><strong>23 wins in 160 games</strong></td></tr>
+    <tr><td>15 seed vs 2 seed</td><td><strong>11 wins in 160 games</strong></td></tr>
+    <tr><td>16 seed vs 1 seed</td><td><strong>2 wins in 160 games</strong></td></tr>
+  </table>
+  <p>The 8-vs-9 game sits at the top.</p>
+  <p>Nine seeds win it a bit more than half the time.</p>
+  <p>Most brackets treat it as a coin flip. History agrees.</p>
+
+  <h2>The patterns behind the numbers</h2>
+  <ul class="plain">
+    <li><strong>A normal year has about eight first-round upsets.</strong> The quietest year had 3. The wildest had 13.</li>
+    <li><strong>A double-digit seed reaches the Sweet 16 almost every year.</strong> It has happened in 38 of 40 tournaments, and 17 years in a row.</li>
+    <li><strong>The 11 seed is better than its number lately.</strong> Since 2013, 11 seeds have won half of their first-round games.</li>
+    <li><strong>Middle seeds can win twice.</strong> Of the 11 seeds that won in round one, 27 of 62 also won their next game.</li>
+    <li><strong>The top still rules late.</strong> One seeds have won 26 of the 40 titles since 1985.</li>
+  </ul>
+
+  <h2>What about the bigger field in 2027?</h2>
+  <p>The 2027 tournament grows to 76 teams.</p>
+  <p>Twelve Opening Round games come first.</p>
+  <p>The winners join the same 64-team main bracket.</p>
+  <p>These numbers count the main bracket only.</p>
+  <p>Every rate starts at the round of 64.</p>
+
+  <h2>How we counted</h2>
+  <p>We counted every men's tournament game from 1985 to 2025.</p>
+  <p>That is 40 tournaments and 2,520 games.</p>
+  <p>There was no tournament in 2020.</p>
+  <p>Game results come from the public game-by-game record.</p>
+  <p>Wikipedia tournament pages, compiled in the march-madness-games-csv dataset.</p>
+  <p>History is a guide, not a promise.</p>
+
+    <div class="picker-note">
+    <p class="line">Five questions start it. You finish it.</p>
+    <p>Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.</p>
+  </div>
+
+  <section class="faqsec" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">Common questions</h2>
+    <details><summary>How many first-round upsets happen in a normal year?</summary><p>About eight. Since 1985, the count runs from 3 to 13 upsets in a year. The average is 8.3 of the 32 first-round games.</p></details>
+    <details><summary>Do these numbers include the First Four or the Opening Round?</summary><p>No. Every rate here counts the main bracket only, starting at the round of 64. In 2027, 12 Opening Round games come first, and the winners join the same 64-team bracket.</p></details>
+  </section>
+
+  <div class="nextup">
+    <h2>More bracket basics</h2>
+    <ul>
+      <li><a href="/how-to-fill-out-a-march-madness-bracket">How to fill out a March Madness bracket</a></li>
+      <li><a href="/what-is-a-march-madness-bracket">What is a March Madness bracket?</a></li>
+      <li><a href="/how-does-bracket-scoring-work">How does bracket scoring work?</a></li>
+      <li><a href="/what-is-a-cinderella-team">What is a Cinderella team?</a></li>
+      <li><a href="/when-is-selection-sunday-2027">When is Selection Sunday 2027?</a></li>
+      <li><a href="/how-often-do-upsets-happen">How often do upsets happen?</a></li>
+      <li><a href="/which-first-round-upsets-happen-most">Which first-round upsets happen most often?</a></li>
+      <li><a href="/how-often-does-a-12-seed-beat-a-5-seed">How often does a 12 seed beat a 5 seed?</a></li>
+      <li><a href="/how-often-does-an-11-seed-beat-a-6-seed">How often does an 11 seed beat a 6 seed?</a></li>
+      <li><a href="/how-often-does-a-10-seed-beat-a-7-seed">How often does a 10 seed beat a 7 seed?</a></li>
+      <li><a href="/how-often-does-a-13-seed-beat-a-4-seed">How often does a 13 seed beat a 4 seed?</a></li>
+      <li><a href="/what-is-a-seed-in-march-madness">What is a seed in March Madness?</a></li>
+          <li><a href="/what-is-march-madness">What is March Madness?</a></li>
+      <li><a href="/has-anyone-ever-had-a-perfect-bracket">Has anyone ever had a perfect bracket?</a></li>
+      <li><a href="/how-to-fill-out-a-bracket-if-you-know-nothing-about-basketball">Fill out a bracket if you know nothing about basketball</a></li>
+      <li><a href="/what-is-the-final-four">What is the Final Four?</a></li>
+      <li><a href="/how-many-teams-are-in-march-madness">How many teams are in March Madness?</a></li>
+      <li><a href="/what-is-the-opening-round-in-march-madness">What is the opening round in March Madness?</a></li>
+      <li><a href="/what-is-the-sweet-16">What is the Sweet 16?</a></li>
+      <li><a href="/what-is-the-elite-eight">What is the Elite Eight?</a></li>
+      <li><a href="/how-many-games-are-in-march-madness">How many games are in March Madness?</a></li>
+      <li><a href="/what-is-an-automatic-bid">What is an automatic bid?</a></li>
+      <li><a href="/what-is-an-at-large-bid">What is an at-large bid?</a></li>
+      <li><a href="/what-is-a-bubble-team">What is a bubble team?</a></li>
+      <li><a href="/what-is-bracketology">What is bracketology?</a></li>
+      <li><a href="/how-many-rounds-are-in-march-madness">How many rounds are in March Madness?</a></li>
+      <li><a href="/what-is-the-nit">What is the NIT?</a></li>
+      <li><a href="/what-is-a-conference-tournament">What is a conference tournament?</a></li>
+      <li><a href="/what-are-net-rankings">What are NET rankings?</a></li>
+      <li><a href="/what-is-a-bid-stealer">What is a bid stealer?</a></li>
+      <li><a href="/what-is-the-selection-committee">What is the selection committee?</a></li>
+      <li><a href="/what-is-wins-above-bubble">What is Wins Above Bubble?</a></li>
+    </ul>
+  </div>
+</main>
+<footer>
+  <p>Built with Muse.</p>
+  <p><a href="/">Home</a> <a href="/privacy">Privacy</a> <a href="/terms">Terms</a></p>
+</footer>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e5edc982b99349b587d105338f331407"}'></script>
+<!-- ASK PANEL START -->
+<style>
+.askp-pill{position:fixed;right:16px;bottom:16px;z-index:9998;min-height:48px;padding:.65rem 1.1rem;border:0;border-radius:999px;background:#ff7a1a;color:#081c3a;font-weight:800;font-size:1rem;cursor:pointer;box-shadow:0 6px 24px rgba(0,0,0,.35);font-family:inherit}
+.askp-pill:focus-visible,.askp-close:focus-visible,.askp-chip:focus-visible,.askp-send:focus-visible,.askp-input:focus-visible{outline:3px solid #ffa25e;outline-offset:2px}
+.askp-panel{position:fixed;right:0;left:0;bottom:0;z-index:9999;background:#0d2b57;color:#f7f2e7;border-top:2px solid #ff7a1a;border-radius:16px 16px 0 0;padding:1rem 1.1rem 1.1rem;max-height:88vh;overflow-y:auto;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55;box-shadow:0 -8px 32px rgba(0,0,0,.4)}
+@media(min-width:641px){.askp-panel{left:auto;right:16px;bottom:16px;width:26rem;max-width:calc(100vw - 32px);border:2px solid #ff7a1a;border-radius:16px}}
+.askp-panel[hidden]{display:none}
+.askp-head{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:.6rem}
+.askp-head strong{font-size:1.125rem;color:#f7f2e7}
+.askp-close{background:#123263;color:#f7f2e7;border:1px solid #2a4a7f;border-radius:10px;min-width:44px;min-height:44px;font-size:1.35rem;line-height:1;cursor:pointer}
+.askp-how{border:1px solid #2a4a7f;border-radius:12px;padding:.7rem .85rem;margin-bottom:.85rem}
+.askp-how p{color:#aebdd6;font-size:.9375rem;margin:0}
+.askp-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:.9rem}
+.askp-chip{background:#123263;color:#f7f2e7;border:1px solid #2a4a7f;border-radius:10px;min-height:44px;padding:.5rem .8rem;font-size:.9375rem;font-weight:600;cursor:pointer;font-family:inherit}
+.askp-reply{background:#0d2b57;border:2px solid #ff7a1a;border-radius:14px;padding:.9rem 1rem;margin:0 0 .9rem;display:none}
+.askp-reply p{color:#f7f2e7;margin:0 0 .6rem;white-space:pre-wrap}
+.askp-reply p:last-child{margin-bottom:0}
+.askp-row{display:flex;gap:.6rem;flex-wrap:wrap}
+.askp-input{flex:1 1 12rem;font-size:16px;min-height:48px;padding:.6rem .8rem;border-radius:10px;border:1px solid #2a4a7f;background:#081c3a;color:#f7f2e7;font-family:inherit}
+.askp-send{background:#ff7a1a;color:#081c3a;border:0;border-radius:10px;font-weight:700;cursor:pointer;min-height:48px;padding:.6rem 1.1rem;font-size:1rem;font-family:inherit}
+.askp-send:disabled{opacity:.55}
+.askp-full{display:inline-block;margin-top:.8rem;color:#ffa25e;font-weight:600;font-size:.9375rem;text-decoration:none;padding:.35rem 0}
+.askp-full:hover{text-decoration:underline}
+@media(prefers-reduced-motion:reduce){.askp-pill,.askp-panel{transition:none!important;animation:none!important}}
+</style>
+<button type="button" class="askp-pill" id="askpBtn" aria-haspopup="dialog" aria-expanded="false">Ask in your own words</button>
+<div class="askp-panel" id="askpPanel" role="dialog" aria-modal="true" aria-labelledby="askpTitle" hidden>
+  <div class="askp-head"><strong id="askpTitle">Ask in your own words</strong><button type="button" class="askp-close" id="askpClose" aria-label="Close ask panel">&times;</button></div>
+  <div class="askp-how"><p>A small open-source helper answers only from this site's own guides. It cannot pick your 2027 bracket. Nothing you type is stored.</p></div>
+  <div class="askp-chips">
+    <button type="button" class="askp-chip">What is a seed?</button>
+    <button type="button" class="askp-chip">How does scoring work?</button>
+    <button type="button" class="askp-chip">How often do upsets happen?</button>
+    <button type="button" class="askp-chip">When is Selection Sunday 2027?</button>
+    <button type="button" class="askp-chip">What are the five questions?</button>
+  </div>
+  <div class="askp-reply" id="askpReply" role="status" aria-live="polite"></div>
+  <div class="askp-row">
+    <input class="askp-input" id="askpInput" type="text" autocomplete="off" placeholder="What is a seed?" maxlength="300" aria-label="Your question">
+    <button type="button" class="askp-send" id="askpSend">Ask</button>
+  </div>
+  <a class="askp-full" href="/ask">Open the full ask page</a>
+</div>
+<script>
+(function(){
+  var btn=document.getElementById("askpBtn"),panel=document.getElementById("askpPanel"),inited=false,prevOverflow="";
+  function close(){panel.hidden=true;btn.setAttribute("aria-expanded","false");document.documentElement.style.overflow=prevOverflow;btn.focus();}
+  function init(){
+    if(inited)return;inited=true;
+    var input=document.getElementById("askpInput"),send=document.getElementById("askpSend"),box=document.getElementById("askpReply"),closeBtn=document.getElementById("askpClose");
+    var reduce=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    function show(text){
+      box.style.display="block";box.innerHTML="";
+      String(text).split(/\n+/).forEach(function(para){if(!para.trim())return;var p=document.createElement("p");p.textContent=para;box.appendChild(p);});
+      box.scrollIntoView({block:"nearest",behavior:reduce?"auto":"smooth"});
+    }
+    function ask(text){
+      var t=(text||"").trim();
+      if(!t){show("Ask a few words first. Try one of the example questions above.");return;}
+      send.disabled=true;send.textContent="Thinking...";
+      fetch("/api/ask",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({text:t})})
+        .then(function(r){return r.json();})
+        .then(function(j){if(j&&j.reply)show(j.reply);else show("The helper had a hiccup. The guides below answer the same things, in plain words.");})
+        .catch(function(){show("The helper had a hiccup. The guides below answer the same things, in plain words.");})
+        .finally(function(){send.disabled=false;send.textContent="Ask";});
+    }
+    send.addEventListener("click",function(){ask(input.value);});
+    input.addEventListener("keydown",function(e){if(e.key==="Enter")ask(input.value);});
+    panel.querySelectorAll(".askp-chip").forEach(function(ch){ch.addEventListener("click",function(){input.value=ch.textContent;ask(ch.textContent);});});
+    closeBtn.addEventListener("click",close);
+    document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!panel.hidden)close();});
+  }
+  btn.addEventListener("click",function(){
+    init();
+    prevOverflow=document.documentElement.style.overflow;
+    panel.hidden=false;btn.setAttribute("aria-expanded","true");
+    document.documentElement.style.overflow="hidden";
+    document.getElementById("askpInput").focus();
+  });
+})();
+</script>
+<!-- ASK PANEL END -->
+</body>
+</html>
+
+</body>
+</html>

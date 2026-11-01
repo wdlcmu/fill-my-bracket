@@ -18,9 +18,14 @@
 - [How does bracket scoring work?](https://fillmybracket.com/how-does-bracket-scoring-work): points for right picks, doubling each round in the common system.
 - [What is a Cinderella team?](https://fillmybracket.com/what-is-a-cinderella-team): the low seed that beats big teams and stays alive late, with famous runs.
 - [When is Selection Sunday 2027?](https://fillmybracket.com/when-is-selection-sunday-2027): Sunday, March 14, 2027, plus every key date of the 2027 tournament.
-- [How often do upsets happen?](https://fillmybracket.com/how-often-do-upsets-happen): the seed math since 1985. A 12 seed beats a 5 seed about 35 times in 100.
+- [How often do upsets happen?](https://fillmybracket.com/how-often-do-upsets-happen): the seed math since 1985. A 12 seed beats a 5 seed about 36 times in 100.
 - [What is a seed in March Madness?](https://fillmybracket.com/what-is-a-seed-in-march-madness): a team's rank in its region, 1 to 16. How seeds are set and paired.
 - [How to pick upsets](https://fillmybracket.com/how-to-pick-upsets): two or three first-round upsets, in the right spots. Where upsets live, and when to stop.
+- [Which first-round upsets happen most often?](https://fillmybracket.com/which-first-round-upsets-happen-most): every first-round seed matchup counted, men's tournament 1985-2025. Lower seeds win 333 of 1,280 first-round games (about 1 in 4). 10, 11, and 12 seeds each win about 39, 39, and 36 times in 100.
+- [How often does a 12 seed beat a 5 seed?](https://fillmybracket.com/how-often-does-a-12-seed-beat-a-5-seed): 57 wins in 160 games, about 36 in 100. At least one 12-over-5 upset in 34 of 40 tournaments.
+- [How often does an 11 seed beat a 6 seed?](https://fillmybracket.com/how-often-does-an-11-seed-beat-a-6-seed): 62 wins in 160 games, about 39 in 100. Since 2013 the 11 seed has won half of these games.
+- [How often does a 10 seed beat a 7 seed?](https://fillmybracket.com/how-often-does-a-10-seed-beat-a-7-seed): 62 wins in 160 games, about 39 in 100. A 10 seed has won at least once in 37 of 40 tournaments.
+- [How often does a 13 seed beat a 4 seed?](https://fillmybracket.com/how-often-does-a-13-seed-beat-a-4-seed): 33 wins in 160 games, about 21 in 100. Only 6 of those 33 winners won again.
 - [What is March Madness?](https://fillmybracket.com/what-is-march-madness): the NCAA tournament in plain words. 76 teams, lose once and you are out, one champion.
 - [Has anyone ever had a perfect bracket?](https://fillmybracket.com/has-anyone-ever-had-a-perfect-bracket): no, never. The best proven run is 49 straight picks, and the coin-flip odds are 1 in 9.2 quintillion.
 - [How to fill out a bracket if you know nothing about basketball](https://fillmybracket.com/how-to-fill-out-a-bracket-if-you-know-nothing-about-basketball): pick by seed, mascot, colors, or coin flip. Five ways that need no basketball.
