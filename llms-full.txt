@@ -1398,9 +1398,639 @@ You pick 63 games, the whole main bracket from the First Round to the title game
 
 Ask in your own words.
 Ask about seeds, scoring, upsets, or the 2027 dates. You get a plain answer, from this site's own pages.
-How this helper works. A small open-source helper reads your words. It answers only from this site's own guides.
+How this helper works. A helper reads your words. It answers only from this site's own guides.
 It cannot pick your 2027 bracket. The teams are not set until Selection Sunday, March 14, 2027.
 Nothing you type is stored. The site keeps only a daily count of asks, with no words in it.
 Five questions start it. You finish it.
 The picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 The homepage and the bracket-basics list link to this page with the line: Questions before March? Ask in your own words.
+
+
+## March Madness upsets: the full analysis (https://fillmybracket.com/march-madness-upset-analysis)
+
+The counted record
+March Madness upsets: the full analysis
+We counted all 2,520 men's tournament games from 1985 to 2025. First-round upsets are only the start. The second round is wild too, low seeds almost never survive the last weekend, and the shape of March barely changes.
+The first round, line by line
+Lower seeds won
+333 of 1,280
+first-round games, about one in four.
+Each matchup below has been played exactly 160 times.
+9 vs 8
+~52%
+10 vs 7
+~39%
+11 vs 6
+~39%
+12 vs 5
+~36%
+13 vs 4
+~21%
+14 vs 3
+~14%
+15 vs 2
+~7%
+16 vs 1
+~1%
+First-round upset rates, men's tournament, 1985 to 2025. The deep dive on each line:
+which first-round upsets happen most
+.
+First-round game
+The low seed wins
+Years with at least one
+9 seed vs 8 seed
+83 wins in 160 games
+37 of 40 years
+10 seed vs 7 seed
+62 wins in 160 games
+37 of 40 years
+11 seed vs 6 seed
+62 wins in 160 games
+35 of 40 years
+12 seed vs 5 seed
+57 wins in 160 games
+34 of 40 years
+13 seed vs 4 seed
+33 wins in 160 games
+28 of 40 years
+14 seed vs 3 seed
+23 wins in 160 games
+20 of 40 years
+15 seed vs 2 seed
+11 wins in 160 games
+10 of 40 years
+16 seed vs 1 seed
+2 wins in 160 games
+2 of 40 years
+The 9-over-8 game is a coin flip that leans low.
+The famous lines sit below it: the 12, the 11, and the 10 each win about four times in ten.
+The 16-over-1 miracle has happened twice in 160 tries.
+How far each seed actually goes
+Every seed gets 160 teams in 40 years: four regions, one team each.
+Here is where those 160 teams stop.
+Seed
+Won a game
+Sweet 16
+Elite Eight
+Final Four
+Final
+Titles
+1
+158
+136
+107
+66
+41
+26
+2
+149
+102
+72
+32
+13
+5
+3
+137
+84
+41
+17
+11
+4
+4
+127
+77
+25
+15
+4
+2
+5
+103
+55
+12
+9
+4
+0
+6
+98
+47
+17
+3
+2
+1
+7
+98
+29
+10
+3
+1
+1
+8
+77
+16
+9
+6
+4
+1
+9
+83
+8
+5
+2
+0
+0
+10
+62
+25
+9
+1
+0
+0
+11
+62
+27
+10
+6
+0
+0
+12
+57
+22
+2
+0
+0
+0
+13
+33
+6
+0
+0
+0
+0
+14
+23
+2
+0
+0
+0
+0
+15
+11
+4
+1
+0
+0
+0
+16
+2
+0
+0
+0
+0
+0
+Read the 1-seed row and the 12-seed row together.
+A 1 seed reaches the Final Four
+66 times in 160
+. A 12 seed reaches the Elite Eight twice, and the Final Four never.
+Five seeds own the strangest line on the table:
+nine Final Fours, zero titles
+.
+The deepest champion ever is an 8 seed: Villanova, in the first year of this count, 1985.
+The second round is not safe either
+Winning once buys a low seed a harder game, usually against a top seed.
+Lower seeds still won
+184 of 640
+second-round games, about 4.6 a year.
+First-round winner
+Won again (Sweet 16)
+Rate
+11 seed over 6 seed
+27 of 62
+about 44 in 100
+12 seed over 5 seed
+22 of 57
+about 39 in 100
+10 seed over 7 seed
+24 of 62
+about 39 in 100
+13 seed over 4 seed
+6 of 33
+about 18 in 100
+15 seed over 2 seed
+4 of 11
+about 36 in 100
+9 seed over 8 seed
+8 of 83
+about 10 in 100
+The 11 seed is the best bet to win twice: 27 of its 62 winners did.
+The 9 seed is the trap: it wins the coin flip, then meets a 1 seed. Only 8 of 83 won again.
+Small print on the 15s: only 11 have ever won a first game, and 4 of those 11 reached the Sweet 16. One, Saint Peter's in 2022, went to the Elite Eight.
+Patterns that keep repeating
+The 11 seed keeps getting better.
+Its first-round win rate by era:
+1985–1999
+18 of 60
+2000–2012
+20 of 52
+2013–2025
+24 of 48
+11 seeds vs 6 seeds, by era. Since 2013 the 11 seed wins half of these games.
+A Cinderella almost always shows up.
+A double-digit seed reached the Sweet 16 in 38 of 40 tournaments, the last 17 in a row. A normal year has about two of them.
+Somebody's 5 seed goes home early.
+At least one 12 beat a 5 in 34 of 40 years. At least one 10 won in 37 of 40, and at least one 9 in 37 of 40.
+The last weekend still belongs to the top.
+One seeds have won 26 of 40 titles. A Final Four of all four 1 seeds has happened only twice, in 2008 and 2025.
+No seed line is owed anything.
+Six 11 seeds have reached the Final Four. Zero 12, 13, 14, 15, or 16 seeds ever have.
+The Upset Forecast for March 2027
+Forecast as of Sunday, November 1, 2026.
+Basis: every number in this section is counted from 2,520 men's tournament games, 1985 to 2025. This is a living forecast. The counted shape below barely moves, but the teams standing on each line change all season, and the
+rankings page
+re-reads them every week.
+The 2027 field does not exist yet.
+Nobody honest can forecast teams in November.
+But the shape of the tournament is the steadiest thing in sports, and the shape can be counted.
+About 8
+first-round upsets to expect
+7 to 10
+the middle half of all years
+3 to 13
+the full 40-year range
+The average year has 8.3 first-round upsets, and the middle year has 8.
+29 of 40 years landed between 6 and 10. Only 5 years had 5 or fewer.
+The recent game runs a little wilder: the 12 tournaments from 2013 to 2025 averaged 9.0.
+Here is where those upsets should come from, ranked by how many each line produces in a normal year:
+Upset line
+Expected wins per year
+Years with at least one
+9 seed over 8 seed
+about 2.1
+37 of 40 years
+10 seed over 7 seed
+about 1.6
+37 of 40 years
+11 seed over 6 seed
+about 1.6
+35 of 40 years
+12 seed over 5 seed
+about 1.4
+34 of 40 years
+13 seed over 4 seed
+about 0.8
+28 of 40 years
+14 seed over 3 seed
+about 0.6
+20 of 40 years
+15 seed over 2 seed
+about 0.3
+10 of 40 years
+16 seed over 1 seed
+about 0.05
+2 of 40 years
+And here is a typical first weekend, start to finish:
+About 8 upsets on Thursday and Friday
+, led by the 9, 10, and 11 lines.
+About 4 or 5 more on the weekend
+, as low seeds win second games.
+About 2 double-digit seeds in the Sweet 16
+, next to about 10 teams seeded 4 or better.
+One or two 1 seeds in the Final Four
+(the average is 1.65), and a champion who is most likely a 1 seed, as 26 of 40 have been.
+These are history's averages, not predictions about any 2027 team.
+Which teams are standing on those lines right now, and which of them the numbers doubt, is tracked on the
+rankings page
+: the bands, the vulnerable favorites, and the Cinderella Radar, refreshed every week of the season.
+The field is set on Selection Sunday, March 14, 2027.
+When it is, every line above turns into a real choice on a real bracket, and the choosing stays yours.
+How this differs from the ratings sites
+KenPom, Torvik, and the other ratings sites rate teams, and they are good at it. This page borrows one of their numbers and names it every time.
+What none of them publishes is the tournament itself, counted: how many upsets a normal year holds, which seed lines bleed, what a typical first weekend looks like.
+And the tools that fill in a bracket for you, in 30 seconds, for a price? That is the one thing this site will never do. The counts are on the table. The calls stay yours.
+How we counted
+Counted from every men's tournament game, 1985 to 2025.
+Main bracket only. First Four and Opening Round games are not counted.
+That is 40 tournaments and 2,520 games. There was no tournament in 2020.
+Game results come from the public game-by-game record: Wikipedia tournament pages, compiled in the march-madness-games-csv dataset.
+The 2027 tournament grows to 76 teams. Twelve Opening Round games come first, and the winners join this same 64-team bracket, so the counted frame still applies.
+History is a guide, not a promise.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Common questions
+What does history say will happen in March 2027?
+History cannot name teams, but the shape is steady: about 8 first-round upsets (the middle half of years land between 7 and 10), about 4 or 5 more upsets in the second round, and about 2 double-digit seeds in the Sweet 16. The 2027 field is not set until Selection Sunday, March 14, 2027.
+What is the deepest run a low seed has ever made?
+A 15 seed, Saint Peter's in 2022, reached the Elite Eight. Two 12 seeds have reached the Elite Eight. Six 11 seeds have reached the Final Four. The lowest seed ever to win the title is an 8 seed, Villanova in 1985.
+Do these numbers include the First Four or the Opening Round?
+No. Every rate here counts the main bracket only, starting at the round of 64. In 2027, 12 Opening Round games come first, and the winners join the same 64-team bracket.
+More bracket basics
+How to fill out a March Madness bracket
+What is a March Madness bracket?
+How does bracket scoring work?
+What is a Cinderella team?
+When is Selection Sunday 2027?
+How often do upsets happen?
+Which first-round upsets happen most often?
+How often does a 12 seed beat a 5 seed?
+How often does an 11 seed beat a 6 seed?
+How often does a 10 seed beat a 7 seed?
+How often does a 13 seed beat a 4 seed?
+What is a seed in March Madness?
+What is March Madness?
+Has anyone ever had a perfect bracket?
+Fill out a bracket if you know nothing about basketball
+What is the Final Four?
+How many teams are in March Madness?
+What is the opening round in March Madness?
+What is the Sweet 16?
+What is the Elite Eight?
+How many games are in March Madness?
+What is an automatic bid?
+What is an at-large bid?
+What is a bubble team?
+What is bracketology?
+How many rounds are in March Madness?
+What is the NIT?
+What is a conference tournament?
+What are NET rankings?
+What is a bid stealer?
+What is the selection committee?
+What is Wins Above Bubble?
+Ask in your own words
+Ask in your own words
+&times;
+Answers come only from this site's own guides. It cannot pick your 2027 bracket. Nothing you type is stored.
+What is a seed?
+How does scoring work?
+How often do upsets happen?
+When is Selection Sunday 2027?
+What are the five questions?
+Ask
+Open the full ask page
+
+## Today's rankings, read with March eyes (https://fillmybracket.com/college-basketball-rankings)
+
+2026-27 season
+Today's rankings, read with March eyes
+The season started this morning. Here is the full preseason Top 25, translated into the only language March speaks: seed lines, trap games, and the unranked names that become Cinderellas.
+Rankings as of Sunday, November 1, 2026.
+The Preseason AP Top 25, from The Associated Press, released Monday, October 19, 2026. First-place votes in parentheses. Rankings move every week; this page refreshes every week, and the stamp above always says which poll you are reading.
+One game is already in the books
+Notre Dame beat Villanova 74–72 in Rome on the morning of Sunday, November 1, 2026 (Eternal City Tip-Off, Palazzo dello Sport). Both teams were unranked; Villanova had 6 votes in the poll.
+Monday, November 2: more than 100 games, headlined by No. 1 Florida vs No. 14 Miami in Tampa and No. 5 Arizona vs No. 22 UCLA in Las Vegas.
+Nobody's March fate moves this week. But the picture that March will rearrange starts here.
+The full preseason Top 25
+Rank
+Team
+1
+Florida (47)
+2
+Duke (10)
+3
+Illinois (2)
+4
+UConn
+5
+Arizona
+6
+Michigan State
+7
+Texas
+8
+Tennessee
+9
+Virginia
+10
+Houston
+11
+Louisville
+12
+Arkansas
+13
+St. John's
+14
+Miami
+15
+Gonzaga
+16
+Michigan
+17
+Kansas
+18
+Iowa State
+19
+Texas Tech
+20
+Alabama
+21
+USC
+22
+UCLA
+23
+Kentucky
+24
+Vanderbilt
+25
+BYU
+Others receiving votes: Missouri 167, Nebraska 70, Purdue 53, Ohio State 39, North Carolina 20, TCU 17, Saint Louis 13, VCU 12, Iowa 12, Virginia Tech 10, Indiana 8, Texas A&M 6, Villanova 6, Auburn 4, Marquette 3, Nevada 2, Grand Canyon 2, Utah State 2, Santa Clara 1.
+Seven of the 25 are SEC teams, led by Florida at No. 1.
+Michigan, which won the April 2026 national title, opens down at No. 16.
+What these bands become in March
+November ranks are not March seeds.
+The committee seeds the field on the whole season, and four months of games will shuffle this list.
+But the bands rhyme with the seed lines, and the seed lines carry 40 years of counted history (
+the full analysis
+).
+Read today's list in bands:
+Ranks 1 to 4 (Florida, Duke, Illinois, UConn): the 1-seed line.
+One seeds have won 26 of 40 titles and 158 of their 160 first games. The safest seat in sports, with two famous exceptions.
+Ranks 5 to 8 (Arizona, Michigan State, Texas, Tennessee): the 2-seed line.
+Strong, not safe: 15 seeds have beaten 2 seeds 11 times, about once every four years.
+Ranks 9 to 12 (Virginia, Houston, Louisville, Arkansas): the 3-seed line.
+Three seeds lose to 14 seeds about 14 times in 100.
+Ranks 13 to 16 (St. John's, Miami, Gonzaga, Michigan): the 4-seed line.
+The first bullseye. Four seeds lose to 13 seeds 33 times in 160, about one time in five. The reigning champion, Michigan, sits in this band today.
+Ranks 17 to 20 (Kansas, Iowa State, Texas Tech, Alabama): the 5-seed line.
+The most famous trap in the tournament. Five seeds lose to 12 seeds 57 times in 160, better than one time in three — and no 5 seed has ever won the title.
+Ranks 21 to 25 (USC, UCLA, Kentucky, Vanderbilt, BYU): the 6 and 7 lines.
+Favorites in the two most upset-heavy games after the coin flip: 6 seeds lose to 11 seeds about 39 times in 100, and 7 seeds lose to 10 seeds about 39 times in 100.
+Vulnerable favorites: where the voters and the model disagree
+Two rankings came out this fall.
+The voters published theirs, the AP poll above.
+The best-known free model published its own: Bart Torvik's T-Rank, an efficiency rating the NCAA itself puts on the selection committee's team sheets.
+Its preseason baseline, read on November 1, 2026, ranks all 365 teams before almost any of them has played a game.
+Where the model rates a ranked team far below the voters, one of the two lists is wrong.
+If the model is right, that team is a favorite standing on a trap line with less under it than its rank suggests.
+These are the six biggest disagreements in the Top 25:
+Team
+AP rank
+Model rank
+Band it stands in
+That line's counted history
+St. John's
+No. 13
+33
+4-seed line
+13 seeds have beaten 4 seeds 33 times in 160 games, about one time in five.
+USC
+No. 21
+37
+6-seed line
+11 seeds beat 6 seeds about 39 times in 100.
+Texas
+No. 7
+18
+2-seed line
+15 seeds have beaten 2 seeds 11 times in 160.
+UConn
+No. 4
+13
+1-seed line
+Even the safest line has cracked twice: 16 seeds own 2 wins in 160.
+Arkansas
+No. 12
+21
+3-seed line
+14 seeds beat 3 seeds about 14 times in 100.
+Tennessee
+No. 8
+16
+2-seed line
+15 seeds have beaten 2 seeds 11 times in 160.
+Read this the honest way:
+this is one model's preseason baseline, a projection, never a certainty.
+It will be wrong about some of these teams by January.
+That is why this page re-scores the list every week instead of carving it in stone.
+The disagreement runs both ways:
+Kansas: voters No. 17, model No. 4.
+If the model is right, a top-line team is hiding in the 5-seed band today.
+Nebraska: unranked, model No. 15.
+The model's 15th-best team in the country did not make the voters' Top 25 at all, on 70 votes. Somebody moves toward somebody by January.
+Gonzaga: voters No. 15, model No. 8.
+The model likes the Zags more than the poll does, even on the 4-seed band where 13 seeds win one time in five.
+Cinderella Radar: scoring the unranked
+March's 11, 12, and 13 seeds are almost never ranked in November.
+They are conference champions and fighters from leagues the polls barely watch.
+Count the whole first round and about eight games a year go to the lower seed. About two double-digit seeds are still standing in the Sweet 16.
+So this page scores the unranked names on three signals. All three are public, and you can check every one:
+Model strength.
+Torvik's model rates the team in the national top 70 even though the voters left it out. Teams that play above their seed line are where upsets come from.
+Poll notice.
+The team received AP votes. At least a few voters thought it belonged, which separates it from the 300 or so teams nobody mentioned.
+A live path.
+Its league's road to March lands teams on the 10 to 14 seed lines, where the counted upset rates run from about 14 to 39 in 100.
+Team
+AP votes
+Model rank
+Signals lit
+Why it is on the radar
+Grand Canyon
+(Mountain West)
+2
+43
+3 of 3
+The widest gap on this page: the model rates Grand Canyon 43rd of 365 teams, and the voters gave them 2 votes.
+VCU
+(Atlantic 10)
+12
+56
+3 of 3
+Twelve voters noticed them, none ranked them, and the model puts them 56th — the classic profile of an 11 seed.
+Utah State
+2
+59
+3 of 3
+Two votes against a model rating of 59th. Quiet in November; that is exactly what a future 12 seed looks like in November.
+Saint Louis
+(Atlantic 10)
+13
+68
+3 of 3
+The most AP votes of any unranked team here, 13, with a model rating of 68th, right at the radar's edge.
+Nevada
+(Mountain West)
+2
+85
+2 of 3
+The model is cooler on Nevada (85th), and this page says so: they make the radar on votes and league path alone.
+Santa Clara
+(West Coast Conference)
+1
+89
+2 of 3
+One vote and the model's 89th rating — the faintest signal here, kept because WCC teams land on live seed lines.
+The radar is a watch list, not a promise: most of these teams will not make the field, and the page will say so when their signals go dark.
+And the famous name both lists agree on:
+North Carolina
+. Twenty votes, no ranking, and the model puts the Tar Heels 47th too. A giant starts the season doubted by everyone.
+What this page cannot see
+Plain words about the limits, because a forecast that hides them is a sales pitch:
+One model, named every time.
+Torvik's T-Rank is free, public, and on the committee's own team sheets. Other respected ratings sit behind paywalls, or publish nothing in November that can be checked. One model you can verify beats three we cannot.
+Preseason means priors.
+In November, the model is rating last season's program, returning players, and history, not games this roster has played. Its disagreements with the voters are hypotheses, and this page treats them that way.
+No injuries, no roster news.
+This page does not track who is hurt or who transferred. By February, that will matter more than anything printed here, and the weekly refresh will say what changed.
+A rank is not a seed.
+The bands rhyme with the seed lines. The committee holds the real pen, in March.
+Why a bracket site keeps a rankings page
+A bracket is a set of choices, and the choices start forming now.
+Every Monday, this page refreshes with the new poll, restamps its date, and re-reads the bands.
+By March, the teams you have been watching all winter will land on seed lines whose history you already know.
+That is the whole idea here: your team, your upsets, your calls — made with the counted record open next to them.
+Five questions start it. You finish it.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Common questions
+Are the November rankings the same as the March seeds?
+No. The committee seeds the tournament on the whole season in March. November ranks are a starting picture. The bands rhyme with the seed lines, which is why this page reads them that way, but any team can climb or fall by March.
+When does this page update?
+Every week of the season. The AP poll lands on Mondays once games begin, and this page refreshes with it, with the date and source stamped at the top.
+Who is the defending champion?
+Michigan, which won the April 2026 title game. The Wolverines open this season at No. 16 in the preseason AP poll.
+What is the Cinderella Radar?
+A watch list of unranked teams scored on three public signals: a top-70 rating in Bart Torvik's T-Rank model, votes in the AP poll, and a league path that lands teams on the 10 to 14 seed lines. It is a list to watch, not a prediction that any of them makes the field.
+What makes a favorite 'vulnerable' on this page?
+A gap: the model rates the team eight or more spots below the voters. One of the two lists is wrong. If it is the voters, that team arrives in March standing on a trap seed line with less under it than its rank suggests. The list is re-scored every week.
+More bracket basics
+How to fill out a March Madness bracket
+What is a March Madness bracket?
+How does bracket scoring work?
+What is a Cinderella team?
+When is Selection Sunday 2027?
+How often do upsets happen?
+Which first-round upsets happen most often?
+How often does a 12 seed beat a 5 seed?
+How often does an 11 seed beat a 6 seed?
+How often does a 10 seed beat a 7 seed?
+How often does a 13 seed beat a 4 seed?
+What is a seed in March Madness?
+What is March Madness?
+Has anyone ever had a perfect bracket?
+Fill out a bracket if you know nothing about basketball
+What is the Final Four?
+How many teams are in March Madness?
+What is the opening round in March Madness?
+What is the Sweet 16?
+What is the Elite Eight?
+How many games are in March Madness?
+What is an automatic bid?
+What is an at-large bid?
+What is a bubble team?
+What is bracketology?
+How many rounds are in March Madness?
+What is the NIT?
+What is a conference tournament?
+What are NET rankings?
+What is a bid stealer?
+What is the selection committee?
+What is Wins Above Bubble?
+Ask in your own words
+Ask in your own words
+&times;
+Answers come only from this site's own guides. It cannot pick your 2027 bracket. Nothing you type is stored.
+What is a seed?
+How does scoring work?
+How often do upsets happen?
+When is Selection Sunday 2027?
+What are the five questions?
+Ask
+Open the full ask page

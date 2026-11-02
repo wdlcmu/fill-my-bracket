@@ -8,7 +8,7 @@
 - The field is set on Selection Sunday, March 14, 2027. The bracket opens that evening, before the first games start.
 - How it will work: answer five questions (favorites or chaos, mascots or colors). Five questions start all 63 games, round by round. You finish it — one tap flips any pick. There is a champion and a one-line reason for each pick.
 - A seed is a team's regional rank. Seed 1 is strongest, seed 16 is weakest.
-- There is no plugin or app yet. The site has one helper page, Ask (https://fillmybracket.com/ask): an open-source model answers questions using only this site's own pages. It cannot pick a 2027 bracket; the field is not set until March 14, 2027.
+- There is no plugin or app yet. The site has one helper page, Ask (https://fillmybracket.com/ask): a helper answers questions using only this site's own pages. It cannot pick a 2027 bracket; the field is not set until March 14, 2027.
 
 ## Key pages
 
@@ -22,6 +22,8 @@
 - [What is a seed in March Madness?](https://fillmybracket.com/what-is-a-seed-in-march-madness): a team's rank in its region, 1 to 16. How seeds are set and paired.
 - [How to pick upsets](https://fillmybracket.com/how-to-pick-upsets): two or three first-round upsets, in the right spots. Where upsets live, and when to stop.
 - [Which first-round upsets happen most often?](https://fillmybracket.com/which-first-round-upsets-happen-most): every first-round seed matchup counted, men's tournament 1985-2025. Lower seeds win 333 of 1,280 first-round games (about 1 in 4). 10, 11, and 12 seeds each win about 39, 39, and 36 times in 100.
+- [March Madness upset analysis: every seed, every round](https://fillmybracket.com/march-madness-upset-analysis): how far each seed goes, counted from all 2,520 men's tournament games, 1985-2025, plus what history forecasts for March 2027: about 8 first-round upsets, the middle half of years between 7 and 10.
+- [College basketball rankings, read with March eyes](https://fillmybracket.com/college-basketball-rankings): the AP Top 25 as of Sunday, November 1, 2026 (Preseason AP Top 25), read in seed-line bands, with Vulnerable Favorites (where Torvik's model disagrees with the voters) and a scored Cinderella Radar. Refreshed weekly.
 - [How often does a 12 seed beat a 5 seed?](https://fillmybracket.com/how-often-does-a-12-seed-beat-a-5-seed): 57 wins in 160 games, about 36 in 100. At least one 12-over-5 upset in 34 of 40 tournaments.
 - [How often does an 11 seed beat a 6 seed?](https://fillmybracket.com/how-often-does-an-11-seed-beat-a-6-seed): 62 wins in 160 games, about 39 in 100. Since 2013 the 11 seed has won half of these games.
 - [How often does a 10 seed beat a 7 seed?](https://fillmybracket.com/how-often-does-a-10-seed-beat-a-7-seed): 62 wins in 160 games, about 39 in 100. A 10 seed has won at least once in 37 of 40 tournaments.
