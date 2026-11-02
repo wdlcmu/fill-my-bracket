@@ -93,12 +93,12 @@
      explicit touch-action (pan-x pan-y) so a horizontal drag scrolls the
      rail and a vertical drag scrolls the page — the Oct 13 iPhone lesson.
      Reduced motion: no count-up animation, no transitions. */
-  .play { margin-top: 1.25rem; width: 100%; max-width: 46rem; text-align: left; }
-  .play h2 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.01em; text-align: center; margin-bottom: 0.4rem; }
-  .play-sub { text-align: center; color: var(--muted); font-size: 0.95rem; max-width: 32rem; margin: 0 auto 0.9rem; }
+  .play { margin-top: 0.35rem; width: 100%; max-width: 46rem; text-align: left; }
+  .play h2 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.01em; text-align: center; margin-bottom: 0.25rem; }
+  .play-sub { text-align: center; color: var(--muted); font-size: 0.95rem; max-width: 32rem; margin: 0 auto 0.45rem; }
   .tally {
     background: var(--navy-3); border: 1px solid var(--line); border-radius: 14px;
-    padding: 0.7rem 1rem; text-align: center; margin-bottom: 0.9rem;
+    padding: 0.55rem 1rem; text-align: center; margin-bottom: 0.35rem;
   }
   .tally-count { font-weight: 800; font-size: 1.05rem; color: var(--cream); font-variant-numeric: tabular-nums; }
   .tally-react { color: var(--muted); font-size: 0.9rem; margin-top: 0.15rem; }
@@ -110,7 +110,7 @@
   .tally-reset[hidden] { display: none; }
   .tally-reset:focus-visible, .pick-btn:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
   .match-rail {
-    display: flex; gap: 0.8rem; overflow-x: auto; padding: 0.2rem 0.2rem 0.7rem;
+    display: flex; gap: 0.8rem; overflow-x: auto; padding: 0.1rem 0.2rem 0.7rem;
     scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
     touch-action: pan-x pan-y; scrollbar-width: none;
   }
@@ -118,11 +118,11 @@
   .match-card {
     flex: 0 0 84%; scroll-snap-align: center; touch-action: pan-x pan-y;
     background: var(--navy-2); border: 1px solid var(--line); border-radius: 16px;
-    padding: 1rem 1rem 0.9rem;
+    padding: 0.7rem 1rem 0.9rem;
   }
   .mc-match { display: flex; align-items: baseline; justify-content: center; gap: 0.55rem; font-weight: 800; font-size: 1.15rem; }
   .mc-match em { font-style: normal; color: var(--orange); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
-  .mc-q { text-align: center; color: var(--muted); font-size: 0.9rem; margin: 0.2rem 0 0.7rem; }
+  .mc-q { text-align: center; color: var(--muted); font-size: 0.9rem; margin: 0.15rem 0 0.45rem; }
   .mc-picks { display: flex; gap: 0.6rem; }
   .pick-btn {
     flex: 1 1 0; display: flex; flex-direction: column; align-items: center; gap: 0.1rem;
@@ -461,10 +461,10 @@ window.FLEET_CFG = {
        with the numbers under it. -->
   <section class="play" aria-labelledby="play-heading">
     <h2 id="play-heading">Make your calls</h2>
-    <p class="play-sub">Eight first-round matchups, counted since 1985. Tap a seed to call the game. History answers back.</p>
+    <p class="play-sub">Eight first-round matchups, counted since 1985. Tap a seed. History answers back.</p>
     <div class="tally">
       <p class="tally-count" id="tallyCount">Your calls: 0 of 8 · Upsets called: 0</p>
-      <p class="tally-react" id="tallyReact" aria-live="polite">A normal year has about 8 first-round upsets. See how many you call.</p>
+      <p class="tally-react" id="tallyReact" aria-live="polite">A normal year has about 8 first-round upsets.</p>
       <button type="button" class="tally-reset" id="tallyReset" hidden>Start over</button>
     </div>
     <div class="match-rail" id="matchRail">
@@ -1054,14 +1054,15 @@ window.FLEET_CFG = {
       tallyCount.textContent = "Your calls: " + made + " of " + cards.length + " · Upsets called: " + upsets;
       if (made === cards.length) {
         tallyReact.textContent = "All 8 called: " + upsets + (upsets === 1 ? " upset" : " upsets") + ", " +
-          (made - upsets) + " favorites. In real life, the lower seed wins about 1 first-round game in 4.";
+          (made - upsets) + ((made - upsets) === 1 ? " favorite" : " favorites") +
+          ". In real life, the lower seed wins about 1 first-round game in 4.";
         if (!completed) { completed = true; track("tool_complete", { surface: "picker" }); }
       } else if (upsets === 0 && made > 0) {
         tallyReact.textContent = "All favorites so far. A normal year still brings about 8 upsets.";
       } else if (upsets > 0) {
         tallyReact.textContent = upsets + (upsets === 1 ? " upset" : " upsets") + " on your card. A normal year has about 8 in the whole first round.";
       } else {
-        tallyReact.textContent = "A normal year has about 8 first-round upsets. See how many you call.";
+        tallyReact.textContent = "A normal year has about 8 first-round upsets.";
       }
       if (resetBtn) resetBtn.hidden = made === 0;
       if (made > maxMade) { maxMade = made; track("tool_step", { surface: "picker", step: made }); }
