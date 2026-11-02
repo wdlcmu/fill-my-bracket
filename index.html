@@ -83,6 +83,38 @@
   .bracket-art svg { display: block; width: 100%; height: auto; }
   .bracket-art figcaption { margin-top: 0.6rem; font-size: 0.9375rem; font-weight: 600; color: var(--muted); }
   .bracket-art figcaption strong { color: var(--orange); }
+  /* 2026-11-01 examples pass: counted proof strip (see the section
+     comment in the body). Self-contained: January's choice flow
+     (06-choice-flow-spec) can lift this whole block into the result
+     and finish surfaces without restyling. */
+  .facts-strip {
+    margin-top: 1.25rem; width: 100%; max-width: 46rem;
+    background: var(--navy-2); border: 1px solid var(--line); border-radius: 16px;
+    padding: 0.95rem 1rem 0.9rem;
+  }
+  .facts-strip h2 { font-size: 1.25rem; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 0.65rem; }
+  .facts-row { display: flex; flex-direction: column; gap: 0.55rem; text-align: left; }
+  .fact { display: flex; align-items: baseline; gap: 0.8rem; }
+  .fact b { flex: 0 0 6.9rem; text-align: right; font-size: 1.4rem; font-weight: 800; line-height: 1.1; color: var(--orange); font-variant-numeric: tabular-nums; }
+  .fact span { font-size: 0.9rem; color: var(--cream); }
+  @media (min-width: 640px) {
+    .facts-row { flex-direction: row; flex-wrap: wrap; gap: 1rem 0.75rem; justify-content: center; }
+    .fact { display: block; flex: 1 1 9.5rem; max-width: 13.5rem; text-align: center; }
+    .fact b { text-align: center; font-size: 1.7rem; }
+    .fact span { display: block; margin-top: 0.3rem; }
+  }
+  .fact-sample {
+    margin-top: 1rem; background: var(--navy-3); border: 1px solid var(--line); border-radius: 12px;
+    padding: 0.7rem 0.9rem; font-size: 0.9375rem; color: var(--cream);
+  }
+  .fs-tag {
+    display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--navy); background: var(--orange);
+    border-radius: 999px; padding: 0.14rem 0.6rem; margin-right: 0.45rem; vertical-align: 0.12em;
+  }
+  .fact-more { margin-top: 0.85rem; font-size: 0.875rem; color: var(--muted); }
+  .fact-more a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 10px 4px; min-height: 44px; }
+  .fact-more a:hover { text-decoration: underline; }
   section.details { max-width: 42rem; margin: 0 auto; width: 100%; padding: 0 1.5rem 1rem; }
   section.details h2 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em; text-align: center; margin: 2rem 0 1.25rem; }
   .steps { list-style: none; text-align: left; }
@@ -193,6 +225,33 @@
       <p class="cdx-mile" id="cdx-mile">Fill it <strong>Sunday night, March 14</strong> &mdash; pools lock the morning of <strong>Thursday, March 18</strong>.</p>
     </div>
   </div>
+
+  <!-- 2026-11-01 examples pass (fleet examples audit, finding 1): the
+       homepage led with a promise and showed no worked example. This
+       strip is the choice prop with its proof: every number is from
+       the counted table in builds/fill-my-bracket/upset-data-2026-11-01
+       (men's tournament games 1985-2025, main bracket only; 2,520
+       games). 12v5: 57 wins in 160. First-round upsets per year:
+       average 8.3, so "about 8" is the site's counted phrasing.
+       Double-digit seed in the Sweet 16: 38 of 40 tournaments.
+       The sample line uses January's chip format verbatim
+       (06-choice-flow-spec, Surface 2 base chip: "12 seeds: 57 wins
+       in 160 since 1985"); the 12v5 kicker (at least one 12 won in
+       34 of 40 years) rides the strip's footnote line, so the whole
+       sample stays clear of the fixed ask pill at rest. January's
+       build absorbs this strip as-is. No speed claims: the value is
+       the choice, with the numbers under it. -->
+  <section class="facts-strip" aria-labelledby="facts-heading">
+    <h2 id="facts-heading">Your calls, with the numbers</h2>
+    <div class="facts-row">
+      <p class="fact"><b>57 in 160</b><span>Times a 12 seed has beaten a 5 seed since 1985.</span></p>
+      <p class="fact"><b>About 8</b><span>First-round upsets in a normal year.</span></p>
+      <p class="fact"><b>38 of 40</b><span>Tournaments with a double-digit seed in the Sweet 16.</span></p>
+    </div>
+    <p class="fact-sample"><span class="fs-tag">Sample call</span>5 seed vs 12 seed &mdash; you take the 12. 12 seeds: 57 wins in 160 since 1985.</p>
+    <p class="fact-more">At least one 12 won in 34 of 40 years. Counted from every men&rsquo;s tournament game, 1985 to 2025. <a href="/which-first-round-upsets-happen-most">See every matchup &rarr;</a></p>
+  </section>
+
   <div class="share-row">
     <button type="button" id="sharebtn" class="share-btn">Share</button>
     <p class="share-msg" id="sharemsg" role="status" aria-live="polite"></p>
