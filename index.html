@@ -93,12 +93,12 @@
      explicit touch-action (pan-x pan-y) so a horizontal drag scrolls the
      rail and a vertical drag scrolls the page — the Oct 13 iPhone lesson.
      Reduced motion: no count-up animation, no transitions. */
-  .play { margin-top: 0.35rem; width: 100%; max-width: 46rem; text-align: left; }
-  .play h2 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.01em; text-align: center; margin-bottom: 0.25rem; }
-  .play-sub { text-align: center; color: var(--muted); font-size: 0.95rem; max-width: 32rem; margin: 0 auto 0.45rem; }
+  .play { margin-top: 0; width: 100%; max-width: 46rem; text-align: left; }
+  .play h2 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.01em; text-align: center; margin-bottom: 0.1rem; line-height: 1.15; }
+  .play-sub { text-align: center; color: var(--muted); font-size: 0.95rem; max-width: 32rem; margin: 0 auto 0.25rem; line-height: 1.35; }
   .tally {
     background: var(--navy-3); border: 1px solid var(--line); border-radius: 14px;
-    padding: 0.55rem 1rem; text-align: center; margin-bottom: 0.35rem;
+    padding: 0.4rem 1rem; text-align: center; margin-bottom: 0.2rem;
   }
   .tally-count { font-weight: 800; font-size: 1.05rem; color: var(--cream); font-variant-numeric: tabular-nums; }
   .tally-react { color: var(--muted); font-size: 0.9rem; margin-top: 0.15rem; }
@@ -118,7 +118,7 @@
   .tally-next:hover { background: var(--orange-soft); }
   .tally-reset:focus-visible, .pick-btn:focus-visible, .tally-next:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
   .match-rail {
-    display: flex; gap: 0.8rem; overflow-x: auto; padding: 0.1rem 0.2rem 0.7rem;
+    display: flex; gap: 0.8rem; overflow-x: auto; padding: 0 0.2rem 0.7rem;
     scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
     touch-action: pan-x pan-y; scrollbar-width: none;
   }
@@ -130,12 +130,12 @@
   }
   .mc-match { display: flex; align-items: baseline; justify-content: center; gap: 0.55rem; font-weight: 800; font-size: 1.15rem; }
   .mc-match em { font-style: normal; color: var(--orange); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
-  .mc-q { text-align: center; color: var(--muted); font-size: 0.9rem; margin: 0.15rem 0 0.45rem; }
+  .mc-q { text-align: center; color: var(--muted); font-size: 0.9rem; margin: 0.1rem 0 0.35rem; }
   .mc-picks { display: flex; gap: 0.6rem; }
   .pick-btn {
     flex: 1 1 0; display: flex; flex-direction: column; align-items: center; gap: 0.1rem;
     background: var(--navy-3); color: var(--cream); border: 1px solid var(--line); border-radius: 12px;
-    padding: 0.6rem 0.4rem; min-height: 64px; cursor: pointer; font: inherit;
+    padding: 0.5rem 0.4rem; min-height: 64px; cursor: pointer; font: inherit;
     transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
   }
   .pick-btn b { font-size: 2rem; line-height: 1; font-weight: 800; color: var(--orange-soft); font-variant-numeric: tabular-nums; }
