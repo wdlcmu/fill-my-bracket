@@ -175,6 +175,7 @@
   section.details p + p { margin-top: 0.4rem; }
   .faq-item { text-align: left; margin-bottom: 1.25rem; }
   .faq-item h3 { font-size: 1.0625rem; margin-bottom: 0.35rem; }
+  section.details .faq-item h3 a { display: inline-flex; align-items: center; min-height: 44px; }
   .poster-strip {
     max-width: 42rem; margin: 0 auto; width: 100%; padding: 0 1.5rem;
   }
@@ -243,7 +244,7 @@
       "name": "What we don't do",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We don't fill brackets yet. The picker opens on Selection Sunday. That is March 14, 2027. We don't host pools. We don't take entries or prize money. You print or share your bracket. You run your own pool. We don't pick from expert rankings. We don't pick from team stats. Your five answers do the picking."
+        "text": "The picker opens on Selection Sunday, March 14, 2027 — brackets start then. We don't host pools, take entries, or handle prize money: you print or share your bracket and run your own pool. Your five answers do the picking — your favorite, your upsets, your calls — not a rankings or stats model."
       }
     },
     {
@@ -251,7 +252,7 @@
       "name": "Our guarantees",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Free forever. No ads. No accounts. No email needed. There is no signup on this page."
+        "text": "Free forever, with no ads, accounts, email, or signup."
       }
     }
   ]
@@ -550,7 +551,7 @@ window.FLEET_CFG = {
         <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
       </article>
     </div>
-    <p class="play-foot">At least one 12 seed won in 34 of 40 years. Every number counted from men&rsquo;s tournament games, 1985 to 2025. <a href="/which-first-round-upsets-happen-most">See every matchup &rarr;</a></p>
+    <p class="play-foot">Counted since 1985: 12 seeds beat 5 seeds 57 times in 160 games. About 1 in 3. At least one 12 seed won in 34 of 40 years. Every number counted from men&rsquo;s tournament games, 1985 to 2025. <a href="/which-first-round-upsets-happen-most">See every matchup &rarr;</a></p>
     <div class="fact-cards">
       <div class="fc">
         <p class="fc-label">First-round upsets in a normal year</p>
@@ -716,24 +717,13 @@ window.FLEET_CFG = {
   </div>
   <div class="faq-item">
     <h3>What we don't do</h3>
-    <p>We don't fill brackets yet.</p>
-    <p>The picker opens on Selection Sunday.</p>
-    <p>That is March 14, 2027.</p>
-    <p>We don't host pools.</p>
-    <p>We don't take entries or prize money.</p>
-    <p>You print or share your bracket.</p>
-    <p>You run your own pool.</p>
-    <p>We don't pick from expert rankings.</p>
-    <p>We don't pick from team stats.</p>
-    <p>Your five answers do the picking.</p>
+    <p>The picker opens on Selection Sunday, March 14, 2027 — brackets start then.</p>
+    <p>We don't host pools, take entries, or handle prize money: you print or share your bracket and run your own pool.</p>
+    <p>Your five answers do the picking — your favorite, your upsets, your calls — not a rankings or stats model.</p>
   </div>
   <div class="faq-item">
     <h3>Our guarantees</h3>
-    <p>Free forever.</p>
-    <p>No ads.</p>
-    <p>No accounts.</p>
-    <p>No email needed.</p>
-    <p>There is no signup on this page.</p>
+    <p>Free forever, with no ads, accounts, email, or signup.</p>
   </div>
 </section>
 <section class="details" aria-labelledby="guides-heading">
@@ -1152,12 +1142,11 @@ window.FLEET_CFG = {
    label. Posture: autocapture off, session recording off, no
    identify(), anonymous only. Payloads are counts and enums only —
    never answers, never personal data. */
-var _fleetQ = [];
 function fleetTrack(name, props){
-  try {
-    if (window.posthog && posthog.capture) posthog.capture(name, props || {});
-    else _fleetQ.push([name, props || {}]);
-  } catch (e) {}
+  /* Unified 2026-11-01 (Phase B): the shared FA loader above is the only
+     PostHog loader/init on this page; fleetTrack delegates to FA.track.
+     Event names and props below are unchanged. */
+  try { if (window.FA && FA.track) FA.track(name, props || {}); } catch (e) {}
 }
 function fleetSessionMarks(){
   try {
@@ -1178,22 +1167,8 @@ function fleetSessionMarks(){
     }
   } catch (e) {}
 }
-(function(){
-  var s = document.createElement("script");
-  s.async = true;
-  s.src = "https://us.i.posthog.com/static/array.js";
-  s.onload = function(){
-    try {
-      if (window.posthog && posthog.init){
-        posthog.init("phc_t9dkHXAZR5VEjPFm3K5JDzGKFsNNxKcwSxxcEBEeLbS7", {api_host: "https://us.i.posthog.com", autocapture: false, capture_pageview: true, disable_session_recording: true});
-        posthog.register({site_id: "fill-my-bracket", site_name: "Fill My Bracket"});
-        _fleetQ.splice(0).forEach(function(e){ try { posthog.capture(e[0], e[1]); } catch (x) {} });
-        fleetSessionMarks();
-      }
-    } catch (e) {}
-  };
-  document.head.appendChild(s);
-})();
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", fleetSessionMarks);
+else fleetSessionMarks();
 
 </script>
 <script>
