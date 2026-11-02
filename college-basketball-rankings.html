@@ -64,6 +64,10 @@
   .faqsec details { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.9rem 1.1rem; margin-bottom: 0.75rem; }
   .faqsec summary { color: var(--cream); font-weight: 700; cursor: pointer; padding: 0.35rem 0; min-height: 44px; display: flex; align-items: center; }
   .faqsec details p { margin: 0.55rem 0 0.1rem; }
+  .back-game { text-align: center; margin: 2rem auto 0; padding: 0 1.5rem; }
+  .back-game-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0.6rem 1.5rem; border-radius: 999px; background: #ff7a1a; color: #081c3a; font-weight: 800; font-size: 1rem; text-decoration: none; font-family: inherit; }
+  .back-game-btn:hover { background: #ffa25e; }
+  .back-game p { color: var(--muted); font-size: 0.9375rem; margin-top: 0.6rem; }
   footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
@@ -320,7 +324,15 @@
       <li><a href="/what-is-wins-above-bubble">What is Wins Above Bubble?</a></li>
     </ul>
   </div>
-</main><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e5edc982b99349b587d105338f331407"}'></script>
+  <div class="back-game">
+    <a class="back-game-btn" href="/">Back to the game</a>
+    <p>Make your calls on the eight matchups waiting on the home page.</p>
+  </div>
+</main>
+<footer>
+  <p>Built with Muse.</p>
+  <p><a href="/">Home</a> <a href="/privacy">Privacy</a> <a href="/terms">Terms</a></p>
+</footer><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e5edc982b99349b587d105338f331407"}'></script>
 <!-- ASK PANEL START -->
 <style>
 .askp-pill{position:fixed;right:16px;bottom:16px;z-index:9998;min-height:48px;padding:.65rem 1.1rem;border:0;border-radius:999px;background:#ff7a1a;color:#081c3a;font-weight:800;font-size:1rem;cursor:pointer;box-shadow:0 6px 24px rgba(0,0,0,.35);font-family:inherit}
@@ -403,8 +415,5 @@
 })();
 </script>
 <!-- ASK PANEL END -->
-</body>
-</html>
-
 </body>
 </html>
