@@ -162,6 +162,45 @@
     .fact-cards { flex-direction: row; }
     .fc { flex: 1 1 0; }
   }
+
+  /* 2026-11-02 first-tap payoff fix (cold-QA SPEC-first-tap-payoff, option A).
+     On small phones the result block landed at viewport 811-934px after the
+     first pick: the tally grew ~74px (the Start-over row appears and the
+     react line wraps to two lines), pushing the card down until the payoff
+     sat sliced at the fold, partly under the fixed Ask pill (780-828px).
+     Page-level fix only — the fleet-shared Ask pill is untouched. Compact
+     the hero, countdown, tally and card on small screens, and reserve the
+     tally's final height so the first pick no longer pushes the card down.
+     The locked line and every number are untouched. */
+  @media (max-width: 899px) {
+    main { padding-top: 0.9rem; }
+    .kicker { margin-bottom: 0.5rem; padding-top: 0.28rem; padding-bottom: 0.28rem; }
+    h1 { font-size: 2.3rem; line-height: 1.1; margin-bottom: 0.5rem; }
+    .tagline { font-size: 1.05rem; line-height: 1.25; margin-bottom: 0.6rem; }
+    .cdx { margin-top: 0.15rem; }
+    .cdx-main { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+    .cdx-digits { margin-bottom: 0.15rem; }
+    .cdx-cell b { font-size: 1.55rem; }
+    .cdx-cell i { margin-top: 0.18rem; }
+    .cdx-cta { margin-top: 0.3rem; }
+    .play h2 { font-size: 1.35rem; }
+    .play-sub { font-size: 0.9rem; line-height: 1.3; margin-bottom: 0.15rem; }
+    .tally { padding-top: 0.3rem; padding-bottom: 0.3rem; min-height: 7.9rem; }
+    .tally-count { font-size: 1rem; line-height: 1.3; }
+    .tally-react { font-size: 0.85rem; line-height: 1.35; margin-top: 0.1rem; }
+    .tally-reset, .tally-next { margin-top: 0.35rem; font-size: 0.85rem; padding: 0.4rem 0.9rem; }
+    .match-card { padding-top: 0.55rem; padding-bottom: 0.7rem; }
+    .mc-match { font-size: 1.05rem; line-height: 1.25; }
+    .mc-q { margin-top: 0.05rem; margin-bottom: 0.25rem; line-height: 1.35; }
+    .pick-btn { padding-top: 0.4rem; padding-bottom: 0.4rem; }
+    .pick-btn b { font-size: 1.75rem; }
+    .pick-btn span { line-height: 1.3; }
+    .mc-result { min-height: 6.4rem; padding-top: 0.5rem; }
+    .mc-hint { padding-top: 0.9rem; }
+    .mc-pct { font-size: 2.3rem; }
+    .mc-bar { margin-top: 0.4rem; margin-bottom: 0.4rem; }
+    .mc-line { line-height: 1.4; }
+  }
   @media (prefers-reduced-motion: reduce) {
     .pick-btn, .mc-bar i { transition: none !important; }
     .match-rail { scroll-behavior: auto; }
