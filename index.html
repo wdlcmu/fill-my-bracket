@@ -383,11 +383,14 @@ window.FLEET_CFG = {
       });
       if (CFG.ask) {
         var A = CFG.ask;
+        var lastText = "", completed = false;
         var go = A.goSel ? document.querySelector(A.goSel) : null;
-        if (go) go.addEventListener("click", function(){ track("ask_asked", {surface: "ask"}); });
+        if (go) go.addEventListener("click", function(){
+          track("ask_asked", {surface: "ask"});
+          lastText = "";   // a new submission: the observer must classify the coming rendering even if its text matches the previous turn's
+        });
         var ans = A.answerSel ? document.querySelector(A.answerSel) : null;
         if (ans) {
-          var lastText = "", completed = false;
           var checkA = function(){
             var el = document.querySelector(A.answerSel);
             if (!el) return;
