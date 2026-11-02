@@ -413,7 +413,10 @@ window.FLEET_CFG = {
         try {
           if (sp.on === "click") {
             Array.prototype.forEach.call(document.querySelectorAll(sp.sel), function(el){
-              el.addEventListener("click", function(){ track(sp.name, sp.props || {}); });
+              el.addEventListener("click", function(){
+                track(sp.name, sp.props || {});
+                if (sp.name === "ask_asked") lastText = "";   // a chip tap is a new submission: the observer must classify the coming rendering even if its text matches the previous turn's
+              });
             });
           } else if (sp.on === "appear") {
             var fired = false;
