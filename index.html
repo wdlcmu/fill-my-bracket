@@ -83,38 +83,81 @@
   .bracket-art svg { display: block; width: 100%; height: auto; }
   .bracket-art figcaption { margin-top: 0.6rem; font-size: 0.9375rem; font-weight: 600; color: var(--muted); }
   .bracket-art figcaption strong { color: var(--orange); }
-  /* 2026-11-01 examples pass: counted proof strip (see the section
-     comment in the body). Self-contained: January's choice flow
-     (06-choice-flow-spec) can lift this whole block into the result
-     and finish surfaces without restyling. */
-  .facts-strip {
-    margin-top: 1.25rem; width: 100%; max-width: 46rem;
+  /* 2026-11-01 interactive landing (Billy's 10x directive, benchmarked on
+     worldcupprices.com): the counted facts become things you DO. One fact
+     per card, the giant number is the hero of each card, a short plain
+     label, big type, strong contrast, lots of air. Matchup cards are
+     tappable: pick a seed, history answers back with an animated count-up
+     and a filled bar. A running tally keeps the visitor's calls. Mobile:
+     the rail swipes (native scroll-snap); the swipe targets carry an
+     explicit touch-action (pan-x pan-y) so a horizontal drag scrolls the
+     rail and a vertical drag scrolls the page — the Oct 13 iPhone lesson.
+     Reduced motion: no count-up animation, no transitions. */
+  .play { margin-top: 1.25rem; width: 100%; max-width: 46rem; text-align: left; }
+  .play h2 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.01em; text-align: center; margin-bottom: 0.4rem; }
+  .play-sub { text-align: center; color: var(--muted); font-size: 0.95rem; max-width: 32rem; margin: 0 auto 0.9rem; }
+  .tally {
+    background: var(--navy-3); border: 1px solid var(--line); border-radius: 14px;
+    padding: 0.7rem 1rem; text-align: center; margin-bottom: 0.9rem;
+  }
+  .tally-count { font-weight: 800; font-size: 1.05rem; color: var(--cream); font-variant-numeric: tabular-nums; }
+  .tally-react { color: var(--muted); font-size: 0.9rem; margin-top: 0.15rem; }
+  .tally-reset {
+    margin-top: 0.55rem; background: none; border: 1px solid var(--orange); color: var(--orange-soft);
+    font: inherit; font-size: 0.9rem; font-weight: 700; border-radius: 999px;
+    padding: 0.45rem 1.1rem; min-height: 44px; cursor: pointer;
+  }
+  .tally-reset[hidden] { display: none; }
+  .tally-reset:focus-visible, .pick-btn:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+  .match-rail {
+    display: flex; gap: 0.8rem; overflow-x: auto; padding: 0.2rem 0.2rem 0.7rem;
+    scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+    touch-action: pan-x pan-y; scrollbar-width: none;
+  }
+  .match-rail::-webkit-scrollbar { display: none; }
+  .match-card {
+    flex: 0 0 84%; scroll-snap-align: center; touch-action: pan-x pan-y;
     background: var(--navy-2); border: 1px solid var(--line); border-radius: 16px;
-    padding: 0.95rem 1rem 0.9rem;
+    padding: 1rem 1rem 0.9rem;
   }
-  .facts-strip h2 { font-size: 1.25rem; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 0.65rem; }
-  .facts-row { display: flex; flex-direction: column; gap: 0.55rem; text-align: left; }
-  .fact { display: flex; align-items: baseline; gap: 0.8rem; }
-  .fact b { flex: 0 0 6.9rem; text-align: right; font-size: 1.4rem; font-weight: 800; line-height: 1.1; color: var(--orange); font-variant-numeric: tabular-nums; }
-  .fact span { font-size: 0.9rem; color: var(--cream); }
-  @media (min-width: 640px) {
-    .facts-row { flex-direction: row; flex-wrap: wrap; gap: 1rem 0.75rem; justify-content: center; }
-    .fact { display: block; flex: 1 1 9.5rem; max-width: 13.5rem; text-align: center; }
-    .fact b { text-align: center; font-size: 1.7rem; }
-    .fact span { display: block; margin-top: 0.3rem; }
+  .mc-match { display: flex; align-items: baseline; justify-content: center; gap: 0.55rem; font-weight: 800; font-size: 1.15rem; }
+  .mc-match em { font-style: normal; color: var(--orange); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
+  .mc-q { text-align: center; color: var(--muted); font-size: 0.9rem; margin: 0.2rem 0 0.7rem; }
+  .mc-picks { display: flex; gap: 0.6rem; }
+  .pick-btn {
+    flex: 1 1 0; display: flex; flex-direction: column; align-items: center; gap: 0.1rem;
+    background: var(--navy-3); color: var(--cream); border: 1px solid var(--line); border-radius: 12px;
+    padding: 0.6rem 0.4rem; min-height: 64px; cursor: pointer; font: inherit;
+    transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
   }
-  .fact-sample {
-    margin-top: 1rem; background: var(--navy-3); border: 1px solid var(--line); border-radius: 12px;
-    padding: 0.7rem 0.9rem; font-size: 0.9375rem; color: var(--cream);
+  .pick-btn b { font-size: 2rem; line-height: 1; font-weight: 800; color: var(--orange-soft); font-variant-numeric: tabular-nums; }
+  .pick-btn span { font-size: 0.85rem; font-weight: 600; }
+  .pick-btn:hover { border-color: var(--orange-soft); }
+  .pick-btn.sel { border-color: var(--orange); background: #1a3f7c; box-shadow: 0 0 0 1px var(--orange); }
+  .mc-result { min-height: 7.3rem; padding-top: 0.75rem; text-align: center; }
+  .mc-hint { color: var(--muted); font-size: 0.9rem; padding-top: 1.1rem; }
+  .mc-pct { font-size: 2.6rem; line-height: 1; font-weight: 800; color: var(--orange); font-variant-numeric: tabular-nums; }
+  .mc-bar { height: 10px; border-radius: 999px; background: var(--navy); border: 1px solid var(--line); margin: 0.55rem auto 0.5rem; max-width: 15rem; overflow: hidden; }
+  .mc-bar i { display: block; height: 100%; width: 0; background: var(--orange); border-radius: 999px; transition: width 0.7s ease; }
+  .mc-line { font-size: 0.9rem; color: var(--cream); }
+  .play-foot { margin-top: 0.35rem; font-size: 0.875rem; color: var(--muted); text-align: center; }
+  .play-foot a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 10px 4px; min-height: 44px; }
+  .play-foot a:hover { text-decoration: underline; }
+  .fact-cards { display: flex; flex-direction: column; gap: 0.8rem; margin-top: 0.9rem; }
+  .fc { background: var(--navy-2); border: 1px solid var(--line); border-radius: 16px; padding: 1rem 1.1rem; }
+  .fc-label { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--orange-soft); margin-bottom: 0.3rem; }
+  .fc-num { font-size: clamp(2.6rem, 11vw, 3.4rem); line-height: 1.05; font-weight: 800; color: var(--cream); font-variant-numeric: tabular-nums; }
+  .fc-line { color: var(--muted); font-size: 0.92rem; margin-top: 0.3rem; }
+  @media (min-width: 900px) {
+    .match-rail { display: grid; grid-template-columns: repeat(4, 1fr); overflow: visible; scroll-snap-type: none; padding: 0.2rem 0 0.2rem; }
+    .match-card { flex: none; }
+    .fact-cards { flex-direction: row; }
+    .fc { flex: 1 1 0; }
   }
-  .fs-tag {
-    display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
-    text-transform: uppercase; color: var(--navy); background: var(--orange);
-    border-radius: 999px; padding: 0.14rem 0.6rem; margin-right: 0.45rem; vertical-align: 0.12em;
+  @media (prefers-reduced-motion: reduce) {
+    .pick-btn, .mc-bar i { transition: none !important; }
+    .match-rail { scroll-behavior: auto; }
   }
-  .fact-more { margin-top: 0.85rem; font-size: 0.875rem; color: var(--muted); }
-  .fact-more a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 10px 4px; min-height: 44px; }
-  .fact-more a:hover { text-decoration: underline; }
   section.details { max-width: 42rem; margin: 0 auto; width: 100%; padding: 0 1.5rem 1rem; }
   section.details h2 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em; text-align: center; margin: 2rem 0 1.25rem; }
   .steps { list-style: none; text-align: left; }
@@ -206,6 +249,178 @@
   ]
 }
 </script>
+<script>
+/* Fleet instrumentation (Nov 1, 2026) — canonical taxonomy config for
+   Fill My Bracket (site slug "bracket"). The staged patch from
+   builds/fleet-instrumentation-2026-11-01/fmb-staged-patch.md, applied
+   with the interactive landing: the matchup cards are the interim
+   picker surface, so their first tap is tool_start {surface:"picker"}
+   and the share button keeps its tool_complete {surface:"share"}
+   special. The ask classification derives from the homepage panel's
+   own wording: this panel always answers (its worker falls back to a
+   generic on-topic answer), so the only fallback surface here is the
+   panel's own error line ("The helper had a hiccup..."), classified
+   missing:"other". Chip taps ask without touching the Ask button, so
+   a specials entry fires ask_asked for chips; the button fires it via
+   goSel. Visitor text is never sent. */
+window.FLEET_CFG = {
+  site: "bracket",
+  starts: [
+    {sel: "#askpBtn", surface: "ask"},
+    {sel: "#askpInput", on: "focus", surface: "ask"},
+    {sel: ".pick-btn", surface: "picker"}
+  ],
+  ask: {
+    goSel: "#askpSend", answerSel: "#askpReply", completeOnAnswer: true,
+    fallbacks: [{re: /hiccup/, missing: "other"}],
+    defaultOutcome: "answered"
+  },
+  specials: [
+    {on: "click", sel: "#sharebtn", name: "tool_complete", props: {surface: "share"}},
+    {on: "click", sel: ".askp-chip", name: "ask_asked", props: {surface: "ask"}}
+  ]
+};
+</script>
+<!-- Fleet analytics — shared instrumentation (Nov 1, 2026; taxonomy:
+     ~/workspace/chief-of-staff/fleet-instrumentation-taxonomy-2026-11-01.md).
+     PostHog project 624507. Anonymous metadata only: event names + enum
+     properties. Never sends typed text, names, emails, pairings, or
+     tokens. Session recording off, autocapture off.
+     Per site: set window.FLEET_CFG (site slug + hooks) in a small script
+     block BEFORE this block. Internal rule (fleet-wide): ?internal=1
+     once on a device sets a localStorage flag; every event from that
+     device carries internal:true; funnel queries filter it out. -->
+<script>
+(function(){
+  var CFG = window.FLEET_CFG || {};
+  var SITE = CFG.site || "unknown";
+  var KEY = "phc_t9dkHXAZR5VEjPFm3K5JDzGKFsNNxKcwSxxcEBEeLbS7";
+  var _int = null;
+  function isInternal(){
+    if (_int !== null) return _int;
+    var flag = false;
+    try {
+      var q = location.search || "";
+      if (/[?&]internal=1(?:&|$)/.test(q)) { try { localStorage.setItem("fleet_internal", "1"); } catch(e){} flag = true; }
+      else if (/[?&]internal=0(?:&|$)/.test(q)) { try { localStorage.removeItem("fleet_internal"); } catch(e){} }
+      else if (/[?&](probe|sim)=/.test(q)) { flag = true; }
+      else { try { flag = localStorage.getItem("fleet_internal") === "1"; } catch(e){} }
+    } catch(e2){}
+    _int = flag;
+    return flag;
+  }
+  var Q = [];
+  function track(name, props){
+    props = props || {};
+    props.site = SITE;
+    try { if (isInternal()) props.internal = true; } catch(e){}
+    try {
+      if (window.posthog && posthog.capture) posthog.capture(name, props);
+      else { Q.push([name, props]); if (Q.length > 100) Q.shift(); }
+    } catch(e){}
+  }
+  window.FA = { track: track };
+  var s = document.createElement("script");
+  s.async = true;
+  s.src = "https://us.i.posthog.com/static/array.js";
+  s.onload = function(){
+    try {
+      if (window.posthog && posthog.init) {
+        posthog.init(KEY, {api_host: "https://us.i.posthog.com", autocapture: false, capture_pageview: true, disable_session_recording: true});
+        try { posthog.register({site: SITE, internal: isInternal()}); } catch(e){}
+        try { if (isInternal() && posthog.people && posthog.people.set) posthog.people.set({fleet_internal: true}); } catch(e){}
+        while (Q.length) { var e0 = Q.shift(); try { posthog.capture(e0[0], e0[1]); } catch(e){} }
+      }
+    } catch(e){}
+  };
+  document.head.appendChild(s);
+
+  function onReady(fn){ if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", fn); else fn(); }
+  function vis(el){
+    if (!el) return false;
+    var cs = getComputedStyle(el);
+    if (cs.display === "none" || cs.visibility === "hidden") return false;
+    return !!(el.offsetWidth || el.offsetHeight || (el.getClientRects && el.getClientRects().length));
+  }
+  function txt(el){ return ((el && el.textContent) || "").replace(/\s+/g, " ").trim(); }
+
+  onReady(function(){
+    try {
+      var started = {};
+      (CFG.starts || []).forEach(function(st){
+        Array.prototype.forEach.call(document.querySelectorAll(st.sel), function(el){
+          el.addEventListener(st.on || "click", function(){
+            var k = st.surface || "tool";
+            if (started[k]) return;
+            started[k] = true;
+            track("tool_start", {surface: k});
+          });
+        });
+      });
+      (CFG.completes || []).forEach(function(cp){
+        var done = false;
+        function check(){
+          if (done) return;
+          var el = document.querySelector(cp.sel);
+          if (el && vis(el) && txt(el).length >= (cp.minText || 1)) {
+            done = true;
+            track("tool_complete", {surface: cp.surface || "tool"});
+          }
+        }
+        /* Observe the body and re-resolve the selector on every batch:
+           some tools replace the result node instead of filling it. */
+        new MutationObserver(check).observe(document.body, {childList: true, subtree: true, characterData: true, attributes: true});
+        check();
+      });
+      if (CFG.ask) {
+        var A = CFG.ask;
+        var go = A.goSel ? document.querySelector(A.goSel) : null;
+        if (go) go.addEventListener("click", function(){ track("ask_asked", {surface: "ask"}); });
+        var ans = A.answerSel ? document.querySelector(A.answerSel) : null;
+        if (ans) {
+          var lastText = "", completed = false;
+          var checkA = function(){
+            var el = document.querySelector(A.answerSel);
+            if (!el) return;
+            var t = txt(el);
+            if (!t || t === lastText) return;
+            lastText = t;
+            var fb = null;
+            (A.fallbacks || []).some(function(f){ if (f.re.test(t)) { fb = f; return true; } return false; });
+            if (fb) { track("ask_fallback", {surface: "ask", missing: fb.missing}); return; }
+            var props = {surface: "ask"};
+            (A.kinds || []).some(function(k){ if (k.re.test(t)) { props.outcome = k.outcome; return true; } return false; });
+            if (!props.outcome && A.defaultOutcome) props.outcome = A.defaultOutcome;
+            track("ask_answered", props);
+            if (A.completeOnAnswer && !completed) { completed = true; track("tool_complete", {surface: "ask"}); }
+          };
+          new MutationObserver(checkA).observe(document.body, {childList: true, subtree: true, characterData: true});
+        }
+      }
+      (CFG.specials || []).forEach(function(sp){
+        try {
+          if (sp.on === "click") {
+            Array.prototype.forEach.call(document.querySelectorAll(sp.sel), function(el){
+              el.addEventListener("click", function(){ track(sp.name, sp.props || {}); });
+            });
+          } else if (sp.on === "appear") {
+            var fired = false;
+            var chk = function(){
+              if (fired) return;
+              var el = document.querySelector(sp.sel);
+              if (el && vis(el) && txt(el).length) { fired = true; track(sp.name, sp.props || {}); }
+            };
+            new MutationObserver(chk).observe(document.body, {childList: true, subtree: true, characterData: true, attributes: true});
+            chk();
+          } else if (sp.on === "loadmatch") {
+            if (sp.re.test(location.href)) track(sp.name, sp.props || {});
+          }
+        } catch(e){}
+      });
+    } catch(e){}
+  });
+})();
+</script>
 </head>
 <body>
 <main>
@@ -226,30 +441,124 @@
     </div>
   </div>
 
-  <!-- 2026-11-01 examples pass (fleet examples audit, finding 1): the
-       homepage led with a promise and showed no worked example. This
-       strip is the choice prop with its proof: every number is from
-       the counted table in builds/fill-my-bracket/upset-data-2026-11-01
-       (men's tournament games 1985-2025, main bracket only; 2,520
-       games). 12v5: 57 wins in 160. First-round upsets per year:
-       average 8.3, so "about 8" is the site's counted phrasing.
-       Double-digit seed in the Sweet 16: 38 of 40 tournaments.
-       The sample line uses January's chip format verbatim
-       (06-choice-flow-spec, Surface 2 base chip: "12 seeds: 57 wins
-       in 160 since 1985"); the 12v5 kicker (at least one 12 won in
-       34 of 40 years) rides the strip's footnote line, so the whole
-       sample stays clear of the fixed ask pill at rest. January's
-       build absorbs this strip as-is. No speed claims: the value is
-       the choice, with the numbers under it. -->
-  <section class="facts-strip" aria-labelledby="facts-heading">
-    <h2 id="facts-heading">Your calls, with the numbers</h2>
-    <div class="facts-row">
-      <p class="fact"><b>57 in 160</b><span>Times a 12 seed has beaten a 5 seed since 1985.</span></p>
-      <p class="fact"><b>About 8</b><span>First-round upsets in a normal year.</span></p>
-      <p class="fact"><b>38 of 40</b><span>Tournaments with a double-digit seed in the Sweet 16.</span></p>
+  <!-- 2026-11-01 interactive landing (Billy's 10x directive, benchmarked
+       on worldcupprices.com): the visitor does not READ the upset stats,
+       they PLAY them. Eight tappable first-round matchup cards: tap a
+       seed, history answers back (animated count-up %, bar fills). A
+       running tally keeps the visitor's calls against the normal year
+       (about 8 first-round upsets). Below, the counted facts as
+       one-fact cards in the benchmark's shape: plain label, giant
+       number, one short line. Every number is from the counted table in
+       builds/fill-my-bracket/upset-data-2026-11-01 (men's tournament
+       games 1985-2025, main bracket only; 2,520 games): 12v5 57/160,
+       9v8 83/160, 11v6 62/160, 10v7 62/160, 13v4 33/160, 14v3 23/160,
+       15v2 11/160, 16v1 2/160; first-round lower-seed wins total
+       333 of 1,280 (26%); first-round upsets per year average 8.3;
+       double-digit seed in the Sweet 16 in 38 of 40 tournaments; at
+       least one 12 won in 34 of 40 years. Seed pairings and real
+       history only — no invented teams, no sample bracket. The locked
+       line is untouched. No speed claims: the value is the choice,
+       with the numbers under it. -->
+  <section class="play" aria-labelledby="play-heading">
+    <h2 id="play-heading">Make your calls</h2>
+    <p class="play-sub">Eight first-round matchups, counted since 1985. Tap a seed to call the game. History answers back.</p>
+    <div class="tally">
+      <p class="tally-count" id="tallyCount">Your calls: 0 of 8 · Upsets called: 0</p>
+      <p class="tally-react" id="tallyReact" aria-live="polite">A normal year has about 8 first-round upsets. See how many you call.</p>
+      <button type="button" class="tally-reset" id="tallyReset" hidden>Start over</button>
     </div>
-    <p class="fact-sample"><span class="fs-tag">Sample call</span>5 seed vs 12 seed &mdash; you take the 12. 12 seeds: 57 wins in 160 since 1985.</p>
-    <p class="fact-more">At least one 12 won in 34 of 40 years. Counted from every men&rsquo;s tournament game, 1985 to 2025. <a href="/which-first-round-upsets-happen-most">See every matchup &rarr;</a></p>
+    <div class="match-rail" id="matchRail">
+      <article class="match-card" data-fav="5" data-low="12" data-lowwins="57" data-games="160">
+        <p class="mc-match"><span>5 seed</span><em>vs</em><span>12 seed</span></p>
+        <p class="mc-q">Who wins?</p>
+        <div class="mc-picks">
+          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>5</b><span>Take the 5</span></button>
+          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>12</b><span>Take the 12</span></button>
+        </div>
+        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
+      </article>
+      <article class="match-card" data-fav="8" data-low="9" data-lowwins="83" data-games="160">
+        <p class="mc-match"><span>8 seed</span><em>vs</em><span>9 seed</span></p>
+        <p class="mc-q">Who wins?</p>
+        <div class="mc-picks">
+          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>8</b><span>Take the 8</span></button>
+          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>9</b><span>Take the 9</span></button>
+        </div>
+        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
+      </article>
+      <article class="match-card" data-fav="6" data-low="11" data-lowwins="62" data-games="160">
+        <p class="mc-match"><span>6 seed</span><em>vs</em><span>11 seed</span></p>
+        <p class="mc-q">Who wins?</p>
+        <div class="mc-picks">
+          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>6</b><span>Take the 6</span></button>
+          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>11</b><span>Take the 11</span></button>
+        </div>
+        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
+      </article>
+      <article class="match-card" data-fav="7" data-low="10" data-lowwins="62" data-games="160">
+        <p class="mc-match"><span>7 seed</span><em>vs</em><span>10 seed</span></p>
+        <p class="mc-q">Who wins?</p>
+        <div class="mc-picks">
+          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>7</b><span>Take the 7</span></button>
+          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>10</b><span>Take the 10</span></button>
+        </div>
+        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
+      </article>
+      <article class="match-card" data-fav="4" data-low="13" data-lowwins="33" data-games="160">
+        <p class="mc-match"><span>4 seed</span><em>vs</em><span>13 seed</span></p>
+        <p class="mc-q">Who wins?</p>
+        <div class="mc-picks">
+          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>4</b><span>Take the 4</span></button>
+          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>13</b><span>Take the 13</span></button>
+        </div>
+        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
+      </article>
+      <article class="match-card" data-fav="3" data-low="14" data-lowwins="23" data-games="160">
+        <p class="mc-match"><span>3 seed</span><em>vs</em><span>14 seed</span></p>
+        <p class="mc-q">Who wins?</p>
+        <div class="mc-picks">
+          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>3</b><span>Take the 3</span></button>
+          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>14</b><span>Take the 14</span></button>
+        </div>
+        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
+      </article>
+      <article class="match-card" data-fav="2" data-low="15" data-lowwins="11" data-games="160">
+        <p class="mc-match"><span>2 seed</span><em>vs</em><span>15 seed</span></p>
+        <p class="mc-q">Who wins?</p>
+        <div class="mc-picks">
+          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>2</b><span>Take the 2</span></button>
+          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>15</b><span>Take the 15</span></button>
+        </div>
+        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
+      </article>
+      <article class="match-card" data-fav="1" data-low="16" data-lowwins="2" data-games="160">
+        <p class="mc-match"><span>1 seed</span><em>vs</em><span>16 seed</span></p>
+        <p class="mc-q">Who wins?</p>
+        <div class="mc-picks">
+          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>1</b><span>Take the 1</span></button>
+          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>16</b><span>Take the 16</span></button>
+        </div>
+        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
+      </article>
+    </div>
+    <p class="play-foot">At least one 12 seed won in 34 of 40 years. Every number counted from men&rsquo;s tournament games, 1985 to 2025. <a href="/which-first-round-upsets-happen-most">See every matchup &rarr;</a></p>
+    <div class="fact-cards">
+      <div class="fc">
+        <p class="fc-label">First-round upsets in a normal year</p>
+        <p class="fc-num"><span class="countup" data-target="8" data-prefix="About ">About 8</span></p>
+        <p class="fc-line">Counted over 40 tournaments, 1985 to 2025.</p>
+      </div>
+      <div class="fc">
+        <p class="fc-label">First-round games won by the lower seed</p>
+        <p class="fc-num"><span class="countup" data-target="26" data-suffix="%">26%</span></p>
+        <p class="fc-line">333 of 1,280 first-round games since 1985. About 1 in 4.</p>
+      </div>
+      <div class="fc">
+        <p class="fc-label">Tournaments with a double-digit seed in the Sweet 16</p>
+        <p class="fc-num"><span class="countup" data-target="38" data-suffix=" of 40">38 of 40</span></p>
+        <p class="fc-line">It happens almost every year.</p>
+      </div>
+    </div>
   </section>
 
   <div class="share-row">
@@ -686,6 +995,143 @@
   })();
 </script>
 <script>
+  (function () {
+    "use strict";
+    /* 2026-11-01 interactive landing: matchup cards + tally + count-ups.
+       All numbers come from the cards' own data attributes, which carry
+       the counted table (1985-2025, main bracket). No network calls.
+       Analytics: canonical fleet taxonomy via window.FA — tool_step
+       {surface:"picker", step} as the visitor's call count grows, and
+       tool_complete {surface:"picker"} when all 8 calls are made.
+       Metadata only; a pick is a seed pairing, never personal data. */
+    var RM = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    function track(name, props) {
+      try { if (window.FA && FA.track) FA.track(name, props); } catch (e) {}
+    }
+    function countUp(el, target, prefix, suffix, dur) {
+      prefix = prefix || ""; suffix = suffix || "";
+      if (RM || !window.requestAnimationFrame) { el.textContent = prefix + target + suffix; return; }
+      var t0 = null;
+      function frame(ts) {
+        if (t0 === null) t0 = ts;
+        var p = Math.min(1, (ts - t0) / dur);
+        var eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = prefix + Math.round(target * eased) + suffix;
+        if (p < 1) requestAnimationFrame(frame);
+      }
+      requestAnimationFrame(frame);
+    }
+
+    /* Fact cards: count up when they scroll into view, once each.
+       Without IntersectionObserver the printed final values stand. */
+    var counters = document.querySelectorAll(".countup");
+    if (window.IntersectionObserver && counters.length) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (!en.isIntersecting) return;
+          io.unobserve(en.target);
+          countUp(en.target, parseInt(en.target.getAttribute("data-target"), 10) || 0,
+            en.target.getAttribute("data-prefix") || "", en.target.getAttribute("data-suffix") || "", 800);
+        });
+      }, { threshold: 0.4 });
+      counters.forEach(function (el) { io.observe(el); });
+    }
+
+    /* Matchup cards: tap a seed, history answers back. */
+    var cards = Array.prototype.slice.call(document.querySelectorAll(".match-card"));
+    var tallyCount = document.getElementById("tallyCount");
+    var tallyReact = document.getElementById("tallyReact");
+    var resetBtn = document.getElementById("tallyReset");
+    if (!cards.length || !tallyCount) return;
+    var picks = {}, maxMade = 0, completed = false;
+
+    function tally() {
+      var made = 0, upsets = 0;
+      cards.forEach(function (c, i) {
+        if (picks[i] === "low") { made++; upsets++; }
+        else if (picks[i] === "fav") { made++; }
+      });
+      tallyCount.textContent = "Your calls: " + made + " of " + cards.length + " · Upsets called: " + upsets;
+      if (made === cards.length) {
+        tallyReact.textContent = "All 8 called: " + upsets + (upsets === 1 ? " upset" : " upsets") + ", " +
+          (made - upsets) + " favorites. In real life, the lower seed wins about 1 first-round game in 4.";
+        if (!completed) { completed = true; track("tool_complete", { surface: "picker" }); }
+      } else if (upsets === 0 && made > 0) {
+        tallyReact.textContent = "All favorites so far. A normal year still brings about 8 upsets.";
+      } else if (upsets > 0) {
+        tallyReact.textContent = upsets + (upsets === 1 ? " upset" : " upsets") + " on your card. A normal year has about 8 in the whole first round.";
+      } else {
+        tallyReact.textContent = "A normal year has about 8 first-round upsets. See how many you call.";
+      }
+      if (resetBtn) resetBtn.hidden = made === 0;
+      if (made > maxMade) { maxMade = made; track("tool_step", { surface: "picker", step: made }); }
+    }
+
+    cards.forEach(function (card, idx) {
+      var fav = parseInt(card.getAttribute("data-fav"), 10);
+      var low = parseInt(card.getAttribute("data-low"), 10);
+      var lowWins = parseInt(card.getAttribute("data-lowwins"), 10);
+      var games = parseInt(card.getAttribute("data-games"), 10);
+      var result = card.querySelector(".mc-result");
+      var btns = card.querySelectorAll(".pick-btn");
+      btns.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var pick = btn.getAttribute("data-pick");
+          picks[idx] = pick;
+          btns.forEach(function (b) {
+            var on = b === btn;
+            b.classList.toggle("sel", on);
+            b.setAttribute("aria-pressed", on ? "true" : "false");
+          });
+          var wins = pick === "low" ? lowWins : games - lowWins;
+          var seed = pick === "low" ? low : fav;
+          var pct = Math.round((wins / games) * 100);
+          result.innerHTML = "";
+          var pctEl = document.createElement("p");
+          pctEl.className = "mc-pct";
+          pctEl.textContent = "0%";
+          var bar = document.createElement("div");
+          bar.className = "mc-bar";
+          var fill = document.createElement("i");
+          bar.appendChild(fill);
+          var line = document.createElement("p");
+          line.className = "mc-line";
+          line.textContent = pick === "low"
+            ? "The " + low + " seed has won " + lowWins + " of " + games + " of these since 1985."
+            : "The " + fav + " seed has won " + wins + " of " + games + " of these since 1985. The " + low + " seed took the other " + lowWins + ".";
+          result.appendChild(pctEl);
+          result.appendChild(bar);
+          result.appendChild(line);
+          countUp(pctEl, pct, "", "%", 650);
+          if (RM) { fill.style.width = pct + "%"; }
+          else { requestAnimationFrame(function () { requestAnimationFrame(function () { fill.style.width = pct + "%"; }); }); }
+          tally();
+        });
+      });
+    });
+
+    if (resetBtn) {
+      resetBtn.addEventListener("click", function () {
+        picks = {}; completed = false;
+        cards.forEach(function (card) {
+          card.querySelectorAll(".pick-btn").forEach(function (b) {
+            b.classList.remove("sel");
+            b.setAttribute("aria-pressed", "false");
+          });
+          var result = card.querySelector(".mc-result");
+          result.innerHTML = "";
+          var hint = document.createElement("p");
+          hint.className = "mc-hint";
+          hint.textContent = "Tap a seed. History answers.";
+          result.appendChild(hint);
+        });
+        tally();
+      });
+    }
+    tally();
+  })();
+</script>
+<script>
 "use strict";
 /* ================= Fleet analytics — PostHog rollout (2026-10-25) =================
    Fill My Bracket joins the fleet PostHog project (624507), rolling out the
@@ -763,8 +1209,6 @@ function fleetSessionMarks(){
 <!-- ASK PANEL START -->
 <style>
 .askp-pill{position:fixed;right:16px;bottom:16px;z-index:9998;min-height:48px;padding:.65rem 1.1rem;border:0;border-radius:999px;background:#ff7a1a;color:#081c3a;font-weight:800;font-size:1rem;cursor:pointer;box-shadow:0 6px 24px rgba(0,0,0,.35);font-family:inherit}
-html{scroll-padding-bottom:96px}
-body{padding-bottom:80px}
 .askp-pill:focus-visible,.askp-close:focus-visible,.askp-chip:focus-visible,.askp-send:focus-visible,.askp-input:focus-visible{outline:3px solid #ffa25e;outline-offset:2px}
 .askp-panel{position:fixed;right:0;left:0;bottom:0;z-index:9999;background:#0d2b57;color:#f7f2e7;border-top:2px solid #ff7a1a;border-radius:16px 16px 0 0;padding:1rem 1.1rem 1.1rem;max-height:88vh;overflow-y:auto;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55;box-shadow:0 -8px 32px rgba(0,0,0,.4)}
 @media(min-width:641px){.askp-panel{left:auto;right:16px;bottom:16px;width:26rem;max-width:calc(100vw - 32px);border:2px solid #ff7a1a;border-radius:16px}}
