@@ -99,6 +99,7 @@
   .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; margin: 0.75rem 0 1rem; }
   .table-scroll table { margin: 0; }
   .table-scroll:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+  td.bothrank sup { font-size: 0.75em; font-weight: 700; color: var(--orange); margin-left: 3px; }
 </style>
 <script type="application/ld+json">
 {
@@ -139,6 +140,14 @@
     },
     {
       "@type": "Question",
+      "name": "Why does each Top 25 rank have a small second number?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The big number is the team's AP rank. The small raised number is its rank in Bart Torvik's T-Rank model, out of 365 teams, read on November 1, 2026. Putting both in one cell shows where the voters and the model agree, and where they do not, with no tap or second table needed."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "What makes a favorite 'vulnerable' on this page?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -166,37 +175,46 @@
   <p>Nobody's March fate moves this week. But the picture that March will rearrange starts here.</p>
 
   <h2>The full preseason Top 25</h2>
+  <p><strong>Through Sunday, November 1, 2026.</strong> Poll: Preseason AP Top 25, released Monday, October 19, 2026. Model: Bart Torvik T-Rank, read November 1, 2026. Both lists cover all 25 teams below.</p>
+  <p>Each rank cell holds two numbers.</p>
+  <p>The big number is the voters' rank.</p>
+  <p>The small raised number is the model's rank.</p>
+  <p>The model ranks all 365 teams.</p>
+  <p>Florida reads 1, with a small 3.</p>
+  <p>Voters say first. The model says third.</p>
   <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table">
   <table>
-    <tr><th>Rank</th><th>Team</th></tr>
-<tr><td><strong>1</strong></td><td>Florida (47)</td></tr>
-<tr><td><strong>2</strong></td><td>Duke (10)</td></tr>
-<tr><td><strong>3</strong></td><td>Illinois (2)</td></tr>
-<tr><td><strong>4</strong></td><td>UConn</td></tr>
-<tr><td><strong>5</strong></td><td>Arizona</td></tr>
-<tr><td><strong>6</strong></td><td>Michigan State</td></tr>
-<tr><td><strong>7</strong></td><td>Texas</td></tr>
-<tr><td><strong>8</strong></td><td>Tennessee</td></tr>
-<tr><td><strong>9</strong></td><td>Virginia</td></tr>
-<tr><td><strong>10</strong></td><td>Houston</td></tr>
-<tr><td><strong>11</strong></td><td>Louisville</td></tr>
-<tr><td><strong>12</strong></td><td>Arkansas</td></tr>
-<tr><td><strong>13</strong></td><td>St. John's</td></tr>
-<tr><td><strong>14</strong></td><td>Miami</td></tr>
-<tr><td><strong>15</strong></td><td>Gonzaga</td></tr>
-<tr><td><strong>16</strong></td><td>Michigan</td></tr>
-<tr><td><strong>17</strong></td><td>Kansas</td></tr>
-<tr><td><strong>18</strong></td><td>Iowa State</td></tr>
-<tr><td><strong>19</strong></td><td>Texas Tech</td></tr>
-<tr><td><strong>20</strong></td><td>Alabama</td></tr>
-<tr><td><strong>21</strong></td><td>USC</td></tr>
-<tr><td><strong>22</strong></td><td>UCLA</td></tr>
-<tr><td><strong>23</strong></td><td>Kentucky</td></tr>
-<tr><td><strong>24</strong></td><td>Vanderbilt</td></tr>
-<tr><td><strong>25</strong></td><td>BYU</td></tr>
+    <tr><th>AP rank, model rank</th><th>Team</th><th>March seed line</th></tr>
+<tr><td class="bothrank"><strong>1</strong><sup>3</sup></td><td>Florida (47)</td><td>1</td></tr>
+<tr><td class="bothrank"><strong>2</strong><sup>1</sup></td><td>Duke (10)</td><td>1</td></tr>
+<tr><td class="bothrank"><strong>3</strong><sup>7</sup></td><td>Illinois (2)</td><td>1</td></tr>
+<tr><td class="bothrank"><strong>4</strong><sup>13</sup></td><td>UConn</td><td>1</td></tr>
+<tr><td class="bothrank"><strong>5</strong><sup>2</sup></td><td>Arizona</td><td>2</td></tr>
+<tr><td class="bothrank"><strong>6</strong><sup>11</sup></td><td>Michigan State</td><td>2</td></tr>
+<tr><td class="bothrank"><strong>7</strong><sup>18</sup></td><td>Texas</td><td>2</td></tr>
+<tr><td class="bothrank"><strong>8</strong><sup>16</sup></td><td>Tennessee</td><td>2</td></tr>
+<tr><td class="bothrank"><strong>9</strong><sup>5</sup></td><td>Virginia</td><td>3</td></tr>
+<tr><td class="bothrank"><strong>10</strong><sup>6</sup></td><td>Houston</td><td>3</td></tr>
+<tr><td class="bothrank"><strong>11</strong><sup>9</sup></td><td>Louisville</td><td>3</td></tr>
+<tr><td class="bothrank"><strong>12</strong><sup>21</sup></td><td>Arkansas</td><td>3</td></tr>
+<tr><td class="bothrank"><strong>13</strong><sup>33</sup></td><td>St. John's</td><td>4</td></tr>
+<tr><td class="bothrank"><strong>14</strong><sup>12</sup></td><td>Miami</td><td>4</td></tr>
+<tr><td class="bothrank"><strong>15</strong><sup>8</sup></td><td>Gonzaga</td><td>4</td></tr>
+<tr><td class="bothrank"><strong>16</strong><sup>14</sup></td><td>Michigan</td><td>4</td></tr>
+<tr><td class="bothrank"><strong>17</strong><sup>4</sup></td><td>Kansas</td><td>5</td></tr>
+<tr><td class="bothrank"><strong>18</strong><sup>10</sup></td><td>Iowa State</td><td>5</td></tr>
+<tr><td class="bothrank"><strong>19</strong><sup>17</sup></td><td>Texas Tech</td><td>5</td></tr>
+<tr><td class="bothrank"><strong>20</strong><sup>20</sup></td><td>Alabama</td><td>5</td></tr>
+<tr><td class="bothrank"><strong>21</strong><sup>37</sup></td><td>USC</td><td>6</td></tr>
+<tr><td class="bothrank"><strong>22</strong><sup>24</sup></td><td>UCLA</td><td>6</td></tr>
+<tr><td class="bothrank"><strong>23</strong><sup>26</sup></td><td>Kentucky</td><td>6</td></tr>
+<tr><td class="bothrank"><strong>24</strong><sup>22</sup></td><td>Vanderbilt</td><td>6</td></tr>
+<tr><td class="bothrank"><strong>25</strong><sup>23</sup></td><td>BYU</td><td>7</td></tr>
 
   </table>
   </div>
+  <p>A far-apart pair means the lists disagree.</p>
+  <p>See them next: <a class="inline" href="#doubted">the teams the numbers doubt</a>.</p>
   <p>Others receiving votes: Missouri 167, Nebraska 70, Purdue 53, Ohio State 39, North Carolina 20, TCU 17, Saint Louis 13, VCU 12, Iowa 12, Virginia Tech 10, Indiana 8, Texas A&M 6, Villanova 6, Auburn 4, Marquette 3, Nevada 2, Grand Canyon 2, Utah State 2, Santa Clara 1.</p>
   <p>Seven of the 25 are SEC teams, led by Florida at No. 1.</p>
   <p>Michigan, which won the April 2026 national title, opens down at No. 16.</p>
@@ -215,7 +233,7 @@
     <li><strong>Ranks 21 to 25 (USC, UCLA, Kentucky, Vanderbilt, BYU): the 6 and 7 lines.</strong> Favorites in the two most upset-heavy games after the coin flip: 6 seeds lose to 11 seeds about 39 times in 100, and 7 seeds lose to 10 seeds about 39 times in 100.</li>
   </ul>
 
-  <h2>High-ranked teams the numbers doubt</h2>
+  <h2 id="doubted">High-ranked teams the numbers doubt</h2>
   <p>Two rankings came out this fall.</p>
   <p>The voters published theirs, the AP poll above.</p>
   <p>The best-known free model published its own: Bart Torvik's T-Rank, an efficiency rating the NCAA itself puts on the selection committee's team sheets.</p>
@@ -296,6 +314,7 @@
     <details><summary>When does this page update?</summary><p>Every week of the season. The AP poll lands on Mondays once games begin, and this page refreshes with it, with the date and source stamped at the top.</p></details>
     <details><summary>Who is the defending champion?</summary><p>Michigan, which won the April 2026 title game. The Wolverines open this season at No. 16 in the preseason AP poll.</p></details>
     <details><summary>Which unranked teams could surprise in March?</summary><p>A list of unranked teams picked out using three public signals: a top-70 rating in Bart Torvik's T-Rank model, votes in the AP poll, and a league path that lands teams on the 10 to 14 seed lines. It is a list to watch, not a prediction that any of them makes the field.</p></details>
+    <details><summary>Why does each Top 25 rank have a small second number?</summary><p>The big number is the team's AP rank. The small raised number is its rank in Bart Torvik's T-Rank model, out of 365 teams, read on November 1, 2026. Putting both in one cell shows where the voters and the model agree, and where they do not, with no tap or second table needed.</p></details>
     <details><summary>What makes a favorite 'vulnerable' on this page?</summary><p>A gap: the model rates the team eight or more spots below the voters. One of the two lists is wrong. If it is the voters, that team arrives in March standing on a trap seed line with less under it than its rank suggests. The list is re-scored every week.</p></details>
   </section>
 
