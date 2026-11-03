@@ -1751,6 +1751,12 @@ What are NET rankings?
 What is a bid stealer?
 What is the selection committee?
 What is Wins Above Bubble?
+Back to the game
+Make your calls on the eight matchups waiting on the home page.
+Built with Muse.
+Home
+Privacy
+Terms
 Ask in your own words
 Ask in your own words
 &times;
@@ -1766,7 +1772,7 @@ Open the full ask page
 ## Today's rankings, read with March eyes (https://fillmybracket.com/college-basketball-rankings)
 
 2026-27 season
-Today's rankings, read with March eyes
+Today's rankings, explained for March
 The season started this morning. Here is the full preseason Top 25, translated into the only language March speaks: seed lines, trap games, and the unranked names that become Cinderellas.
 Rankings as of Sunday, November 1, 2026.
 The Preseason AP Top 25, from The Associated Press, released Monday, October 19, 2026. First-place votes in parentheses. Rankings move every week; this page refreshes every week, and the stamp above always says which poll you are reading.
@@ -1849,7 +1855,7 @@ Ranks 17 to 20 (Kansas, Iowa State, Texas Tech, Alabama): the 5-seed line.
 The most famous trap in the tournament. Five seeds lose to 12 seeds 57 times in 160, better than one time in three. And no 5 seed has ever won the title.
 Ranks 21 to 25 (USC, UCLA, Kentucky, Vanderbilt, BYU): the 6 and 7 lines.
 Favorites in the two most upset-heavy games after the coin flip: 6 seeds lose to 11 seeds about 39 times in 100, and 7 seeds lose to 10 seeds about 39 times in 100.
-Vulnerable favorites: where the voters and the model disagree
+High-ranked teams the numbers doubt
 Two rankings came out this fall.
 The voters published theirs, the AP poll above.
 The best-known free model published its own: Bart Torvik's T-Rank, an efficiency rating the NCAA itself puts on the selection committee's team sheets.
@@ -1903,7 +1909,7 @@ Nebraska: unranked, model No. 15.
 The model's 15th-best team in the country did not make the voters' Top 25 at all, on 70 votes. Somebody moves toward somebody by January.
 Gonzaga: voters No. 15, model No. 8.
 The model likes the Zags more than the poll does, even on the 4-seed band where 13 seeds win one time in five.
-Cinderella Radar: scoring the unranked
+Cinderella Radar: unranked teams that could surprise in March
 March's 11, 12, and 13 seeds are almost never ranked in November.
 They are conference champions and fighters from leagues the polls barely watch.
 Count the whole first round and about eight games a year go to the lower seed. About two double-digit seeds are still standing in the Sweet 16.
@@ -1982,8 +1988,8 @@ When does this page update?
 Every week of the season. The AP poll lands on Mondays once games begin, and this page refreshes with it, with the date and source stamped at the top.
 Who is the defending champion?
 Michigan, which won the April 2026 title game. The Wolverines open this season at No. 16 in the preseason AP poll.
-What is the Cinderella Radar?
-A watch list of unranked teams scored on three public signals: a top-70 rating in Bart Torvik's T-Rank model, votes in the AP poll, and a league path that lands teams on the 10 to 14 seed lines. It is a list to watch, not a prediction that any of them makes the field.
+Which unranked teams could surprise in March?
+A list of unranked teams picked out using three public signals: a top-70 rating in Bart Torvik's T-Rank model, votes in the AP poll, and a league path that lands teams on the 10 to 14 seed lines. It is a list to watch, not a prediction that any of them makes the field.
 What makes a favorite 'vulnerable' on this page?
 A gap: the model rates the team eight or more spots below the voters. One of the two lists is wrong. If it is the voters, that team arrives in March standing on a trap seed line with less under it than its rank suggests. The list is re-scored every week.
 More bracket basics
@@ -2019,6 +2025,12 @@ What are NET rankings?
 What is a bid stealer?
 What is the selection committee?
 What is Wins Above Bubble?
+Back to the game
+Make your calls on the eight matchups waiting on the home page.
+Built with Muse.
+Home
+Privacy
+Terms
 Ask in your own words
 Ask in your own words
 &times;
