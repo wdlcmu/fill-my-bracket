@@ -95,6 +95,11 @@
   .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
   .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
 </style>
+<style>
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; margin: 0.75rem 0 1rem; }
+  .table-scroll table { margin: 0; }
+  .table-scroll:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -139,10 +144,12 @@
   <p>Lower seeds won <strong>333 of 1,280</strong> first-round games, about one in four.</p>
   <p>Each matchup below has been played exactly 160 times.</p>
   <figure class="viz" role="img" aria-label="First-round upset rates by matchup, 1985 to 2025."><div><div class="hbar"><span class="lab">9 vs 8</span><span class="track"><span class="fill" style="display:block;width:52%"></span></span><span class="val">~52%</span></div><div class="hbar"><span class="lab">10 vs 7</span><span class="track"><span class="fill" style="display:block;width:39%"></span></span><span class="val">~39%</span></div><div class="hbar"><span class="lab">11 vs 6</span><span class="track"><span class="fill" style="display:block;width:39%"></span></span><span class="val">~39%</span></div><div class="hbar"><span class="lab">12 vs 5</span><span class="track"><span class="fill" style="display:block;width:36%"></span></span><span class="val">~36%</span></div><div class="hbar"><span class="lab">13 vs 4</span><span class="track"><span class="fill" style="display:block;width:21%"></span></span><span class="val">~21%</span></div><div class="hbar"><span class="lab">14 vs 3</span><span class="track"><span class="fill" style="display:block;width:14%"></span></span><span class="val">~14%</span></div><div class="hbar"><span class="lab">15 vs 2</span><span class="track"><span class="fill" style="display:block;width:7%"></span></span><span class="val">~7%</span></div><div class="hbar"><span class="lab">16 vs 1</span><span class="track"><span class="fill" style="display:block;width:1%"></span></span><span class="val">~1%</span></div></div><p class="viz-cap">First-round upset rates, men's tournament, 1985 to 2025. The deep dive on each line: <a class="inline" href="/which-first-round-upsets-happen-most">which first-round upsets happen most</a>.</p></figure>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table">
   <table>
     <tr><th>First-round game</th><th>The low seed wins</th><th>Years with at least one</th></tr>
 <tr><td>9 seed vs 8 seed</td><td><strong>83 wins in 160 games</strong></td><td>37 of 40 years</td></tr><tr><td>10 seed vs 7 seed</td><td><strong>62 wins in 160 games</strong></td><td>37 of 40 years</td></tr><tr><td>11 seed vs 6 seed</td><td><strong>62 wins in 160 games</strong></td><td>35 of 40 years</td></tr><tr><td>12 seed vs 5 seed</td><td><strong>57 wins in 160 games</strong></td><td>34 of 40 years</td></tr><tr><td>13 seed vs 4 seed</td><td><strong>33 wins in 160 games</strong></td><td>28 of 40 years</td></tr><tr><td>14 seed vs 3 seed</td><td><strong>23 wins in 160 games</strong></td><td>20 of 40 years</td></tr><tr><td>15 seed vs 2 seed</td><td><strong>11 wins in 160 games</strong></td><td>10 of 40 years</td></tr><tr><td>16 seed vs 1 seed</td><td><strong>2 wins in 160 games</strong></td><td>2 of 40 years</td></tr>
   </table>
+  </div>
   <p>The 9-over-8 game is a coin flip that leans low.</p>
   <p>The famous lines sit below it: the 12, the 11, and the 10 each win about four times in ten.</p>
   <p>The 16-over-1 miracle has happened twice in 160 tries.</p>
@@ -150,10 +157,12 @@
   <h2>How far each seed actually goes</h2>
   <p>Every seed gets 160 teams in 40 years: four regions, one team each.</p>
   <p>Here is where those 160 teams stop.</p>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table">
   <table>
     <tr><th>Seed</th><th>Won a game</th><th>Sweet 16</th><th>Elite Eight</th><th>Final Four</th><th>Final</th><th>Titles</th></tr>
 <tr><td><strong>1</strong></td><td>158</td><td>136</td><td>107</td><td>66</td><td>41</td><td><strong>26</strong></td></tr><tr><td><strong>2</strong></td><td>149</td><td>102</td><td>72</td><td>32</td><td>13</td><td><strong>5</strong></td></tr><tr><td><strong>3</strong></td><td>137</td><td>84</td><td>41</td><td>17</td><td>11</td><td><strong>4</strong></td></tr><tr><td><strong>4</strong></td><td>127</td><td>77</td><td>25</td><td>15</td><td>4</td><td><strong>2</strong></td></tr><tr><td><strong>5</strong></td><td>103</td><td>55</td><td>12</td><td>9</td><td>4</td><td><strong>0</strong></td></tr><tr><td><strong>6</strong></td><td>98</td><td>47</td><td>17</td><td>3</td><td>2</td><td><strong>1</strong></td></tr><tr><td><strong>7</strong></td><td>98</td><td>29</td><td>10</td><td>3</td><td>1</td><td><strong>1</strong></td></tr><tr><td><strong>8</strong></td><td>77</td><td>16</td><td>9</td><td>6</td><td>4</td><td><strong>1</strong></td></tr><tr><td><strong>9</strong></td><td>83</td><td>8</td><td>5</td><td>2</td><td>0</td><td><strong>0</strong></td></tr><tr><td><strong>10</strong></td><td>62</td><td>25</td><td>9</td><td>1</td><td>0</td><td><strong>0</strong></td></tr><tr><td><strong>11</strong></td><td>62</td><td>27</td><td>10</td><td>6</td><td>0</td><td><strong>0</strong></td></tr><tr><td><strong>12</strong></td><td>57</td><td>22</td><td>2</td><td>0</td><td>0</td><td><strong>0</strong></td></tr><tr><td><strong>13</strong></td><td>33</td><td>6</td><td>0</td><td>0</td><td>0</td><td><strong>0</strong></td></tr><tr><td><strong>14</strong></td><td>23</td><td>2</td><td>0</td><td>0</td><td>0</td><td><strong>0</strong></td></tr><tr><td><strong>15</strong></td><td>11</td><td>4</td><td>1</td><td>0</td><td>0</td><td><strong>0</strong></td></tr><tr><td><strong>16</strong></td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td><strong>0</strong></td></tr>
   </table>
+  </div>
   <p>Read the 1-seed row and the 12-seed row together.</p>
   <p>A 1 seed reaches the Final Four <strong>66 times in 160</strong>. A 12 seed reaches the Elite Eight twice, and the Final Four never.</p>
   <p>Five seeds own the strangest line on the table: <strong>nine Final Fours, zero titles</strong>.</p>
@@ -162,10 +171,12 @@
   <h2>The second round is not safe either</h2>
   <p>Winning once buys a low seed a harder game, usually against a top seed.</p>
   <p>Lower seeds still won <strong>184 of 640</strong> second-round games, about 4.6 a year.</p>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table">
   <table>
     <tr><th>First-round winner</th><th>Won again (Sweet 16)</th><th>Rate</th></tr>
 <tr><td>11 seed over 6 seed</td><td><strong>27 of 62</strong></td><td>about 44 in 100</td></tr><tr><td>12 seed over 5 seed</td><td><strong>22 of 57</strong></td><td>about 39 in 100</td></tr><tr><td>10 seed over 7 seed</td><td><strong>24 of 62</strong></td><td>about 39 in 100</td></tr><tr><td>13 seed over 4 seed</td><td><strong>6 of 33</strong></td><td>about 18 in 100</td></tr><tr><td>15 seed over 2 seed</td><td><strong>4 of 11</strong></td><td>about 36 in 100</td></tr><tr><td>9 seed over 8 seed</td><td><strong>8 of 83</strong></td><td>about 10 in 100</td></tr>
   </table>
+  </div>
   <p>The 11 seed is the best bet to win twice: 27 of its 62 winners did.</p>
   <p>The 9 seed is the trap: it wins the coin flip, then meets a 1 seed. Only 8 of 83 won again.</p>
   <p>Small print on the 15s: only 11 have ever won a first game, and 4 of those 11 reached the Sweet 16. One, Saint Peter's in 2022, went to the Elite Eight.</p>
@@ -199,10 +210,12 @@
   <p>29 of 40 years landed between 6 and 10. Only 5 years had 5 or fewer.</p>
   <p>The recent game runs a little wilder: the 12 tournaments from 2013 to 2025 averaged 9.0.</p>
   <p>Here is where those upsets should come from, ranked by how many each line produces in a normal year:</p>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table">
   <table>
     <tr><th>Upset line</th><th>Expected wins per year</th><th>Years with at least one</th></tr>
 <tr><td>9 seed over 8 seed</td><td><strong>about 2.1</strong></td><td>37 of 40 years</td></tr><tr><td>10 seed over 7 seed</td><td><strong>about 1.6</strong></td><td>37 of 40 years</td></tr><tr><td>11 seed over 6 seed</td><td><strong>about 1.6</strong></td><td>35 of 40 years</td></tr><tr><td>12 seed over 5 seed</td><td><strong>about 1.4</strong></td><td>34 of 40 years</td></tr><tr><td>13 seed over 4 seed</td><td><strong>about 0.8</strong></td><td>28 of 40 years</td></tr><tr><td>14 seed over 3 seed</td><td><strong>about 0.6</strong></td><td>20 of 40 years</td></tr><tr><td>15 seed over 2 seed</td><td><strong>about 0.3</strong></td><td>10 of 40 years</td></tr><tr><td>16 seed over 1 seed</td><td><strong>about 0.05</strong></td><td>2 of 40 years</td></tr>
   </table>
+  </div>
   <p>And here is a typical first weekend, start to finish:</p>
   <ul class="plain">
     <li><strong>About 8 upsets on Thursday and Friday</strong>, led by the 9, 10, and 11 lines.</li>

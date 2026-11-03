@@ -95,6 +95,11 @@
   .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
   .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
 </style>
+<style>
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; margin: 0.75rem 0 1rem; }
+  .table-scroll table { margin: 0; }
+  .table-scroll:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -161,6 +166,7 @@
   <p>Nobody's March fate moves this week. But the picture that March will rearrange starts here.</p>
 
   <h2>The full preseason Top 25</h2>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table">
   <table>
     <tr><th>Rank</th><th>Team</th></tr>
 <tr><td><strong>1</strong></td><td>Florida (47)</td></tr>
@@ -190,6 +196,7 @@
 <tr><td><strong>25</strong></td><td>BYU</td></tr>
 
   </table>
+  </div>
   <p>Others receiving votes: Missouri 167, Nebraska 70, Purdue 53, Ohio State 39, North Carolina 20, TCU 17, Saint Louis 13, VCU 12, Iowa 12, Virginia Tech 10, Indiana 8, Texas A&M 6, Villanova 6, Auburn 4, Marquette 3, Nevada 2, Grand Canyon 2, Utah State 2, Santa Clara 1.</p>
   <p>Seven of the 25 are SEC teams, led by Florida at No. 1.</p>
   <p>Michigan, which won the April 2026 national title, opens down at No. 16.</p>
@@ -216,6 +223,7 @@
   <p>Where the model rates a ranked team far below the voters, one of the two lists is wrong.</p>
   <p>If the model is right, that team is a favorite standing on a trap line with less under it than its rank suggests.</p>
   <p>These are the six biggest disagreements in the Top 25:</p>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table">
   <table>
     <tr><th>Team</th><th>AP rank</th><th>Model rank</th><th>Band it stands in</th><th>That line's counted history</th></tr>
 <tr><td><strong>St. John's</strong></td><td>No. 13</td><td>33</td><td>4-seed line</td><td>13 seeds have beaten 4 seeds 33 times in 160 games, about one time in five.</td></tr>
@@ -226,6 +234,7 @@
 <tr><td><strong>Tennessee</strong></td><td>No. 8</td><td>16</td><td>2-seed line</td><td>15 seeds have beaten 2 seeds 11 times in 160.</td></tr>
 
   </table>
+  </div>
   <p><strong>Read this the honest way:</strong> this is one model's preseason baseline, a projection, never a certainty.</p>
   <p>It will be wrong about some of these teams by January.</p>
   <p>That is why this page re-scores the list every week instead of carving it in stone.</p>
@@ -246,6 +255,7 @@
     <li><strong>Poll notice.</strong> The team received AP votes. At least a few voters thought it belonged, which separates it from the 300 or so teams nobody mentioned.</li>
     <li><strong>A live path.</strong> Its league's road to March lands teams on the 10 to 14 seed lines, where the counted upset rates run from about 14 to 39 in 100.</li>
   </ul>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table">
   <table>
     <tr><th>Team</th><th>AP votes</th><th>Model rank</th><th>Signals lit</th><th>Why it is on the radar</th></tr>
 <tr><td><strong>Grand Canyon</strong> (Mountain West)</td><td>2</td><td>43</td><td><strong>3 of 3</strong></td><td>The widest gap on this page: the model rates Grand Canyon 43rd of 365 teams, and the voters gave them 2 votes.</td></tr>
@@ -256,6 +266,7 @@
 <tr><td><strong>Santa Clara</strong> (West Coast Conference)</td><td>1</td><td>89</td><td><strong>2 of 3</strong></td><td>One vote and the model's 89th rating — the faintest signal here, kept because WCC teams land on live seed lines.</td></tr>
 
   </table>
+  </div>
   <p>The radar is a watch list, not a promise: most of these teams will not make the field, and the page will say so when their signals go dark.</p>
   <p>And the famous name both lists agree on: <strong>North Carolina</strong>. Twenty votes, no ranking, and the model puts the Tar Heels 47th too. A giant starts the season doubted by everyone.</p>
 
