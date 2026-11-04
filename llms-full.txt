@@ -1393,8 +1393,8 @@ You pick 63 games, the whole main bracket from the First Round to the title game
 ## Ask in your own words (https://fillmybracket.com/ask)
 
 Ask in your own words.
-Ask about seeds, scoring, upsets, or the 2027 dates. You get a plain answer, from this site's own pages.
-How this helper works. A helper reads your words. It answers only from this site's own guides.
+Ask about seeds, scoring, upsets, or the 2027 dates. Ask anything else, too. You get a plain answer.
+How this helper works. A helper reads your words. Bracket answers come from this site's checked guides, counts, and Final Four history. Other questions get a real AI answer, and it says plainly when it does not know.
 It cannot pick your 2027 bracket. The teams are not set until Selection Sunday, March 14, 2027.
 Nothing you type is stored. The site keeps only a daily count of asks, with no words in it.
 Five questions start your bracket. Your picks finish it.
@@ -1760,7 +1760,7 @@ Terms
 Ask in your own words
 Ask in your own words
 &times;
-Answers come only from this site's own guides. It cannot pick your 2027 bracket. Nothing you type is stored.
+Bracket answers use this site's checked counts and history first. Ask anything else and a real AI answers in plain words. It cannot pick your 2027 bracket. Nothing you type is stored.
 What is a seed?
 How does scoring work?
 How often do upsets happen?
@@ -2100,7 +2100,7 @@ Terms
 Ask in your own words
 Ask in your own words
 &times;
-Answers come only from this site's own guides. It cannot pick your 2027 bracket. Nothing you type is stored.
+Bracket answers use this site's checked counts and history first. Ask anything else and a real AI answers in plain words. It cannot pick your 2027 bracket. Nothing you type is stored.
 What is a seed?
 How does scoring work?
 How often do upsets happen?

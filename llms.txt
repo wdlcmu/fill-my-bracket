@@ -8,7 +8,7 @@
 - The field is set on Selection Sunday, March 14, 2027. The bracket opens that evening, before the first games start.
 - How it will work: answer five questions (favorites or chaos, mascots or colors). Five questions start all 63 games, round by round. Your picks finish it — one tap flips any pick. There is a champion and a one-line reason for each pick.
 - A seed is a team's regional rank. Seed 1 is strongest, seed 16 is weakest.
-- There is no plugin or app yet. The site has one helper page, Ask (https://fillmybracket.com/ask): a helper answers questions using only this site's own pages. It cannot pick a 2027 bracket; the field is not set until March 14, 2027.
+- There is no plugin or app yet. The site has one helper page, Ask (https://fillmybracket.com/ask): a helper answers bracket questions from this site's checked data and history, and other questions with a real AI. It cannot pick a 2027 bracket; the field is not set until March 14, 2027.
 
 ## Key pages
 
@@ -48,7 +48,7 @@
 - [What is a bid stealer?](https://fillmybracket.com/what-is-a-bid-stealer): a team with no at-large case that wins its conference tournament and takes one at-large spot. NC State stole one in 2024 and reached the Final Four.
 - [What is the selection committee?](https://fillmybracket.com/what-is-the-selection-committee): the 12-member NCAA committee that picks the at-large teams, seeds all 76 teams, and builds the bracket. Members serve five-year terms and cannot vote for their own school.
 - [What is Wins Above Bubble?](https://fillmybracket.com/what-is-wins-above-bubble): a results-based metric counting how many more wins a team earned than a bubble team would average on the same schedule. It ignores margin and efficiency.
-- [Ask in your own words](https://fillmybracket.com/ask): ask about seeds, scoring, upsets, or the 2027 dates. Answers come only from this site's own pages.
+- [Ask in your own words](https://fillmybracket.com/ask): ask about seeds, scoring, upsets, or the 2027 dates. Bracket answers from checked data and history. Other answers from a real AI.
 
 ## Optional
 

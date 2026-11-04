@@ -163,6 +163,33 @@
     .fc { flex: 1 1 0; }
   }
 
+  /* 2026-11-03 evening cold-QA SPEC-QA1103E-02: desktop first-screen fix.
+     At 1280x800 the first card row's pick buttons ran 755.8-848.2px, cut at
+     the fold, and the first pick grew the tally ~53px, pushing the card
+     down. Compact the desktop hero/play stack (the same pattern as the
+     mobile compact hero below) and reserve the tally's post-pick height,
+     so the first pick buttons sit fully in view and the result lands in
+     view after a scroll-0 centre click. Mobile (<900px) is untouched. */
+  @media (min-width: 900px) {
+    main { padding-top: 1rem; }
+    .kicker { margin-bottom: 0.55rem; }
+    h1 { font-size: 3rem; margin-bottom: 0.55rem; }
+    .tagline { font-size: 1.28rem; max-width: 44rem; margin-bottom: 0.55rem; }
+    .cdx { margin-top: 0.3rem; }
+    .cdx-main { padding: 0.45rem 0.9rem; }
+    .cdx-cell b { font-size: 2rem; }
+    .cdx-cell i { margin-top: 0.2rem; }
+    .cdx-cta { margin-top: 0.3rem; }
+    .play h2 { font-size: 1.3rem; }
+    .play-sub { margin-bottom: 0.1rem; }
+    .tally { min-height: 7.3rem; padding-top: 0.3rem; padding-bottom: 0.3rem; }
+    .match-card { padding-top: 0.5rem; }
+    .mc-q { margin-bottom: 0.2rem; }
+    .pick-btn { padding-top: 0.45rem; padding-bottom: 0.45rem; }
+    .pick-btn b { font-size: 1.8rem; }
+    .mc-result { padding-top: 0.5rem; }
+  }
+
   /* 2026-11-02 first-tap payoff fix (cold-QA SPEC-first-tap-payoff, option A).
      On small phones the result block landed at viewport 811-934px after the
      first pick: the tally grew ~74px (the Start-over row appears and the
@@ -892,7 +919,7 @@ window.FLEET_CFG = {
   </div>
   <div class="faq-item">
     <h3><a href="/ask" style="color:var(--orange-soft);text-decoration:none;">Ask in your own words</a></h3>
-    <p>Ask about seeds, scoring, upsets, or the 2027 dates. Plain answers from this site's own pages.</p>
+    <p>Ask about seeds, scoring, upsets, or the 2027 dates. Ask anything else, too. Plain answers from checked data and a real AI.</p>
   </div>
 </section>
 <footer>
@@ -1261,7 +1288,7 @@ body{padding-bottom:80px}
 <button type="button" class="askp-pill" id="askpBtn" aria-haspopup="dialog" aria-expanded="false">Ask in your own words</button>
 <div class="askp-panel" id="askpPanel" role="dialog" aria-modal="true" aria-labelledby="askpTitle" hidden>
   <div class="askp-head"><strong id="askpTitle">Ask in your own words</strong><button type="button" class="askp-close" id="askpClose" aria-label="Close ask panel">&times;</button></div>
-  <div class="askp-how"><p>Answers come only from this site's own guides. It cannot pick your 2027 bracket. Nothing you type is stored.</p></div>
+  <div class="askp-how"><p>Bracket answers use this site's checked counts and history first. Ask anything else and a real AI answers in plain words. It cannot pick your 2027 bracket. Nothing you type is stored.</p></div>
   <div class="askp-chips">
     <button type="button" class="askp-chip">What is a seed?</button>
     <button type="button" class="askp-chip">How does scoring work?</button>
