@@ -255,6 +255,8 @@ body{padding-bottom:80px}
     if(inited)return;inited=true;
     var input=document.getElementById("askpInput"),send=document.getElementById("askpSend"),box=document.getElementById("askpReply"),closeBtn=document.getElementById("askpClose");
     var lastQ="",lastA="";
+    var tzName="";try{tzName=Intl.DateTimeFormat().resolvedOptions().timeZone||"";}catch(e){}
+    function localToday(){try{return new Intl.DateTimeFormat("en-CA",{year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());}catch(e){return "";}}
     var reduce=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     function show(text){
       box.style.display="block";box.innerHTML="";
@@ -265,7 +267,7 @@ body{padding-bottom:80px}
       var t=(text||"").trim();
       if(!t){show("Ask a few words first. Try one of the example questions above.");return;}
       send.disabled=true;send.textContent="Thinking...";
-      fetch("/api/ask",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(lastQ?{text:t,context:{q:lastQ,a:lastA}}:{text:t})})
+      fetch("/api/ask",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(lastQ?{text:t,context:{q:lastQ,a:lastA},localDate:localToday(),tz:tzName}:{text:t,localDate:localToday(),tz:tzName})})
         .then(function(r){return r.json();})
         .then(function(j){if(j&&j.reply){lastQ=t;lastA=j.reply;show(j.reply);}else show("The helper had a hiccup. The guides below answer the same things, in plain words.");})
         .catch(function(){show("The helper had a hiccup. The guides below answer the same things, in plain words.");})

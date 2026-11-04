@@ -139,6 +139,8 @@
   var btn = document.getElementById("ask");
   var box = document.getElementById("reply");
   var lastQ = "", lastA = "";
+  var tzName = ""; try { tzName = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) {}
+  function localToday() { try { return new Intl.DateTimeFormat("en-CA", { year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date()); } catch (e) { return ""; } }
   function show(text) {
     box.style.display = "block";
     box.innerHTML = "";
@@ -154,7 +156,7 @@
     var t = (text || "").trim();
     if (!t) { show("Ask a few words first. Try one of the example questions above."); return; }
     btn.disabled = true; btn.textContent = "Thinking...";
-    fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(lastQ ? { text: t, context: { q: lastQ, a: lastA } } : { text: t }) })
+    fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(lastQ ? { text: t, context: { q: lastQ, a: lastA }, localDate: localToday(), tz: tzName } : { text: t, localDate: localToday(), tz: tzName }) })
       .then(function (r) { return r.json(); })
       .then(function (j) {
         if (j && j.reply) { lastQ = t; lastA = j.reply; show(j.reply); }
