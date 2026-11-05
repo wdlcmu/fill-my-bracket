@@ -35,7 +35,7 @@
 - [How often does a 16 seed beat a 1 seed?](https://fillmybracket.com/how-often-does-a-16-seed-beat-a-1-seed): 2 wins in 160 games. UMBC beat Virginia in 2018 and Fairleigh Dickinson beat Purdue in 2023. Neither winner won again.
 - [How often does a 15 seed beat a 2 seed?](https://fillmybracket.com/how-often-does-a-15-seed-beat-a-2-seed): 11 wins in 160 games, about 7 in 100. Saint Peter's reached the Elite Eight in 2022.
 - [How often does a 14 seed beat a 3 seed?](https://fillmybracket.com/how-often-does-a-14-seed-beat-a-3-seed): 23 wins in 160 games, about 14 in 100. Only 2 of the 23 winners won again.
-- [What is March Madness?](https://fillmybracket.com/what-is-march-madness): the NCAA tournament in plain words. 76 teams, lose once and you are out, one champion.
+- [What is March Madness?](https://fillmybracket.com/what-is-march-madness): the NCAA tournament in plain words. 68 teams, lose once and you are out, one champion.
 - [How does March Madness work?](https://fillmybracket.com/how-does-march-madness-work): 68 teams in four regions, seeded 1 to 16. Single-elimination rounds cut the field in half until one champion is left.
 - [When does March Madness start?](https://fillmybracket.com/when-does-march-madness-start): the games start Tuesday, March 16, 2027, with the First Four. The main bracket starts Thursday, March 18, and the title game is Monday, April 5, in Detroit.
 - [Has anyone ever had a perfect bracket?](https://fillmybracket.com/has-anyone-ever-had-a-perfect-bracket): no, never. The best proven run is 49 straight picks, and the coin-flip odds are 1 in 9.2 quintillion.
@@ -45,22 +45,22 @@
 - [What is the lowest seed to win March Madness?](https://fillmybracket.com/what-is-the-lowest-seed-to-win-march-madness): a No. 8 seed, Villanova in 1985. Plus the 7 and 6 seed winners, and the six 11 seeds that reached the Final Four.
 - [Which school has the most Final Four appearances?](https://fillmybracket.com/which-school-has-the-most-final-four-appearances): North Carolina, with 21. UCLA has 19 and Duke 18. The ranked list for the men’s tournament, 1939 to 2025.
 - [March Madness champions list](https://fillmybracket.com/march-madness-champions-list): every champion by year, 1939 to 2025, with the runner-up and the title game score. Florida won in 2025. No tournament in 2020.
-- [How many teams are in March Madness?](https://fillmybracket.com/how-many-teams-are-in-march-madness): 76 teams in each tournament from 2027, up from 68. The main bracket still has 64 teams.
-- [What is the opening round in March Madness?](https://fillmybracket.com/what-is-the-opening-round-in-march-madness): 24 teams play 12 games before the main bracket. It replaces the First Four in 2027.
+- [How many teams are in March Madness?](https://fillmybracket.com/how-many-teams-are-in-march-madness): 68 teams in each tournament. The main bracket still has 64 teams.
+- [What is the opening round in March Madness?](https://fillmybracket.com/what-is-the-opening-round-in-march-madness): The opening round is the First Four: 8 teams play 4 games before the main bracket.
 - [What is the First Four?](https://fillmybracket.com/what-is-the-first-four): the opening round of the tournament. Eight teams play four games, and the winners take the last spots in the bracket of 64. In 2027 it is played March 16 and 17.
 - [What is the Sweet 16?](https://fillmybracket.com/what-is-the-sweet-16): the regional semifinals, when 16 teams remain, four in each region. Winners move on to the Elite Eight.
 - [What is the Elite Eight?](https://fillmybracket.com/what-is-the-elite-eight): the regional finals, when eight teams remain, two in each region. The four winners reach the Final Four.
-- [How many games are in March Madness?](https://fillmybracket.com/how-many-games-are-in-march-madness): 75 games in each 2027 tournament, with 63 in the main bracket. The Opening Round adds 12 games.
+- [How many games are in March Madness?](https://fillmybracket.com/how-many-games-are-in-march-madness): 67 games in each tournament, with 63 in the main bracket. The First Four adds 4 games.
 - [What is an automatic bid?](https://fillmybracket.com/what-is-an-automatic-bid): the guaranteed spot a team earns by winning its conference tournament. Every conference sends one winner, whatever its season record.
 - [What is an at-large bid?](https://fillmybracket.com/what-is-an-at-large-bid): the selection committee's invitation for a team that did not win its conference tournament. The committee weighs the whole season, with no limit per conference.
 - [What is a bubble team?](https://fillmybracket.com/what-is-a-bubble-team): a team right on the cut line for the field. It needs one of the last at-large bids, and its qualification could go either way.
 - [What is bracketology?](https://fillmybracket.com/what-is-bracketology): predicting the field and the seeds before Selection Sunday. Analysts build mock brackets all season; the committee's real field ends the game.
-- [How many rounds are in March Madness?](https://fillmybracket.com/how-many-rounds-are-in-march-madness): seven stages in 2027, counting the Opening Round. The main bracket fans pick holds six rounds, from 64 teams to one champion.
+- [How many rounds are in March Madness?](https://fillmybracket.com/how-many-rounds-are-in-march-madness): seven stages in 2027, counting the First Four. The main bracket fans pick holds six rounds, from 64 teams to one champion.
 - [What is the NIT?](https://fillmybracket.com/what-is-the-nit): the National Invitation Tournament, for the strongest teams that miss the NCAA field. It holds 24 teams in 2027, down from 32.
 - [What is a conference tournament?](https://fillmybracket.com/what-is-a-conference-tournament): the short playoff each of the 32 leagues holds after the season. Its winner earns an automatic bid, whatever its record.
 - [What are NET rankings?](https://fillmybracket.com/what-are-net-rankings): the NCAA Evaluation Tool rankings, the committee's main sorting tool since 2018-19. Two parts, four quadrants, and no say on their own.
 - [What is a bid stealer?](https://fillmybracket.com/what-is-a-bid-stealer): a team with no at-large case that wins its conference tournament and takes one at-large spot. NC State stole one in 2024 and reached the Final Four.
-- [What is the selection committee?](https://fillmybracket.com/what-is-the-selection-committee): the 12-member NCAA committee that picks the at-large teams, seeds all 76 teams, and builds the bracket. Members serve five-year terms and cannot vote for their own school.
+- [What is the selection committee?](https://fillmybracket.com/what-is-the-selection-committee): the 12-member NCAA committee that picks the at-large teams, seeds all 68 teams, and builds the bracket. Members serve five-year terms and cannot vote for their own school.
 - [What is Wins Above Bubble?](https://fillmybracket.com/what-is-wins-above-bubble): a results-based metric counting how many more wins a team earned than a bubble team would average on the same schedule. It ignores margin and efficiency.
 - [Ask in your own words](https://fillmybracket.com/ask): ask about seeds, scoring, upsets, or the 2027 dates. Bracket answers from checked data and history. Other answers from a real AI.
 
