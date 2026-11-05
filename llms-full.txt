@@ -784,10 +784,10 @@ How often do upsets happen in March Madness?
 Every year. Since 1985, the lower seed has won about one first-round game in four. Picking all favorites is not the safe play it looks like.
 Visual: First-round upset rates since 1985: 9 seeds beat 8 seeds 52 times in 100, 10 seeds beat 7 seeds 39 times in 100, 11 over 6 is 39, 12 over 5 is 36, 13 over 4 is 21, 14 over 3 is 14, 15 over 2 is 7, 16 over 1 is 1.
 The first-round seed math, since 1985
-12 seed vs 5 seed: 57 wins in 160 games. 11 seed vs 6 seed: 62 wins in 160 games. 10 seed vs 7 seed: 62 wins in 160 games. 13 seed vs 4 seed: 33 wins in 160 games. 14 seed vs 3 seed: 23 wins in 160 games. 15 seed vs 2 seed: 11 wins in 160 games. 16 seed vs 1 seed: 2 wins in 160 games.
-The 12-over-5 upset is the famous one. The 8-vs-9 game is a coin flip. In fact, 9 seeds win it a bit more than half the time. We counted every game ourselves. All 2,520 men's tournament games, 1985 to 2025. First Four games are not counted. Every rate here starts at the round of 64. The full chart: which first-round upsets happen most.
+12 seed vs 5 seed: 58 wins in 164 games. 11 seed vs 6 seed: 64 wins in 164 games. 10 seed vs 7 seed: 63 wins in 164 games. 13 seed vs 4 seed: 33 wins in 164 games. 14 seed vs 3 seed: 23 wins in 164 games. 15 seed vs 2 seed: 11 wins in 164 games. 16 seed vs 1 seed: 2 wins in 164 games.
+The 12-over-5 upset is the famous one. The 8-vs-9 game is a coin flip. In fact, 9 seeds win it a bit more than half the time. We counted every game ourselves. All 2,583 men's tournament games, 1985 to 2026. First Four games are not counted. Every rate here starts at the round of 64. The full chart: which first-round upsets happen most.
 The two wins nobody forgets
-A 16 seed has beaten a 1 seed twice. UMBC beat Virginia in 2018. Fairleigh Dickinson beat Purdue in 2023. 160 tries. Two wins.
+A 16 seed has beaten a 1 seed twice. UMBC beat Virginia in 2018. Fairleigh Dickinson beat Purdue in 2023. 164 tries. Two wins.
 What happens late
 Upsets thin out as rounds go on. Since 1985, 1 seeds have won more titles than all other seeds put together. A 5 seed has reached the Final Four nine times. No 5 seed has ever won the title. The lowest seed to win it all is 8.
 What this means for your picks
@@ -797,9 +797,9 @@ Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 How often do upsets happen in March Madness?
-Every year. Since 1985, the lower seed has won about one first-round game in four. The famous 12-over-5 upset happens about 36 times in 100 tries, and 11 seeds beat 6 seeds about 39 times in 100.
+Every year. Since 1985, the lower seed has won about one first-round game in four. The famous 12-over-5 upset happens about 35 times in 100 tries, and 11 seeds beat 6 seeds about 39 times in 100.
 Has a 16 seed ever beaten a 1 seed?
-Yes, twice. UMBC beat Virginia in 2018, and Fairleigh Dickinson beat Purdue in 2023. In 160 tries, those are the only two.
+Yes, twice. UMBC beat Virginia in 2018, and Fairleigh Dickinson beat Purdue in 2023. In 164 tries, those are the only two.
 
 ## What is a seed in March Madness? (https://fillmybracket.com/what-is-a-seed-in-march-madness)
 
@@ -820,7 +820,7 @@ Common questions
 What is a seed in March Madness?
 A seed is a team's rank inside its region, from 1 to 16. A committee ranks every team before the tournament starts. Seed 1 is the strongest team in the region, and seed 16 is the weakest.
 Why does a 1 seed play a 16 seed first?
-To reward the best teams and save the big games for late. First-round games pair seeds that add up to 17: 1 plays 16, 2 plays 15, and so on. A 1 seed has beaten a 16 seed in all but two of 160 tries.
+To reward the best teams and save the big games for late. First-round games pair seeds that add up to 17: 1 plays 16, 2 plays 15, and so on. A 1 seed has beaten a 16 seed in all but two of 164 tries.
 
 ## How to pick upsets (https://fillmybracket.com/how-to-pick-upsets)
 
@@ -828,7 +828,7 @@ How to pick upsets in March Madness
 Pick a few, in the right spots. About one first-round game in four is an upset, and most of them live in the same few matchups.
 Visual: First-round upset rates since 1985: 10 seeds beat 7 seeds 39 times in 100, 11 over 6 is 39, 12 over 5 is 36.
 Five rules, from the seed math
-Start with the 12-over-5 game. It hits about 36 times in 100. Add an 11 seed over a 6 seed. About 39 in 100, since 1985. Take two or three first-round upsets. That matches history without betting the bracket. Stop before the late rounds. Favorites rule late. Keep your champion a 1 or 2 seed. Never spend a pick on 16 over 1. Twice, ever, in 160 tries. Treat the 8-vs-9 game as a coin flip, not an upset. One low seed in your Sweet 16 is normal. Two is a story.
+Start with the 12-over-5 game. It hits about 35 times in 100. Add an 11 seed over a 6 seed. About 39 in 100, since 1985. Take two or three first-round upsets. That matches history without betting the bracket. Stop before the late rounds. Favorites rule late. Keep your champion a 1 or 2 seed. Never spend a pick on 16 over 1. Twice, ever, in 164 tries. Treat the 8-vs-9 game as a coin flip, not an upset. One low seed in your Sweet 16 is normal. Two is a story.
 A worked example
 Say you take two 12 seeds and one 11 seed. Each pick hits about 36 to 39 times in 100. Together, the chance at least one lands is about 3 in 4. Your other 29 first-round picks can stay safe. One landed upset beats every all-favorite bracket on that game.
 How our picker does it
@@ -839,22 +839,22 @@ Common questions
 How many upsets should I pick in my bracket?
 Two or three in the first round is the normal range. Since 1985, about one first-round game in four is an upset, but they cluster in a few matchups, like the 12 seed against the 5 seed.
 Should I pick a 16 seed to beat a 1 seed?
-History says no. A 16 seed has beaten a 1 seed twice in 160 tries: UMBC in 2018 and Fairleigh Dickinson in 2023. It is a fun pick that almost always costs you a game.
+History says no. A 16 seed has beaten a 1 seed twice in 164 tries: UMBC in 2018 and Fairleigh Dickinson in 2023. It is a fun pick that almost always costs you a game.
 
 ## Which first-round upsets happen most often? (https://fillmybracket.com/which-first-round-upsets-happen-most)
 
 Which first-round upsets happen most often?
-The close ones. Lower seeds won 333 of 1,280 first-round games since 1985. That is about one game in four. The 10, 11, and 12 seeds do most of the damage.
-Visual: First-round upset rates, men's tournament, 1985 to 2025: 9 seeds beat 8 seeds 83 times in 160, 10 over 7 is 62 in 160, 11 over 6 is 62 in 160, 12 over 5 is 57 in 160, 13 over 4 is 33 in 160, 14 over 3 is 23 in 160, 15 over 2 is 11 in 160, 16 over 1 is 2 in 160.
-The full count, 1985 to 2025
-9 seed vs 8 seed: 83 wins in 160 games. 10 seed vs 7 seed: 62 wins in 160 games. 11 seed vs 6 seed: 62 wins in 160 games. 12 seed vs 5 seed: 57 wins in 160 games. 13 seed vs 4 seed: 33 wins in 160 games. 14 seed vs 3 seed: 23 wins in 160 games. 15 seed vs 2 seed: 11 wins in 160 games. 16 seed vs 1 seed: 2 wins in 160 games.
+The close ones. Lower seeds won 341 of 1,312 first-round games since 1985. That is about one game in four. The 10, 11, and 12 seeds do most of the damage.
+Visual: First-round upset rates, men's tournament, 1985 to 2026: 9 seeds beat 8 seeds 87 times in 164, 10 over 7 is 63 in 164, 11 over 6 is 64 in 164, 12 over 5 is 58 in 164, 13 over 4 is 33 in 164, 14 over 3 is 23 in 164, 15 over 2 is 11 in 164, 16 over 1 is 2 in 164.
+The full count, 1985 to 2026
+9 seed vs 8 seed: 87 wins in 164 games. 10 seed vs 7 seed: 63 wins in 164 games. 11 seed vs 6 seed: 64 wins in 164 games. 12 seed vs 5 seed: 58 wins in 164 games. 13 seed vs 4 seed: 33 wins in 164 games. 14 seed vs 3 seed: 23 wins in 164 games. 15 seed vs 2 seed: 11 wins in 164 games. 16 seed vs 1 seed: 2 wins in 164 games.
 The 8-vs-9 game sits at the top. Nine seeds win it a bit more than half the time. Most brackets treat it as a coin flip. History agrees.
 The patterns behind the numbers
-A normal year has about eight first-round upsets. The quietest year had 3. The wildest had 13. A double-digit seed reaches the Sweet 16 almost every year. It has happened in 38 of 40 tournaments, and 17 years in a row. The 11 seed is better than its number lately. Since 2013, 11 seeds have won half of their first-round games. Middle seeds can win twice. Of the 11 seeds that won in round one, 27 of 62 also won their next game. The top still rules late. One seeds have won 26 of the 40 titles since 1985.
+A normal year has about eight first-round upsets. The quietest year had 3. The wildest had 13. A double-digit seed reaches the Sweet 16 almost every year. It has happened in 39 of 41 tournaments, and 18 years in a row. The 11 seed is better than its number lately. Since 2013, 11 seeds have won half of their first-round games. Middle seeds can win twice. Of the 11 seeds that won in round one, 28 of 64 also won their next game. The top still rules late. One seeds have won 27 of the 41 titles since 1985.
 What about the field in 2027?
 The 2027 tournament holds 68 teams. Four First Four games come first. The winners join the same 64-team main bracket. These numbers count the main bracket only. Every rate starts at the round of 64.
 How we counted
-We counted every men's tournament game from 1985 to 2025. That is 40 tournaments and 2,520 games. There was no tournament in 2020. Game results come from the public game-by-game record. Wikipedia tournament pages, compiled in the march-madness-games-csv dataset. History is a guide, not a promise.
+We counted every men's tournament game from 1985 to 2026. That is 41 tournaments and 2,583 games. There was no tournament in 2020. Game results come from the public game-by-game record. Wikipedia tournament pages, compiled in the march-madness-games-csv dataset. History is a guide, not a promise.
 Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
@@ -866,78 +866,78 @@ No. Every rate here counts the main bracket only, starting at the round of 64. I
 ## How often does a 12 seed beat a 5 seed? (https://fillmybracket.com/how-often-does-a-12-seed-beat-a-5-seed)
 
 How often does a 12 seed beat a 5 seed?
-About 36 times in 100. The 12 seed has beaten the 5 seed 57 times in 160 games since 1985. It is the most famous upset in the bracket, and the math backs it up.
-Visual: The 12-over-5 upset, by era: 18 of 60 games from 1985 to 1999, 20 of 52 from 2000 to 2012, 19 of 48 from 2013 to 2025. It has grown more common.
+About 35 times in 100. The 12 seed has beaten the 5 seed 58 times in 164 games since 1985. It is the most famous upset in the bracket, and the math backs it up.
+Visual: The 12-over-5 upset, by era: 18 of 60 games from 1985 to 1999, 20 of 52 from 2000 to 2012, 20 of 52 from 2013 to 2026. It has grown more common.
 It happens almost every year
-At least one 12 seed has won in 34 of 40 tournaments. Two won in 2025. McNeese beat Clemson. Colorado State beat Memphis. 2023 was one of the rare quiet years. No 12 seed won.
+At least one 12 seed has won in 35 of 41 tournaments. Two won in 2025. McNeese beat Clemson. Colorado State beat Memphis. 2023 was one of the rare quiet years. No 12 seed won.
 When a 12 wins, it can win again
-22 of the 57 winning 12 seeds also won their next game. That is about 39 in 100. The prize is usually a beatable 4 or 13 seed. One low seed in your Sweet 16 is normal. A 12 is the classic pick.
+22 of the 58 winning 12 seeds also won their next game. That is about 38 in 100. The prize is usually a beatable 4 or 13 seed. One low seed in your Sweet 16 is normal. A 12 is the classic pick.
 How we counted
-Counted from every men's tournament game, 1985 to 2025. Main bracket only. First Four games are not counted. The full table lives on which first-round upsets happen most.
+Counted from every men's tournament game, 1985 to 2026. Main bracket only. First Four games are not counted. The full table lives on which first-round upsets happen most.
 Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 How often does a 12 seed beat a 5 seed?
-About 36 times in 100. Since 1985, 12 seeds have won 57 of 160 games against 5 seeds in the men's tournament.
+About 35 times in 100. Since 1985, 12 seeds have won 58 of 164 games against 5 seeds in the men's tournament.
 Has a 12 seed ever reached the Final Four?
 No. No 12 seed has reached the Final Four. A few reached the Elite Eight, like Oregon State in 2021.
 
 ## How often does an 11 seed beat a 6 seed? (https://fillmybracket.com/how-often-does-an-11-seed-beat-a-6-seed)
 
 How often does an 11 seed beat a 6 seed?
-About 39 times in 100. The 11 seed has beaten the 6 seed 62 times in 160 games since 1985. Lately it is closer to a coin flip.
-Visual: The 11-over-6 upset, by era: 18 of 60 games from 1985 to 1999, 20 of 52 from 2000 to 2012, 24 of 48 from 2013 to 2025. It is a coin flip now.
+About 39 times in 100. The 11 seed has beaten the 6 seed 64 times in 164 games since 1985. Lately it is closer to a coin flip.
+Visual: The 11-over-6 upset, by era: 18 of 60 games from 1985 to 1999, 20 of 52 from 2000 to 2012, 26 of 52 from 2013 to 2026. It is a coin flip now.
 The recent pattern
-Since 2013, 11 seeds have won 24 of 48 games against 6 seeds. That is exactly half. The early years were colder. From 1985 to 1999, 11 seeds won 18 of 60. Nobody knows one clean reason. The wins are real either way.
+Since 2013, 11 seeds have won 26 of 52 games against 6 seeds. That is exactly half. The early years were colder. From 1985 to 1999, 11 seeds won 18 of 60. Nobody knows one clean reason. The wins are real either way.
 Eleven seeds win again, too
-27 of the 62 winning 11 seeds also won their next game. That is about 44 in 100. No other upset line keeps winning like this one.
+28 of the 64 winning 11 seeds also won their next game. That is about 44 in 100. No other upset line keeps winning like this one.
 Eleven seeds go deepest
 Six 11 seeds have reached the Final Four. LSU in 1986. George Mason in 2006. VCU in 2011. Loyola-Chicago in 2018. UCLA in 2021. NC State in 2024. No other double-digit seed has done it as often.
 How we counted
-Counted from every men's tournament game, 1985 to 2025. Main bracket only. First Four games are not counted. The full table lives on which first-round upsets happen most.
+Counted from every men's tournament game, 1985 to 2026. Main bracket only. First Four games are not counted. The full table lives on which first-round upsets happen most.
 Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 How often does an 11 seed beat a 6 seed?
-About 39 times in 100. Since 1985, 11 seeds have won 62 of 160 games against 6 seeds in the men's tournament. Since 2013, they have won half.
+About 39 times in 100. Since 1985, 11 seeds have won 64 of 164 games against 6 seeds in the men's tournament. Since 2013, they have won half.
 Has an 11 seed ever won the tournament?
 No. Six 11 seeds have reached the Final Four, most recently NC State in 2024. None of them won the title.
 
 ## How often does a 10 seed beat a 7 seed? (https://fillmybracket.com/how-often-does-a-10-seed-beat-a-7-seed)
 
 How often does a 10 seed beat a 7 seed?
-About 39 times in 100. The 10 seed has beaten the 7 seed 62 times in 160 games since 1985. It is the quietest near-even game in the first round.
-Visual: The 10-over-7 upset, by era: 24 of 60 games from 1985 to 1999, 21 of 52 from 2000 to 2012, 17 of 48 from 2013 to 2025. Steady for 40 years.
+About 38 times in 100. The 10 seed has beaten the 7 seed 63 times in 164 games since 1985. It is the quietest near-even game in the first round.
+Visual: The 10-over-7 upset, by era: 24 of 60 games from 1985 to 1999, 21 of 52 from 2000 to 2012, 18 of 52 from 2013 to 2026. Steady for 40 years.
 The steadiest upset there is
-A 10 seed has won at least once in 37 of 40 tournaments. Two won in 2025. Arkansas beat Kansas. New Mexico beat Marquette. This line has not grown like the 11 seed's. It was about as common in the 1990s as it is now.
+A 10 seed has won at least once in 38 of 41 tournaments. Two won in 2025. Arkansas beat Kansas. New Mexico beat Marquette. This line has not grown like the 11 seed's. It was about as common in the 1990s as it is now.
 Winning again is harder
-24 of the 62 winning 10 seeds also won their next game. That is about 39 in 100. The prize is usually a game against a 2 seed. Most 10-seed runs end there. Some do not.
+24 of the 63 winning 10 seeds also won their next game. That is about 38 in 100. The prize is usually a game against a 2 seed. Most 10-seed runs end there. Some do not.
 How we counted
-Counted from every men's tournament game, 1985 to 2025. Main bracket only. First Four games are not counted. The full table lives on which first-round upsets happen most.
+Counted from every men's tournament game, 1985 to 2026. Main bracket only. First Four games are not counted. The full table lives on which first-round upsets happen most.
 Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 How often does a 10 seed beat a 7 seed?
-About 39 times in 100. Since 1985, 10 seeds have won 62 of 160 games against 7 seeds in the men's tournament.
+About 39 times in 100. Since 1985, 10 seeds have won 63 of 164 games against 7 seeds in the men's tournament.
 Did a 10 seed win in 2025?
 Yes, twice. Arkansas beat Kansas, and New Mexico beat Marquette. Arkansas reached the Sweet 16.
 
 ## How often does a 13 seed beat a 4 seed? (https://fillmybracket.com/how-often-does-a-13-seed-beat-a-4-seed)
 
 How often does a 13 seed beat a 4 seed?
-About 21 times in 100. The 13 seed has beaten the 4 seed 33 times in 160 games since 1985. It happens most years, and it is still a clear step down from the 12 seed.
-Visual: The 13-over-4 upset, by era: 12 of 60 games from 1985 to 1999, 12 of 52 from 2000 to 2012, 9 of 48 from 2013 to 2025. Flat for 40 years.
+About 20 times in 100. The 13 seed has beaten the 4 seed 33 times in 164 games since 1985. It happens most years, and it is still a clear step down from the 12 seed.
+Visual: The 13-over-4 upset, by era: 12 of 60 games from 1985 to 1999, 12 of 52 from 2000 to 2012, 9 of 52 from 2013 to 2026. Flat for 40 years.
 It still happens most years
-At least one 13 seed has won in 28 of 40 tournaments. The most recent was Yale over Auburn in 2024. That is the pattern. One most years, none some years. It is a real upset. It is not close to a coin flip. The 11 seed game is closer lately: half since 2013.
+At least one 13 seed has won in 28 of 41 tournaments. The most recent was Yale over Auburn in 2024. That is the pattern. One most years, none some years. It is a real upset. It is not close to a coin flip. The 11 seed game is closer lately: half since 2013.
 These runs end fast
 Only 6 of the 33 winning 13 seeds won their next game. The next game is usually against a 5 or 12 seed. Even so, about 18 in 100 of these winners reached the Sweet 16. Pick one 13 seed for fun if you like. History says one is plenty.
 How we counted
-Counted from every men's tournament game, 1985 to 2025. Main bracket only. First Four games are not counted. The full table lives on which first-round upsets happen most.
+Counted from every men's tournament game, 1985 to 2026. Main bracket only. First Four games are not counted. The full table lives on which first-round upsets happen most.
 Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 How often does a 13 seed beat a 4 seed?
-About 21 times in 100. Since 1985, 13 seeds have won 33 of 160 games against 4 seeds in the men's tournament.
+About 20 times in 100. Since 1985, 13 seeds have won 33 of 164 games against 4 seeds in the men's tournament.
 How is a 13-over-4 different from a 12-over-5?
 It happens about half as often. The 12 seed has 57 wins since 1985. The 13 seed has 33. Both happen most years, but the 12 seed is the safer upset pick.
 
@@ -1031,7 +1031,7 @@ Flip a coin on the close ones. The 8-vs-9 game is a true coin flip. Treat it lik
 Mix them. Seeds for most games, mascots for the rest.
 Two rules that keep you in it
 Take a few upsets early. Low seeds win about one first-round game in four.
-The 12 seed beats the 5 seed about 36 times in 100.
+The 12 seed beats the 5 seed about 35 times in 100.
 Pick two or three of those, and stop there.
 Read how to pick upsets.
 Keep your champion safe. Champions are almost always 1 or 2 seeds.
@@ -1406,12 +1406,12 @@ The homepage and the bracket-basics list link to this page with the line: Questi
 
 The counted record
 March Madness upsets: the full analysis
-We counted all 2,520 men's tournament games from 1985 to 2025. First-round upsets are only the start. The second round is wild too, low seeds almost never survive the last weekend, and the shape of March barely changes.
+We counted all 2,583 men's tournament games from 1985 to 2026. First-round upsets are only the start. The second round is wild too, low seeds almost never survive the last weekend, and the shape of March barely changes.
 The first round, line by line
 Lower seeds won
-333 of 1,280
+341 of 1,312
 first-round games, about one in four.
-Each matchup below has been played exactly 160 times.
+Each matchup below has been played exactly 164 times.
 9 vs 8
 ~52%
 10 vs 7
@@ -1428,42 +1428,42 @@ Each matchup below has been played exactly 160 times.
 ~7%
 16 vs 1
 ~1%
-First-round upset rates, men's tournament, 1985 to 2025. The deep dive on each line:
+First-round upset rates, men's tournament, 1985 to 2026. The deep dive on each line:
 which first-round upsets happen most
 .
 First-round game
 The low seed wins
 Years with at least one
 9 seed vs 8 seed
-83 wins in 160 games
-37 of 40 years
+87 wins in 164 games
+38 of 41 years
 10 seed vs 7 seed
-62 wins in 160 games
-37 of 40 years
+63 wins in 164 games
+38 of 41 years
 11 seed vs 6 seed
-62 wins in 160 games
-35 of 40 years
+64 wins in 164 games
+36 of 41 years
 12 seed vs 5 seed
-57 wins in 160 games
-34 of 40 years
+58 wins in 164 games
+35 of 41 years
 13 seed vs 4 seed
-33 wins in 160 games
-28 of 40 years
+33 wins in 164 games
+28 of 41 years
 14 seed vs 3 seed
-23 wins in 160 games
-20 of 40 years
+23 wins in 164 games
+20 of 41 years
 15 seed vs 2 seed
-11 wins in 160 games
-10 of 40 years
+11 wins in 164 games
+10 of 41 years
 16 seed vs 1 seed
-2 wins in 160 games
-2 of 40 years
+2 wins in 164 games
+2 of 41 years
 The 9-over-8 game is a coin flip that leans low.
 The famous lines sit below it: the 12, the 11, and the 10 each win about four times in ten.
-The 16-over-1 miracle has happened twice in 160 tries.
+The 16-over-1 miracle has happened twice in 164 tries.
 How far each seed actually goes
-Every seed gets 160 teams in 40 years: four regions, one team each.
-Here is where those 160 teams stop.
+Every seed gets 164 teams in 41 years: four regions, one team each.
+Here is where those 164 teams stop.
 Seed
 Won a game
 Sweet 16
@@ -1472,49 +1472,49 @@ Final Four
 Final
 Titles
 1
-158
-136
-107
-66
-41
-26
+162
+139
+110
+68
+42
+27
 2
-149
-102
-72
-32
-13
+153
+106
+74
+33
+14
 5
 3
-137
-84
-41
-17
+141
+86
+42
+18
 11
 4
 4
-127
-77
+131
+80
 25
 15
 4
 2
 5
-103
-55
+106
+56
 12
 9
 4
 0
 6
-98
-47
-17
+100
+48
+18
 3
 2
 1
 7
-98
+101
 29
 10
 3
@@ -1528,28 +1528,28 @@ Titles
 4
 1
 9
-83
-8
-5
+87
+9
+6
 2
 0
 0
 10
-62
+63
 25
 9
 1
 0
 0
 11
-62
-27
+64
+28
 10
 6
 0
 0
 12
-57
+58
 22
 2
 0
@@ -1585,7 +1585,7 @@ Titles
 0
 Read the 1-seed row and the 12-seed row together.
 A 1 seed reaches the Final Four
-66 times in 160
+68 times in 164
 . A 12 seed reaches the Elite Eight twice, and the Final Four never.
 Five seeds own the strangest line on the table:
 nine Final Fours, zero titles
@@ -1594,20 +1594,20 @@ The deepest champion ever is an 8 seed: Villanova, in the first year of this cou
 The second round is not safe either
 Winning once buys a low seed a harder game, usually against a top seed.
 Lower seeds still won
-184 of 640
+188 of 656
 second-round games, about 4.6 a year.
 First-round winner
 Won again (Sweet 16)
 Rate
 11 seed over 6 seed
-27 of 62
+28 of 64
 about 44 in 100
 12 seed over 5 seed
-22 of 57
-about 39 in 100
+22 of 58
+about 38 in 100
 10 seed over 7 seed
-24 of 62
-about 39 in 100
+24 of 63
+about 38 in 100
 13 seed over 4 seed
 6 of 33
 about 18 in 100
@@ -1615,10 +1615,10 @@ about 18 in 100
 4 of 11
 about 36 in 100
 9 seed over 8 seed
-8 of 83
+9 of 87
 about 10 in 100
-The 11 seed is the best bet to win twice: 27 of its 62 winners did.
-The 9 seed is the trap: it wins the coin flip, then meets a 1 seed. Only 8 of 83 won again.
+The 11 seed is the best bet to win twice: 28 of its 64 winners did.
+The 9 seed is the trap: it wins the coin flip, then meets a 1 seed. Only 9 of 87 won again.
 Small print on the 15s: only 11 have ever won a first game, and 4 of those 11 reached the Sweet 16. One, Saint Peter's in 2022, went to the Elite Eight.
 Patterns that keep repeating
 The 11 seed keeps getting better.
@@ -1627,20 +1627,20 @@ Its first-round win rate by era:
 18 of 60
 2000–2012
 20 of 52
-2013–2025
-24 of 48
+2013–2026
+26 of 52
 11 seeds vs 6 seeds, by era. Since 2013 the 11 seed wins half of these games.
 A Cinderella almost always shows up.
-A double-digit seed reached the Sweet 16 in 38 of 40 tournaments, the last 17 in a row. A normal year has about two of them.
+A double-digit seed reached the Sweet 16 in 39 of 41 tournaments, the last 18 in a row. A normal year has about two of them.
 Somebody's 5 seed goes home early.
-At least one 12 beat a 5 in 34 of 40 years. At least one 10 won in 37 of 40, and at least one 9 in 37 of 40.
+At least one 12 beat a 5 in 35 of 41 years. At least one 10 won in 38 of 41, and at least one 9 in 38 of 41.
 The last weekend still belongs to the top.
-One seeds have won 26 of 40 titles. A Final Four of all four 1 seeds has happened only twice, in 2008 and 2025.
+One seeds have won 27 of 41 titles. A Final Four of all four 1 seeds has happened only twice, in 2008 and 2025.
 No seed line is owed anything.
 Six 11 seeds have reached the Final Four. Zero 12, 13, 14, 15, or 16 seeds ever have.
 The Upset Forecast for March 2027
 Forecast as of Sunday, November 1, 2026.
-Basis: every number in this section is counted from 2,520 men's tournament games, 1985 to 2025. This is a living forecast. The counted shape below barely moves, but the teams standing on each line change all season, and the
+Basis: every number in this section is counted from 2,583 men's tournament games, 1985 to 2026. This is a living forecast. The counted shape below barely moves, but the teams standing on each line change all season, and the
 rankings page
 re-reads them every week.
 The 2027 field does not exist yet.
@@ -1651,38 +1651,38 @@ first-round upsets to expect
 7 to 10
 the middle half of all years
 3 to 13
-the full 40-year range
+the full 41-year range
 The average year has 8.3 first-round upsets, and the middle year has 8.
-29 of 40 years landed between 6 and 10. Only 5 years had 5 or fewer.
-The recent game runs a little wilder: the 12 tournaments from 2013 to 2025 averaged 9.0.
+30 of 41 years landed between 6 and 10. Only 5 years had 5 or fewer.
+The recent game runs a little wilder: the 13 tournaments from 2013 to 2026 averaged 8.9.
 Here is where those upsets should come from, ranked by how many each line produces in a normal year:
 Upset line
 Expected wins per year
 Years with at least one
 9 seed over 8 seed
 about 2.1
-37 of 40 years
+38 of 41 years
 10 seed over 7 seed
-about 1.6
-37 of 40 years
+about 1.5
+38 of 41 years
 11 seed over 6 seed
 about 1.6
-35 of 40 years
+36 of 41 years
 12 seed over 5 seed
 about 1.4
-34 of 40 years
+35 of 41 years
 13 seed over 4 seed
 about 0.8
-28 of 40 years
+28 of 41 years
 14 seed over 3 seed
 about 0.6
-20 of 40 years
+20 of 41 years
 15 seed over 2 seed
 about 0.3
-10 of 40 years
+10 of 41 years
 16 seed over 1 seed
 about 0.05
-2 of 40 years
+2 of 41 years
 And here is a typical first weekend, start to finish:
 About 8 upsets on Thursday and Friday
 , led by the 9, 10, and 11 lines.
@@ -1691,7 +1691,7 @@ About 4 or 5 more on the weekend
 About 2 double-digit seeds in the Sweet 16
 , next to about 10 teams seeded 4 or better.
 One or two 1 seeds in the Final Four
-(the average is 1.65), and a champion who is most likely a 1 seed, as 26 of 40 have been.
+(the average is 1.66), and a champion who is most likely a 1 seed, as 27 of 41 have been.
 These are history's averages, not predictions about any 2027 team.
 Which teams are standing on those lines right now, and which of them the numbers doubt, is tracked on the
 rankings page
@@ -1703,9 +1703,9 @@ KenPom, Torvik, and the other ratings sites rate teams, and they are good at it.
 What none of them publishes is the tournament itself, counted: how many upsets a normal year holds, which seed lines bleed, what a typical first weekend looks like.
 And the tools that fill in a bracket for you, in 30 seconds, for a price? That is the one thing this site will never do. The counts are on the table. The calls stay yours.
 How we counted
-Counted from every men's tournament game, 1985 to 2025.
+Counted from every men's tournament game, 1985 to 2026.
 Main bracket only. First Four games are not counted.
-That is 40 tournaments and 2,520 games. There was no tournament in 2020.
+That is 41 tournaments and 2,583 games. There was no tournament in 2020.
 Game results come from the public game-by-game record: Wikipedia tournament pages, compiled in the march-madness-games-csv dataset.
 The 2027 tournament holds 68 teams. Four First Four games come first, and the winners join this same 64-team bracket, so the counted frame still applies.
 History is a guide, not a promise.
@@ -1902,22 +1902,22 @@ Michigan, which won the April 2026 national title, opens down at No. 16.
 What these bands become in March
 November ranks are not March seeds.
 The committee seeds the field on the whole season, and four months of games will shuffle this list.
-But the bands rhyme with the seed lines, and the seed lines carry 40 years of counted history (
+But the bands rhyme with the seed lines, and the seed lines carry 41 years of counted history (
 the full analysis
 ).
 Read today's list in bands:
 Ranks 1 to 4 (Florida, Duke, Illinois, UConn): the 1-seed line.
-One seeds have won 26 of 40 titles and 158 of their 160 first games. The safest seat in sports, with two famous exceptions.
+One seeds have won 27 of 41 titles and 162 of their 164 first games. The safest seat in sports, with two famous exceptions.
 Ranks 5 to 8 (Arizona, Michigan State, Texas, Tennessee): the 2-seed line.
 Strong, not safe: 15 seeds have beaten 2 seeds 11 times, about once every four years.
 Ranks 9 to 12 (Virginia, Houston, Louisville, Arkansas): the 3-seed line.
 Three seeds lose to 14 seeds about 14 times in 100.
 Ranks 13 to 16 (St. John's, Miami, Gonzaga, Michigan): the 4-seed line.
-The first bullseye. Four seeds lose to 13 seeds 33 times in 160, about one time in five. The reigning champion, Michigan, sits in this band today.
+The first bullseye. Four seeds lose to 13 seeds 33 times in 164, about one time in five. The reigning champion, Michigan, sits in this band today.
 Ranks 17 to 20 (Kansas, Iowa State, Texas Tech, Alabama): the 5-seed line.
-The most famous trap in the tournament. Five seeds lose to 12 seeds 57 times in 160, better than one time in three. And no 5 seed has ever won the title.
+The most famous trap in the tournament. Five seeds lose to 12 seeds 58 times in 164, better than one time in three. And no 5 seed has ever won the title.
 Ranks 21 to 25 (USC, UCLA, Kentucky, Vanderbilt, BYU): the 6 and 7 lines.
-Favorites in the two most upset-heavy games after the coin flip: 6 seeds lose to 11 seeds about 39 times in 100, and 7 seeds lose to 10 seeds about 39 times in 100.
+Favorites in the two most upset-heavy games after the coin flip: 6 seeds lose to 11 seeds about 39 times in 100, and 7 seeds lose to 10 seeds about 38 times in 100.
 High-ranked teams the numbers doubt
 Two rankings came out this fall.
 The voters published theirs, the AP poll above.
@@ -1935,7 +1935,7 @@ St. John's
 No. 13
 33
 4-seed line
-13 seeds have beaten 4 seeds 33 times in 160 games, about one time in five.
+13 seeds have beaten 4 seeds 33 times in 164 games, about one time in five.
 USC
 No. 21
 37
@@ -1945,12 +1945,12 @@ Texas
 No. 7
 18
 2-seed line
-15 seeds have beaten 2 seeds 11 times in 160.
+15 seeds have beaten 2 seeds 11 times in 164.
 UConn
 No. 4
 13
 1-seed line
-Even the safest line has cracked twice: 16 seeds own 2 wins in 160.
+Even the safest line has cracked twice: 16 seeds own 2 wins in 164.
 Arkansas
 No. 12
 21
@@ -1960,7 +1960,7 @@ Tennessee
 No. 8
 16
 2-seed line
-15 seeds have beaten 2 seeds 11 times in 160.
+15 seeds have beaten 2 seeds 11 times in 164.
 Read this the honest way:
 this is one model's preseason baseline, a projection, never a certainty.
 It will be wrong about some of these teams by January.
@@ -2114,7 +2114,7 @@ Open the full ask page
 Fill My Bracket starts a full March Madness bracket from five questions.
 Which school has won the most March Madness titles?
 UCLA has won 11 titles. That is the most of any school. Kentucky is next, with 8. UCLA won seven titles in a row.
-130 days until Selection Sunday, Sunday, March 14, 2027.
+128 days until Selection Sunday, Sunday, March 14, 2027.
 Start your bracket
 Most titles
 School | Titles | Title years
@@ -2127,8 +2127,8 @@ Duke | 5 | 1991, 1992, 2001, 2010, 2015
 Kansas | 4 | 1952, 1988, 2008, 2022
 Villanova | 3 | 1985, 2016, 2018
 Florida | 3 | 2006, 2007, 2025
-The men’s tournament, 1939 to 2025.
-No tournament in 2020, so 86 titles have been won.
+The men’s tournament, 1939 to 2026.
+No tournament in 2020, so 87 titles have been won.
 Louisville also won in 2013. The NCAA later vacated that title.
 For your picks
 Big names win a lot. They do not win every year.
@@ -2152,7 +2152,7 @@ When is Selection Sunday 2027?
 Fill My Bracket starts a full March Madness bracket from five questions.
 What is the lowest seed to win March Madness?
 The lowest seed to win is a No. 8 seed. Villanova did it in 1985. Villanova beat Georgetown 66 to 64 in the title game.
-130 days until Selection Sunday, Sunday, March 14, 2027.
+128 days until Selection Sunday, Sunday, March 14, 2027.
 Start your bracket
 The lowest seeds that won
 Seed | School | Year | Title game
@@ -2190,7 +2190,7 @@ When is Selection Sunday 2027?
 Fill My Bracket starts a full March Madness bracket from five questions.
 Which school has the most Final Four appearances?
 North Carolina has 21 Final Four appearances. That is the most of any school. UCLA is next, with 19.
-130 days until Selection Sunday, Sunday, March 14, 2027.
+128 days until Selection Sunday, Sunday, March 14, 2027.
 Start your bracket
 Most Final Four appearances
 School | Times | Last one
@@ -2202,8 +2202,8 @@ Kansas | 16 | 2022
 Ohio State | 11 | 2012
 Michigan State | 10 | 2019
 Louisville | 10 | 2013
-The men’s tournament, 1939 to 2025.
-86 tournaments. 344 Final Four spots in all.
+The men’s tournament, 1939 to 2026.
+87 tournaments. 348 Final Four spots in all.
 North Carolina’s first was 1946. Its last was 2022.
 Four counts here include a spot the NCAA later vacated.
 UCLA: 1980. Kansas: 2018. Ohio State: 1999. Louisville: 2012 and 2013.
@@ -2228,11 +2228,12 @@ When is Selection Sunday 2027?
 
 Fill My Bracket starts a full March Madness bracket from five questions.
 March Madness champions list
-Florida won the 2025 title. Florida beat Houston 65 to 63. Every champion is listed below, newest first.
-130 days until Selection Sunday, Sunday, March 14, 2027.
+Michigan won the 2026 title. Michigan beat UConn 69 to 63. Every champion is listed below, newest first.
+128 days until Selection Sunday, Sunday, March 14, 2027.
 Start your bracket
 Every champion by year
 Year | Champion | Runner-up | Score
+2026 | Michigan | UConn | 69–63
 2025 | Florida | Houston | 65–63
 2024 | UConn | Purdue | 75–60
 2023 | UConn | San Diego State | 76–59
@@ -2320,7 +2321,7 @@ Year | Champion | Runner-up | Score
 1941 | Wisconsin | Washington State | 39–34
 1940 | Indiana | Kansas | 60–42
 1939 | Oregon | Ohio State | 46–33
-The men’s tournament, 1939 to 2025.
+The men’s tournament, 1939 to 2026.
 No tournament in 2020.
 Louisville won in 2013. The NCAA later vacated that title.
 For your picks
@@ -2330,6 +2331,8 @@ You name your champion. This list is the data for that call.
 Five questions start your bracket. Your picks finish it.
 The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
 Common questions
+Who won March Madness in 2026?
+Michigan. Michigan beat UConn 69 to 63 in the title game.
 Who won March Madness in 2025?
 Florida. Florida beat Houston 65 to 63 in the title game.
 Which school has won the most March Madness titles?
@@ -2345,12 +2348,12 @@ When is Selection Sunday 2027?
 
 Fill My Bracket starts a full March Madness bracket from five questions.
 How often does a 16 seed beat a 1 seed?
-Twice in 160 games. UMBC beat Virginia 74–54 in 2018. Fairleigh Dickinson beat Purdue 63–58 in 2023. The other 158 tries all lost.
-130 days until Selection Sunday, Sunday, March 14, 2027.
+Twice in 164 games. UMBC beat Virginia 74–54 in 2018. Fairleigh Dickinson beat Purdue 63–58 in 2023. The other 162 tries all lost.
+128 days until Selection Sunday, Sunday, March 14, 2027.
 Start your bracket
 1985–19990 of 60
 2000–20120 of 52
-2013–20252 of 48
+2013–20262 of 52
 For 33 tournaments, it never happened. Both wins are recent.
 The two wins
 YearWinnerBeatScore
@@ -2362,13 +2365,13 @@ UMBC lost its next game, to Kansas State.
 Fairleigh Dickinson lost its next game, to Florida Atlantic.
 No 16 seed has ever reached the Sweet 16.
 How we counted
-Counted from every men's tournament game, 1985 to 2025.
+Counted from every men's tournament game, 1985 to 2026.
 Main bracket only. First Four games are not counted.
 The full table lives on which first-round upsets happen most.
 Five questions start your bracket. Your picks finish it.
 The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
 Common questions
-How often does a 16 seed beat a 1 seed?Twice in 160 games since 1985. UMBC beat Virginia in 2018, and Fairleigh Dickinson beat Purdue in 2023.
+How often does a 16 seed beat a 1 seed?Twice in 164 games since 1985. UMBC beat Virginia in 2018, and Fairleigh Dickinson beat Purdue in 2023.
 Has a 16 seed ever reached the Sweet 16?No. The two winners, UMBC and Fairleigh Dickinson, both lost their next game, in the round of 32.
 More bracket basics
 How often does a 16 seed beat a 1 seed?
@@ -2382,12 +2385,12 @@ Which first-round upsets happen most often?
 
 Fill My Bracket starts a full March Madness bracket from five questions.
 How often does a 15 seed beat a 2 seed?
-11 times in 160 games since 1985. That is about 7 in 100. Princeton did it last, beating Arizona 59–55 in 2023.
-130 days until Selection Sunday, Sunday, March 14, 2027.
+11 times in 164 games since 1985. That is about 7 in 100. Princeton did it last, beating Arizona 59–55 in 2023.
+128 days until Selection Sunday, Sunday, March 14, 2027.
 Start your bracket
 1985–19993 of 60
 2000–20123 of 52
-2013–20255 of 48
+2013–20265 of 52
 The 15-over-2 upset is getting more common.
 All 11 wins
 YearWinnerBeatScore
@@ -2407,13 +2410,13 @@ Four of the 11 winners won again.
 Saint Peter's went furthest. It beat Kentucky in 2022, then won twice more and reached the Elite Eight.
 No 15 seed has reached the Final Four.
 How we counted
-Counted from every men's tournament game, 1985 to 2025.
+Counted from every men's tournament game, 1985 to 2026.
 Main bracket only. First Four games are not counted.
 The full table lives on which first-round upsets happen most.
 Five questions start your bracket. Your picks finish it.
 The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
 Common questions
-How often does a 15 seed beat a 2 seed?11 times in 160 games since 1985, about 7 in 100. It has happened in 10 of 40 tournaments.
+How often does a 15 seed beat a 2 seed?11 times in 164 games since 1985, about 7 in 100. It has happened in 10 of 41 tournaments.
 Has a 15 seed ever reached the Final Four?No. Saint Peter's came closest, reaching the Elite Eight in 2022.
 More bracket basics
 How often does a 16 seed beat a 1 seed?
@@ -2427,12 +2430,12 @@ Which first-round upsets happen most often?
 
 Fill My Bracket starts a full March Madness bracket from five questions.
 How often does a 14 seed beat a 3 seed?
-23 times in 160 games since 1985. About 14 in 100. Oakland did it last, beating Kentucky 80–76 in 2024.
-130 days until Selection Sunday, Sunday, March 14, 2027.
+23 times in 164 games since 1985. About 14 in 100. Oakland did it last, beating Kentucky 80–76 in 2024.
+128 days until Selection Sunday, Sunday, March 14, 2027.
 Start your bracket
 1985–199913 of 60
 2000–20123 of 52
-2013–20257 of 48
+2013–20267 of 52
 This upset ran hot early, went quiet, then came back.
 All 23 wins
 YearWinnerBeatScore
@@ -2464,13 +2467,13 @@ Only 2 of the 23 won their next game. Cleveland State did it in 1986. Chattanoog
 The other 21 lost right away.
 No 14 seed has passed the Sweet 16.
 How we counted
-Counted from every men's tournament game, 1985 to 2025.
+Counted from every men's tournament game, 1985 to 2026.
 Main bracket only. First Four games are not counted.
 The full table lives on which first-round upsets happen most.
 Five questions start your bracket. Your picks finish it.
 The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
 Common questions
-How often does a 14 seed beat a 3 seed?23 times in 160 games since 1985, about 14 in 100. At least one 14 seed has won in 20 of 40 tournaments.
+How often does a 14 seed beat a 3 seed?23 times in 164 games since 1985, about 14 in 100. At least one 14 seed has won in 20 of 41 tournaments.
 Has a 14 seed ever reached the Elite Eight?No. Two reached the Sweet 16: Cleveland State in 1986 and Chattanooga in 1997. None went further.
 More bracket basics
 How often does a 16 seed beat a 1 seed?
@@ -2480,12 +2483,58 @@ How often does a 12 seed beat a 5 seed?
 Which first-round upsets happen most often?
 2024 bracket backtest: 11 first-round upsets
 
+## 2026 backtest: what all-chalk would have scored (https://fillmybracket.com/2026-bracket-backtest)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+2026 backtest: what all-chalk would have scored
+Michigan beat UConn 69–63 for the title. The better seed won 46 of 63 games. Two Final Four teams were 1 seeds, and a 9 seed reached the Elite Eight.
+128 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+46 of 63games won by the better seed
+8first-round upsets
+The 2026 games, counted one by one.
+The first-round upsets
+WinnerBeatScore
+High Point (12)Wisconsin (5)83–82
+VCU (11)North Carolina (6)82–78
+Texas (11)BYU (6)79–71
+Texas A&M (10)Saint Mary's (7)63–50
+TCU (9)Ohio State (8)66–64
+Iowa (9)Clemson (8)67–61
+Utah State (9)Villanova (8)86–76
+Saint Louis (9)Georgia (8)102–77
+The one run
+Iowa, a 9 seed, reached the Elite Eight.
+Texas, an 11 seed, reached the Sweet 16.
+Every other first-round upset winner lost its next game.
+The Final Four was Michigan, Arizona, UConn, and Illinois: two 1 seeds, a 2 seed, and a 3 seed.
+The first weekend ran wild. The last weekend belonged to the top seeds.
+For your picks
+History says about eight first-round upsets a year.
+2026 gave eight, right on the number.
+In a year like this, the early upsets do the work.
+How we counted
+Counted from every game of the 2026 main bracket: 63 games.
+The better seed is the lower seed number.
+1 game matched equal seeds.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+How many games would all-chalk have picked right in 2026?46. The better seed won 46 of 63 games in 2026. One more game matched equal seeds, both of them 1 seeds.
+How many upsets were in the 2026 tournament?16 of the 63 games were won by the worse seed. 8 of them came in the first round.
+More bracket basics
+2025 bracket backtest
+2024 bracket backtest
+2023 bracket backtest
+2022 bracket backtest
+How often do upsets happen?
+
 ## 2025 backtest: what all-chalk would have scored (https://fillmybracket.com/2025-bracket-backtest)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
 2025 backtest: what all-chalk would have scored
 Florida beat Houston 65–63 for the title. The better seed won 49 of 63 games. No year in the last four had more. All four Final Four teams were 1 seeds.
-130 days until Selection Sunday, Sunday, March 14, 2027.
+128 days until Selection Sunday, Sunday, March 14, 2027.
 Start your bracket
 49 of 63games won by the better seed
 7first-round upsets
@@ -2519,6 +2568,7 @@ Common questions
 How many games would all-chalk have picked right in 2025?49. The better seed won 49 of 63 games in 2025. Three more games matched equal seeds, all between 1 seeds.
 How many upsets were in the 2025 tournament?11 of the 63 games were won by the worse seed. 7 of them came in the first round.
 More bracket basics
+2026 bracket backtest
 2024 bracket backtest
 2023 bracket backtest
 2022 bracket backtest
@@ -2529,7 +2579,7 @@ How often do upsets happen?
 Fill My Bracket starts a full March Madness bracket from five questions.
 2024 backtest: what all-chalk would have scored
 UConn beat Purdue 75–60 for its second straight title. The better seed won 43 of 63 games. The first round alone had 11 upsets, the most of the last four years.
-130 days until Selection Sunday, Sunday, March 14, 2027.
+128 days until Selection Sunday, Sunday, March 14, 2027.
 Start your bracket
 43 of 63games won by the better seed
 11first-round upsets
@@ -2566,6 +2616,7 @@ Common questions
 How many games would all-chalk have picked right in 2024?43. The better seed won 43 of 63 games in 2024. One game matched equal seeds: the final, between two 1 seeds.
 How many upsets were in the 2024 tournament?19 of the 63 games were won by the worse seed. 11 of them came in the first round.
 More bracket basics
+2026 bracket backtest
 2025 bracket backtest
 2023 bracket backtest
 2022 bracket backtest
@@ -2576,7 +2627,7 @@ How often do upsets happen?
 Fill My Bracket starts a full March Madness bracket from five questions.
 2023 backtest: what all-chalk would have scored
 UConn, a 4 seed, beat San Diego State 76–59 for the title. No 1 seed reached the Final Four. The Final Four seeds were 4, 5, 5, and 9.
-130 days until Selection Sunday, Sunday, March 14, 2027.
+128 days until Selection Sunday, Sunday, March 14, 2027.
 Start your bracket
 44 of 63games won by the better seed
 7first-round upsets
@@ -2608,6 +2659,7 @@ Common questions
 How many games would all-chalk have picked right in 2023?44. The better seed won 44 of 63 games in 2023, even with a 16 seed and a 15 seed winning in the first round.
 How many upsets were in the 2023 tournament?19 of the 63 games were won by the worse seed. 7 of them came in the first round.
 More bracket basics
+2026 bracket backtest
 2025 bracket backtest
 2024 bracket backtest
 2022 bracket backtest
@@ -2618,7 +2670,7 @@ How often do upsets happen?
 Fill My Bracket starts a full March Madness bracket from five questions.
 2022 backtest: what all-chalk would have scored
 Kansas beat North Carolina 72–69 for the title. The better seed won 42 of 63 games. A 15 seed reached the Elite Eight.
-130 days until Selection Sunday, Sunday, March 14, 2027.
+128 days until Selection Sunday, Sunday, March 14, 2027.
 Start your bracket
 42 of 63games won by the better seed
 10first-round upsets
@@ -2653,6 +2705,7 @@ Common questions
 How many games would all-chalk have picked right in 2022?42. The better seed won 42 of 63 games in 2022. Ten of the losses came in the first round alone.
 How many upsets were in the 2022 tournament?21 of the 63 games were won by the worse seed. 10 of them came in the first round.
 More bracket basics
+2026 bracket backtest
 2025 bracket backtest
 2024 bracket backtest
 2023 bracket backtest

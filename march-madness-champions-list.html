@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>March Madness Champions List | Fill My Bracket</title>
-<meta name="description" content="Every March Madness champion by year, 1939 to 2025, with the runner-up and the title game score. Florida won in 2025. No tournament in 2020.">
+<meta name="description" content="Every March Madness champion by year, 1939 to 2026, with the runner-up and the title game score. Michigan won in 2026. No tournament in 2020.">
 <link rel="canonical" href="https://fillmybracket.com/march-madness-champions-list">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://fillmybracket.com/march-madness-champions-list">
 <meta property="og:site_name" content="Fill My Bracket">
 <meta property="og:title" content="March Madness Champions List">
-<meta property="og:description" content="Every March Madness champion, 1939 to 2025: year, champion, runner-up, and score. Newest first.">
+<meta property="og:description" content="Every March Madness champion, 1939 to 2026: year, champion, runner-up, and score. Newest first.">
 <meta property="og:image" content="https://fillmybracket.com/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -18,7 +18,7 @@
 <meta property="og:image:alt" content="Fill My Bracket. Five questions start your bracket. Your picks finish it.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="March Madness Champions List">
-<meta name="twitter:description" content="Every March Madness champion, 1939 to 2025: year, champion, runner-up, and score. Newest first.">
+<meta name="twitter:description" content="Every March Madness champion, 1939 to 2026: year, champion, runner-up, and score. Newest first.">
 <meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
 <meta name="twitter:image:alt" content="Fill My Bracket. Five questions start your bracket. Your picks finish it.">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -106,6 +106,14 @@
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "Who won March Madness in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Michigan. Michigan beat UConn 69 to 63 in the title game."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Who won March Madness in 2025?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -129,12 +137,13 @@
 <main>
   <p class="identity">Fill My Bracket starts a full March Madness bracket from five questions.</p>
   <h1>March Madness champions list</h1>
-  <p class="answer"><strong>Florida won the 2025 title.</strong> Florida beat Houston 65 to 63. Every champion is listed below, newest first.</p>
-  <p class="countdown" id="countdown">130 days until Selection Sunday, Sunday, March 14, 2027.</p>
+  <p class="answer"><strong>Michigan won the 2026 title.</strong> Michigan beat UConn 69 to 63. Every champion is listed below, newest first.</p>
+  <p class="countdown" id="countdown">128 days until Selection Sunday, Sunday, March 14, 2027.</p>
   <a class="cta-main" href="/">Start your bracket</a>
   <h2>Every champion by year</h2>
   <table>
     <tr><th>Year</th><th>Champion</th><th>Runner-up</th><th>Score</th></tr>
+    <tr><td>2026</td><td><strong>Michigan</strong></td><td>UConn</td><td>69–63</td></tr>
     <tr><td>2025</td><td><strong>Florida</strong></td><td>Houston</td><td>65–63</td></tr>
     <tr><td>2024</td><td><strong>UConn</strong></td><td>Purdue</td><td>75–60</td></tr>
     <tr><td>2023</td><td><strong>UConn</strong></td><td>San Diego State</td><td>76–59</td></tr>
@@ -236,6 +245,7 @@
   </div>
   <section class="faqsec" aria-labelledby="faq-heading">
     <h2 id="faq-heading">Common questions</h2>
+    <details><summary>Who won March Madness in 2026?</summary><p>Michigan. Michigan beat UConn 69 to 63 in the title game.</p></details>
     <details><summary>Who won March Madness in 2025?</summary><p>Florida. Florida beat Houston 65 to 63 in the title game.</p></details>
     <details><summary>Which school has won the most March Madness titles?</summary><p>UCLA, with 11 titles. Kentucky is next, with 8.</p></details>
     </section>
@@ -250,7 +260,7 @@
   </div>
 
 <script id="cd-logic">
-(function(){var el=document.getElementById("countdown");if(!el)return;var DATES=[new Date(2027,2,14),new Date(2028,2,12)];function fmt(d){return d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric",year:"numeric"});}function dayText(now){var today=new Date(now.getFullYear(),now.getMonth(),now.getDate());var target=null;for(var i=0;i<DATES.length;i++){if(today<=DATES[i]){target=DATES[i];break;}}if(!target)return "The field is set. The tournament is on.";var days=Math.round((target-today)/86400000);if(days===0)return "Selection Sunday is today, "+fmt(target)+". The field is set tonight.";return days+(days===1?" day":" days")+" until Selection Sunday, "+fmt(target)+".";}el.textContent=dayText(new Date());})();
+(function(){var el=document.getElementById("countdown");if(!el)return;var DATES=[new Date(2027,2,14),new Date(2028,2,12)];function fmt(d){return d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric",year:"numeric"});}function dayText(now){var today=new Date(now.getFullYear(),now.getMonth(),now.getDate());var target=null;for(var i=0;i<DATES.length;i++){if(today<=DATES[i]){target=DATES[i];break;}}if(!target)return "The field is set. The tournament is on.";if(today.getTime()===target.getTime())return "Selection Sunday is today, "+fmt(target)+". The field is set tonight.";var days=Math.max(0,Math.floor((target-now)/86400000));return days+(days===1?" day":" days")+" until Selection Sunday, "+fmt(target)+".";}el.textContent=dayText(new Date());})();
 </script>
 </main>
 <footer>
