@@ -36,6 +36,8 @@
 - [How often does a 15 seed beat a 2 seed?](https://fillmybracket.com/how-often-does-a-15-seed-beat-a-2-seed): 11 wins in 160 games, about 7 in 100. Saint Peter's reached the Elite Eight in 2022.
 - [How often does a 14 seed beat a 3 seed?](https://fillmybracket.com/how-often-does-a-14-seed-beat-a-3-seed): 23 wins in 160 games, about 14 in 100. Only 2 of the 23 winners won again.
 - [What is March Madness?](https://fillmybracket.com/what-is-march-madness): the NCAA tournament in plain words. 76 teams, lose once and you are out, one champion.
+- [How does March Madness work?](https://fillmybracket.com/how-does-march-madness-work): 68 teams in four regions, seeded 1 to 16. Single-elimination rounds cut the field in half until one champion is left.
+- [When does March Madness start?](https://fillmybracket.com/when-does-march-madness-start): the games start Tuesday, March 16, 2027, with the First Four. The main bracket starts Thursday, March 18, and the title game is Monday, April 5, in Detroit.
 - [Has anyone ever had a perfect bracket?](https://fillmybracket.com/has-anyone-ever-had-a-perfect-bracket): no, never. The best proven run is 49 straight picks, and the coin-flip odds are 1 in 9.2 quintillion.
 - [How to fill out a bracket if you know nothing about basketball](https://fillmybracket.com/how-to-fill-out-a-bracket-if-you-know-nothing-about-basketball): pick by seed, mascot, colors, or coin flip. Five ways that need no basketball.
 - [What is the Final Four?](https://fillmybracket.com/what-is-the-final-four): the last four teams, one winner from each region. Two semifinals, then the title game.
@@ -45,6 +47,7 @@
 - [March Madness champions list](https://fillmybracket.com/march-madness-champions-list): every champion by year, 1939 to 2025, with the runner-up and the title game score. Florida won in 2025. No tournament in 2020.
 - [How many teams are in March Madness?](https://fillmybracket.com/how-many-teams-are-in-march-madness): 76 teams in each tournament from 2027, up from 68. The main bracket still has 64 teams.
 - [What is the opening round in March Madness?](https://fillmybracket.com/what-is-the-opening-round-in-march-madness): 24 teams play 12 games before the main bracket. It replaces the First Four in 2027.
+- [What is the First Four?](https://fillmybracket.com/what-is-the-first-four): the opening round of the tournament. Eight teams play four games, and the winners take the last spots in the bracket of 64. In 2027 it is played March 16 and 17.
 - [What is the Sweet 16?](https://fillmybracket.com/what-is-the-sweet-16): the regional semifinals, when 16 teams remain, four in each region. Winners move on to the Elite Eight.
 - [What is the Elite Eight?](https://fillmybracket.com/what-is-the-elite-eight): the regional finals, when eight teams remain, two in each region. The four winners reach the Final Four.
 - [How many games are in March Madness?](https://fillmybracket.com/how-many-games-are-in-march-madness): 75 games in each 2027 tournament, with 63 in the main bracket. The Opening Round adds 12 games.
