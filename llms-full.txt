@@ -1,9 +1,9 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, thirty-seven bracket-basics guides, privacy, and terms.
+> Complete text of fillmybracket.com: the homepage, thirty-nine bracket-basics guides, privacy, and terms.
 > Fill My Bracket starts a full March Madness bracket from five questions — your picks finish
 > it, with zero basketball knowledge required. It is coming in March 2027. Free forever, no ads, no accounts.
-> Text captured from the live pages, 2026-11-01; two history pages added 2026-11-04.
+> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04.
 
 ## Homepage (https://fillmybracket.com/)
 
@@ -2183,4 +2183,158 @@ Which school has won the most March Madness titles?
 How to pick upsets
 What is a Cinderella team?
 How often do upsets happen?
+When is Selection Sunday 2027?
+
+## Which school has the most Final Four appearances? (https://fillmybracket.com/which-school-has-the-most-final-four-appearances)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+Which school has the most Final Four appearances?
+North Carolina has 21 Final Four appearances. That is the most of any school. UCLA is next, with 19.
+130 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+Most Final Four appearances
+School | Times | Last one
+North Carolina | 21 | 2022
+UCLA | 19 | 2021
+Duke | 18 | 2025
+Kentucky | 17 | 2015
+Kansas | 16 | 2022
+Ohio State | 11 | 2012
+Michigan State | 10 | 2019
+Louisville | 10 | 2013
+The men’s tournament, 1939 to 2025.
+86 tournaments. 344 Final Four spots in all.
+North Carolina’s first was 1946. Its last was 2022.
+UCLA has 19 spots. The NCAA later vacated the 1980 spot.
+For your picks
+The same names come back a lot.
+They still miss most years.
+You name your Final Four. This list is the data for that call.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+Which school has the most Final Four appearances?
+North Carolina, with 21. UCLA has 19. Duke has 18.
+How many Final Fours has UCLA made?
+19. One of them, in 1980, was later vacated by the NCAA.
+More bracket basics
+March Madness champions list
+Which school has won the most March Madness titles?
+What is the Final Four?
+When is Selection Sunday 2027?
+
+## March Madness champions list (https://fillmybracket.com/march-madness-champions-list)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+March Madness champions list
+Florida won the 2025 title. Florida beat Houston 65 to 63. Every champion is listed below, newest first.
+130 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+Every champion by year
+Year | Champion | Runner-up | Score
+2025 | Florida | Houston | 65–63
+2024 | UConn | Purdue | 75–60
+2023 | UConn | San Diego State | 76–59
+2022 | Kansas | North Carolina | 72–69
+2021 | Baylor | Gonzaga | 86–70
+2020 | No tournament
+2019 | Virginia | Texas Tech | 85–77 (OT)
+2018 | Villanova | Michigan | 79–62
+2017 | North Carolina | Gonzaga | 71–65
+2016 | Villanova | North Carolina | 77–74
+2015 | Duke | Wisconsin | 68–63
+2014 | UConn | Kentucky | 60–54
+2013 | Louisville (vacated) | Michigan | 82–76
+2012 | Kentucky | Kansas | 67–59
+2011 | UConn | Butler | 53–41
+2010 | Duke | Butler | 61–59
+2009 | North Carolina | Michigan State | 89–72
+2008 | Kansas | Memphis | 75–68 (OT)
+2007 | Florida | Ohio State | 84–75
+2006 | Florida | UCLA | 73–57
+2005 | North Carolina | Illinois | 75–70
+2004 | UConn | Georgia Tech | 82–73
+2003 | Syracuse | Kansas | 81–78
+2002 | Maryland | Indiana | 64–52
+2001 | Duke | Arizona | 82–72
+2000 | Michigan State | Florida | 89–76
+1999 | UConn | Duke | 77–74
+1998 | Kentucky | Utah | 78–69
+1997 | Arizona | Kentucky | 84–79 (OT)
+1996 | Kentucky | Syracuse | 76–67
+1995 | UCLA | Arkansas | 89–78
+1994 | Arkansas | Duke | 76–72
+1993 | North Carolina | Michigan | 77–71
+1992 | Duke | Michigan | 71–51
+1991 | Duke | Kansas | 72–65
+1990 | UNLV | Duke | 103–73
+1989 | Michigan | Seton Hall | 80–79 (OT)
+1988 | Kansas | Oklahoma | 83–79
+1987 | Indiana | Syracuse | 74–73
+1986 | Louisville | Duke | 72–69
+1985 | Villanova | Georgetown | 66–64
+1984 | Georgetown | Houston | 84–75
+1983 | NC State | Houston | 54–52
+1982 | North Carolina | Georgetown | 63–62
+1981 | Indiana | North Carolina | 63–50
+1980 | Louisville | UCLA | 59–54
+1979 | Michigan State | Indiana State | 75–64
+1978 | Kentucky | Duke | 94–88
+1977 | Marquette | North Carolina | 67–59
+1976 | Indiana | Michigan | 86–68
+1975 | UCLA | Kentucky | 92–85
+1974 | NC State | Marquette | 76–64
+1973 | UCLA | Memphis State | 87–66
+1972 | UCLA | Florida State | 81–76
+1971 | UCLA | Villanova | 68–62
+1970 | UCLA | Jacksonville | 80–69
+1969 | UCLA | Purdue | 92–72
+1968 | UCLA | North Carolina | 78–55
+1967 | UCLA | Dayton | 79–64
+1966 | Texas Western | Kentucky | 72–65
+1965 | UCLA | Michigan | 91–80
+1964 | UCLA | Duke | 98–83
+1963 | Loyola Chicago | Cincinnati | 60–58 (OT)
+1962 | Cincinnati | Ohio State | 71–59
+1961 | Cincinnati | Ohio State | 70–65 (OT)
+1960 | Ohio State | California | 75–55
+1959 | California | West Virginia | 71–70
+1958 | Kentucky | Seattle | 84–72
+1957 | North Carolina | Kansas | 54–53 (3OT)
+1956 | San Francisco | Iowa | 83–71
+1955 | San Francisco | La Salle | 77–63
+1954 | La Salle | Bradley | 92–76
+1953 | Indiana | Kansas | 69–68
+1952 | Kansas | St. John's | 80–63
+1951 | Kentucky | Kansas State | 68–58
+1950 | CCNY | Bradley | 71–68
+1949 | Kentucky | Oklahoma A&amp;M | 46–36
+1948 | Kentucky | Baylor | 58–42
+1947 | Holy Cross | Oklahoma | 58–47
+1946 | Oklahoma A&amp;M | North Carolina | 43–40
+1945 | Oklahoma A&amp;M | NYU | 49–45
+1944 | Utah | Dartmouth | 42–40 (OT)
+1943 | Wyoming | Georgetown | 46–34
+1942 | Stanford | Dartmouth | 53–38
+1941 | Wisconsin | Washington State | 39–34
+1940 | Indiana | Kansas | 60–42
+1939 | Oregon | Ohio State | 46–33
+The men’s tournament, 1939 to 2025.
+No tournament in 2020.
+Louisville won in 2013. The NCAA later vacated that title.
+For your picks
+UCLA has the most titles, with 11.
+New schools still break through. Virginia won its first in 2019.
+You name your champion. This list is the data for that call.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+Who won March Madness in 2025?
+Florida. Florida beat Houston 65 to 63 in the title game.
+Which school has won the most March Madness titles?
+UCLA, with 11 titles. Kentucky is next, with 8.
+More bracket basics
+Which school has won the most March Madness titles?
+Which school has the most Final Four appearances?
+What is the lowest seed to win March Madness?
 When is Selection Sunday 2027?
