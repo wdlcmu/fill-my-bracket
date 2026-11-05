@@ -22,6 +22,7 @@
 <meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
 <meta name="twitter:image:alt" content="Fill My Bracket. Five questions start your bracket. Your picks finish it.">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/replay.css">
 <style>
   :root {
     --navy: #081c3a;
@@ -537,90 +538,12 @@ window.FLEET_CFG = {
        history only — no invented teams, no sample bracket. The locked
        line is untouched. No speed claims: the value is the choice,
        with the numbers under it. -->
-  <section class="play" aria-labelledby="play-heading">
-    <h2 id="play-heading">Make your calls</h2>
-    <p class="play-sub">Eight first-round matchups, counted since 1985. Tap a seed. History answers back.</p>
-    <div class="tally">
-      <p class="tally-count" id="tallyCount">Your calls: 0 of 8 · Upsets called: 0</p>
-      <p class="tally-react" id="tallyReact" aria-live="polite">A normal year has about 8 first-round upsets.</p>
-      <button type="button" class="tally-reset" id="tallyReset" hidden>Start over</button>
-      <a class="tally-next" id="tallyNext" href="/which-first-round-upsets-happen-most" hidden>See every matchup &rarr;</a>
-    </div>
-    <div class="match-rail" id="matchRail">
-      <article class="match-card" data-fav="5" data-low="12" data-lowwins="58" data-games="164">
-        <p class="mc-match"><span>5 seed</span><em>vs</em><span>12 seed</span></p>
-        <p class="mc-q">Who wins?</p>
-        <div class="mc-picks">
-          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>5</b><span>Take the 5</span></button>
-          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>12</b><span>Take the 12</span></button>
-        </div>
-        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
-      </article>
-      <article class="match-card" data-fav="8" data-low="9" data-lowwins="87" data-games="164">
-        <p class="mc-match"><span>8 seed</span><em>vs</em><span>9 seed</span></p>
-        <p class="mc-q">Who wins?</p>
-        <div class="mc-picks">
-          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>8</b><span>Take the 8</span></button>
-          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>9</b><span>Take the 9</span></button>
-        </div>
-        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
-      </article>
-      <article class="match-card" data-fav="6" data-low="11" data-lowwins="64" data-games="164">
-        <p class="mc-match"><span>6 seed</span><em>vs</em><span>11 seed</span></p>
-        <p class="mc-q">Who wins?</p>
-        <div class="mc-picks">
-          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>6</b><span>Take the 6</span></button>
-          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>11</b><span>Take the 11</span></button>
-        </div>
-        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
-      </article>
-      <article class="match-card" data-fav="7" data-low="10" data-lowwins="63" data-games="164">
-        <p class="mc-match"><span>7 seed</span><em>vs</em><span>10 seed</span></p>
-        <p class="mc-q">Who wins?</p>
-        <div class="mc-picks">
-          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>7</b><span>Take the 7</span></button>
-          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>10</b><span>Take the 10</span></button>
-        </div>
-        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
-      </article>
-      <article class="match-card" data-fav="4" data-low="13" data-lowwins="33" data-games="164">
-        <p class="mc-match"><span>4 seed</span><em>vs</em><span>13 seed</span></p>
-        <p class="mc-q">Who wins?</p>
-        <div class="mc-picks">
-          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>4</b><span>Take the 4</span></button>
-          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>13</b><span>Take the 13</span></button>
-        </div>
-        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
-      </article>
-      <article class="match-card" data-fav="3" data-low="14" data-lowwins="23" data-games="164">
-        <p class="mc-match"><span>3 seed</span><em>vs</em><span>14 seed</span></p>
-        <p class="mc-q">Who wins?</p>
-        <div class="mc-picks">
-          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>3</b><span>Take the 3</span></button>
-          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>14</b><span>Take the 14</span></button>
-        </div>
-        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
-      </article>
-      <article class="match-card" data-fav="2" data-low="15" data-lowwins="11" data-games="164">
-        <p class="mc-match"><span>2 seed</span><em>vs</em><span>15 seed</span></p>
-        <p class="mc-q">Who wins?</p>
-        <div class="mc-picks">
-          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>2</b><span>Take the 2</span></button>
-          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>15</b><span>Take the 15</span></button>
-        </div>
-        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
-      </article>
-      <article class="match-card" data-fav="1" data-low="16" data-lowwins="2" data-games="164">
-        <p class="mc-match"><span>1 seed</span><em>vs</em><span>16 seed</span></p>
-        <p class="mc-q">Who wins?</p>
-        <div class="mc-picks">
-          <button type="button" class="pick-btn" data-pick="fav" aria-pressed="false"><b>1</b><span>Take the 1</span></button>
-          <button type="button" class="pick-btn" data-pick="low" aria-pressed="false"><b>16</b><span>Take the 16</span></button>
-        </div>
-        <div class="mc-result" aria-live="polite"><p class="mc-hint">Tap a seed. History answers.</p></div>
-      </article>
-    </div>
-    <p class="play-foot" data-fyg-watch>Counted since 1985: 12 seeds beat 5 seeds 58 times in 164 games. About 1 in 3. At least one 12 seed won in 35 of 41 years. Every number counted from men&rsquo;s tournament games, 1985 to 2026. <a href="/which-first-round-upsets-happen-most">See every matchup &rarr;</a></p>
+  <section class="play" id="play" aria-labelledby="play-heading">
+    <h2 id="play-heading">Replay March 2026</h2>
+    <p class="play-sub">Eight real first-round games from the last tournament. Call each one — then see what really happened.</p>
+    <div class="rg" id="replayGame"></div>
+    <noscript><p class="play-foot">The game needs JavaScript. The full 2026 story is in the <a href="/2026-bracket-backtest">2026 bracket backtest</a>.</p></noscript>
+    <p class="play-foot" data-fyg-watch>Every score is real, counted from men&rsquo;s tournament games, 1985 to 2026. <a href="/which-first-round-upsets-happen-most">See every matchup &rarr;</a> <a href="/tournament-history">Explore past tournaments &rarr;</a></p>
     <div class="fact-cards">
       <div class="fc">
         <p class="fc-label">First-round upsets in a normal year</p>
@@ -1098,146 +1021,7 @@ window.FLEET_CFG = {
     setInterval(render, RM ? 60000 : 1000);
   })();
 </script>
-<script>
-  (function () {
-    "use strict";
-    /* 2026-11-01 interactive landing: matchup cards + tally + count-ups.
-       All numbers come from the cards' own data attributes, which carry
-       the counted table (1985-2026, main bracket). No network calls.
-       Analytics: canonical fleet taxonomy via window.FA — tool_step
-       {surface:"picker", step} as the visitor's call count grows, and
-       tool_complete {surface:"picker"} when all 8 calls are made.
-       Metadata only; a pick is a seed pairing, never personal data. */
-    var RM = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    function track(name, props) {
-      try { if (window.FA && FA.track) FA.track(name, props); } catch (e) {}
-    }
-    function countUp(el, target, prefix, suffix, dur) {
-      prefix = prefix || ""; suffix = suffix || "";
-      if (RM || !window.requestAnimationFrame) { el.textContent = prefix + target + suffix; return; }
-      var t0 = null;
-      function frame(ts) {
-        if (t0 === null) t0 = ts;
-        var p = Math.min(1, (ts - t0) / dur);
-        var eased = 1 - Math.pow(1 - p, 3);
-        el.textContent = prefix + Math.round(target * eased) + suffix;
-        if (p < 1) requestAnimationFrame(frame);
-      }
-      requestAnimationFrame(frame);
-    }
-
-    /* Fact cards: count up when they scroll into view, once each.
-       Without IntersectionObserver the printed final values stand. */
-    var counters = document.querySelectorAll(".countup");
-    if (window.IntersectionObserver && counters.length) {
-      var io = new IntersectionObserver(function (entries) {
-        entries.forEach(function (en) {
-          if (!en.isIntersecting) return;
-          io.unobserve(en.target);
-          countUp(en.target, parseInt(en.target.getAttribute("data-target"), 10) || 0,
-            en.target.getAttribute("data-prefix") || "", en.target.getAttribute("data-suffix") || "", 800);
-        });
-      }, { threshold: 0.4 });
-      counters.forEach(function (el) { io.observe(el); });
-    }
-
-    /* Matchup cards: tap a seed, history answers back. */
-    var cards = Array.prototype.slice.call(document.querySelectorAll(".match-card"));
-    var tallyCount = document.getElementById("tallyCount");
-    var tallyReact = document.getElementById("tallyReact");
-    var resetBtn = document.getElementById("tallyReset");
-    var nextLink = document.getElementById("tallyNext");
-    if (!cards.length || !tallyCount) return;
-    var picks = {}, maxMade = 0, completed = false;
-
-    function tally() {
-      var made = 0, upsets = 0;
-      cards.forEach(function (c, i) {
-        if (picks[i] === "low") { made++; upsets++; }
-        else if (picks[i] === "fav") { made++; }
-      });
-      tallyCount.textContent = "Your calls: " + made + " of " + cards.length + " · Upsets called: " + upsets;
-      if (made === cards.length) {
-        tallyReact.textContent = "All 8 called: " + upsets + (upsets === 1 ? " upset" : " upsets") + ", " +
-          (made - upsets) + ((made - upsets) === 1 ? " favorite" : " favorites") +
-          ". In real life, the lower seed wins about 1 first-round game in 4.";
-        if (!completed) { completed = true; track("tool_complete", { surface: "picker" }); }
-      } else if (upsets === 0 && made > 0) {
-        tallyReact.textContent = "All favorites so far. A normal year still brings about 8 upsets.";
-      } else if (upsets > 0) {
-        tallyReact.textContent = upsets + (upsets === 1 ? " upset" : " upsets") + " on your card. A normal year has about 8 in the whole first round.";
-      } else {
-        tallyReact.textContent = "A normal year has about 8 first-round upsets.";
-      }
-      if (resetBtn) resetBtn.hidden = made === 0;
-      if (nextLink) nextLink.hidden = made !== cards.length;
-      if (made > maxMade) { maxMade = made; track("tool_step", { surface: "picker", step: made }); }
-    }
-
-    cards.forEach(function (card, idx) {
-      var fav = parseInt(card.getAttribute("data-fav"), 10);
-      var low = parseInt(card.getAttribute("data-low"), 10);
-      var lowWins = parseInt(card.getAttribute("data-lowwins"), 10);
-      var games = parseInt(card.getAttribute("data-games"), 10);
-      var result = card.querySelector(".mc-result");
-      var btns = card.querySelectorAll(".pick-btn");
-      btns.forEach(function (btn) {
-        btn.addEventListener("click", function () {
-          var pick = btn.getAttribute("data-pick");
-          picks[idx] = pick;
-          btns.forEach(function (b) {
-            var on = b === btn;
-            b.classList.toggle("sel", on);
-            b.setAttribute("aria-pressed", on ? "true" : "false");
-          });
-          var wins = pick === "low" ? lowWins : games - lowWins;
-          var seed = pick === "low" ? low : fav;
-          var pct = Math.round((wins / games) * 100);
-          result.innerHTML = "";
-          var pctEl = document.createElement("p");
-          pctEl.className = "mc-pct";
-          pctEl.textContent = "0%";
-          var bar = document.createElement("div");
-          bar.className = "mc-bar";
-          var fill = document.createElement("i");
-          bar.appendChild(fill);
-          var line = document.createElement("p");
-          line.className = "mc-line";
-          line.textContent = pick === "low"
-            ? "The " + low + " seed has won " + lowWins + " of " + games + " of these since 1985."
-            : "The " + fav + " seed has won " + wins + " of " + games + " of these since 1985. The " + low + " seed took the other " + lowWins + ".";
-          result.appendChild(pctEl);
-          result.appendChild(bar);
-          result.appendChild(line);
-          countUp(pctEl, pct, "", "%", 650);
-          if (RM) { fill.style.width = pct + "%"; }
-          else { requestAnimationFrame(function () { requestAnimationFrame(function () { fill.style.width = pct + "%"; }); }); }
-          tally();
-        });
-      });
-    });
-
-    if (resetBtn) {
-      resetBtn.addEventListener("click", function () {
-        picks = {}; completed = false;
-        cards.forEach(function (card) {
-          card.querySelectorAll(".pick-btn").forEach(function (b) {
-            b.classList.remove("sel");
-            b.setAttribute("aria-pressed", "false");
-          });
-          var result = card.querySelector(".mc-result");
-          result.innerHTML = "";
-          var hint = document.createElement("p");
-          hint.className = "mc-hint";
-          hint.textContent = "Tap a seed. History answers.";
-          result.appendChild(hint);
-        });
-        tally();
-      });
-    }
-    tally();
-  })();
-</script>
+<script src="/replay.js"></script>
 <script>
 "use strict";
 /* ================= Fleet analytics — PostHog rollout (2026-10-25) =================
