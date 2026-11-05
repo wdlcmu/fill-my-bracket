@@ -1,9 +1,9 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, thirty-nine bracket-basics guides, privacy, and terms.
+> Complete text of fillmybracket.com: the homepage, forty-six bracket-basics guides, privacy, and terms.
 > Fill My Bracket starts a full March Madness bracket from five questions — your picks finish
 > it, with zero basketball knowledge required. It is coming in March 2027. Free forever, no ads, no accounts.
-> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04.
+> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04.
 
 ## Homepage (https://fillmybracket.com/)
 
@@ -2339,3 +2339,321 @@ Which school has won the most March Madness titles?
 Which school has the most Final Four appearances?
 What is the lowest seed to win March Madness?
 When is Selection Sunday 2027?
+
+
+## How often does a 16 seed beat a 1 seed? (https://fillmybracket.com/how-often-does-a-16-seed-beat-a-1-seed)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+How often does a 16 seed beat a 1 seed?
+Twice in 160 games. UMBC beat Virginia 74–54 in 2018. Fairleigh Dickinson beat Purdue 63–58 in 2023. The other 158 tries all lost.
+130 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+1985–19990 of 60
+2000–20120 of 52
+2013–20252 of 48
+For 33 tournaments, it never happened. Both wins are recent.
+The two wins
+YearWinnerBeatScore
+2018UMBCVirginia74–54
+2023Fairleigh DickinsonPurdue63–58
+UMBC won by 20 points. It was not close.
+Neither winner won again
+UMBC lost its next game, to Kansas State.
+Fairleigh Dickinson lost its next game, to Florida Atlantic.
+No 16 seed has ever reached the Sweet 16.
+How we counted
+Counted from every men's tournament game, 1985 to 2025.
+Main bracket only. First Four and Opening Round games are not counted.
+The full table lives on which first-round upsets happen most.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+How often does a 16 seed beat a 1 seed?Twice in 160 games since 1985. UMBC beat Virginia in 2018, and Fairleigh Dickinson beat Purdue in 2023.
+Has a 16 seed ever reached the Sweet 16?No. The two winners, UMBC and Fairleigh Dickinson, both lost their next game, in the round of 32.
+More bracket basics
+How often does a 16 seed beat a 1 seed?
+How often does a 15 seed beat a 2 seed?
+How often does a 14 seed beat a 3 seed?
+How often does a 12 seed beat a 5 seed?
+Which first-round upsets happen most often?
+2023 bracket backtest: the year a 16 seed won
+
+## How often does a 15 seed beat a 2 seed? (https://fillmybracket.com/how-often-does-a-15-seed-beat-a-2-seed)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+How often does a 15 seed beat a 2 seed?
+11 times in 160 games since 1985. That is about 7 in 100. Princeton did it last, beating Arizona 59–55 in 2023.
+130 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+1985–19993 of 60
+2000–20123 of 52
+2013–20255 of 48
+The 15-over-2 upset is getting more common.
+All 11 wins
+YearWinnerBeatScore
+1991RichmondSyracuse73–69
+1993Santa ClaraArizona64–61
+1997Coppin StateSouth Carolina78–65
+2001HamptonIowa State58–57
+2012LehighDuke75–70
+2012Norfolk StateMissouri86–84
+2013Florida Gulf CoastGeorgetown78–68
+2016Middle TennesseeMichigan State90–81
+2021Oral RobertsOhio State75–72
+2022Saint Peter'sKentucky85–79
+2023PrincetonArizona59–55
+One run went deep
+Four of the 11 winners won again.
+Saint Peter's went furthest. It beat Kentucky in 2022, then won twice more and reached the Elite Eight.
+No 15 seed has reached the Final Four.
+How we counted
+Counted from every men's tournament game, 1985 to 2025.
+Main bracket only. First Four and Opening Round games are not counted.
+The full table lives on which first-round upsets happen most.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+How often does a 15 seed beat a 2 seed?11 times in 160 games since 1985, about 7 in 100. It has happened in 10 of 40 tournaments.
+Has a 15 seed ever reached the Final Four?No. Saint Peter's came closest, reaching the Elite Eight in 2022.
+More bracket basics
+How often does a 16 seed beat a 1 seed?
+How often does a 15 seed beat a 2 seed?
+How often does a 14 seed beat a 3 seed?
+How often does a 12 seed beat a 5 seed?
+Which first-round upsets happen most often?
+2022 bracket backtest: Saint Peter's reached the Elite Eight
+
+## How often does a 14 seed beat a 3 seed? (https://fillmybracket.com/how-often-does-a-14-seed-beat-a-3-seed)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+How often does a 14 seed beat a 3 seed?
+23 times in 160 games since 1985. About 14 in 100. Oakland did it last, beating Kentucky 80–76 in 2024.
+130 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+1985–199913 of 60
+2000–20123 of 52
+2013–20257 of 48
+This upset ran hot early, went quiet, then came back.
+All 23 wins
+YearWinnerBeatScore
+1986Cleveland StateIndiana83–79
+1986Arkansas–Little RockNotre Dame90–83
+1987Austin PeayIllinois68–67
+1988Murray StateNC State78–75
+1989SienaStanford80–78
+1990Northern IowaMissouri74–71
+1991XavierNebraska89–84
+1992East Tennessee StateArizona87–80
+1995Old DominionVillanova89–81
+1995Weber StateMichigan State79–72
+1997ChattanoogaGeorgia73–70
+1998RichmondSouth Carolina62–61
+1999Weber StateNorth Carolina76–74
+2005BucknellKansas64–63
+2006Northwestern StateIowa64–63
+2010OhioGeorgetown97–83
+2013HarvardNew Mexico68–62
+2014MercerDuke78–71
+2015Georgia StateBaylor57–56
+2015UABIowa State60–59
+2016Stephen F. AustinWest Virginia70–56
+2021Abilene ChristianTexas53–52
+2024OaklandKentucky80–76
+Almost none win again
+Only 2 of the 23 won their next game. Cleveland State did it in 1986. Chattanooga did it in 1997.
+The other 21 lost right away.
+No 14 seed has passed the Sweet 16.
+How we counted
+Counted from every men's tournament game, 1985 to 2025.
+Main bracket only. First Four and Opening Round games are not counted.
+The full table lives on which first-round upsets happen most.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+How often does a 14 seed beat a 3 seed?23 times in 160 games since 1985, about 14 in 100. At least one 14 seed has won in 20 of 40 tournaments.
+Has a 14 seed ever reached the Elite Eight?No. Two reached the Sweet 16: Cleveland State in 1986 and Chattanooga in 1997. None went further.
+More bracket basics
+How often does a 16 seed beat a 1 seed?
+How often does a 15 seed beat a 2 seed?
+How often does a 14 seed beat a 3 seed?
+How often does a 12 seed beat a 5 seed?
+Which first-round upsets happen most often?
+2024 bracket backtest: 11 first-round upsets
+
+## 2025 backtest: what all-chalk would have scored (https://fillmybracket.com/2025-bracket-backtest)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+2025 backtest: what all-chalk would have scored
+Florida beat Houston 65–63 for the title. The better seed won 49 of 63 games. No year in the last four had more. All four Final Four teams were 1 seeds.
+130 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+49 of 63games won by the better seed
+7first-round upsets
+The 2025 games, counted one by one.
+The first-round upsets
+WinnerBeatScore
+Colorado State (12)Memphis (5)78–70
+McNeese (12)Clemson (5)69–67
+Drake (11)Missouri (6)67–57
+New Mexico (10)Marquette (7)75–66
+Arkansas (10)Kansas (7)79–72
+Creighton (9)Louisville (8)89–75
+Baylor (9)Mississippi State (8)75–72
+The one run
+Arkansas, a 10 seed, reached the Sweet 16.
+No other low seed got that far.
+Every other first-round upset winner lost its next game.
+The Final Four was all 1 seeds: Florida, Houston, Auburn, and Duke.
+It was a chalk year, start to finish.
+For your picks
+History says about eight first-round upsets a year.
+2025 gave seven, then stopped.
+In a year like this, your champion pick does the work.
+How we counted
+Counted from every game of the 2025 main bracket: 63 games.
+The better seed is the lower seed number.
+3 games matched equal seeds.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+How many games would all-chalk have picked right in 2025?49. The better seed won 49 of 63 games in 2025. Three more games matched equal seeds, all between 1 seeds.
+How many upsets were in the 2025 tournament?11 of the 63 games were won by the worse seed. 7 of them came in the first round.
+More bracket basics
+2024 bracket backtest
+2023 bracket backtest
+2022 bracket backtest
+How often do upsets happen?
+
+## 2024 backtest: what all-chalk would have scored (https://fillmybracket.com/2024-bracket-backtest)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+2024 backtest: what all-chalk would have scored
+UConn beat Purdue 75–60 for its second straight title. The better seed won 43 of 63 games. The first round alone had 11 upsets, the most of the last four years.
+130 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+43 of 63games won by the better seed
+11first-round upsets
+The 2024 games, counted one by one.
+The first-round upsets
+WinnerBeatScore
+Oakland (14)Kentucky (3)80–76
+Yale (13)Auburn (4)78–76
+Grand Canyon (12)Saint Mary's (5)75–66
+James Madison (12)Wisconsin (5)72–61
+Duquesne (11)BYU (6)71–67
+NC State (11)Texas Tech (6)80–67
+Oregon (11)South Carolina (6)87–73
+Colorado (10)Florida (7)102–100
+Northwestern (9)Florida Atlantic (8)77–65
+Michigan State (9)Mississippi State (8)69–51
+Texas A&M (9)Nebraska (8)98–83
+The run that mattered
+NC State, an 11 seed, reached the Final Four.
+It was the sixth 11 seed ever to get there.
+The final still matched two 1 seeds: UConn and Purdue.
+The first round was chaos. The last game was not.
+For your picks
+Eleven first-round upsets is a wild start.
+The winner still came from the top line.
+Pick your upsets where history puts them. Protect your champion.
+How we counted
+Counted from every game of the 2024 main bracket: 63 games.
+The better seed is the lower seed number.
+1 game matched equal seeds.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+How many games would all-chalk have picked right in 2024?43. The better seed won 43 of 63 games in 2024. One game matched equal seeds: the final, between two 1 seeds.
+How many upsets were in the 2024 tournament?19 of the 63 games were won by the worse seed. 11 of them came in the first round.
+More bracket basics
+2025 bracket backtest
+2023 bracket backtest
+2022 bracket backtest
+How often do upsets happen?
+
+## 2023 backtest: what all-chalk would have scored (https://fillmybracket.com/2023-bracket-backtest)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+2023 backtest: what all-chalk would have scored
+UConn, a 4 seed, beat San Diego State 76–59 for the title. No 1 seed reached the Final Four. The Final Four seeds were 4, 5, 5, and 9.
+130 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+44 of 63games won by the better seed
+7first-round upsets
+The 2023 games, counted one by one.
+The first-round upsets
+WinnerBeatScore
+Fairleigh Dickinson (16)Purdue (1)63–58
+Princeton (15)Arizona (2)59–55
+Furman (13)Virginia (4)68–67
+Pittsburgh (11)Iowa State (6)59–41
+Penn State (10)Texas A&M (7)76–59
+Florida Atlantic (9)Memphis (8)66–65
+Auburn (9)Iowa (8)83–75
+The wildest weekend
+A 16 seed won. Fairleigh Dickinson beat Purdue 63–58.
+Princeton, a 15 seed, reached the Sweet 16.
+Florida Atlantic, a 9 seed, reached the Final Four.
+It was the loudest year of the four.
+For your picks
+Chalk still won 44 of 63 games.
+Even in the wild year, the better seed won most games.
+The misses were just louder.
+How we counted
+Counted from every game of the 2023 main bracket: 63 games.
+The better seed is the lower seed number.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+How many games would all-chalk have picked right in 2023?44. The better seed won 44 of 63 games in 2023, even with a 16 seed and a 15 seed winning in the first round.
+How many upsets were in the 2023 tournament?19 of the 63 games were won by the worse seed. 7 of them came in the first round.
+More bracket basics
+2025 bracket backtest
+2024 bracket backtest
+2022 bracket backtest
+How often do upsets happen?
+
+## 2022 backtest: what all-chalk would have scored (https://fillmybracket.com/2022-bracket-backtest)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+2022 backtest: what all-chalk would have scored
+Kansas beat North Carolina 72–69 for the title. The better seed won 42 of 63 games. A 15 seed reached the Elite Eight.
+130 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+42 of 63games won by the better seed
+10first-round upsets
+The 2022 games, counted one by one.
+The first-round upsets
+WinnerBeatScore
+Saint Peter's (15)Kentucky (2)85–79
+New Mexico State (12)UConn (5)70–63
+Richmond (12)Iowa (5)67–63
+Notre Dame (11)Alabama (6)78–64
+Michigan (11)Colorado State (6)75–63
+Iowa State (11)LSU (6)59–54
+Miami (FL) (10)USC (7)68–66
+Memphis (9)Boise State (8)64–53
+TCU (9)Seton Hall (8)69–42
+Creighton (9)San Diego State (8)72–69
+The Saint Peter's run
+Saint Peter's, a 15 seed, beat Kentucky, Murray State, and Purdue.
+It reached the Elite Eight.
+No 15 seed had ever gone that far.
+It is still the deepest 15 seed run ever.
+For your picks
+Ten first-round upsets is a lot.
+The champion was still a 1 seed.
+An 8 seed, North Carolina, shared the final with it.
+How we counted
+Counted from every game of the 2022 main bracket: 63 games.
+The better seed is the lower seed number.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+How many games would all-chalk have picked right in 2022?42. The better seed won 42 of 63 games in 2022. Ten of the losses came in the first round alone.
+How many upsets were in the 2022 tournament?21 of the 63 games were won by the worse seed. 10 of them came in the first round.
+More bracket basics
+2025 bracket backtest
+2024 bracket backtest
+2023 bracket backtest
+How often do upsets happen?

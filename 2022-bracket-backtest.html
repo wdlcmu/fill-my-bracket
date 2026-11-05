@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2022 Bracket Backtest: What All-Chalk Would Have Scored | Fill My Bracket</title>
+<meta name="description" content="The 2022 tournament, graded: Saint Peter's ran to the Elite Eight, ten first-round upsets hit, and Kansas beat North Carolina for the title.">
+<link rel="canonical" href="https://fillmybracket.com/2022-bracket-backtest">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://fillmybracket.com/2022-bracket-backtest">
+<meta property="og:site_name" content="Fill My Bracket">
+<meta property="og:title" content="2022 Bracket Backtest: What All-Chalk Would Have Scored">
+<meta property="og:description" content="Saint Peter's reached the Elite Eight. Chalk still won 42 of 63.">
+<meta property="og:image" content="https://fillmybracket.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Fill My Bracket. Five questions start your bracket. Your picks finish it.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="2022 Bracket Backtest: What All-Chalk Would Have Scored">
+<meta name="twitter:description" content="Saint Peter's reached the Elite Eight. Chalk still won 42 of 63.">
+<meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
+<meta name="twitter:image:alt" content="Fill My Bracket. Five questions start your bracket. Your picks finish it.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+  :root {
+    --navy: #081c3a; --navy-2: #0d2b57; --navy-3: #123263;
+    --orange: #ff7a1a; --orange-soft: #ffa25e;
+    --cream: #f7f2e7; --muted: #aebdd6; --line: #2a4a7f;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--cream); background: var(--navy); line-height: 1.55;
+    display: flex; flex-direction: column; min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  header.site { padding: 1.1rem 1.25rem; border-bottom: 1px solid var(--line); }
+  header.site a { color: var(--cream); font-weight: 800; font-size: 1.125rem; text-decoration: none; letter-spacing: -0.01em; display: inline-block; padding: 13px 0; }
+  header.site a span { color: var(--orange); }
+  main { flex: 1; width: 100%; max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 0.5rem; }
+  .kicker { display: inline-block; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--orange); margin-bottom: 0.9rem; border: 1px solid var(--orange); border-radius: 999px; padding: 0.3rem 0.9rem; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 1rem; }
+  .answer { font-size: 1.1875rem; color: var(--cream); margin-bottom: 1.5rem; }
+  h2 { font-size: 1.3125rem; font-weight: 700; margin: 1.75rem 0 0.6rem; }
+  p { color: var(--muted); margin-bottom: 0.55rem; }
+  p strong, li strong { color: var(--cream); }
+  ol.steps, ul.plain { margin: 0 0 0.5rem 1.25rem; color: var(--muted); }
+  ol.steps li, ul.plain li { margin-bottom: 0.55rem; }
+  table { width: 100%; border-collapse: collapse; margin: 0.75rem 0 1rem; font-size: 0.9375rem; }
+  th, td { text-align: left; padding: 0.45rem 0.6rem; border: 1px solid var(--line); color: var(--muted); }
+  th { color: var(--cream); background: var(--navy-2); }
+  td strong { color: var(--cream); }
+  .nextup { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-top: 2rem; }
+  .nextup h2 { margin-top: 0; font-size: 1.125rem; }
+  .nextup ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.1rem 1.25rem; }
+  .nextup li { margin-bottom: 0.15rem; }
+  .nextup a, main a.inline { color: var(--orange-soft); font-weight: 600; text-decoration: none; }
+  .nextup a:hover, main a.inline:hover { text-decoration: underline; }
+  .nextup a { display: inline-flex; align-items: center; min-height: 44px; }
+  .picker-note { border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2); padding: 1.1rem 1.2rem; margin-top: 1.25rem; }
+  .picker-note p { color: var(--cream); margin: 0; }
+  .picker-note .line { font-weight: 800; }
+  .faqsec { margin-top: 2rem; }
+  .faqsec details { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.9rem 1.1rem; margin-bottom: 0.75rem; }
+  .faqsec summary { color: var(--cream); font-weight: 700; cursor: pointer; padding: 0.35rem 0; min-height: 44px; display: flex; align-items: center; }
+  .faqsec details p { margin: 0.55rem 0 0.1rem; }
+  .back-game { text-align: center; margin: 2rem auto 0; padding: 0 1.5rem; }
+  .back-game-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0.6rem 1.5rem; border-radius: 999px; background: #ff7a1a; color: #081c3a; font-weight: 800; font-size: 1rem; text-decoration: none; font-family: inherit; }
+  .back-game-btn:hover { background: #ffa25e; }
+  .back-game p { color: var(--muted); font-size: 0.9375rem; margin-top: 0.6rem; }
+  footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
+  footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
+  footer a:hover { text-decoration: underline; }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1rem; margin: 0 0 1.5rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.875rem; margin: 0.6rem 0 0; }
+  .viz .viz-cap strong { color: var(--cream); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; }
+  .chip { background: var(--navy-3); border: 1px solid var(--line); border-radius: 999px; padding: 0.32rem 0.75rem; font-size: 0.85rem; font-weight: 700; color: var(--cream); white-space: nowrap; display: inline-flex; flex-direction: column; justify-content: center; line-height: 1.25; }
+  .chip small { font-weight: 400; color: var(--muted); font-size: 0.72rem; }
+  .chip.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  .chip.on small { color: var(--navy-2); }
+  .arrow { color: var(--orange); font-weight: 800; align-self: center; }
+  .bar { display: flex; min-height: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .bar > div { display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; padding: 0.25rem 0.4rem; text-align: center; }
+  .bar .seg-a { background: var(--orange); color: var(--navy); }
+  .bar .seg-b { background: var(--navy-3); color: var(--cream); }
+  .hbar { display: grid; grid-template-columns: 4.6rem 1fr 4.2rem; align-items: center; gap: 0.55rem; margin-bottom: 0.45rem; font-size: 0.85rem; }
+  .hbar:last-of-type { margin-bottom: 0; }
+  .hbar .lab { color: var(--cream); font-weight: 700; }
+  .hbar .track { background: var(--navy-3); border-radius: 6px; height: 0.9rem; overflow: hidden; }
+  .hbar .fill { background: var(--orange); height: 100%; }
+  .hbar .val { color: var(--muted); }
+  .bigstat { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .bigstat .stat b { font-size: 1.8rem; font-weight: 800; color: var(--cream); display: block; line-height: 1.15; }
+  .bigstat .stat span { color: var(--muted); font-size: 0.82rem; }
+  .identity { font-size: 1.0625rem; font-weight: 700; color: var(--cream); margin-bottom: 0.9rem; }
+  .countdown { font-size: 0.9375rem; color: var(--orange-soft); font-weight: 700; margin-bottom: 1.1rem; font-variant-numeric: tabular-nums; }
+  .cta-main { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0.6rem 1.5rem; border-radius: 999px; background: #ff7a1a; color: #081c3a; font-weight: 800; font-size: 1rem; text-decoration: none; margin-bottom: 1.5rem; }
+  .cta-main:hover { background: #ffa25e; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many games would all-chalk have picked right in 2022?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "42. The better seed won 42 of 63 games in 2022. Ten of the losses came in the first round alone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many upsets were in the 2022 tournament?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "21 of the 63 games were won by the worse seed. 10 of them came in the first round."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site"><a href="/">Fill My <span>Bracket</span></a></header>
+<main>
+  <p class="identity">Fill My Bracket starts a full March Madness bracket from five questions.</p>
+  <h1>2022 backtest: what all-chalk would have scored</h1>
+  <p class="answer"><strong>Kansas beat North Carolina 72–69 for the title.</strong> The better seed won 42 of 63 games. A 15 seed reached the Elite Eight.</p>
+  <p class="countdown" id="countdown">130 days until Selection Sunday, Sunday, March 14, 2027.</p>
+  <a class="cta-main" href="/">Start your bracket</a>
+  
+  <div class="viz"><div class="bigstat">
+    <div class="stat"><b>42 of 63</b><span>games won by the better seed</span></div>
+    <div class="stat"><b>10</b><span>first-round upsets</span></div>
+  </div><p class="viz-cap">The 2022 games, counted one by one.</p></div>
+  <h2>The first-round upsets</h2>
+  <table><tr><th>Winner</th><th>Beat</th><th>Score</th></tr><tr><td><strong>Saint Peter's (15)</strong></td><td>Kentucky (2)</td><td>85–79</td></tr><tr><td><strong>New Mexico State (12)</strong></td><td>UConn (5)</td><td>70–63</td></tr><tr><td><strong>Richmond (12)</strong></td><td>Iowa (5)</td><td>67–63</td></tr><tr><td><strong>Notre Dame (11)</strong></td><td>Alabama (6)</td><td>78–64</td></tr><tr><td><strong>Michigan (11)</strong></td><td>Colorado State (6)</td><td>75–63</td></tr><tr><td><strong>Iowa State (11)</strong></td><td>LSU (6)</td><td>59–54</td></tr><tr><td><strong>Miami (FL) (10)</strong></td><td>USC (7)</td><td>68–66</td></tr><tr><td><strong>Memphis (9)</strong></td><td>Boise State (8)</td><td>64–53</td></tr><tr><td><strong>TCU (9)</strong></td><td>Seton Hall (8)</td><td>69–42</td></tr><tr><td><strong>Creighton (9)</strong></td><td>San Diego State (8)</td><td>72–69</td></tr></table>
+  <h2>The Saint Peter's run</h2>
+  <p><strong>Saint Peter's, a 15 seed, beat Kentucky, Murray State, and Purdue.</strong></p>
+  <p>It reached the Elite Eight.</p>
+  <p>No 15 seed had ever gone that far.</p>
+  <p>It is still the deepest 15 seed run ever.</p>
+  <h2>For your picks</h2>
+  <p>Ten first-round upsets is a lot.</p>
+  <p>The champion was still a 1 seed.</p>
+  <p>An 8 seed, North Carolina, shared the final with it.</p>
+  <h2>How we counted</h2>
+  <p>Counted from every game of the 2022 main bracket: 63 games.</p>
+  <p>The better seed is the lower seed number.</p>
+  
+  <div class="picker-note">
+    <p class="line">Five questions start your bracket. Your picks finish it.</p>
+    <p>The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.</p>
+  </div>
+  <section class="faqsec" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">Common questions</h2>
+    <details><summary>How many games would all-chalk have picked right in 2022?</summary><p>42. The better seed won 42 of 63 games in 2022. Ten of the losses came in the first round alone.</p></details><details><summary>How many upsets were in the 2022 tournament?</summary><p>21 of the 63 games were won by the worse seed. 10 of them came in the first round.</p></details>
+  </section>
+  <div class="nextup">
+    <h2>More bracket basics</h2>
+    <ul><li><a href="/2025-bracket-backtest">2025 bracket backtest</a></li><li><a href="/2024-bracket-backtest">2024 bracket backtest</a></li><li><a href="/2023-bracket-backtest">2023 bracket backtest</a></li><li><a href="/how-often-do-upsets-happen">How often do upsets happen?</a></li></ul>
+  </div>
+
+<script id="cd-logic">
+(function(){var el=document.getElementById("countdown");if(!el)return;var DATES=[new Date(2027,2,14),new Date(2028,2,12)];function fmt(d){return d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric",year:"numeric"});}function dayText(now){var today=new Date(now.getFullYear(),now.getMonth(),now.getDate());var target=null;for(var i=0;i<DATES.length;i++){if(today<=DATES[i]){target=DATES[i];break;}}if(!target)return "The field is set. The tournament is on.";var days=Math.round((target-today)/86400000);if(days===0)return "Selection Sunday is today, "+fmt(target)+". The field is set tonight.";return days+(days===1?" day":" days")+" until Selection Sunday, "+fmt(target)+".";}el.textContent=dayText(new Date());})();
+</script>
+</main>
+<footer>
+  <p>Built with Muse.</p>
+  <p><a href="/">Home</a> <a href="/privacy">Privacy</a> <a href="/terms">Terms</a></p>
+</footer>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e5edc982b99349b587d105338f331407"}'></script>
+<!-- ASK PANEL START -->
+<style>
+.askp-pill{position:fixed;right:16px;bottom:16px;z-index:9998;min-height:48px;padding:.65rem 1.1rem;border:0;border-radius:999px;background:#ff7a1a;color:#081c3a;font-weight:800;font-size:1rem;cursor:pointer;box-shadow:0 6px 24px rgba(0,0,0,.35);font-family:inherit}
+html{scroll-padding-bottom:96px}
+body{padding-bottom:80px}
+.askp-pill:focus-visible,.askp-close:focus-visible,.askp-chip:focus-visible,.askp-send:focus-visible,.askp-input:focus-visible{outline:3px solid #ffa25e;outline-offset:2px}
+.askp-panel{position:fixed;right:0;left:0;bottom:0;z-index:9999;background:#0d2b57;color:#f7f2e7;border-top:2px solid #ff7a1a;border-radius:16px 16px 0 0;padding:1rem 1.1rem 1.1rem;max-height:88vh;overflow-y:auto;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55;box-shadow:0 -8px 32px rgba(0,0,0,.4)}
+@media(min-width:641px){.askp-panel{left:auto;right:16px;bottom:16px;width:26rem;max-width:calc(100vw - 32px);border:2px solid #ff7a1a;border-radius:16px}}
+.askp-panel[hidden]{display:none}
+.askp-head{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:.6rem}
+.askp-head strong{font-size:1.125rem;color:#f7f2e7}
+.askp-close{background:#123263;color:#f7f2e7;border:1px solid #2a4a7f;border-radius:10px;min-width:44px;min-height:44px;font-size:1.35rem;line-height:1;cursor:pointer}
+.askp-how{border:1px solid #2a4a7f;border-radius:12px;padding:.7rem .85rem;margin-bottom:.85rem}
+.askp-how p{color:#aebdd6;font-size:.9375rem;margin:0}
+.askp-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:.9rem}
+.askp-chip{background:#123263;color:#f7f2e7;border:1px solid #2a4a7f;border-radius:10px;min-height:44px;padding:.5rem .8rem;font-size:.9375rem;font-weight:600;cursor:pointer;font-family:inherit}
+.askp-reply{background:#0d2b57;border:2px solid #ff7a1a;border-radius:14px;padding:.9rem 1rem;margin:0 0 .9rem;display:none}
+.askp-reply p{color:#f7f2e7;margin:0 0 .6rem;white-space:pre-wrap}
+.askp-reply p:last-child{margin-bottom:0}
+.askp-row{display:flex;gap:.6rem;flex-wrap:wrap}
+.askp-input{flex:1 1 12rem;font-size:16px;min-height:48px;padding:.6rem .8rem;border-radius:10px;border:1px solid #2a4a7f;background:#081c3a;color:#f7f2e7;font-family:inherit}
+.askp-send{background:#ff7a1a;color:#081c3a;border:0;border-radius:10px;font-weight:700;cursor:pointer;min-height:48px;padding:.6rem 1.1rem;font-size:1rem;font-family:inherit}
+.askp-send:disabled{opacity:.55}
+.askp-full{display:inline-block;margin-top:.8rem;color:#ffa25e;font-weight:600;font-size:.9375rem;text-decoration:none;padding:.35rem 0}
+.askp-full:hover{text-decoration:underline}
+@media(prefers-reduced-motion:reduce){.askp-pill,.askp-panel{transition:none!important;animation:none!important}}
+</style>
+<button type="button" class="askp-pill" id="askpBtn" aria-haspopup="dialog" aria-expanded="false">Ask in your own words</button>
+<div class="askp-panel" id="askpPanel" role="dialog" aria-modal="true" aria-labelledby="askpTitle" hidden>
+  <div class="askp-head"><strong id="askpTitle">Ask in your own words</strong><button type="button" class="askp-close" id="askpClose" aria-label="Close ask panel">&times;</button></div>
+  <div class="askp-how"><p>Bracket answers use this site's checked counts and history first. Ask anything else and a real AI answers in plain words. It cannot pick your 2027 bracket. Nothing you type is stored.</p></div>
+  <div class="askp-chips">
+    <button type="button" class="askp-chip">What is a seed?</button>
+    <button type="button" class="askp-chip">How does scoring work?</button>
+    <button type="button" class="askp-chip">How often do upsets happen?</button>
+    <button type="button" class="askp-chip">When is Selection Sunday 2027?</button>
+    <button type="button" class="askp-chip">What are the five questions?</button>
+  </div>
+  <div class="askp-reply" id="askpReply" role="status" aria-live="polite"></div>
+  <div class="askp-row">
+    <input class="askp-input" id="askpInput" type="text" autocomplete="off" placeholder="What is a seed?" maxlength="300" aria-label="Your question">
+    <button type="button" class="askp-send" id="askpSend">Ask</button>
+  </div>
+  <a class="askp-full" href="/ask">Open the full ask page</a>
+</div>
+<script>
+(function(){
+  var btn=document.getElementById("askpBtn"),panel=document.getElementById("askpPanel"),inited=false,prevOverflow="";
+  function close(){panel.hidden=true;btn.setAttribute("aria-expanded","false");document.documentElement.style.overflow=prevOverflow;btn.focus();}
+  function init(){
+    if(inited)return;inited=true;
+    var input=document.getElementById("askpInput"),send=document.getElementById("askpSend"),box=document.getElementById("askpReply"),closeBtn=document.getElementById("askpClose");
+    var lastQ="",lastA="";
+    var tzName="";try{tzName=Intl.DateTimeFormat().resolvedOptions().timeZone||"";}catch(e){}
+    function localToday(){try{return new Intl.DateTimeFormat("en-CA",{year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());}catch(e){return "";}}
+    var reduce=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    function show(text){
+      box.style.display="block";box.innerHTML="";
+      String(text).split(/\n+/).forEach(function(para){if(!para.trim())return;var p=document.createElement("p");p.textContent=para;box.appendChild(p);});
+      box.scrollIntoView({block:"nearest",behavior:reduce?"auto":"smooth"});
+    }
+    function ask(text){
+      var t=(text||"").trim();
+      if(!t){show("Ask a few words first. Try one of the example questions above.");return;}
+      send.disabled=true;send.textContent="Thinking...";
+      fetch("/api/ask",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(lastQ?{text:t,context:{q:lastQ,a:lastA},localDate:localToday(),tz:tzName}:{text:t,localDate:localToday(),tz:tzName})})
+        .then(function(r){return r.json();})
+        .then(function(j){if(j&&j.reply){lastQ=t;lastA=j.reply;show(j.reply);}else show("The helper had a hiccup. The guides below answer the same things, in plain words.");})
+        .catch(function(){show("The helper had a hiccup. The guides below answer the same things, in plain words.");})
+        .finally(function(){send.disabled=false;send.textContent="Ask";});
+    }
+    send.addEventListener("click",function(){ask(input.value);});
+    input.addEventListener("keydown",function(e){if(e.key==="Enter")ask(input.value);});
+    panel.querySelectorAll(".askp-chip").forEach(function(ch){ch.addEventListener("click",function(){input.value=ch.textContent;ask(ch.textContent);});});
+    closeBtn.addEventListener("click",close);
+    document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!panel.hidden)close();});
+  }
+  btn.addEventListener("click",function(){
+    init();
+    prevOverflow=document.documentElement.style.overflow;
+    panel.hidden=false;btn.setAttribute("aria-expanded","true");
+    document.documentElement.style.overflow="hidden";
+    document.getElementById("askpInput").focus();
+  });
+})();
+</script>
+<!-- ASK PANEL END -->
+<!-- FLEET YIELD GUARD (Nov 3, 2026, SPEC-POST1175-02): reference guard,
+     builds/fleet-yield-guard-2026-11-01/reference/, one init for the ask
+     pill, same style/script bytes as the homepage guard (Addendum 1154).
+     The pill parks below the fold while any interactive element, or a
+     block carrying data-fyg-watch, is under its resting box, and returns
+     once clear. The data-fyg-watch blocks are the ones under the pill at
+     scroll 0, so the pill covers no text at arrival either. Rollback =
+     remove this block and the data-fyg-watch attributes. -->
+<style>.fyg-pill{transition:transform .25s ease}.fyg-pill.fyg-yield{transform:translateY(calc(100% + var(--fyg-gap, 20px)))}.fyg-pill.fyg-hidden{display:none}@media (prefers-reduced-motion:reduce){.fyg-pill{transition:none}}</style>
+<script>
+(function (global) {
+  'use strict';
+
+  var SELECTOR = [
+    'a[href]', 'button', 'input', 'select', 'textarea', 'summary',
+    '[role="button"]', '[role="link"]', '[role="tab"]', '[role="menuitem"]',
+    '[tabindex]:not([tabindex="-1"])', '[data-fyg-watch]'
+  ].join(',');
+
+  var HYSTERESIS = 6; /* px: once yielded, the hit test uses the resting box
+                         EXPANDED by this much, so a target must clear the
+                         box by >6px before the pill returns */
+
+  function toEl(x) {
+    if (!x) return null;
+    if (typeof x === 'string') return document.querySelector(x);
+    return x;
+  }
+  function toList(sel, root) {
+    if (!sel) return [];
+    return Array.prototype.slice.call((root || document).querySelectorAll(sel));
+  }
+  function parsePx(v) { var n = parseFloat(v); return isNaN(n) ? null : n; }
+
+  function init(opts) {
+    opts = opts || {};
+    var pill = toEl(opts.pill);
+    if (!pill) return null;
+    var panel = toEl(opts.panel);
+    var className = opts.className || 'fyg-yield';
+    var gap = (typeof opts.gap === 'number') ? opts.gap : 20;
+    var extraTargets = opts.targets || null;
+    var excludeSel = opts.exclude || null;
+
+    pill.classList.add('fyg-pill');
+    pill.style.setProperty('--fyg-gap', gap + 'px');
+
+    var resting = null;   /* cached untransformed box {top,bottom,left,right} */
+    var yielded = false;
+    var ticking = false;
+    var destroyed = false;
+    var targets = [];
+
+    /* --- resting box: computed from CSS position + offset size ONLY.
+           offsetWidth/offsetHeight and computed bottom/right/left/top are
+           all unaffected by transforms. Never call pill.getBoundingClientRect()
+           here — that is the PMC oscillation bug. --- */
+    function computeResting() {
+      var cs = window.getComputedStyle(pill);
+      var w = pill.offsetWidth, h = pill.offsetHeight;
+      if (!w || !h) { return; } /* SPEC-05: pill may be display:none while yielded; keep the last known box */
+      var vw = window.innerWidth, vh = window.innerHeight;
+      var left = parsePx(cs.left), right = parsePx(cs.right);
+      var top = parsePx(cs.top), bottom = parsePx(cs.bottom);
+      var box = {};
+      if (left !== null && cs.left !== 'auto') box.left = left;
+      else if (right !== null && cs.right !== 'auto') box.left = vw - right - w;
+      else box.left = vw - w; /* fallback: assume right-anchored */
+      if (top !== null && cs.top !== 'auto') box.top = top;
+      else if (bottom !== null && cs.bottom !== 'auto') box.top = vh - bottom - h;
+      else box.top = vh - h;
+      box.right = box.left + w;
+      box.bottom = box.top + h;
+      resting = box;
+    }
+
+    function collectTargets() {
+      var list = toList(SELECTOR);
+      if (extraTargets) list = list.concat(toList(extraTargets));
+      var excludes = excludeSel ? toList(excludeSel) : [];
+      targets = list.filter(function (el) {
+        if (el === pill) return false;
+        if (pill.contains(el)) return false;
+        if (panel && (el === panel || panel.contains(el))) return false;
+        for (var i = 0; i < excludes.length; i++) {
+          if (el === excludes[i] || excludes[i].contains(el)) return false;
+        }
+        return true;
+      });
+    }
+
+    function panelIsOpen() {
+      if (typeof opts.panelOpen === 'function') return !!opts.panelOpen();
+      if (!panel) return false;
+      if (panel.hidden) return false;
+      var cs = window.getComputedStyle(panel);
+      return cs.display !== 'none' && cs.visibility !== 'hidden';
+    }
+
+    function update() {
+      ticking = false;
+      if (destroyed) return;
+      /* A focused pill, or an open panel, never yields (SS 987 rule). */
+      if (panelIsOpen() || document.activeElement === pill || pill.contains(document.activeElement)) {
+        setYield(false);
+        return;
+      }
+      if (!resting) computeResting();
+      if (!resting) return;
+      var box = resting;
+      /* Hysteresis: yield on ANY overlap with the resting box; once yielded,
+         a target must clear the box EXPANDED by HYSTERESIS px before the
+         pill returns. (An early draft shrank the box for the return check instead —
+         the harness's boundary fixture caught the limit cycle that creates
+         for shallow overlaps: yield -> not-hit -> un-yield -> hit. See
+         REPORT.md, harness bug log #2.) */
+      var ex = yielded ? HYSTERESIS : 0;
+      var hit = false;
+      for (var i = 0; i < targets.length; i++) {
+        var el = targets[i];
+        /* Skip non-rendered targets cheaply before paying for a rect. */
+        if (el.offsetParent === null && window.getComputedStyle(el).position !== 'fixed' && window.getComputedStyle(el).position !== 'sticky') {
+          /* offsetParent is null for display:none and for fixed elements;
+             fixed/sticky fall through to the rect check below. */
+          if (window.getComputedStyle(el).display === 'none') continue;
+        }
+        var b = el.getBoundingClientRect();
+        if (!b.width || !b.height) continue;
+        if (b.bottom > box.top - ex && b.top < box.bottom + ex &&
+            b.right > box.left - ex && b.left < box.right + ex) { hit = true; break; }
+      }
+      setYield(hit);
+    }
+
+    var hideTimer = null;
+    function setYield(on) {
+      if (on === yielded) return;
+      yielded = on;
+      if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; }
+      if (on) {
+        pill.classList.add(className);
+        /* SPEC-05 (Nov 4, 2026): after the slide-out finishes, remove the
+           pill from layout. Parked below the fold it still had a rect that
+           overlapped tap targets scrolling near the bottom edge (the
+           cold-QA settled sweep caught chips and footer links under that
+           parked rect). With display:none the rect is zero and the settled
+           pill can cover nothing, at any scroll depth. */
+        hideTimer = setTimeout(function () {
+          hideTimer = null;
+          if (yielded) pill.classList.add('fyg-hidden');
+        }, 300);
+      } else {
+        pill.classList.remove('fyg-hidden');
+        void pill.offsetWidth; /* reflow so the slide back in still animates */
+        pill.classList.remove(className);
+      }
+    }
+
+    function schedule() {
+      if (ticking || destroyed) return;
+      ticking = true;
+      window.requestAnimationFrame(update);
+    }
+    function scheduleRelayout() {
+      /* Layout may have changed: recompute the resting box and the target
+         list, then re-evaluate. This is the ONLY place resting is dropped.
+         SPEC-05: while the pill is display:none (yielded) it has no size;
+         keep the last known box rather than dropping it. */
+      if (pill.offsetWidth) resting = null;
+      collectTargets();
+      schedule();
+    }
+
+    window.addEventListener('scroll', schedule, { passive: true });
+    window.addEventListener('resize', scheduleRelayout);
+    window.addEventListener('orientationchange', scheduleRelayout);
+    pill.addEventListener('focus', function () { setYield(false); }, true);
+    pill.addEventListener('blur', schedule, true);
+
+    var mo = null;
+    if (window.MutationObserver) {
+      /* Results, sealed links, tallies and cards appear dynamically
+         (Secret Santa payoff screen, FMB tally, PP results). Watch for
+         added/removed nodes and attribute changes that show/hide them. */
+      mo = new MutationObserver(function () { collectTargets(); schedule(); });
+      mo.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['hidden', 'style', 'class'] });
+    }
+
+    collectTargets();
+    computeResting();
+    update();
+
+    return {
+      refresh: scheduleRelayout,
+      isYielded: function () { return yielded; },
+      destroy: function () {
+        destroyed = true;
+        window.removeEventListener('scroll', schedule);
+        window.removeEventListener('resize', scheduleRelayout);
+        window.removeEventListener('orientationchange', scheduleRelayout);
+        if (mo) mo.disconnect();
+        setYield(false);
+      }
+    };
+  }
+
+  global.FleetYieldGuard = { init: init, version: '1.0.0' };
+})(typeof window !== 'undefined' ? window : this);
+</script>
+<script>
+FleetYieldGuard.init({ pill: "#askpBtn", panel: "#askpPanel" });
+</script>
+</body>
+</html>
