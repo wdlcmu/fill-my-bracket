@@ -1,9 +1,9 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, twenty-eight bracket-basics guides, privacy, and terms.
+> Complete text of fillmybracket.com: the homepage, thirty-seven bracket-basics guides, privacy, and terms.
 > Fill My Bracket starts a full March Madness bracket from five questions — your picks finish
 > it, with zero basketball knowledge required. It is coming in March 2027. Free forever, no ads, no accounts.
-> Text captured from the live pages, 2026-11-01.
+> Text captured from the live pages, 2026-11-01; two history pages added 2026-11-04.
 
 ## Homepage (https://fillmybracket.com/)
 
@@ -2108,3 +2108,79 @@ When is Selection Sunday 2027?
 What are the five questions?
 Ask
 Open the full ask page
+
+## Which school has won the most March Madness titles? (https://fillmybracket.com/which-school-has-won-the-most-march-madness-titles)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+Which school has won the most March Madness titles?
+UCLA has won 11 titles. That is the most of any school. Kentucky is next, with 8. UCLA won seven titles in a row.
+130 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+Most titles
+School | Titles | Title years
+UCLA | 11 | 1964, 1965, 1967–1973, 1975, 1995
+Kentucky | 8 | 1948, 1949, 1951, 1958, 1978, 1996, 1998, 2012
+North Carolina | 6 | 1957, 1982, 1993, 2005, 2009, 2017
+UConn | 6 | 1999, 2004, 2011, 2014, 2023, 2024
+Indiana | 5 | 1940, 1953, 1976, 1981, 1987
+Duke | 5 | 1991, 1992, 2001, 2010, 2015
+Kansas | 4 | 1952, 1988, 2008, 2022
+Villanova | 3 | 1985, 2016, 2018
+Florida | 3 | 2006, 2007, 2025
+The men’s tournament, 1939 to 2025.
+No tournament in 2020, so 86 titles have been won.
+Louisville also won in 2013. The NCAA later vacated that title.
+For your picks
+Big names win a lot. They do not win every year.
+Virginia and Baylor each won a first title, in 2019 and 2021.
+You name your champion. This list is the data for that call.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+Which school has won the most March Madness titles?
+UCLA, with 11 titles. Kentucky has 8. North Carolina and UConn have 6 each.
+Has any school won three titles in a row?
+Yes. UCLA won seven titles in a row, from 1967 to 1973. No other school has won three in a row.
+More bracket basics
+What is the lowest seed to win March Madness?
+What is the Final Four?
+How to pick upsets
+When is Selection Sunday 2027?
+
+## What is the lowest seed to win March Madness? (https://fillmybracket.com/what-is-the-lowest-seed-to-win-march-madness)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+What is the lowest seed to win March Madness?
+The lowest seed to win is a No. 8 seed. Villanova did it in 1985. Villanova beat Georgetown 66 to 64 in the title game.
+130 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+The lowest seeds that won
+Seed | School | Year | Title game
+8 | Villanova | 1985 | Beat Georgetown 66–64
+7 | UConn | 2014 | Beat Kentucky 60–54
+6 | NC State | 1983 | Beat Houston 54–52
+6 | Kansas | 1988 | Beat Oklahoma 83–79
+Seeds began in 1979. No seed lower than 8 has ever won.
+46 seeded tournaments, through 2025.
+Low seeds that got close
+Six No. 11 seeds have reached the Final Four.
+LSU in 1986. George Mason in 2006. VCU in 2011.
+Loyola Chicago in 2018. UCLA in 2021. NC State in 2024.
+None of them won the title.
+For your picks
+A low seed can make a deep run.
+History says the run ends before the title.
+Pick your upsets early. Keep your champion call your own.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+What is the lowest seed to win March Madness?
+A No. 8 seed. Villanova in 1985 is the only 8 seed to win. UConn won as a 7 seed in 2014.
+What is the lowest seed to reach the Final Four?
+A No. 11 seed. Six 11 seeds have made it. The last one was NC State in 2024.
+More bracket basics
+Which school has won the most March Madness titles?
+How to pick upsets
+What is a Cinderella team?
+How often do upsets happen?
+When is Selection Sunday 2027?
