@@ -966,8 +966,12 @@ window.FLEET_CFG = {
        Known dates: Sunday, March 14, 2027 and Sunday, March 12, 2028
        (NCAA future schedule: 2028 Opening Round is Mar 14-15, so the
        field is picked the Sunday before). Ticks every second (days,
-       hours, minutes, seconds) to the end of the day; the day itself
-       says the field is set tonight. Reduced motion: static day count. */
+       hours, minutes, seconds) to Selection Sunday (00:00 local); the
+       day itself says the field is set tonight. Reduced motion: static
+       day count. 2026-11-05 countdown sweep fix: the tick previously
+       ran to the end of Selection Sunday (next-day 00:00), overstating
+       the time until Selection Sunday by 24 hours; it now ticks to
+       00:00 local on the day, one true duration. */
 
     function cdUnit(n, w) { return n + " " + w + (n === 1 ? "" : "s"); }
     function cdTick(ms, tail) {
@@ -1069,7 +1073,7 @@ window.FLEET_CFG = {
       } else if (today.getTime() === target.getTime()) {
         sentence = "Selection Sunday is today, " + fmt(target) + ". The field is set tonight.";
       } else {
-        var end = new Date(target.getFullYear(), target.getMonth(), target.getDate() + 1);
+        var end = target;
         tickMs = end - now; tail = "Selection Sunday, " + fmt(target) + ".";
       }
       if (mileEl) {
