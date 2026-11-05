@@ -2,12 +2,11 @@
 
 > Complete text of fillmybracket.com: the homepage, forty-six bracket-basics guides, privacy, and terms.
 > Fill My Bracket starts a full March Madness bracket from five questions — your picks finish
-> it, with zero basketball knowledge required. It is coming in March 2027. Free forever, no ads, no accounts.
-> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04.
+> it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
+> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05.
 
 ## Homepage (https://fillmybracket.com/)
 
-Coming March 2027
 Fill My Bracket
 Five questions start your bracket. Your picks finish it.
 Your team. Your upsets. Your calls.
@@ -18,7 +17,7 @@ Your bracket, as a poster
 Fill My Bracket
 Champion: your pick here
 Print it. Pin it up. Every game, round by round.
-How it will work
+How it works
 1. You answer.
 Five questions. Your favorite team first. Safe picks or big upsets. Mascots or team colors.
 2. It starts.
@@ -641,13 +640,13 @@ The NET is a predictive metric based on efficiency and opponent strength. WAB is
 
 Privacy
 Privacy, in plain words
-Fill My Bracket is a free coming-soon page.
+Fill My Bracket is a free site. It is live now.
 This page has no forms and no sign-ups. Nothing here asks for your name or email.
 This page loads Cloudflare Web Analytics. It counts visits to this site.
 The home page also runs PostHog. PostHog counts page views there.
 It counts taps on the Share button, share arrivals, and return visits. It does not record your screen.
 The home page saves one small note. The note says you came here before. It holds no name or email.
-The full bracket tool is not built yet. We will update this page before it launches.
+The bracket builder opens on Selection Sunday, March 14, 2027. That is when the teams are set. The history, data, and question tools on this site are live now. We will update this page when the builder opens.
 Questions about this page: hello@fillmybracket.com.
 Built with Muse.
 Home Terms
@@ -656,11 +655,11 @@ Home Terms
 
 Terms
 Terms, in plain words
-Fill My Bracket is a free coming-soon page.
-The full bracket tool is not built yet. It opens in March 2027.
+Fill My Bracket is a free site. It is live now.
+The bracket builder opens on Selection Sunday, March 14, 2027. The history, data, and question tools on this site are live now.
 This page is free to read. There are no accounts and no sign-ups.
-Nothing here is betting advice. The tool will make fun picks only.
-Come back on Selection Sunday, March 14, 2027. The real tool opens then.
+Nothing here is betting advice. The picks are for fun only.
+Come back on Selection Sunday, March 14, 2027. The bracket builder opens then.
 We may update these terms. The new version will live on this page.
 Questions about this page: hello@fillmybracket.com.
 Built with Muse.

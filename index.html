@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fill My Bracket · Coming March 2027</title>
+<title>Fill My Bracket</title>
 <meta name="description" content="Five questions start your bracket. Your picks finish it. Free forever. No ads. No accounts.">
 <link rel="canonical" href="https://fillmybracket.com/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://fillmybracket.com/">
 <meta property="og:site_name" content="Fill My Bracket">
-<meta property="og:title" content="Fill My Bracket · Coming March 2027">
+<meta property="og:title" content="Fill My Bracket">
 <meta property="og:description" content="Five questions start your bracket. Your picks finish it. Free forever. No ads. No accounts.">
 <meta property="og:image" content="https://fillmybracket.com/og-image.png">
 <meta property="og:image:width" content="1200">
@@ -17,7 +17,7 @@
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:alt" content="Fill My Bracket. Five questions start your bracket. Your picks finish it.">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Fill My Bracket · Coming March 2027">
+<meta name="twitter:title" content="Fill My Bracket">
 <meta name="twitter:description" content="Five questions start your bracket. Your picks finish it. Free forever. No ads. No accounts.">
 <meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
 <meta name="twitter:image:alt" content="Fill My Bracket. Five questions start your bracket. Your picks finish it.">
@@ -30,7 +30,7 @@
     --orange: #ff7a1a;
     --orange-soft: #ffa25e;
     --cream: #f7f2e7;
-    --muted: #aebdd6;
+    --muted: #cdd9ee; /* 2026-11-05 contrast pass: the old muted tone was 8.9:1 on navy; #cdd9ee is 11.9:1 on navy, 9.8:1 on navy-2, 8.9:1 on navy-3 */
     --line: #2a4a7f;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -44,34 +44,41 @@
     flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;
     text-align: center; padding: 2.5rem 1.25rem 2rem; max-width: 62rem; margin: 0 auto; width: 100%;
   }
-  .kicker {
-    display: inline-block; font-size: 0.875rem; font-weight: 700; letter-spacing: 0.08em;
-    text-transform: uppercase; color: var(--orange); margin-bottom: 1.1rem;
-    border: 1px solid var(--orange); border-radius: 999px; padding: 0.35rem 1rem;
-  }
   h1 { font-size: clamp(2.5rem, 8vw, 4rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.9rem; }
   .tagline { font-size: clamp(1.125rem, 4vw, 1.5rem); color: var(--cream); max-width: 34rem; margin-bottom: 1.1rem; }
-  .promise { font-size: 1rem; font-weight: 600; color: var(--cream); }
+  .promise { font-size: 1rem; font-weight: 600; color: var(--cream); margin-top: 1.15rem; }
   .promise span { color: var(--orange); }
   .countdown { margin-top: 0.6rem; font-size: 0.9375rem; color: var(--muted); font-variant-numeric: tabular-nums; }
   /* 2026-11-01 interactive countdown unit: digits, one tap target, What's-next panel */
-  .cdx { margin-top: 0.6rem; }
+  /* 2026-11-05 hero promotion (Billy dogfood): the countdown is a hero card
+     directly under the tagline — bordered navy-2 card, hero-size digits, and
+     a basketball seam watermark (orange outline ball, low opacity) behind
+     the digits so the theme reads basketball at a glance. */
+  .cdx {
+    margin-top: 0.4rem; position: relative; overflow: hidden; width: 100%; max-width: 35rem;
+    background: var(--navy-2); border: 1px solid var(--line); border-radius: 16px;
+    padding: 0.85rem 1rem 0.65rem;
+  }
   .cdx [hidden] { display: none !important; }
-  .cdx-main { display: block; text-decoration: none; color: inherit; text-align: center; padding: .8rem .9rem; border-radius: 14px; cursor: pointer; }
+  .cdx-ball {
+    position: absolute; right: -36px; top: 50%; transform: translateY(-50%);
+    width: 195px; height: 195px; color: var(--orange); opacity: 0.15; pointer-events: none;
+  }
+  .cdx-main { display: block; position: relative; text-decoration: none; color: inherit; text-align: center; padding: .15rem .4rem; border-radius: 14px; cursor: pointer; }
   .cdx-main:hover { background: rgba(255, 122, 26, .08); }
   .cdx-main:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
-  .cdx-digits { display: flex; gap: .9rem; justify-content: center; align-items: flex-start; margin-bottom: .35rem; }
+  .cdx-digits { display: flex; gap: 1rem; justify-content: center; align-items: flex-start; margin-bottom: .35rem; }
   .cdx-cell { display: flex; flex-direction: column; align-items: center; min-width: 2.7ch; }
   .cdx-cell.cd-d { min-width: 3.7ch; }
-  .cdx-cell b { font-size: clamp(1.85rem, 8.5vw, 2.5rem); line-height: 1; font-weight: 800; font-variant-numeric: tabular-nums; color: var(--orange-soft); }
-  .cdx-cell i { font-style: normal; font-size: .62rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-top: .32rem; }
-  .cdx .countdown { display: block; margin: 0; }
+  .cdx-cell b { font-size: clamp(2.35rem, 10vw, 3.2rem); line-height: 1; font-weight: 800; font-variant-numeric: tabular-nums; color: var(--orange-soft); }
+  .cdx-cell i { font-style: normal; font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-top: .32rem; }
+  .cdx .countdown { display: block; margin: 0; font-size: 1rem; }
   .cdx-cta { display: block; margin-top: .5rem; font-weight: 700; color: var(--orange-soft); }
   .ask-door a { display: inline-flex; align-items: center; min-height: 44px; }
-  .cdx-more { display: block; margin: 0 auto; background: none; border: 0; font: inherit; font-size: .92rem; font-weight: 600; color: var(--muted); cursor: pointer; padding: .55rem .8rem; min-height: 44px; }
+  .cdx-more { display: block; position: relative; margin: 0 auto; background: none; border: 0; font: inherit; font-size: .92rem; font-weight: 600; color: var(--muted); cursor: pointer; padding: .55rem .8rem; min-height: 44px; }
   .cdx-more:hover { color: var(--orange-soft); }
   .cdx-more:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; border-radius: 8px; }
-  .cdx-panel { border: 1px solid var(--line); border-radius: 12px; padding: .75rem .95rem; margin-top: .4rem; background: var(--navy-2); text-align: left; }
+  .cdx-panel { border: 1px solid var(--line); border-radius: 12px; padding: .75rem .95rem; margin-top: .4rem; background: var(--navy); text-align: left; position: relative; }
   .cdx-break { font-weight: 700; margin: 0 0 .3rem; color: var(--cream); }
   .cdx-break:empty { display: none; }
   .cdx-mile { margin: 0; color: var(--cream); }
@@ -172,12 +179,11 @@
      view after a scroll-0 centre click. Mobile (<900px) is untouched. */
   @media (min-width: 900px) {
     main { padding-top: 1rem; }
-    .kicker { margin-bottom: 0.55rem; }
     h1 { font-size: 3rem; margin-bottom: 0.55rem; }
     .tagline { font-size: 1.28rem; max-width: 44rem; margin-bottom: 0.55rem; }
     .cdx { margin-top: 0.3rem; }
-    .cdx-main { padding: 0.45rem 0.9rem; }
-    .cdx-cell b { font-size: 2rem; }
+    .cdx-main { padding: 0.2rem 0.5rem; }
+    .cdx-cell b { font-size: 2.8rem; }
     .cdx-cell i { margin-top: 0.2rem; }
     .cdx-cta { margin-top: 0.3rem; }
     .play h2 { font-size: 1.3rem; }
@@ -201,13 +207,12 @@
      The locked line and every number are untouched. */
   @media (max-width: 899px) {
     main { padding-top: 0.9rem; }
-    .kicker { margin-bottom: 0.5rem; padding-top: 0.28rem; padding-bottom: 0.28rem; }
     h1 { font-size: 2.3rem; line-height: 1.1; margin-bottom: 0.5rem; }
     .tagline { font-size: 1.05rem; line-height: 1.25; margin-bottom: 0.6rem; }
     .cdx { margin-top: 0.15rem; }
-    .cdx-main { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+    .cdx-main { padding-top: 0.15rem; padding-bottom: 0.15rem; }
     .cdx-digits { margin-bottom: 0.15rem; }
-    .cdx-cell b { font-size: 1.55rem; }
+    .cdx-cell b { font-size: 2.05rem; }
     .cdx-cell i { margin-top: 0.18rem; }
     .cdx-cta { margin-top: 0.3rem; }
     .play h2 { font-size: 1.35rem; }
@@ -497,15 +502,14 @@ window.FLEET_CFG = {
 </head>
 <body>
 <main>
-  <span class="kicker">Coming March 2027</span>
   <h1>Fill My Bracket</h1>
   <p class="tagline">Five questions start your bracket. Your picks finish it.</p>
-  <p class="promise">Your team. Your upsets. Your calls.</p>
   <div class="cdx">
+    <svg class="cdx-ball" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="50" cy="50" r="47"/><path d="M3 50h94"/><path d="M50 3v94"/><path d="M14 9c14 12 14 70 0 82"/><path d="M86 9c-14 12-14 70 0 82"/></g></svg>
     <a class="cdx-main" id="cdx-main" href="#how" aria-label="Selection Sunday is March 14, 2027.">
       <span class="cdx-digits" id="cdx-digits" aria-hidden="true" hidden><span class="cdx-cell cd-d"><b id="cdx-d"></b><i id="cdx-dl">days</i></span><span class="cdx-cell"><b id="cdx-h"></b><i>hrs</i></span><span class="cdx-cell"><b id="cdx-m"></b><i>min</i></span><span class="cdx-cell"><b id="cdx-s"></b><i>sec</i></span></span>
       <span class="countdown" id="countdown">Selection Sunday is March 14, 2027.</span>
-      <span class="cdx-cta">How it will work &rarr;</span>
+      <span class="cdx-cta">How it works &rarr;</span>
     </a>
     <button class="cdx-more" id="cdx-more" type="button" aria-expanded="false" aria-controls="cdx-panel" hidden>What&rsquo;s next? <span aria-hidden="true">&#9662;</span></button>
     <div class="cdx-panel" id="cdx-panel" hidden>
@@ -513,6 +517,7 @@ window.FLEET_CFG = {
       <p class="cdx-mile" id="cdx-mile">Fill it <strong>Sunday night, March 14</strong>. Pools lock the morning of <strong>Thursday, March 18</strong>.</p>
     </div>
   </div>
+  <p class="promise">Your team. Your upsets. Your calls.</p>
 
   <!-- 2026-11-01 interactive landing (Billy's 10x directive, benchmarked
        on worldcupprices.com): the visitor does not READ the upset stats,
@@ -726,7 +731,7 @@ window.FLEET_CFG = {
 </section>
 
 <section class="details" id="how" aria-labelledby="how-heading">
-  <h2 id="how-heading">How it will work</h2>
+  <h2 id="how-heading">How it works</h2>
   <ol class="steps">
     <li>
       <h3>1. <b>You answer.</b></h3>
@@ -1306,7 +1311,7 @@ body{padding-bottom:80px}
 .askp-head strong{font-size:1.125rem;color:#f7f2e7}
 .askp-close{background:#123263;color:#f7f2e7;border:1px solid #2a4a7f;border-radius:10px;min-width:44px;min-height:44px;font-size:1.35rem;line-height:1;cursor:pointer}
 .askp-how{border:1px solid #2a4a7f;border-radius:12px;padding:.7rem .85rem;margin-bottom:.85rem}
-.askp-how p{color:#aebdd6;font-size:.9375rem;margin:0}
+.askp-how p{color:#cdd9ee;font-size:.9375rem;margin:0}
 .askp-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:.9rem}
 .askp-chip{background:#123263;color:#f7f2e7;border:1px solid #2a4a7f;border-radius:10px;min-height:44px;padding:.5rem .8rem;font-size:.9375rem;font-weight:600;cursor:pointer;font-family:inherit}
 .askp-reply{background:#0d2b57;border:2px solid #ff7a1a;border-radius:14px;padding:.9rem 1rem;margin:0 0 .9rem;display:none}
