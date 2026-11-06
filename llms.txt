@@ -66,6 +66,14 @@
 - [What is Wins Above Bubble?](https://fillmybracket.com/what-is-wins-above-bubble): a results-based metric counting how many more wins a team earned than a bubble team would average on the same schedule. It ignores margin and efficiency.
 - [Ask in your own words](https://fillmybracket.com/ask): ask about seeds, scoring, upsets, or the 2027 dates. Bracket answers from checked data and history. Other answers from a real AI.
 
+- [How often does a 9 seed beat an 8 seed?](https://fillmybracket.com/how-often-does-a-9-seed-beat-an-8-seed): 87 wins in 164 games, about 53 in 100. The one first-round game where the lower seed leads.
+- [How often does a 1 seed win March Madness?](https://fillmybracket.com/how-often-does-a-1-seed-win-march-madness): 27 of 41 titles since 1985. The next best seed has 5.
+- [How many 1 seeds make the Final Four?](https://fillmybracket.com/how-many-1-seeds-make-the-final-four): 68 of 164 spots since 1985. Twice all four made it; three times none did.
+- [What is the lowest seed to reach the Final Four?](https://fillmybracket.com/what-is-the-lowest-seed-to-reach-the-final-four): an 11 seed, six times. No seed above 11 ever has.
+- [When is the Final Four in 2027?](https://fillmybracket.com/when-is-the-final-four-in-2027): semifinals Saturday, April 3, 2027, in Detroit; title game Monday, April 5.
+- [Who won March Madness in 2026?](https://fillmybracket.com/who-won-march-madness-in-2026): Michigan beat UConn 69-63 for its second title.
+- [How long does March Madness last?](https://fillmybracket.com/how-long-does-march-madness-last): about three weeks; in 2027, March 16 to April 5, 21 days and 67 games.
+
 ## Optional
 
 - [Full page text](https://fillmybracket.com/llms-full.txt): the complete text of every page, for readers that prefer one file.
