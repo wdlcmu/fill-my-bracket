@@ -100,7 +100,7 @@
       var s1 = el("small", null, "All 8 games called");
       st.appendChild(s1);
     } else {
-      st.appendChild(document.createTextNode("Your card: " + score + " of " + idx + (locked ? 1 : 0)));
+      st.appendChild(document.createTextNode("Your card: " + score + " of " + (idx + (locked ? 1 : 0))));
       var s2 = el("small", null, "Game " + (idx + 1) + " of " + GAMES.length);
       st.appendChild(s2);
     }
@@ -156,6 +156,9 @@
     picks.push(side);
     if (!runStarted) { runStarted = true; track("tool_start", { surface: "picker" }); }
     track("tool_step", { surface: "picker", step: idx + 1 });
+    /* POSTREPLAY-01: update the scorebug on the reveal itself, not only on advance. */
+    var stEl = mount.querySelector(".rg-status");
+    if (stEl && stEl.firstChild) stEl.firstChild.textContent = "Your card: " + score + " of " + (idx + (locked ? 1 : 0));
 
     var card = btn.closest(".rg-card");
     card.querySelectorAll(".rg-team").forEach(function (b) {
