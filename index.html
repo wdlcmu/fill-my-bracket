@@ -326,10 +326,17 @@
 /* Fleet instrumentation (Nov 1, 2026) — canonical taxonomy config for
    Fill My Bracket (site slug "bracket"). The staged patch from
    builds/fleet-instrumentation-2026-11-01/fmb-staged-patch.md, applied
-   with the interactive landing: the matchup cards are the interim
-   picker surface, so their first tap is tool_start {surface:"picker"}
-   and the share button keeps its tool_complete {surface:"share"}
-   special. The ask classification derives from the homepage panel's
+   with the interactive landing. MEASURE-1 (Nov 5, 2026): the picker
+   surface is owned by replay.js, whose per-run gate fires
+   tool_start {surface:"picker"} on a run's first pick and
+   tool_complete {surface:"picker"} once at its end card — the old
+   ".pick-btn" start selector matched no element on this page (the
+   replay game uses ".rg-team"), so picker completes fired with zero
+   starts; the dead selector is removed, replay.js is the one owner.
+   The share button keeps its tool_complete {surface:"share"} special,
+   and the FA block below latches it to once per page view behind a
+   same-surface tool_start, so a complete can never exceed its start
+   per cohort. The ask classification derives from the homepage panel's
    own wording: this panel always answers (its worker falls back to a
    generic on-topic answer), so the only fallback surface here is the
    panel's own error line ("The helper had a hiccup..."), classified
@@ -340,8 +347,7 @@ window.FLEET_CFG = {
   site: "bracket",
   starts: [
     {sel: "#askpBtn", surface: "ask"},
-    {sel: "#askpInput", on: "focus", surface: "ask"},
-    {sel: ".pick-btn", surface: "picker"}
+    {sel: "#askpInput", on: "focus", surface: "ask"}
   ],
   ask: {
     goSel: "#askpSend", answerSel: "#askpReply", completeOnAnswer: true,
@@ -468,16 +474,27 @@ window.FLEET_CFG = {
             (A.kinds || []).some(function(k){ if (k.re.test(t)) { props.outcome = k.outcome; return true; } return false; });
             if (!props.outcome && A.defaultOutcome) props.outcome = A.defaultOutcome;
             track("ask_answered", props);
-            if (A.completeOnAnswer && !completed) { completed = true; track("tool_complete", {surface: "ask"}); }
+            if (A.completeOnAnswer && !completed) { completed = true; if (!started["ask"]) { started["ask"] = true; track("tool_start", {surface: "ask"}); } track("tool_complete", {surface: "ask"}); }
           };
           new MutationObserver(checkA).observe(document.body, {childList: true, subtree: true, characterData: true});
         }
       }
+      var specialDone = {};
       (CFG.specials || []).forEach(function(sp){
         try {
           if (sp.on === "click") {
             Array.prototype.forEach.call(document.querySelectorAll(sp.sel), function(el){
               el.addEventListener("click", function(){
+                if (sp.name === "tool_complete") {
+                  /* MEASURE-1: a specials complete fires at most once
+                     per page view for its surface, and only behind a
+                     same-surface start (fired first if none yet), so
+                     completes can never exceed starts per cohort. */
+                  var sk = (sp.props && sp.props.surface) || "tool";
+                  if (specialDone[sk]) return;
+                  specialDone[sk] = true;
+                  if (!started[sk]) { started[sk] = true; track("tool_start", {surface: sk}); }
+                }
                 track(sp.name, sp.props || {});
                 if (sp.name === "ask_asked") lastText = "";   // a chip tap is a new submission: the observer must classify the coming rendering even if its text matches the previous turn's
               });

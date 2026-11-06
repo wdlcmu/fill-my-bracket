@@ -6,8 +6,14 @@
    the site's verified dataset (upset-data-2026-11-01/gen2026), and every
    history line uses the counted seed-line table (1985-2026, 164 games
    per line: 12v5 58, 9v8 87, 11v6 64, 10v7 63, 13v4 33, 14v3 23,
-   15v2 11, 16v1 2). Analytics keep the old picker's taxonomy:
-   tool_step / tool_complete with surface "picker". Metadata only. */
+   15v2 11, 16v1 2). Analytics keep the old picker's taxonomy with
+   surface "picker". MEASURE-1 (Nov 5, 2026): this file is the one
+   owner of the picker funnel — a per-run gate fires tool_start on a
+   run's first pick and tool_complete at most once per run at its end
+   card, so a complete can never exceed its start per cohort (before
+   this, the end card fired completes with zero starts: the FA
+   block's ".pick-btn" start selector matched no element here).
+   Metadata only. */
 (function () {
   var mount = document.getElementById("replayGame");
   var RM = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -73,6 +79,7 @@
   var PAR = 4; /* favorites won 4 of these 8; underdogs won the other 4 */
 
   var idx = 0, score = 0, picks = [], locked = false;
+  var runStarted = false, runCompleted = false; /* MEASURE-1 run gate */
 
   function el(tag, cls, text) {
     var n = document.createElement(tag);
@@ -147,6 +154,7 @@
     var right = side === g.winner;
     if (right) score++;
     picks.push(side);
+    if (!runStarted) { runStarted = true; track("tool_start", { surface: "picker" }); }
     track("tool_step", { surface: "picker", step: idx + 1 });
 
     var card = btn.closest(".rg-card");
@@ -191,7 +199,7 @@
   }
 
   function renderEnd() {
-    track("tool_complete", { surface: "picker" });
+    if (runStarted && !runCompleted) { runCompleted = true; track("tool_complete", { surface: "picker" }); }
     mount.innerHTML = "";
     mount.appendChild(renderBug());
     mount.appendChild(renderDots());
@@ -221,6 +229,7 @@
     again.type = "button";
     again.addEventListener("click", function () {
       idx = 0; score = 0; picks = [];
+      runStarted = false; runCompleted = false; /* a fresh run may start and complete again */
       renderGame();
       mount.scrollIntoView({ block: "nearest", behavior: RM ? "auto" : "smooth" });
     });
