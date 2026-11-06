@@ -1,9 +1,9 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and fifty-eight guide, history, and data pages — one section for every page in the sitemap.
+> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and sixty-two guide, history, and data pages — one section for every page in the sitemap.
 > Fill My Bracket starts a full March Madness bracket from five questions — your picks finish
 > it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
-> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages.
+> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all.
 
 ## Homepage (https://fillmybracket.com/)
 
@@ -3140,3 +3140,265 @@ Which first-round upsets happen most?
 March Madness upset analysis
 The explorer needs JavaScript. The champions list works without it.
 Built with Muse.
+
+
+## Has a team ever won March Madness two years in a row? (https://fillmybracket.com/has-a-team-ever-won-march-madness-two-years-in-a-row)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+Has a team ever won March Madness two years in a row?
+Yes. Eight schools have done it. UConn did it most recently, in 2023 and 2024.
+128 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+The three since 1985
+School
+Years
+Title games
+Duke
+1991, 1992
+Beat Kansas 72 to 65, then Michigan 71 to 51
+Florida
+2006, 2007
+Beat UCLA 73 to 57, then Ohio State 84 to 75
+UConn
+2023, 2024
+Beat San Diego State 76 to 59, then Purdue 75 to 60
+Winning once is hard. The next year, every team aims at you.
+Every back-to-back champion
+School
+Years
+Oklahoma State
+1945, 1946, as Oklahoma A&M
+Kentucky
+1948, 1949
+San Francisco
+1955, 1956
+Cincinnati
+1961, 1962
+UCLA
+1964, 1965
+UCLA
+1967 to 1973, seven in a row
+Duke
+1991, 1992
+Florida
+2006, 2007
+UConn
+2023, 2024
+UCLA owns the record. Seven straight titles is the longest run ever.
+No other school has won more than two in a row.
+How we counted
+Counted from the site’s champions list, 1939 to 2026.
+There was no tournament in 2020.
+See every champion on the March Madness champions list .
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+Has a team ever won March Madness two years in a row?
+Yes. Eight schools have won two straight titles. The most recent is UConn, in 2023 and 2024.
+Which team won March Madness the most years in a row?
+UCLA won seven titles in a row, from 1967 to 1973. No other school has won more than two in a row.
+Who was the last team to win two years in a row?
+UConn. UConn beat San Diego State in 2023 and Purdue in 2024.
+More bracket basics
+Has a team ever won two years in a row?
+Has the final ever gone to overtime?
+What was the closest March Madness final?
+What is the lowest seed to reach the title game?
+March Madness champions list
+Which school has won the most titles?
+Who won March Madness in 2026?
+
+
+## Has the March Madness final ever gone to overtime? (https://fillmybracket.com/has-the-march-madness-final-ever-gone-to-overtime)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+Has the March Madness final ever gone to overtime?
+Yes, eight times. The last one was in 2019. Virginia beat Texas Tech. The score was 85 to 77, in overtime.
+128 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+Every overtime final
+Year
+Champion
+Beat
+Score
+1944
+Utah
+Dartmouth
+42 to 40
+1957
+North Carolina
+Kansas
+54 to 53, three overtimes
+1961
+Cincinnati
+Ohio State
+70 to 65
+1963
+Loyola Chicago
+Cincinnati
+60 to 58
+1989
+Michigan
+Seton Hall
+80 to 79
+1997
+Arizona
+Kentucky
+84 to 79
+2008
+Kansas
+Memphis
+75 to 68
+2019
+Virginia
+Texas Tech
+85 to 77
+Eight in 87 tournaments.
+About one in eleven years.
+The 1957 final stands alone
+The score was 54 to 53.
+It took three overtimes to get there.
+No final has ever stopped at two overtimes.
+How we counted
+Counted from the champions list, 1939 to 2026.
+Each one is marked OT there.
+See the March Madness champions list .
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+Has the March Madness final ever gone to overtime?
+Yes, eight times. The last was 2019. Virginia beat Texas Tech 85 to 77 in overtime.
+What was the only triple overtime March Madness final?
+The 1957 final. North Carolina beat Kansas 54 to 53. It took three overtimes.
+Has a March Madness final ever gone to double overtime?
+No. Seven took one overtime. One took three. None took two.
+More bracket basics
+Has a team ever won two years in a row?
+Has the final ever gone to overtime?
+What was the closest March Madness final?
+What is the lowest seed to reach the title game?
+March Madness champions list
+What is the Final Four?
+When is the Final Four in 2027?
+
+
+## What was the closest March Madness final? (https://fillmybracket.com/what-was-the-closest-march-madness-final)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+What was the closest March Madness final?
+One point, six times. The last one-point final was 1989. Michigan beat Seton Hall 80 to 79, in overtime.
+128 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+Every one-point final
+Year
+Champion
+Beat
+Score
+1953
+Indiana
+Kansas
+69 to 68
+1957
+North Carolina
+Kansas
+54 to 53, three overtimes
+1959
+California
+West Virginia
+71 to 70
+1982
+North Carolina
+Georgetown
+63 to 62
+1987
+Indiana
+Syracuse
+74 to 73
+1989
+Michigan
+Seton Hall
+80 to 79, overtime
+Kansas lost two of the six. Both were by one point.
+Two points is the next step
+Six more finals were decided by two points.
+The most recent was 2025.
+Florida beat Houston 65 to 63.
+No final since 1989 has been decided by one point.
+How we counted
+Counted from the site’s champions list, 1939 to 2026.
+The margin is the title game score gap.
+See every score on the March Madness champions list .
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+What was the closest March Madness final?
+Six finals were decided by one point. The most recent was 1989, when Michigan beat Seton Hall 80 to 79 in overtime.
+Has a March Madness final ever been decided by one point?
+Yes, six times: 1953, 1957, 1959, 1982, 1987, and 1989. Kansas lost two of them, in 1953 and 1957.
+What was the closest recent March Madness final?
+The 2025 final. Florida beat Houston 65 to 63, a two-point game. No final since 1989 has been closer.
+More bracket basics
+Has a team ever won two years in a row?
+Has the final ever gone to overtime?
+What was the closest March Madness final?
+What is the lowest seed to reach the title game?
+March Madness champions list
+What is the Final Four?
+Who won March Madness in 2026?
+
+
+## What is the lowest seed to reach the championship game? (https://fillmybracket.com/what-is-the-lowest-seed-to-reach-the-championship-game)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+What is the lowest seed to reach the championship game?
+A No. 8 seed. Five 8 seeds have reached the title game. Four lost. One won it all.
+128 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+The four 8 seeds that lost the final
+Year
+8 seed
+Lost to
+Score
+1980
+UCLA
+Louisville
+59 to 54
+2011
+Butler
+UConn
+53 to 41
+2014
+Kentucky
+UConn
+60 to 54
+2022
+North Carolina
+Kansas
+72 to 69
+UConn stopped two of them. Butler in 2011, Kentucky in 2014.
+The one 8 seed that won
+Villanova, in 1985.
+Villanova beat Georgetown 66 to 64.
+That win is also the lowest seed ever to win the title.
+Read the lowest seed to win March Madness .
+The line stops at 8
+Seeds began in 1979.
+Six 11 seeds have reached the Final Four.
+None reached the title game.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+What is the lowest seed to reach the championship game?
+A No. 8 seed. Five 8 seeds have reached the title game. One won it, Villanova in 1985. Four lost.
+Has a seed lower than 8 ever reached the championship game?
+No. Seeds began in 1979. No 9 seed or lower has ever played in the title game.
+Which 8 seeds lost the championship game?
+UCLA in 1980, Butler in 2011, Kentucky in 2014, and North Carolina in 2022.
+More bracket basics
+Has a team ever won two years in a row?
+Has the final ever gone to overtime?
+What was the closest March Madness final?
+What is the lowest seed to reach the title game?
+What is the lowest seed to win?
+What is the lowest seed to reach the Final Four?
+What is a Cinderella team?

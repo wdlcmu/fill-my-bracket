@@ -74,6 +74,11 @@
 - [Who won March Madness in 2026?](https://fillmybracket.com/who-won-march-madness-in-2026): Michigan beat UConn 69-63 for its second title.
 - [How long does March Madness last?](https://fillmybracket.com/how-long-does-march-madness-last): about three weeks; in 2027, March 16 to April 5, 21 days and 67 games.
 
+- [Has a team ever won March Madness two years in a row?](https://fillmybracket.com/has-a-team-ever-won-march-madness-two-years-in-a-row): yes, eight schools. UConn was the last, in 2023 and 2024. UCLA won seven in a row.
+- [Has the March Madness final ever gone to overtime?](https://fillmybracket.com/has-the-march-madness-final-ever-gone-to-overtime): yes, eight times. The last was Virginia in 2019. The 1957 final took three overtimes.
+- [What was the closest March Madness final?](https://fillmybracket.com/what-was-the-closest-march-madness-final): one point, six times. The last was Michigan in 1989, 80 to 79 in overtime.
+- [What is the lowest seed to reach the championship game?](https://fillmybracket.com/what-is-the-lowest-seed-to-reach-the-championship-game): an 8 seed, five times. Four lost the final. Villanova won it in 1985.
+
 ## Optional
 
 - [Full page text](https://fillmybracket.com/llms-full.txt): the complete text of every page, for readers that prefer one file.
