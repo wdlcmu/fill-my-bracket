@@ -1,9 +1,9 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, fifty-three bracket-basics guides, privacy, and terms.
+> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and fifty-eight guide, history, and data pages — one section for every page in the sitemap.
 > Fill My Bracket starts a full March Madness bracket from five questions — your picks finish
 > it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
-> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06.
+> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages.
 
 ## Homepage (https://fillmybracket.com/)
 
@@ -3126,3 +3126,17 @@ How many games are in March Madness?
 When is the Final Four in 2027?
 How many rounds are in March Madness?
 When is Selection Sunday 2027?
+
+## Tournament history explorer (https://fillmybracket.com/tournament-history)
+
+Every March Madness since 1985, game by game.
+Pick a year and the whole tournament unfolds: every score, every upset, and the road the champion took. Tap any team to see its story. 2,583 games, all counted from the real brackets.
+There was no tournament in 2020 — it was cancelled. Games are shown as they were played; a few teams later had results vacated by the NCAA, and those games still count here.
+Highlight the champion’s road
+Keep going
+Replay the 2026 first round — call all 8 games
+March Madness champions list, 1939 to 2026
+Which first-round upsets happen most?
+March Madness upset analysis
+The explorer needs JavaScript. The champions list works without it.
+Built with Muse.
