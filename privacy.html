@@ -72,5 +72,21 @@
   <p><a href="/">Home</a> <a href="/terms">Terms</a></p>
 </footer>
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e5edc982b99349b587d105338f331407"}'></script>
+<!-- FMB-STATIC-WIRE-2026-11-07 -->
+<script>
+(function(){
+function trk(n,p){if(typeof fleetTrack==="function")fleetTrack(n,p);else if(window.FA&&FA.track)FA.track(n,p);}
+document.addEventListener("click",function(ev){
+var b=ev.target&&ev.target.closest?ev.target.closest(".fmb-share-btn"):null;
+if(!b)return;
+trk("share_intent",{tool:"fill-my-bracket",channel:(navigator.share?"native":"clipboard")});
+var url=location.origin+location.pathname+"?via=share";
+function done(){var m=document.getElementById("fmb-share-msg");if(m)m.textContent="Link copied.";}
+if(navigator.share){navigator.share({title:document.title,url:url}).catch(function(){});}
+else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(done).catch(done);}
+else{done();}
+});
+})();
+</script>
 </body>
 </html>
