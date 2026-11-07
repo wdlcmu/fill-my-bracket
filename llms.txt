@@ -79,6 +79,11 @@
 - [What was the closest March Madness final?](https://fillmybracket.com/what-was-the-closest-march-madness-final): one point, six times. The last was Michigan in 1989, 80 to 79 in overtime.
 - [What is the lowest seed to reach the championship game?](https://fillmybracket.com/what-is-the-lowest-seed-to-reach-the-championship-game): an 8 seed, five times. Four lost the final. Villanova won it in 1985.
 
+- [What was the biggest blowout in the March Madness final?](https://fillmybracket.com/what-was-the-biggest-blowout-in-the-march-madness-final): UNLV beat Duke by 30 in 1990, 103 to 73. Only six finals reached a 20-point margin.
+- [Which school has the most consecutive Final Four appearances?](https://fillmybracket.com/which-school-has-the-most-consecutive-final-four-appearances): UCLA, ten in a row from 1967 to 1976. The next best is five, by Cincinnati and Duke.
+- [What was the highest-scoring March Madness final?](https://fillmybracket.com/what-was-the-highest-scoring-march-madness-final): Kentucky 94, Duke 88 in 1978, for 182 points in all. UNLV's 103 in 1990 is the most by one team.
+- [Which March Madness tournament had the most upsets?](https://fillmybracket.com/which-march-madness-tournament-had-the-most-upsets): 1999, with 23 upsets. A normal year has about 18. Counted from every game since 1985.
+
 ## Optional
 
 - [Full page text](https://fillmybracket.com/llms-full.txt): the complete text of every page, for readers that prefer one file.

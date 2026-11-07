@@ -1,9 +1,9 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and sixty-two guide, history, and data pages — one section for every page in the sitemap.
+> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and sixty-six guide, history, and data pages — one section for every page in the sitemap.
 > Fill My Bracket starts a full March Madness bracket from five questions — your picks finish
 > it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
-> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all.
+> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all; four more long-tail pages added 2026-11-06, for seventy sitemap pages in all.
 
 ## Homepage (https://fillmybracket.com/)
 
@@ -3402,3 +3402,237 @@ What is the lowest seed to reach the title game?
 What is the lowest seed to win?
 What is the lowest seed to reach the Final Four?
 What is a Cinderella team?
+
+
+## What was the biggest blowout in the March Madness final? (https://fillmybracket.com/what-was-the-biggest-blowout-in-the-march-madness-final)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+What was the biggest blowout in the March Madness final?
+UNLV beat Duke by 30 points in 1990. The score was 103 to 73. No final has been wider.
+128 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+The widest finals ever
+Margin
+Year
+Final
+30
+1990
+UNLV 103, Duke 73
+23
+1968
+UCLA 78, North Carolina 55
+21
+1973
+UCLA 87, Memphis State 66
+20
+1960
+Ohio State 75, California 55
+20
+1969
+UCLA 92, Purdue 72
+20
+1992
+Duke 71, Michigan 51
+Only one final has been decided by 25 points or more.
+Just six of the 87 finals reached a 20-point margin.
+Most finals are close
+The middle margin across all 87 finals is 9 points.
+Six finals were decided by a single point.
+Read about them on the closest March Madness final page.
+How we counted
+Counted from the site’s champions list, 1939 to 2026.
+There was no tournament in 2020.
+See every final score on the March Madness champions list .
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+What was the biggest blowout in March Madness final history?
+UNLV beat Duke by 30 points in 1990. The score was 103 to 73.
+Has a team ever scored 100 points in the final?
+Yes, once. UNLV scored 103 points against Duke in 1990. No other team has reached 100 in a final.
+Are March Madness finals usually close?
+Most are. The middle margin is 9 points, and six finals were decided by one point.
+More bracket basics
+What was the biggest blowout in the final?
+Which school has the most straight Final Fours?
+What was the highest-scoring final?
+Which tournament had the most upsets?
+What was the closest March Madness final?
+March Madness champions list
+Who won March Madness in 2026?
+
+
+## Which school has the most consecutive Final Four appearances? (https://fillmybracket.com/which-school-has-the-most-consecutive-final-four-appearances)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+Which school has the most consecutive Final Four appearances?
+UCLA, with ten in a row. UCLA reached every Final Four from 1967 to 1976.
+128 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+The longest streaks ever
+Streak
+School
+Years
+10
+UCLA
+1967 to 1976
+5
+Cincinnati
+1959 to 1963
+5
+Duke
+1988 to 1992
+3
+San Francisco
+1955 to 1957
+3
+Ohio State
+1944 to 1946, and again 1960 to 1962
+3
+North Carolina
+1967 to 1969
+3
+Houston
+1982 to 1984
+3
+Kentucky
+1996 to 1998
+3
+Michigan State
+1999 to 2001
+3
+UCLA
+2006 to 2008
+UCLA won the title in eight of those ten years.
+No other school has a streak longer than five.
+No streak is alive now
+None of the four 2025 Final Four teams came back in 2026.
+Every 2026 Final Four team starts a new streak at one.
+See the totals on the most Final Four appearances page.
+How we counted
+Counted from the site’s Final Four record, 1939 to 2026.
+There was no tournament in 2020, so no streak crosses it.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+Which school has the most consecutive Final Four appearances?
+UCLA. UCLA reached ten Final Fours in a row, from 1967 to 1976.
+What is the longest Final Four streak since 2000?
+Three years. UCLA did it from 2006 to 2008. No school has gone longer since 2000.
+Has any other school reached ten straight Final Fours?
+No. The next best is five in a row, by Cincinnati from 1959 to 1963 and Duke from 1988 to 1992.
+More bracket basics
+What was the biggest blowout in the final?
+Which school has the most straight Final Fours?
+What was the highest-scoring final?
+Which tournament had the most upsets?
+Which school has the most Final Four appearances?
+What is the Final Four?
+When is the Final Four in 2027?
+
+
+## What was the highest-scoring March Madness final? (https://fillmybracket.com/what-was-the-highest-scoring-march-madness-final)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+What was the highest-scoring March Madness final?
+Kentucky 94, Duke 88, in 1978. The two teams scored 182 points in all. No final has topped it.
+128 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+The five highest-scoring finals
+Points
+Year
+Final
+182
+1978
+Kentucky 94, Duke 88
+181
+1964
+UCLA 98, Duke 83
+177
+1975
+UCLA 92, Kentucky 85
+176
+1990
+UNLV 103, Duke 73
+171
+1965
+UCLA 91, Michigan 80
+Duke lost the two highest-scoring finals ever played.
+Every final in the top five was played by 1990.
+One team over 100
+UNLV scored 103 points in the 1990 final.
+No other team has reached 100 in a final.
+That game was also the biggest blowout in a final .
+How we counted
+Counted from the site’s champions list, 1939 to 2026.
+There was no tournament in 2020.
+See every final score on the March Madness champions list .
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+What was the highest-scoring March Madness final?
+Kentucky beat Duke 94 to 88 in 1978. The two teams scored 182 points in all.
+Which team scored the most points in a final?
+UNLV. UNLV scored 103 points against Duke in 1990, the only 100-point game in a final.
+What is the highest-scoring final in recent years?
+Since 2000, the highest is the 2000 final. Michigan State beat Florida 89 to 76, for 165 points in all.
+More bracket basics
+What was the biggest blowout in the final?
+Which school has the most straight Final Fours?
+What was the highest-scoring final?
+Which tournament had the most upsets?
+March Madness champions list
+What is the Final Four?
+Who won March Madness in 2026?
+
+
+## Which March Madness tournament had the most upsets? (https://fillmybracket.com/which-march-madness-tournament-had-the-most-upsets)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+Which March Madness tournament had the most upsets?
+The 1999 tournament, with 23 upsets. The lower seed won 23 of the 63 games. We counted every game since 1985.
+128 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+The most upset-filled tournaments
+Upsets
+Year
+23
+1999
+22
+2014
+21
+2001
+21
+2003
+21
+2006
+21
+2022
+An upset here means the lower seed won the game.
+A normal year has about 18 upsets in all.
+Why 1999 stands out
+The first round alone had 12 upsets in 1999.
+Five double-digit seeds reached the Sweet 16 that year. No year has had more.
+UConn still won the title, beating Duke 77 to 74.
+The runner-up year, 2014, ended with a 7 seed, UConn, beating an 8 seed, Kentucky.
+How we counted
+Counted from all 2,583 men’s tournament games, 1985 to 2026.
+Main bracket only. First Four games are not counted.
+See the full count on the March Madness upset analysis page.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+Which March Madness tournament had the most upsets?
+The 1999 tournament, with 23 upsets. We counted every game from 1985 to 2026.
+How many upsets happen in a normal year?
+About 18. Across the 41 tournaments we counted, the lower seed won 722 of 2,583 games.
+Which year had the most first-round upsets?
+Two years tie. The first round had 13 upsets in 2001 and again in 2016.
+More bracket basics
+What was the biggest blowout in the final?
+Which school has the most straight Final Fours?
+What was the highest-scoring final?
+Which tournament had the most upsets?
+March Madness upset analysis
+How often do upsets happen?
+How to pick upsets
