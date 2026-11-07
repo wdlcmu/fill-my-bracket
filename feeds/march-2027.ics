@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Built with Muse//Fleet Calendar Feeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fill My Bracket — March 2027 key dates
+REFRESH-INTERVAL;VALUE=DURATION:PT24H
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+UID:fmb-selection-sunday-2027@fillmybracket.com
+DTSTAMP:20261107T195033Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Selection Sunday — the field is announced
+DESCRIPTION:Selection Sunday\, Sunday\, March 14\, 2027. The full field is 
+ announced on TV that evening and brackets open right after the show. Fill 
+ yours: https://fillmybracket.com/when-is-selection-sunday-2027
+URL:https://fillmybracket.com/when-is-selection-sunday-2027
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fmb-first-four-2027@fillmybracket.com
+DTSTAMP:20261107T195033Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270318
+SUMMARY:First Four (4 games)
+DESCRIPTION:The First Four: Tuesday and Wednesday\, March 16-17\, 2027. Fou
+ r early games trim the field to 64.
+URL:https://fillmybracket.com/when-is-selection-sunday-2027
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fmb-first-round-2027@fillmybracket.com
+DTSTAMP:20261107T195033Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270320
+SUMMARY:First round — pools lock this morning
+DESCRIPTION:First round: Thursday and Friday\, March 18-19\, 2027. Pools lo
+ ck before the first round starts\, the morning of Thursday\, March 18.
+URL:https://fillmybracket.com/when-is-selection-sunday-2027
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fmb-second-round-2027@fillmybracket.com
+DTSTAMP:20261107T195033Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270322
+SUMMARY:Second round
+DESCRIPTION:Second round: Saturday and Sunday\, March 20-21\, 2027.
+URL:https://fillmybracket.com/when-is-selection-sunday-2027
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fmb-sweet-16-2027@fillmybracket.com
+DTSTAMP:20261107T195033Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270327
+SUMMARY:Sweet 16
+DESCRIPTION:Sweet 16: Thursday and Friday\, March 25-26\, 2027.
+URL:https://fillmybracket.com/when-is-selection-sunday-2027
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fmb-elite-eight-2027@fillmybracket.com
+DTSTAMP:20261107T195033Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270329
+SUMMARY:Elite Eight
+DESCRIPTION:Elite Eight: Saturday and Sunday\, March 27-28\, 2027.
+URL:https://fillmybracket.com/when-is-selection-sunday-2027
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fmb-final-four-2027@fillmybracket.com
+DTSTAMP:20261107T195033Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:Final Four — Detroit
+DESCRIPTION:Final Four\, in Detroit: Saturday\, April 3\, 2027.
+URL:https://fillmybracket.com/when-is-selection-sunday-2027
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fmb-title-game-2027@fillmybracket.com
+DTSTAMP:20261107T195033Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:Title game — Detroit
+DESCRIPTION:Title game\, in Detroit: Monday\, April 5\, 2027.
+URL:https://fillmybracket.com/when-is-selection-sunday-2027
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
