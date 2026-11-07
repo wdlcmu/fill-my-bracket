@@ -89,6 +89,10 @@
 - [Which school has the most Final Four appearances without winning a title?](https://fillmybracket.com/which-school-has-the-most-final-four-appearances-without-winning-a-title): Houston, with seven. Illinois is next with six. Sixty-two schools have reached a Final Four and never won.
 - [What is the longest gap between March Madness titles?](https://fillmybracket.com/what-is-the-longest-gap-between-march-madness-titles): Michigan waited 37 years, from 1989 to 2026. Oregon has waited 87 years since its 1939 title.
 
+- [What is the longest gap between Final Four appearances?](https://fillmybracket.com/what-is-the-longest-gap-between-final-four-appearances): Oregon waited 78 years, from 1939 to 2017. Baylor waited 71 years. Duquesne has waited 86 years since 1940.
+- [Which March Madness tournament had the fewest upsets?](https://fillmybracket.com/which-march-madness-tournament-had-the-fewest-upsets): The 2025 tournament, with 11 upsets in 63 games. A normal year has about 18. The most was 23, in 1999.
+- [How often do two 1 seeds play in the championship game?](https://fillmybracket.com/how-often-do-two-1-seeds-play-in-the-championship-game): Eleven times in 47 finals since seeding began in 1979. The last two finals, in 2024 and 2025, both paired two 1 seeds.
+
 ## Optional
 
 - [Full page text](https://fillmybracket.com/llms-full.txt): the complete text of every page, for readers that prefer one file.
