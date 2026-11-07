@@ -1,9 +1,9 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and sixty-six guide, history, and data pages — one section for every page in the sitemap.
+> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and seventy guide, history, and data pages — one section for every page in the sitemap.
 > Fill My Bracket starts a full March Madness bracket from five questions — your picks finish
 > it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
-> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all; four more long-tail pages added 2026-11-06, for seventy sitemap pages in all.
+> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all; four more long-tail pages added 2026-11-06, for seventy sitemap pages in all; four more long-tail pages added 2026-11-06 (wave 4), for seventy-four sitemap pages in all.
 
 ## Homepage (https://fillmybracket.com/)
 
@@ -3636,3 +3636,220 @@ Which tournament had the most upsets?
 March Madness upset analysis
 How often do upsets happen?
 How to pick upsets
+
+
+## What was the biggest blowout in March Madness history? (https://fillmybracket.com/what-was-the-biggest-blowout-in-march-madness-history)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+What was the biggest blowout in March Madness history?
+Florida beat Prairie View A&M by 59 points in 2026. The score was 114 to 55. It is the widest win since 1985.
+128 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+The widest wins since 1985
+Margin
+Year
+Game
+59
+2026
+Florida 114, Prairie View A&M 55
+58
+1998
+Kansas 110, Prairie View A&M 52
+56
+2009
+Connecticut 103, Chattanooga 47
+49
+1986
+Syracuse 101, Brown 52
+Only three games were won by 50 points or more.
+All three were round-one games, won by 1 seeds.
+Prairie View lost the two widest games.
+The final is a different record
+No final comes close to 59 points.
+The widest final was 30 points, by UNLV in 1990.
+Read about it on the biggest blowout in the final page.
+How we counted
+Counted from the site’s game record, 1985 to 2026.
+That is 2,582 played games in all.
+See the full record on the tournament history page.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+What was the biggest blowout in March Madness history?
+Florida beat Prairie View A&M by 59 points in 2026, 114 to 55.
+What was the biggest blowout in a March Madness final?
+UNLV beat Duke by 30 points in 1990. The score was 103 to 73.
+Has any team won a game by 60 points?
+No. The widest margin since 1985 is 59 points.
+More bracket basics
+What was the biggest blowout in March Madness history?
+What was the highest-scoring game in March Madness history?
+Which school has the most Final Fours without a title?
+What is the longest gap between titles?
+What was the biggest blowout in the final?
+March Madness upset analysis
+Which tournament had the most upsets?
+
+
+## What was the highest-scoring game in March Madness history? (https://fillmybracket.com/what-was-the-highest-scoring-game-in-march-madness-history)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+What was the highest-scoring game in March Madness history?
+Loyola Marymount beat Michigan 149 to 115 in 1990. The 264 points are the most in a game since 1985.
+128 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+The highest-scoring games since 1985
+Points
+Year
+Game
+264
+1990
+Loyola Marymount 149, Michigan 115
+234
+1988
+Loyola Marymount 119, Wyoming 115
+232
+1990
+UNLV 131, Loyola Marymount 101
+221
+1989
+Arkansas 120, Loyola Marymount 101
+One school played in all five top games.
+Its 149 points are the most by one team, too.
+No other team has scored more than 131.
+Nothing recent comes close
+The best since 2000 is 216 points.
+West Virginia beat Wake Forest 111 to 105 in 2005.
+That is 48 points short of the mark.
+How we counted
+Counted from the site’s game record, 1985 to 2026.
+For finals, see the highest-scoring final page.
+See the full record on the tournament history page.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+What was the highest-scoring game in March Madness history?
+Loyola Marymount beat Michigan 149 to 115 in 1990. That is 264 points in all.
+What is the most points one team has scored in a game?
+149 points, by Loyola Marymount in 1990. No other team has passed 131.
+What was the highest-scoring March Madness final?
+Kentucky beat Duke 94 to 88 in 1978, for 182 points in all.
+More bracket basics
+What was the biggest blowout in March Madness history?
+What was the highest-scoring game in March Madness history?
+Which school has the most Final Fours without a title?
+What is the longest gap between titles?
+What was the highest-scoring final?
+March Madness champions list
+Who won March Madness in 2026?
+
+
+## Which school has the most Final Four appearances without winning a title? (https://fillmybracket.com/which-school-has-the-most-final-four-appearances-without-winning-a-title)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+Which school has the most Final Four appearances without winning a title?
+Houston, with seven Final Fours and no title. Houston lost the final in 1983, 1984, and 2025.
+128 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+Most Final Fours, no title
+Trips
+School
+Years
+7
+Houston
+1967, 1968, 1982, 1983, 1984, 2021, 2025
+6
+Illinois
+1949, 1951, 1952, 1989, 2005, 2026
+5
+Oklahoma
+1939, 1947, 1988, 2002, 2016
+4
+LSU
+1953, 1981, 1986, 2006
+4
+Kansas State
+1948, 1951, 1958, 1964
+In all, 62 schools have made a Final Four and never won.
+Illinois lost its one final, in 2005. Oklahoma lost two.
+Close, again and again
+Houston made three finals and lost all three.
+It lost by two points in 1983 and by two in 2025.
+For the schools that did win, see most Final Fours .
+How we counted
+Counted from the site’s champions list, 1939 to 2026.
+There was no event in 2020.
+See the full list on the champions list page.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+Which school has the most Final Four appearances without winning a title?
+Houston, with seven. It lost the final in 1983, 1984, and 2025.
+How many schools have reached the Final Four and never won?
+Sixty-two. Houston leads with seven trips, then Illinois with six.
+Has Houston ever won March Madness?
+No. Houston lost the final in 1983, 1984, and 2025.
+More bracket basics
+What was the biggest blowout in March Madness history?
+What was the highest-scoring game in March Madness history?
+Which school has the most Final Fours without a title?
+What is the longest gap between titles?
+Which school has the most Final Four appearances?
+What is the Final Four?
+Which school has won the most titles?
+
+
+## What is the longest gap between March Madness titles? (https://fillmybracket.com/what-is-the-longest-gap-between-march-madness-titles)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+What is the longest gap between March Madness titles?
+Michigan waited 37 years between titles. It won in 1989 and again in 2026.
+128 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+The longest waits between titles
+Years
+School
+Titles
+37
+Michigan
+1989 and 2026
+36
+Kansas
+1952 and 1988
+31
+Villanova
+1985 and 2016
+25
+North Carolina
+1957 and 1982
+23
+Indiana
+1953 and 1976
+Louisville waited 27 years, from 1986 to 2013.
+That 2013 title was later taken away by the NCAA.
+No other school waited more than 21 years.
+Still waiting
+Oregon won the first title, in 1939.
+It has waited 87 years for a second one.
+For back-to-back wins, see winning two years in a row .
+How we counted
+Counted from the site’s champions list, 1939 to 2026.
+There was no tournament in 2020.
+See every champion on the March Madness champions list .
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+What is the longest gap between March Madness titles?
+Michigan waited 37 years. It won in 1989 and again in 2026.
+Which school waited longest for its first title?
+Baylor. Its first Final Four was in 1948. Its first title came in 2021, 73 years later.
+Which past champion has waited longest since its last title?
+Oregon. Oregon won the first title in 1939 and has not won since, a wait of 87 years.
+More bracket basics
+What was the biggest blowout in March Madness history?
+What was the highest-scoring game in March Madness history?
+Which school has the most Final Fours without a title?
+What is the longest gap between titles?
+Has a team ever won two years in a row?
+March Madness champions list
+Who won March Madness in 2026?

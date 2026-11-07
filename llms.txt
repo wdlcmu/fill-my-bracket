@@ -84,6 +84,11 @@
 - [What was the highest-scoring March Madness final?](https://fillmybracket.com/what-was-the-highest-scoring-march-madness-final): Kentucky 94, Duke 88 in 1978, for 182 points in all. UNLV's 103 in 1990 is the most by one team.
 - [Which March Madness tournament had the most upsets?](https://fillmybracket.com/which-march-madness-tournament-had-the-most-upsets): 1999, with 23 upsets. A normal year has about 18. Counted from every game since 1985.
 
+- [What was the biggest blowout in March Madness history?](https://fillmybracket.com/what-was-the-biggest-blowout-in-march-madness-history): Florida beat Prairie View A&M by 59 in 2026, 114 to 55. Only three games since 1985 were decided by 50 or more.
+- [What was the highest-scoring game in March Madness history?](https://fillmybracket.com/what-was-the-highest-scoring-game-in-march-madness-history): Loyola Marymount 149, Michigan 115 in 1990, for 264 points. Loyola Marymount played in each of the five highest-scoring games since 1985.
+- [Which school has the most Final Four appearances without winning a title?](https://fillmybracket.com/which-school-has-the-most-final-four-appearances-without-winning-a-title): Houston, with seven. Illinois is next with six. Sixty-two schools have reached a Final Four and never won.
+- [What is the longest gap between March Madness titles?](https://fillmybracket.com/what-is-the-longest-gap-between-march-madness-titles): Michigan waited 37 years, from 1989 to 2026. Oregon has waited 87 years since its 1939 title.
+
 ## Optional
 
 - [Full page text](https://fillmybracket.com/llms-full.txt): the complete text of every page, for readers that prefer one file.
