@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mock Bracket - Fill a Practice Bracket on the Projected 2027 Field | Fill My Bracket</title>
+<meta name="description" content="Fill a full mock bracket today on the projected 2027 field - if the season ended today (projected Nov 8, 2026). Five answers fill all 75 picks, opening round included. Change any pick, print the poster. Free, no account.">
+<link rel="canonical" href="https://fillmybracket.com/mock-bracket">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fillmybracket.com/mock-bracket">
+<meta property="og:title" content="Mock Bracket - practice on the projected 2027 field">
+<meta property="og:description" content="If the season ended today: fill all 75 picks on the projected field, change any pick, print the poster. Field projected Nov 8, 2026.">
+<meta property="og:image" content="https://fillmybracket.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mock Bracket - practice on the projected 2027 field">
+<meta name="twitter:description" content="Five answers fill a full mock bracket on the projected 2027 field. Field projected Nov 8, 2026.">
+<meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<style>
+  :root {
+    --navy: #081c3a; --navy-2: #0d2b57; --navy-3: #123263;
+    --orange: #ff7a1a; --orange-soft: #ffa25e;
+    --cream: #f7f2e7; --muted: #cdd9ee; --line: #2a4a7f;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--cream); background: var(--navy); line-height: 1.55;
+    display: flex; flex-direction: column; min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  header.site { padding: 1.1rem 1.25rem; border-bottom: 1px solid var(--line); }
+  header.site a { color: var(--cream); font-weight: 800; font-size: 1.125rem; text-decoration: none; letter-spacing: -0.01em; display: inline-block; padding: 13px 0; }
+  header.site a span { color: var(--orange); }
+  main { flex: 1; width: 100%; max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 0.5rem; }
+  .kicker { display: inline-block; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--orange); margin-bottom: 0.9rem; border: 1px solid var(--orange); border-radius: 999px; padding: 0.3rem 0.9rem; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 1rem; }
+  .answer { font-size: 1.1875rem; color: var(--cream); margin-bottom: 1.5rem; }
+  h2 { font-size: 1.3125rem; font-weight: 700; margin: 1.75rem 0 0.6rem; }
+  p { color: var(--muted); margin-bottom: 0.55rem; }
+  p strong, li strong { color: var(--cream); }
+  .viz { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin-bottom: 1.5rem; }
+  .viz p { margin: 0 0 0.35rem; }
+  .viz .viz-cap { color: var(--muted); font-size: 0.9375rem; }
+  .q { margin: 1.4rem 0 0.4rem; }
+  .q-prompt { color: var(--cream); font-weight: 700; font-size: 1.0625rem; margin-bottom: 0.55rem; }
+  .pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .pill {
+    font: inherit; font-size: 0.9375rem; font-weight: 600; cursor: pointer;
+    min-height: 48px; padding: 0.55rem 1rem; border-radius: 999px;
+    background: var(--navy-2); color: var(--cream); border: 1px solid var(--line);
+  }
+  .pill:hover { border-color: var(--orange-soft); }
+  .pill.on { background: var(--orange); border-color: var(--orange); color: var(--navy); }
+  select.champ {
+    font: inherit; width: 100%; min-height: 52px; padding: 0.6rem 0.8rem;
+    border-radius: 12px; border: 1px solid var(--line);
+    background: var(--navy-2); color: var(--cream);
+  }
+  .fill-row { margin: 1.8rem 0 0.5rem; display: grid; gap: 0.6rem; }
+  .fill-btn {
+    font: inherit; font-size: 1.125rem; font-weight: 800; cursor: pointer;
+    min-height: 56px; padding: 0.8rem 1.2rem; border-radius: 14px; border: none;
+    background: var(--orange); color: var(--navy);
+  }
+  .fill-btn:hover { background: var(--orange-soft); }
+  .ghost-btn {
+    font: inherit; font-size: 1rem; font-weight: 700; cursor: pointer;
+    min-height: 52px; padding: 0.7rem 1.1rem; border-radius: 14px;
+    background: transparent; color: var(--orange-soft); border: 1px solid var(--orange);
+  }
+  .ghost-btn:hover { background: var(--navy-2); }
+  .champ-banner {
+    background: var(--navy-2); border: 2px solid var(--orange); border-radius: 14px;
+    padding: 1.1rem 1.2rem; margin: 1.5rem 0 0.75rem; text-align: center;
+  }
+  .champ-banner .cb-k { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--orange); }
+  .champ-banner .cb-name { font-size: 1.75rem; font-weight: 800; line-height: 1.2; margin: 0.25rem 0; }
+  .champ-banner .cb-sub { color: var(--muted); font-size: 0.9375rem; margin: 0; }
+  .mk-msg { min-height: 1.5rem; color: var(--orange-soft); font-weight: 600; }
+  .round-h { font-size: 1rem; font-weight: 700; color: var(--cream); margin: 1.3rem 0 0.5rem; }
+  .mk-game { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.7rem; margin-bottom: 0.6rem; }
+  .mk-teams { display: grid; gap: 0.45rem; }
+  .mk-team {
+    font: inherit; text-align: left; cursor: pointer; width: 100%;
+    min-height: 48px; padding: 0.55rem 0.8rem; border-radius: 10px;
+    background: var(--navy-3); color: var(--cream); border: 1px solid var(--line);
+    display: flex; align-items: center; gap: 0.6rem; font-size: 1rem;
+  }
+  .mk-team .mk-seed {
+    flex: 0 0 auto; min-width: 2rem; height: 2rem; padding: 0 0.3rem;
+    display: inline-flex; align-items: center; justify-content: center;
+    border-radius: 999px; background: var(--navy); color: var(--muted);
+    font-weight: 800; font-size: 0.875rem;
+  }
+  .mk-team .mk-name { font-weight: 600; }
+  .mk-team .mk-tag { margin-left: auto; font-size: 0.8125rem; color: var(--muted); }
+  .mk-team.win { border-color: var(--orange); background: #2a1a08; }
+  .mk-team.win .mk-seed { background: var(--orange); color: var(--navy); }
+  .mk-team.win .mk-tag { color: var(--orange-soft); font-weight: 700; }
+  .mk-reason { color: var(--muted); font-size: 0.875rem; margin: 0.5rem 0.2rem 0; }
+  .actions { display: grid; gap: 0.6rem; margin: 1.6rem 0 0.5rem; }
+  .poster-card {
+    background: var(--cream); color: var(--navy); border-radius: 16px;
+    padding: 1.5rem 1.3rem; margin: 1rem 0;
+  }
+  .poster-card .pc-kicker { font-size: 0.8rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: #b3540e; text-align: center; }
+  .poster-card .pc-champ { font-size: 1.9rem; font-weight: 800; text-align: center; line-height: 1.2; margin: 0.4rem 0 0.2rem; }
+  .poster-card .pc-sub { text-align: center; color: #3d4f73; margin-bottom: 1rem; }
+  .poster-card h3 { font-size: 1rem; margin: 1rem 0 0.35rem; }
+  .poster-card p, .poster-card li { color: #24365c; }
+  .poster-card ul { list-style: none; }
+  .poster-card li { padding: 0.14rem 0; font-size: 0.9375rem; }
+  .poster-card .pc-foot { text-align: center; font-size: 0.875rem; color: #3d4f73; margin-top: 1.1rem; }
+  .faqsec { margin-top: 2rem; }
+  .faqsec details { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 0.9rem 1.1rem; margin-bottom: 0.75rem; }
+  .faqsec summary { color: var(--cream); font-weight: 700; cursor: pointer; padding: 0.35rem 0; min-height: 44px; display: flex; align-items: center; }
+  .faqsec details p { margin: 0.55rem 0 0.1rem; }
+  a.inline { color: var(--orange-soft); font-weight: 600; }
+  footer { text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line); font-size: 0.9375rem; color: var(--muted); margin-top: 2rem; }
+  footer p { margin: 0; }
+  footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
+  footer a:hover { text-decoration: underline; }
+  @media print {
+    header.site, #askSec, #bracketSec, .faqsec, .noprint, footer, .askp-pill, .askp-panel { display: none !important; }
+    body { background: #fff; }
+    #posterSec { display: block !important; }
+    .poster-card { border: 2px solid #081c3a; }
+  }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is this the real 2027 bracket?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. This is a mock bracket. It runs on a projected field - if the season ended today - built from CBS Sports' preseason bracketology (Oct. 30, 2026) and stamped Nov. 8, 2026. The real field is set on Selection Sunday, March 14, 2027."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does the mock have 76 teams?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The tournament grows from 68 teams to 76 in 2027. Twelve opening-round games settle the last 12 spots in the 64-team bracket, so a full mock has 75 picks: 12 opening-round games plus the 63 games of the main bracket."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the mock bracket count for anything?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It is practice. There are no pools, entries, or prizes here. Fill as many mock runs as you like, print the poster, and be sharp when the real picker opens on March 14, 2027."
+      }
+    }
+  ]
+}
+</script>
+<script>
+/* FLEET-FT2-2026-11-08: first-touch capture at the door. The first page
+   this browser ever loads on this site stores its referrer, UTM tags and
+   landing address in localStorage (first write wins, never overwritten).
+   The PostHog first-touch writer reads this store, so a creator's
+   discovery channel survives the tool-page to homepage hop that used
+   to erase it (attribution trace, Nov 8, 2026, BP-5). The address is
+   cut to origin + path, /s/ and /g/ code segments are dropped, and no
+   query beyond utm_* and a whitelisted ?via= kind word is kept. */
+(function(){try{
+if(localStorage.getItem("fleet_ft2"))return;
+var q=new URLSearchParams(location.search);
+function utm(n){var v=q.get(n)||"";return v.slice(0,100);}
+var p=location.pathname||"/";
+if(/^\/(s|g)\/[^/]/.test(p))p=p.replace(/^\/(s|g)\/[^/]+.*$/,"/$1/");
+var via=q.get("via")||"";
+var ft={r:document.referrer||"",u:location.origin+p,
+via:["share","own","group"].indexOf(via)>=0?via:"",
+s:utm("utm_source"),m:utm("utm_medium"),c:utm("utm_campaign"),
+at:new Date().toISOString()};
+localStorage.setItem("fleet_ft2",JSON.stringify(ft));
+}catch(e){}})();
+</script>
+
+<script>
+window.FLEET_CFG = { site: "bracket", starts: [], ask: null, specials: [] };
+</script>
+<!-- Fleet analytics - shared instrumentation (Nov 1, 2026). PostHog
+     project 624507. Anonymous metadata only. The mock surface fires
+     tool_start / tool_complete with surface "mock" from mock-bracket.js
+     (per-run gate, same pattern as replay.js). -->
+
+<script>
+(function(){
+  var CFG = window.FLEET_CFG || {};
+  var SITE = CFG.site || "unknown";
+  var KEY = "phc_t9dkHXAZR5VEjPFm3K5JDzGKFsNNxKcwSxxcEBEeLbS7";
+  var _int = null;
+  function isInternal(){
+    if (_int !== null) return _int;
+    var flag = false;
+    try {
+      var q = location.search || "";
+      if (/[?&]internal=1(?:&|$)/.test(q)) { try { localStorage.setItem("fleet_internal", "1"); } catch(e){} flag = true; }
+      else if (/[?&]internal=0(?:&|$)/.test(q)) { try { localStorage.removeItem("fleet_internal"); } catch(e){} }
+      else if (/[?&](probe|sim)=/.test(q)) { flag = true; }
+      else { try { flag = localStorage.getItem("fleet_internal") === "1"; } catch(e){} }
+    } catch(e2){}
+    _int = flag;
+    return flag;
+  }
+  var Q = [];
+  function track(name, props){
+    props = props || {};
+    props.site = SITE;
+    try { if (isInternal()) props.internal = true; } catch(e){}
+    try {
+      if (window.posthog && posthog.capture) posthog.capture(name, props);
+      else { Q.push([name, props]); if (Q.length > 100) Q.shift(); }
+    } catch(e){}
+  }
+  window.FA = { track: track };
+  /* FLEET-ATTRIB-2026-11-07: first-touch attribution (pattern: SPEC-SS-ATTRIB-01).
+     On first pageview, persist the door as PostHog person properties via
+     people.set_once (a later visit never overwrites): entry_referrer (bare
+     origin only), entry_referring_domain, entry_url (origin+path, no query,
+     no fragment, no tokens), entry_at, entry_app (app kind classified from
+     the user-agent string - in-app browsers name themselves there even when
+     they strip the referrer). No raw UA stored, no PII. */
+    function fleetFirstTouch(){
+    try {
+      if (!window.posthog || !posthog.people || !posthog.people.set_once) return;
+      var ft = null;
+      try { ft = JSON.parse(localStorage.getItem("fleet_ft2") || "null"); } catch (e) {}
+      var ref = (ft && typeof ft.r === "string") ? ft.r : (document.referrer || "");
+      var refOrigin = "", refDomain = "$direct";
+      if (ref) {
+        try {
+          var ru = new URL(ref);
+          if (ru.origin && ru.origin !== "null") { refOrigin = ru.origin + "/"; refDomain = ru.hostname || "$direct"; }
+        } catch (e) {}
+        if (!refOrigin) {
+          var m = /^[a-z][a-z0-9+.-]*:\/\/[^/?#]+/i.exec(ref);
+          if (m) { refOrigin = m[0] + "/"; refDomain = m[0].split("://")[1] || "$direct"; }
+        }
+      }
+      var entryUrl, entryAt;
+      if (ft && ft.u) {
+        entryUrl = ft.u + (ft.via ? "?via=" + ft.via : "");
+        entryAt = ft.at || new Date().toISOString();
+      } else {
+        var path = window.location.pathname || "/";
+        if (/^\/(s|g)\/[^/]/.test(path)) path = path.replace(/^\/(s|g)\/[^/]+.*$/, "/$1/");
+        var viaRaw = "";
+        try { viaRaw = new URLSearchParams(window.location.search).get("via") || ""; } catch (e) {}
+        var via = (viaRaw === "share" || viaRaw === "own" || viaRaw === "group") ? "?via=" + viaRaw : "";
+        entryUrl = window.location.origin + path + via;
+        entryAt = new Date().toISOString();
+      }
+      var ua = (navigator.userAgent || "").slice(0, 500);
+      var l = ua.toLowerCase();
+      var app = "other";
+      if (l.indexOf("kakaotalk") !== -1) app = "kakaotalk";
+      else if (l.indexOf("whatsapp") !== -1) app = "whatsapp";
+      else if (l.indexOf("instagram") !== -1) app = "instagram";
+      else if (l.indexOf("telegram") !== -1) app = "telegram";
+      else if (l.indexOf("teams") !== -1) app = "teams";
+      else if (l.indexOf("fban") !== -1 || l.indexOf("fbav") !== -1 || l.indexOf("fb_iab") !== -1 || l.indexOf("facebook") !== -1) app = "facebook";
+      else if (l.indexOf("mozilla/") !== -1) app = "browser";
+      var props = {
+        entry_referrer: refOrigin,
+        entry_referring_domain: refDomain,
+        entry_url: entryUrl,
+        entry_at: entryAt,
+        entry_app: app
+      };
+      if (ft && ft.s) props.entry_utm_source = ft.s;
+      if (ft && ft.m) props.entry_utm_medium = ft.m;
+      if (ft && ft.c) props.entry_utm_campaign = ft.c;
+      posthog.people.set_once(props);
+    } catch (e) {}
+  }
+
+  var s = document.createElement("script");
+  s.async = true;
+  s.src = "https://us.i.posthog.com/static/array.js";
+  s.onload = function(){
+    try {
+      if (window.posthog && posthog.init) {
+        posthog.init(KEY, {api_host: "https://us.i.posthog.com", autocapture: false, capture_pageview: true, disable_session_recording: true, persistence: "localStorage"});
+        try { posthog.register({site: SITE, internal: isInternal()}); } catch(e){}
+        try { if (isInternal() && posthog.people && posthog.people.set) posthog.people.set({fleet_internal: true}); } catch(e){}
+        try { fleetFirstTouch(); } catch(e){}
+        while (Q.length) { var e0 = Q.shift(); try { posthog.capture(e0[0], e0[1]); } catch(e){} }
+      }
+    } catch(e){}
+  };
+  document.head.appendChild(s);
+
+  function onReady(fn){ if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", fn); else fn(); }
+  function vis(el){
+    if (!el) return false;
+    var cs = getComputedStyle(el);
+    if (cs.display === "none" || cs.visibility === "hidden") return false;
+    return !!(el.offsetWidth || el.offsetHeight || (el.getClientRects && el.getClientRects().length));
+  }
+  function txt(el){ return ((el && el.textContent) || "").replace(/\s+/g, " ").trim(); }
+
+  onReady(function(){
+    try {
+      var started = {};
+      (CFG.starts || []).forEach(function(st){
+        Array.prototype.forEach.call(document.querySelectorAll(st.sel), function(el){
+          el.addEventListener(st.on || "click", function(){
+            var k = st.surface || "tool";
+            if (started[k]) return;
+            started[k] = true;
+            track("tool_start", {surface: k});
+          });
+        });
+      });
+      (CFG.completes || []).forEach(function(cp){
+        var done = false;
+        function check(){
+          if (done) return;
+          var el = document.querySelector(cp.sel);
+          if (el && vis(el) && txt(el).length >= (cp.minText || 1)) {
+            done = true;
+            track("tool_complete", {surface: cp.surface || "tool"});
+          }
+        }
+        /* Observe the body and re-resolve the selector on every batch:
+           some tools replace the result node instead of filling it. */
+        new MutationObserver(check).observe(document.body, {childList: true, subtree: true, characterData: true, attributes: true});
+        check();
+      });
+      if (CFG.ask) {
+        var A = CFG.ask;
+        var lastText = "", completed = false;
+        var go = A.goSel ? document.querySelector(A.goSel) : null;
+        if (go) go.addEventListener("click", function(){
+          track("ask_asked", {surface: "ask"});
+          lastText = "";   // a new submission: the observer must classify the coming rendering even if its text matches the previous turn's
+        });
+        var ans = A.answerSel ? document.querySelector(A.answerSel) : null;
+        if (ans) {
+          var checkA = function(){
+            var el = document.querySelector(A.answerSel);
+            if (!el) return;
+            var t = txt(el);
+            if (!t || t === lastText) return;
+            lastText = t;
+            var fb = null;
+            (A.fallbacks || []).some(function(f){ if (f.re.test(t)) { fb = f; return true; } return false; });
+            if (fb) { track("ask_fallback", {surface: "ask", missing: fb.missing}); return; }
+            var props = {surface: "ask"};
+            (A.kinds || []).some(function(k){ if (k.re.test(t)) { props.outcome = k.outcome; return true; } return false; });
+            if (!props.outcome && A.defaultOutcome) props.outcome = A.defaultOutcome;
+            track("ask_answered", props);
+            if (A.completeOnAnswer && !completed) { completed = true; if (!started["ask"]) { started["ask"] = true; track("tool_start", {surface: "ask"}); } track("tool_complete", {surface: "ask"}); }
+          };
+          new MutationObserver(checkA).observe(document.body, {childList: true, subtree: true, characterData: true});
+        }
+      }
+      var specialDone = {};
+      (CFG.specials || []).forEach(function(sp){
+        try {
+          if (sp.on === "click") {
+            Array.prototype.forEach.call(document.querySelectorAll(sp.sel), function(el){
+              el.addEventListener("click", function(){
+                if (sp.name === "tool_complete") {
+                  /* MEASURE-1: a specials complete fires at most once
+                     per page view for its surface, and only behind a
+                     same-surface start (fired first if none yet), so
+                     completes can never exceed starts per cohort. */
+                  var sk = (sp.props && sp.props.surface) || "tool";
+                  if (specialDone[sk]) return;
+                  specialDone[sk] = true;
+                  if (!started[sk]) { started[sk] = true; track("tool_start", {surface: sk}); }
+                }
+                track(sp.name, sp.props || {});
+                if (sp.name === "ask_asked") lastText = "";   // a chip tap is a new submission: the observer must classify the coming rendering even if its text matches the previous turn's
+              });
+            });
+          } else if (sp.on === "appear") {
+            var fired = false;
+            var chk = function(){
+              if (fired) return;
+              var el = document.querySelector(sp.sel);
+              if (el && vis(el) && txt(el).length) { fired = true; track(sp.name, sp.props || {}); }
+            };
+            new MutationObserver(chk).observe(document.body, {childList: true, subtree: true, characterData: true, attributes: true});
+            chk();
+          } else if (sp.on === "loadmatch") {
+            if (sp.re.test(location.href)) track(sp.name, sp.props || {});
+          }
+        } catch(e){}
+      });
+    } catch(e){}
+  });
+})();
+</script>
+
+</head>
+<body>
+<header class="site"><a href="/">Fill My <span>Bracket</span></a></header>
+<main>
+  <span class="kicker">Mock bracket &middot; Test runs</span>
+  <h1>Fill a mock bracket today</h1>
+  <p class="answer">The real field is set on Selection Sunday, March 14, 2027. Until then, practice here: this mock runs on the projected field &mdash; if the season ended today. Five answers fill all 75 picks. Tap any team to change a pick. Print the poster when it looks right.</p>
+  <div class="viz">
+    <p><strong>Field projected Nov 8, 2026.</strong></p>
+    <p class="viz-cap">Projected field: CBS Sports preseason bracketology, released Oct. 30, 2026. The 2027 tournament has 76 teams and a 12-game opening round. Rankings: the Preseason AP Top 25 (The Associated Press, Oct. 19, 2026), still the latest poll today. A projection is a picture of today, not a promise about March &mdash; seeds will move all season. <a class="inline" href="/college-basketball-rankings">See the rankings and trends behind this field &rarr;</a></p>
+  </div>
+
+  <section id="askSec" aria-labelledby="ask-heading">
+    <h2 id="ask-heading">Five answers start your mock</h2>
+    <div class="q" data-q="chaos">
+      <p class="q-prompt">Favorites or chaos &mdash; how many upsets feel fun?</p>
+      <div class="pills">
+        <button type="button" class="pill" data-v="chalk">Keep it safe</button>
+        <button type="button" class="pill on" data-v="some">A few upsets</button>
+        <button type="button" class="pill" data-v="lots">Lots of upsets</button>
+        <button type="button" class="pill" data-v="chaos">Maximum chaos</button>
+      </div>
+    </div>
+    <div class="q" data-q="tiebreak">
+      <p class="q-prompt">When two teams feel tied, what should break the tie?</p>
+      <div class="pills">
+        <button type="button" class="pill on" data-v="mascot">Best mascot</button>
+        <button type="button" class="pill" data-v="colors">Best colors</button>
+        <button type="button" class="pill" data-v="familiar">School I have heard of</button>
+      </div>
+    </div>
+    <div class="q" data-q="championPick">
+      <p class="q-prompt">Is there one team you want to see win it all?</p>
+      <select class="champ" id="champSel" aria-label="Your pick to win it all"></select>
+    </div>
+    <div class="q" data-q="littleGuys">
+      <p class="q-prompt">Boost the little guys? (Double-digit seeds get a small lift in every game.)</p>
+      <div class="pills">
+        <button type="button" class="pill" data-v="yes">Yes, boost them</button>
+        <button type="button" class="pill on" data-v="no">No boost</button>
+      </div>
+    </div>
+    <div class="q" data-q="ride">
+      <p class="q-prompt">Ride one conference? (Its teams get the same small lift.)</p>
+      <div class="pills">
+        <button type="button" class="pill" data-v="SEC">SEC</button>
+        <button type="button" class="pill" data-v="Big Ten">Big Ten</button>
+        <button type="button" class="pill" data-v="Big 12">Big 12</button>
+        <button type="button" class="pill" data-v="ACC">ACC</button>
+        <button type="button" class="pill" data-v="Big East">Big East</button>
+        <button type="button" class="pill on" data-v="">No ride</button>
+      </div>
+    </div>
+    <div class="fill-row">
+      <button type="button" class="fill-btn" id="fillBtn">Fill my mock bracket</button>
+      <button type="button" class="ghost-btn" id="chalkBtn">Just fill it with favorites</button>
+    </div>
+    <p>Every pick is a preference pick &mdash; your answers, not odds. No betting advice, no win chances. Change any pick after the fill.</p>
+  </section>
+
+  <section id="bracketSec" hidden aria-labelledby="bracket-heading">
+    <h2 id="bracket-heading">Your mock bracket</h2>
+    <div class="champ-banner">
+      <p class="cb-k">Your mock champion</p>
+      <p class="cb-name" id="champName">&mdash;</p>
+      <p class="cb-sub" id="champSub"></p>
+    </div>
+    <p class="mk-msg" id="mkMsg" role="status" aria-live="polite"></p>
+    <h3 class="round-h">Opening round &mdash; 12 games settle the last spots</h3>
+    <div id="openGames"></div>
+    <div id="regionBlocks"></div>
+    <h3 class="round-h">Final Four and the title game</h3>
+    <div id="finalBlock"></div>
+    <div class="actions">
+      <button type="button" class="fill-btn" id="posterBtn">See my poster</button>
+      <button type="button" class="ghost-btn" id="againBtn">Start a new mock run</button>
+    </div>
+    <p>Mock run <span id="runNo">1</span> on this device. Runs are practice &mdash; run it back as many times as you like. Each finished run can end in a poster.</p>
+  </section>
+
+  <section id="posterSec" hidden aria-labelledby="poster-heading">
+    <h2 id="poster-heading">Your mock bracket, as a poster</h2>
+    <div class="poster-card" id="posterCard"></div>
+    <div class="actions">
+      <button type="button" class="fill-btn" id="printBtn">Print my poster</button>
+      <button type="button" class="ghost-btn" id="shareBtn">Share my mock</button>
+      <button type="button" class="ghost-btn" id="backBtn">Back to my bracket</button>
+    </div>
+    <p class="share-msg" id="shareMsg" role="status" aria-live="polite"></p>
+  </section>
+
+  <h2>How a mock run works</h2>
+  <p><strong>1. You answer.</strong> Five short answers: upsets, tiebreakers, your team, your boosts.</p>
+  <p><strong>2. It fills.</strong> All 75 picks &mdash; the 12 opening-round games, then all 63 games to one champion. Every pick gets a one-line reason that names the answer that drove it.</p>
+  <p><strong>3. You fix it.</strong> Tap the other team in any game to flip that pick. Later rounds move only where they have to, and the page tells you what moved.</p>
+  <p><strong>4. You keep it.</strong> The poster prints your full mock: champion, Final Four, every pick. Then run it again &mdash; test runs are the point.</p>
+
+  <h2>Where this field came from</h2>
+  <p>The field is CBS Sports' preseason bracketology (Oct. 30, 2026), the freshest full projection we could open, cross-checked against ESPN's bracketology (Oct. 27, 2026): both draw a 76-team field with Florida, Duke, Illinois and Arizona on the 1 line. These are other people's projections, printed here with their names and dates &mdash; never as our own rankings. The rankings view of the same picture lives on <a class="inline" href="/college-basketball-rankings">the rankings page</a>, with the trend arrows that start when the next poll lands.</p>
+  <p>When the real field is set on March 14, 2027, the real picker opens on the home page. The mock stays up all season, re-based as the projections move.</p>
+
+  <section class="faqsec" aria-label="Mock bracket questions">
+    <details>
+      <summary>Is this the real 2027 bracket?</summary>
+      <p>No. This is a mock bracket. It runs on a projected field &mdash; if the season ended today &mdash; built from CBS Sports' preseason bracketology (Oct. 30, 2026) and stamped Nov. 8, 2026. The real field is set on Selection Sunday, March 14, 2027.</p>
+    </details>
+    <details>
+      <summary>Why does the mock have 76 teams?</summary>
+      <p>The tournament grows from 68 teams to 76 in 2027. Twelve opening-round games settle the last 12 spots in the 64-team bracket, so a full mock has 75 picks: 12 opening-round games plus the 63 games of the main bracket.</p>
+    </details>
+    <details>
+      <summary>Does the mock bracket count for anything?</summary>
+      <p>No. It is practice. There are no pools, entries, or prizes here. Fill as many mock runs as you like, print the poster, and be sharp when the real picker opens on March 14, 2027.</p>
+    </details>
+  </section>
+</main>
+<footer>
+  <p>Built with Muse.</p>
+  <p><a href="/">Home</a> <a href="/college-basketball-rankings">Rankings</a> <a href="/privacy">Privacy</a> <a href="/terms">Terms</a></p>
+</footer>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e5edc982b99349b587d105338f331407"}'></script>
+<script src="/season-data.js"></script>
+<script src="/mock-engine.js"></script>
+<script src="/mock-bracket.js"></script>
+</body>
+</html>

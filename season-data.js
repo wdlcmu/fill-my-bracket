@@ -1,0 +1,1253 @@
+/* Fill My Bracket - season data (projected field + rankings snapshots).
+   THE RE-BASE POINT: a refresh replaces this file's field block with the
+   newest bracketology projection and appends one rankings snapshot.
+   Field: CBS Sports preseason bracketology, Oct. 30, 2026 (see header in
+   scripts/build_data.py of the Nov 8, 2026 lane for provenance).
+   Rankings: Preseason AP Top 25 (Associated Press, Oct. 19, 2026). */
+window.FMB_SEASON = {
+ "field": {
+  "id": "mens-projected-2027-2026-11-08",
+  "label": "Mock bracket - projected 2027 field, Nov 8, 2026",
+  "tournament": "men",
+  "asOf": "2026-11-08",
+  "asOfLabel": "Field projected Nov 8, 2026",
+  "sourceName": "CBS Sports preseason bracketology (David Cobb and Jacob Fetner)",
+  "sourceDate": "Oct. 30, 2026",
+  "crossCheck": "ESPN Bracketology (Joe Lunardi), Oct. 27, 2026 - same 76-team shape",
+  "regions": [
+   {
+    "name": "East",
+    "host": "New York",
+    "slots": [
+     {
+      "seed": 1,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-east-1-duke",
+        "name": "Duke",
+        "conf": "ACC",
+        "mascot": "Blue Devils",
+        "colors": "blue and white",
+        "ap": 2
+       }
+      ]
+     },
+     {
+      "seed": 16,
+      "playIn": true,
+      "teams": [
+       {
+        "id": "men27-east-16-lipscomb",
+        "name": "Lipscomb",
+        "conf": "Atlantic Sun",
+        "mascot": "Bisons",
+        "colors": "purple and gold",
+        "ap": null
+       },
+       {
+        "id": "men27-east-16-liu",
+        "name": "LIU",
+        "conf": "NEC",
+        "mascot": "Sharks",
+        "colors": "black and gold",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 8,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-east-8-ohio-state",
+        "name": "Ohio State",
+        "conf": "Big Ten",
+        "mascot": "Buckeyes",
+        "colors": "scarlet and gray",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 9,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-east-9-georgia",
+        "name": "Georgia",
+        "conf": "SEC",
+        "mascot": "Bulldogs",
+        "colors": "red and black",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 5,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-east-5-arkansas",
+        "name": "Arkansas",
+        "conf": "SEC",
+        "mascot": "Razorbacks",
+        "colors": "cardinal and white",
+        "ap": 12
+       }
+      ]
+     },
+     {
+      "seed": 12,
+      "playIn": true,
+      "teams": [
+       {
+        "id": "men27-east-12-indiana",
+        "name": "Indiana",
+        "conf": "Big Ten",
+        "mascot": "Hoosiers",
+        "colors": "cream and crimson",
+        "ap": null
+       },
+       {
+        "id": "men27-east-12-nc-state",
+        "name": "NC State",
+        "conf": "ACC",
+        "mascot": "Wolfpack",
+        "colors": "red and white",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 4,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-east-4-iowa-state",
+        "name": "Iowa State",
+        "conf": "Big 12",
+        "mascot": "Cyclones",
+        "colors": "cardinal and gold",
+        "ap": 18
+       }
+      ]
+     },
+     {
+      "seed": 13,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-east-13-unc-wilmington",
+        "name": "UNC Wilmington",
+        "conf": "CAA",
+        "mascot": "Seahawks",
+        "colors": "teal and gold",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 6,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-east-6-nebraska",
+        "name": "Nebraska",
+        "conf": "Big Ten",
+        "mascot": "Cornhuskers",
+        "colors": "scarlet and cream",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 11,
+      "playIn": true,
+      "teams": [
+       {
+        "id": "men27-east-11-utah-state",
+        "name": "Utah State",
+        "conf": "Pac-12",
+        "mascot": "Aggies",
+        "colors": "navy and white",
+        "ap": null
+       },
+       {
+        "id": "men27-east-11-marquette",
+        "name": "Marquette",
+        "conf": "Big East",
+        "mascot": "Golden Eagles",
+        "colors": "blue and gold",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 3,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-east-3-kansas",
+        "name": "Kansas",
+        "conf": "Big 12",
+        "mascot": "Jayhawks",
+        "colors": "blue and crimson",
+        "ap": 17
+       }
+      ]
+     },
+     {
+      "seed": 14,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-east-14-yale",
+        "name": "Yale",
+        "conf": "Ivy League",
+        "mascot": "Bulldogs",
+        "colors": "blue and white",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 7,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-east-7-saint-louis",
+        "name": "Saint Louis",
+        "conf": "Atlantic 10",
+        "mascot": "Billikens",
+        "colors": "blue and white",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 10,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-east-10-clemson",
+        "name": "Clemson",
+        "conf": "ACC",
+        "mascot": "Tigers",
+        "colors": "orange and purple",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 2,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-east-2-alabama",
+        "name": "Alabama",
+        "conf": "SEC",
+        "mascot": "Crimson Tide",
+        "colors": "crimson and white",
+        "ap": 20
+       }
+      ]
+     },
+     {
+      "seed": 15,
+      "playIn": true,
+      "teams": [
+       {
+        "id": "men27-east-15-montana-state",
+        "name": "Montana State",
+        "conf": "Big Sky",
+        "mascot": "Bobcats",
+        "colors": "blue and gold",
+        "ap": null
+       },
+       {
+        "id": "men27-east-15-merrimack",
+        "name": "Merrimack",
+        "conf": "MAAC",
+        "mascot": "Warriors",
+        "colors": "navy and gold",
+        "ap": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "South",
+    "host": "San Antonio",
+    "slots": [
+     {
+      "seed": 1,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-1-houston",
+        "name": "Houston",
+        "conf": "Big 12",
+        "mascot": "Cougars",
+        "colors": "red and white",
+        "ap": 10
+       }
+      ]
+     },
+     {
+      "seed": 16,
+      "playIn": true,
+      "teams": [
+       {
+        "id": "men27-south-16-austin-peay",
+        "name": "Austin Peay",
+        "conf": "Atlantic Sun",
+        "mascot": "Governors",
+        "colors": "red and white",
+        "ap": null
+       },
+       {
+        "id": "men27-south-16-tennessee-state",
+        "name": "Tennessee State",
+        "conf": "OVC",
+        "mascot": "Tigers",
+        "colors": "navy and white",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 8,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-8-vcu",
+        "name": "VCU",
+        "conf": "Atlantic 10",
+        "mascot": "Rams",
+        "colors": "black and gold",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 9,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-9-ucla",
+        "name": "UCLA",
+        "conf": "Big Ten",
+        "mascot": "Bruins",
+        "colors": "blue and gold",
+        "ap": 22
+       }
+      ]
+     },
+     {
+      "seed": 5,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-5-michigan",
+        "name": "Michigan",
+        "conf": "Big Ten",
+        "mascot": "Wolverines",
+        "colors": "maize and blue",
+        "ap": 16
+       }
+      ]
+     },
+     {
+      "seed": 12,
+      "playIn": true,
+      "teams": [
+       {
+        "id": "men27-south-12-florida-state",
+        "name": "Florida State",
+        "conf": "ACC",
+        "mascot": "Seminoles",
+        "colors": "garnet and gold",
+        "ap": null
+       },
+       {
+        "id": "men27-south-12-cincinnati",
+        "name": "Cincinnati",
+        "conf": "Big 12",
+        "mascot": "Bearcats",
+        "colors": "red and black",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 4,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-4-tennessee",
+        "name": "Tennessee",
+        "conf": "SEC",
+        "mascot": "Volunteers",
+        "colors": "orange and white",
+        "ap": 8
+       }
+      ]
+     },
+     {
+      "seed": 13,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-13-wichita-state",
+        "name": "Wichita State",
+        "conf": "American",
+        "mascot": "Shockers",
+        "colors": "black and yellow",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 6,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-6-wisconsin",
+        "name": "Wisconsin",
+        "conf": "Big Ten",
+        "mascot": "Badgers",
+        "colors": "cardinal and white",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 11,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-11-grand-canyon",
+        "name": "Grand Canyon",
+        "conf": "Mountain West",
+        "mascot": "Antelopes",
+        "colors": "purple and white",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 3,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-3-virginia",
+        "name": "Virginia",
+        "conf": "ACC",
+        "mascot": "Cavaliers",
+        "colors": "navy and orange",
+        "ap": 9
+       }
+      ]
+     },
+     {
+      "seed": 14,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-14-mcneese",
+        "name": "McNeese",
+        "conf": "Southland",
+        "mascot": "Cowboys",
+        "colors": "purple and gold",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 7,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-7-kentucky",
+        "name": "Kentucky",
+        "conf": "SEC",
+        "mascot": "Wildcats",
+        "colors": "blue and white",
+        "ap": 23
+       }
+      ]
+     },
+     {
+      "seed": 10,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-10-smu",
+        "name": "SMU",
+        "conf": "ACC",
+        "mascot": "Mustangs",
+        "colors": "red and blue",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 2,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-2-illinois",
+        "name": "Illinois",
+        "conf": "Big Ten",
+        "mascot": "Fighting Illini",
+        "colors": "orange and blue",
+        "ap": 3
+       }
+      ]
+     },
+     {
+      "seed": 15,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-south-15-etsu",
+        "name": "ETSU",
+        "conf": "Southern",
+        "mascot": "Buccaneers",
+        "colors": "navy and gold",
+        "ap": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Midwest",
+    "host": "Kansas City",
+    "slots": [
+     {
+      "seed": 1,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-midwest-1-florida",
+        "name": "Florida",
+        "conf": "SEC",
+        "mascot": "Gators",
+        "colors": "orange and blue",
+        "ap": 1
+       }
+      ]
+     },
+     {
+      "seed": 16,
+      "playIn": true,
+      "teams": [
+       {
+        "id": "men27-midwest-16-american",
+        "name": "American",
+        "conf": "Patriot",
+        "mascot": "Eagles",
+        "colors": "red and blue",
+        "ap": null
+       },
+       {
+        "id": "men27-midwest-16-robert-morris",
+        "name": "Robert Morris",
+        "conf": "Horizon",
+        "mascot": "Colonials",
+        "colors": "blue and white",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 8,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-midwest-8-byu",
+        "name": "BYU",
+        "conf": "Big 12",
+        "mascot": "Cougars",
+        "colors": "navy and white",
+        "ap": 25
+       }
+      ]
+     },
+     {
+      "seed": 9,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-midwest-9-iowa",
+        "name": "Iowa",
+        "conf": "Big Ten",
+        "mascot": "Hawkeyes",
+        "colors": "black and gold",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 5,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-midwest-5-st-johns",
+        "name": "St. John's",
+        "conf": "Big East",
+        "mascot": "Red Storm",
+        "colors": "red and white",
+        "ap": 13
+       }
+      ]
+     },
+     {
+      "seed": 12,
+      "playIn": true,
+      "teams": [
+       {
+        "id": "men27-midwest-12-lsu",
+        "name": "LSU",
+        "conf": "SEC",
+        "mascot": "Tigers",
+        "colors": "purple and gold",
+        "ap": null
+       },
+       {
+        "id": "men27-midwest-12-baylor",
+        "name": "Baylor",
+        "conf": "Big 12",
+        "mascot": "Bears",
+        "colors": "green and gold",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 4,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-midwest-4-gonzaga",
+        "name": "Gonzaga",
+        "conf": "Pac-12",
+        "mascot": "Bulldogs",
+        "colors": "navy and white",
+        "ap": 15
+       }
+      ]
+     },
+     {
+      "seed": 13,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-midwest-13-murray-state",
+        "name": "Murray State",
+        "conf": "Missouri Valley",
+        "mascot": "Racers",
+        "colors": "navy and gold",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 6,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-midwest-6-miami",
+        "name": "Miami",
+        "conf": "ACC",
+        "mascot": "Hurricanes",
+        "colors": "orange and green",
+        "ap": 14
+       }
+      ]
+     },
+     {
+      "seed": 11,
+      "playIn": true,
+      "teams": [
+       {
+        "id": "men27-midwest-11-providence",
+        "name": "Providence",
+        "conf": "Big East",
+        "mascot": "Friars",
+        "colors": "black and white",
+        "ap": null
+       },
+       {
+        "id": "men27-midwest-11-oklahoma",
+        "name": "Oklahoma",
+        "conf": "SEC",
+        "mascot": "Sooners",
+        "colors": "crimson and cream",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 3,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-midwest-3-texas-tech",
+        "name": "Texas Tech",
+        "conf": "Big 12",
+        "mascot": "Red Raiders",
+        "colors": "red and black",
+        "ap": 19
+       }
+      ]
+     },
+     {
+      "seed": 14,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-midwest-14-st-thomas",
+        "name": "St. Thomas",
+        "conf": "Summit",
+        "mascot": "Tommies",
+        "colors": "purple and gray",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 7,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-midwest-7-north-carolina",
+        "name": "North Carolina",
+        "conf": "ACC",
+        "mascot": "Tar Heels",
+        "colors": "Carolina blue and white",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 10,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-midwest-10-missouri",
+        "name": "Missouri",
+        "conf": "SEC",
+        "mascot": "Tigers",
+        "colors": "black and gold",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 2,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-midwest-2-uconn",
+        "name": "UConn",
+        "conf": "Big East",
+        "mascot": "Huskies",
+        "colors": "navy and white",
+        "ap": 4
+       }
+      ]
+     },
+     {
+      "seed": 15,
+      "playIn": true,
+      "teams": [
+       {
+        "id": "men27-midwest-15-vermont",
+        "name": "Vermont",
+        "conf": "America East",
+        "mascot": "Catamounts",
+        "colors": "green and gold",
+        "ap": null
+       },
+       {
+        "id": "men27-midwest-15-james-madison",
+        "name": "James Madison",
+        "conf": "Sun Belt",
+        "mascot": "Dukes",
+        "colors": "purple and gold",
+        "ap": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "West",
+    "host": "Los Angeles",
+    "slots": [
+     {
+      "seed": 1,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-1-arizona",
+        "name": "Arizona",
+        "conf": "Big 12",
+        "mascot": "Wildcats",
+        "colors": "red and blue",
+        "ap": 5
+       }
+      ]
+     },
+     {
+      "seed": 16,
+      "playIn": true,
+      "teams": [
+       {
+        "id": "men27-west-16-howard",
+        "name": "Howard",
+        "conf": "MEAC",
+        "mascot": "Bison",
+        "colors": "navy and white",
+        "ap": null
+       },
+       {
+        "id": "men27-west-16-bethune-cookman",
+        "name": "Bethune-Cookman",
+        "conf": "SWAC",
+        "mascot": "Wildcats",
+        "colors": "maroon and gold",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 8,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-8-villanova",
+        "name": "Villanova",
+        "conf": "Big East",
+        "mascot": "Wildcats",
+        "colors": "blue and white",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 9,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-9-texas-a-m",
+        "name": "Texas A&M",
+        "conf": "SEC",
+        "mascot": "Aggies",
+        "colors": "maroon and white",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 5,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-5-purdue",
+        "name": "Purdue",
+        "conf": "Big Ten",
+        "mascot": "Boilermakers",
+        "colors": "black and gold",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 12,
+      "playIn": true,
+      "teams": [
+       {
+        "id": "men27-west-12-west-virginia",
+        "name": "West Virginia",
+        "conf": "Big 12",
+        "mascot": "Mountaineers",
+        "colors": "blue and gold",
+        "ap": null
+       },
+       {
+        "id": "men27-west-12-colorado-state",
+        "name": "Colorado State",
+        "conf": "Pac-12",
+        "mascot": "Rams",
+        "colors": "green and gold",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 4,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-4-texas",
+        "name": "Texas",
+        "conf": "SEC",
+        "mascot": "Longhorns",
+        "colors": "burnt orange and white",
+        "ap": 7
+       }
+      ]
+     },
+     {
+      "seed": 13,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-13-high-point",
+        "name": "High Point",
+        "conf": "Big South",
+        "mascot": "Panthers",
+        "colors": "purple and white",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 6,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-6-louisville",
+        "name": "Louisville",
+        "conf": "ACC",
+        "mascot": "Cardinals",
+        "colors": "red and black",
+        "ap": 11
+       }
+      ]
+     },
+     {
+      "seed": 11,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-11-akron",
+        "name": "Akron",
+        "conf": "MAC",
+        "mascot": "Zips",
+        "colors": "blue and gold",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 3,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-3-vanderbilt",
+        "name": "Vanderbilt",
+        "conf": "SEC",
+        "mascot": "Commodores",
+        "colors": "black and gold",
+        "ap": 24
+       }
+      ]
+     },
+     {
+      "seed": 14,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-14-western-kentucky",
+        "name": "Western Kentucky",
+        "conf": "Conference USA",
+        "mascot": "Hilltoppers",
+        "colors": "red and white",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 7,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-7-auburn",
+        "name": "Auburn",
+        "conf": "SEC",
+        "mascot": "Tigers",
+        "colors": "navy and orange",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 10,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-10-saint-marys",
+        "name": "Saint Mary's",
+        "conf": "West Coast",
+        "mascot": "Gaels",
+        "colors": "navy and red",
+        "ap": null
+       }
+      ]
+     },
+     {
+      "seed": 2,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-2-michigan-state",
+        "name": "Michigan State",
+        "conf": "Big Ten",
+        "mascot": "Spartans",
+        "colors": "green and white",
+        "ap": 6
+       }
+      ]
+     },
+     {
+      "seed": 15,
+      "playIn": false,
+      "teams": [
+       {
+        "id": "men27-west-15-uc-irvine",
+        "name": "UC Irvine",
+        "conf": "Big West",
+        "mascot": "Anteaters",
+        "colors": "blue and gold",
+        "ap": null
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "rankings": {
+  "snapshots": [
+   {
+    "date": "2026-11-08",
+    "pollName": "Preseason AP Top 25",
+    "pollSource": "The Associated Press",
+    "pollReleaseDate": "2026-10-19",
+    "pollNote": "Still the latest AP poll published as of Nov. 8, 2026. The first in-season poll lands Monday, Nov. 9, 2026.",
+    "modelName": "Bart Torvik T-Rank",
+    "modelReadDate": "2026-11-01",
+    "firstSnapshot": true,
+    "rows": [
+     {
+      "rank": 1,
+      "team": "Florida",
+      "firstPlaceVotes": 47,
+      "modelRank": 3,
+      "prevRank": null,
+      "projectedSeed": "Midwest 1"
+     },
+     {
+      "rank": 2,
+      "team": "Duke",
+      "firstPlaceVotes": 10,
+      "modelRank": 1,
+      "prevRank": null,
+      "projectedSeed": "East 1"
+     },
+     {
+      "rank": 3,
+      "team": "Illinois",
+      "firstPlaceVotes": 2,
+      "modelRank": 7,
+      "prevRank": null,
+      "projectedSeed": "South 2"
+     },
+     {
+      "rank": 4,
+      "team": "UConn",
+      "firstPlaceVotes": 0,
+      "modelRank": 13,
+      "prevRank": null,
+      "projectedSeed": "Midwest 2"
+     },
+     {
+      "rank": 5,
+      "team": "Arizona",
+      "firstPlaceVotes": 0,
+      "modelRank": 2,
+      "prevRank": null,
+      "projectedSeed": "West 1"
+     },
+     {
+      "rank": 6,
+      "team": "Michigan State",
+      "firstPlaceVotes": 0,
+      "modelRank": 11,
+      "prevRank": null,
+      "projectedSeed": "West 2"
+     },
+     {
+      "rank": 7,
+      "team": "Texas",
+      "firstPlaceVotes": 0,
+      "modelRank": 18,
+      "prevRank": null,
+      "projectedSeed": "West 4"
+     },
+     {
+      "rank": 8,
+      "team": "Tennessee",
+      "firstPlaceVotes": 0,
+      "modelRank": 16,
+      "prevRank": null,
+      "projectedSeed": "South 4"
+     },
+     {
+      "rank": 9,
+      "team": "Virginia",
+      "firstPlaceVotes": 0,
+      "modelRank": 5,
+      "prevRank": null,
+      "projectedSeed": "South 3"
+     },
+     {
+      "rank": 10,
+      "team": "Houston",
+      "firstPlaceVotes": 0,
+      "modelRank": 6,
+      "prevRank": null,
+      "projectedSeed": "South 1"
+     },
+     {
+      "rank": 11,
+      "team": "Louisville",
+      "firstPlaceVotes": 0,
+      "modelRank": 9,
+      "prevRank": null,
+      "projectedSeed": "West 6"
+     },
+     {
+      "rank": 12,
+      "team": "Arkansas",
+      "firstPlaceVotes": 0,
+      "modelRank": 21,
+      "prevRank": null,
+      "projectedSeed": "East 5"
+     },
+     {
+      "rank": 13,
+      "team": "St. John's",
+      "firstPlaceVotes": 0,
+      "modelRank": 33,
+      "prevRank": null,
+      "projectedSeed": "Midwest 5"
+     },
+     {
+      "rank": 14,
+      "team": "Miami",
+      "firstPlaceVotes": 0,
+      "modelRank": 12,
+      "prevRank": null,
+      "projectedSeed": "Midwest 6"
+     },
+     {
+      "rank": 15,
+      "team": "Gonzaga",
+      "firstPlaceVotes": 0,
+      "modelRank": 8,
+      "prevRank": null,
+      "projectedSeed": "Midwest 4"
+     },
+     {
+      "rank": 16,
+      "team": "Michigan",
+      "firstPlaceVotes": 0,
+      "modelRank": 14,
+      "prevRank": null,
+      "projectedSeed": "South 5"
+     },
+     {
+      "rank": 17,
+      "team": "Kansas",
+      "firstPlaceVotes": 0,
+      "modelRank": 4,
+      "prevRank": null,
+      "projectedSeed": "East 3"
+     },
+     {
+      "rank": 18,
+      "team": "Iowa State",
+      "firstPlaceVotes": 0,
+      "modelRank": 10,
+      "prevRank": null,
+      "projectedSeed": "East 4"
+     },
+     {
+      "rank": 19,
+      "team": "Texas Tech",
+      "firstPlaceVotes": 0,
+      "modelRank": 17,
+      "prevRank": null,
+      "projectedSeed": "Midwest 3"
+     },
+     {
+      "rank": 20,
+      "team": "Alabama",
+      "firstPlaceVotes": 0,
+      "modelRank": 20,
+      "prevRank": null,
+      "projectedSeed": "East 2"
+     },
+     {
+      "rank": 21,
+      "team": "USC",
+      "firstPlaceVotes": 0,
+      "modelRank": 37,
+      "prevRank": null,
+      "projectedSeed": null
+     },
+     {
+      "rank": 22,
+      "team": "UCLA",
+      "firstPlaceVotes": 0,
+      "modelRank": 24,
+      "prevRank": null,
+      "projectedSeed": "South 9"
+     },
+     {
+      "rank": 23,
+      "team": "Kentucky",
+      "firstPlaceVotes": 0,
+      "modelRank": 26,
+      "prevRank": null,
+      "projectedSeed": "South 7"
+     },
+     {
+      "rank": 24,
+      "team": "Vanderbilt",
+      "firstPlaceVotes": 0,
+      "modelRank": 22,
+      "prevRank": null,
+      "projectedSeed": "West 3"
+     },
+     {
+      "rank": 25,
+      "team": "BYU",
+      "firstPlaceVotes": 0,
+      "modelRank": 23,
+      "prevRank": null,
+      "projectedSeed": "Midwest 8"
+     }
+    ],
+    "othersReceivingVotes": "Missouri 167, Nebraska 70, Purdue 53, Ohio State 39, North Carolina 20, TCU 17, Saint Louis 13, VCU 12, Iowa 12, Virginia Tech 10, Indiana 8, Texas A&M 6, Villanova 6, Auburn 4, Marquette 3, Nevada 2, Grand Canyon 2, Utah State 2, Santa Clara 1"
+   }
+  ]
+ }
+};
