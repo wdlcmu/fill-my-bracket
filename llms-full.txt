@@ -1,9 +1,9 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and seventy-four guide, history, and data pages — one section for every page in the sitemap.
+> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and seventy-six guide, history, and data pages — one section for every page in the sitemap.
 > Fill My Bracket starts a full March Madness bracket from five questions — your picks finish
 > it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
-> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all; four more long-tail pages added 2026-11-06, for seventy sitemap pages in all; four more long-tail pages added 2026-11-06 (wave 4), for seventy-four sitemap pages in all; three more long-tail pages added 2026-11-06 (wave 5), for seventy-seven sitemap pages in all; one more long-tail page added 2026-11-08, for seventy-eight sitemap pages in all.
+> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all; four more long-tail pages added 2026-11-06, for seventy sitemap pages in all; four more long-tail pages added 2026-11-06 (wave 4), for seventy-four sitemap pages in all; three more long-tail pages added 2026-11-06 (wave 5), for seventy-seven sitemap pages in all; one more long-tail page added 2026-11-08, for seventy-eight sitemap pages in all; two more long-tail pages added 2026-11-08, for eighty sitemap pages in all.
 
 ## Homepage (https://fillmybracket.com/)
 
@@ -3670,7 +3670,7 @@ The widest final was 30 points, by UNLV in 1990.
 Read about it on the biggest blowout in the final page.
 How we counted
 Counted from the site’s game record, 1985 to 2026.
-That is 2,583 played games in all.
+That is 2,583 counted games in all.
 See the full record on the tournament history page.
 Five questions start your bracket. Your picks finish it.
 The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
@@ -4120,6 +4120,180 @@ What is the lowest seed to win?
 What is a Cinderella team?
 March Madness upset analysis
 How to pick upsets
+Share this page
+.fmbshare{margin:28px auto 8px;text-align:center}.fmb-share-btn{min-height:48px;padding:12px 26px;border-radius:999px;border:0;background:var(--accent,#7c2d12);color:#fff;font:inherit;font-weight:700;cursor:pointer}.fmbshare p{min-height:1.2em;margin:8px 0 0;font-size:.92rem}
+Built with Muse.
+Home Privacy Terms
+
+
+## Has a 5 seed ever won March Madness? (https://fillmybracket.com/has-a-5-seed-ever-won-march-madness)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+Has a 5 seed ever won March Madness?
+No. Never. Nine 5 seeds reached the Final Four since 1985. Four of them reached the title game. All four lost it.
+126 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+The nine 5 seeds that reached the Final Four
+Year
+Team
+Seed
+How far it went
+1996
+Mississippi State
+5
+Lost in the semifinals
+2000
+Florida
+5
+Lost the title game
+2002
+Indiana
+5
+Lost the title game
+2005
+Michigan State
+5
+Lost in the semifinals
+2010
+Butler
+5
+Lost the title game
+2010
+Michigan State
+5
+Lost in the semifinals
+2019
+Auburn
+5
+Lost in the semifinals
+2023
+San Diego State
+5
+Lost the title game
+2023
+Miami
+5
+Lost in the semifinals
+Nine teams, but only seven tournaments.
+Two tournaments sent two 5 seeds each.
+In 2010 it was Butler and Michigan State.
+In 2023 it was San Diego State and Miami.
+Four finals, four losses
+Florida lost the 2000 final to Michigan State.
+Indiana lost the 2002 final to Maryland.
+Butler lost the 2010 final to Duke, 61 to 59.
+That two-point loss is the closest a 5 seed ever came.
+San Diego State lost the 2023 final to UConn.
+The lowest seed to win is an 8 seed: Villanova, in 1985.
+Read about it on the lowest seed to win March Madness page.
+The full 5-seed record
+Since 1985, 164 teams were 5 seeds.
+106 of them won a game.
+56 reached the Sweet 16.
+12 reached the Elite Eight.
+9 reached the Final Four, and 4 reached the final.
+Titles: zero. The 5 seed is the strongest seed that has never won.
+It is also the seed everyone warns you about.
+A 12 seed beat a 5 seed 58 times in the first round.
+See how often a 12 seed beats a 5 seed .
+How we counted
+Counted from the site’s tournament record, 1985 to 2026.
+That is 41 tournaments. There was no tournament in 2020.
+See every year on the tournament history page.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+Has a 5 seed ever won March Madness?
+No. Nine 5 seeds reached the Final Four since 1985, and four reached the title game. None of them won it.
+How many 5 seeds have made the Final Four?
+Nine teams, in seven tournaments. Two tournaments sent two 5 seeds each: 2010 (Butler and Michigan State) and 2023 (San Diego State and Miami).
+Which 5 seed came closest to winning?
+Butler in 2010. It lost the title game to Duke 61 to 59, the closest of the four 5-seed finals.
+More bracket basics
+Has a 5 seed ever won March Madness?
+What is the lowest seed to win?
+How often does a 1 seed win March Madness?
+How often does a double-digit seed make the Final Four?
+March Madness upset analysis
+How often does a 12 seed beat a 5 seed?
+Share this page
+.fmbshare{margin:28px auto 8px;text-align:center}.fmb-share-btn{min-height:48px;padding:12px 26px;border-radius:999px;border:0;background:var(--accent,#7c2d12);color:#fff;font:inherit;font-weight:700;cursor:pointer}.fmbshare p{min-height:1.2em;margin:8px 0 0;font-size:.92rem}
+Built with Muse.
+Home Privacy Terms
+
+
+## What is a chalk bracket? (https://fillmybracket.com/what-is-a-chalk-bracket)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+What is a chalk bracket?
+A chalk bracket picks the better seed in every game. The better seed is the lower seed number: a 1 seed over a 16 seed, a 5 seed over a 12 seed. An all-chalk bracket never picks an upset.
+126 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+What all-chalk scored in the last five tournaments
+This site replayed the last five tournaments, game by game.
+Here is what an all-chalk bracket would have picked right.
+Year
+Games the better seed won
+First-round upsets
+Upsets in all 63 games
+2022
+42 of 63
+10
+21
+2023
+44 of 63
+7
+19
+2024
+43 of 63
+11
+19
+2025
+49 of 63
+7
+11
+2026
+46 of 63
+8
+16
+Read each year in full: the 2022 backtest , the 2023 backtest , the 2024 backtest , the 2025 backtest , and the 2026 backtest .
+Chalk wins most games. It never wins them all.
+The best chalk year was 2025, with 49 of 63 right.
+The worst was 2022, with 42 of 63 right.
+Even in 2025, when all four Final Four teams were 1 seeds, 11 games were upsets.
+No backtested year came close to a perfect bracket.
+A perfect bracket is worth 1,920 points in the common scoring system.
+See how bracket scoring works .
+Why chalk falls short
+Upsets are normal, not rare.
+Since 1985, the worse seed won 341 of 1,312 first-round games.
+That is about one first-round game in four.
+An all-chalk bracket gives every one of those games away.
+It also hands the title to a 1 seed every year.
+That part works often: 27 of 41 champions since 1985 were 1 seeds.
+See how often a 1 seed wins March Madness .
+How we counted
+The year lines come from this site’s five backtests, 2022 to 2026.
+Each one counted all 63 games of that year’s main bracket.
+The first-round line counts all 1,312 first-round games from 1985 to 2026.
+Games between equal seeds are not upsets either way.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+What is a chalk bracket?
+A bracket that picks the better seed, the lower seed number, in every game. It never picks an upset.
+How many games would all-chalk have picked right?
+Between 42 and 49 of 63 in the last five tournaments. The site backtested 2022 to 2026, and the better seed won 42, 44, 43, 49, and 46 games.
+Has an all-chalk bracket ever been perfect?
+Not in any of the five backtested years. Even the chalkiest year, 2025, had 11 upsets in 63 games.
+More bracket basics
+What is a chalk bracket?
+2026 bracket backtest
+2025 bracket backtest
+2024 bracket backtest
+2023 bracket backtest
+2022 bracket backtest
+How does bracket scoring work?
 Share this page
 .fmbshare{margin:28px auto 8px;text-align:center}.fmb-share-btn{min-height:48px;padding:12px 26px;border-radius:999px;border:0;background:var(--accent,#7c2d12);color:#fff;font:inherit;font-weight:700;cursor:pointer}.fmbshare p{min-height:1.2em;margin:8px 0 0;font-size:.92rem}
 Built with Muse.

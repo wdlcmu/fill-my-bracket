@@ -95,6 +95,9 @@
 
 - [How often does a double-digit seed make the Final Four?](https://fillmybracket.com/how-often-does-a-double-digit-seed-make-the-final-four): Seven times in 41 tournaments since 1985. Six were 11 seeds; the other was Syracuse, a 10 seed, in 2016. All seven lost in the semifinals.
 
+- [Has a 5 seed ever won March Madness?](https://fillmybracket.com/has-a-5-seed-ever-won-march-madness): No. Nine 5 seeds reached the Final Four since 1985 and four reached the title game, but none won it. Butler in 2010 came closest, losing by two.
+- [What is a chalk bracket?](https://fillmybracket.com/what-is-a-chalk-bracket): A bracket that picks the better seed in every game. In this site's five backtests, 2022 to 2026, all-chalk would have picked 42 to 49 of 63 games right.
+
 ## Optional
 
 - [Full page text](https://fillmybracket.com/llms-full.txt): the complete text of every page, for readers that prefer one file.
