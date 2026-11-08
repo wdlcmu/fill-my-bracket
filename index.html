@@ -1124,9 +1124,9 @@ else fleetSessionMarks();
       } else if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(url).then(function () {
           msg.textContent = "Link copied. Send it to a friend.";
-        }, function () { msg.textContent = url; });
+        }, function () { msg.textContent = "Sharing didn't work on this device — copy the address from your browser bar to send it."; });
       } else {
-        msg.textContent = url;
+        msg.textContent = "Sharing didn't work on this device — copy the address from your browser bar to send it.";
       }
     });
   })();
