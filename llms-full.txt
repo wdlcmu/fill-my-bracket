@@ -1,9 +1,9 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and seventy-three guide, history, and data pages — one section for every page in the sitemap.
+> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and seventy-four guide, history, and data pages — one section for every page in the sitemap.
 > Fill My Bracket starts a full March Madness bracket from five questions — your picks finish
 > it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
-> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all; four more long-tail pages added 2026-11-06, for seventy sitemap pages in all; four more long-tail pages added 2026-11-06 (wave 4), for seventy-four sitemap pages in all; three more long-tail pages added 2026-11-06 (wave 5), for seventy-seven sitemap pages in all.
+> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all; four more long-tail pages added 2026-11-06, for seventy sitemap pages in all; four more long-tail pages added 2026-11-06 (wave 4), for seventy-four sitemap pages in all; three more long-tail pages added 2026-11-06 (wave 5), for seventy-seven sitemap pages in all; one more long-tail page added 2026-11-08, for seventy-eight sitemap pages in all.
 
 ## Homepage (https://fillmybracket.com/)
 
@@ -3670,7 +3670,7 @@ The widest final was 30 points, by UNLV in 1990.
 Read about it on the biggest blowout in the final page.
 How we counted
 Counted from the site’s game record, 1985 to 2026.
-That is 2,582 played games in all.
+That is 2,583 played games in all.
 See the full record on the tournament history page.
 Five questions start your bracket. Your picks finish it.
 The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
@@ -4044,3 +4044,83 @@ How often do two 1 seeds play in the final?
 How many 1 seeds make the Final Four?
 How often does a 1 seed win March Madness?
 March Madness champions list
+
+
+## How often does a double-digit seed make the Final Four? (https://fillmybracket.com/how-often-does-a-double-digit-seed-make-the-final-four)
+
+Fill My Bracket starts a full March Madness bracket from five questions.
+How often does a double-digit seed make the Final Four?
+Seven times in 41 tournaments since 1985. Six of the seven were 11 seeds. The other was Syracuse, a 10 seed, in 2016. All seven lost in the semifinals.
+126 days until Selection Sunday, Sunday, March 14, 2027.
+Start your bracket
+The seven double-digit Final Four teams
+Year
+Team
+Seed
+How far it went
+1986
+LSU
+11
+Lost in the semifinals
+2006
+George Mason
+11
+Lost in the semifinals
+2011
+VCU
+11
+Lost in the semifinals
+2016
+Syracuse
+10
+Lost in the semifinals
+2018
+Loyola Chicago
+11
+Lost in the semifinals
+2021
+UCLA
+11
+Lost in the semifinals
+2024
+NC State
+11
+Lost in the semifinals
+No seed of 12 or higher has ever done it.
+The lowest seed ever to reach the Final Four is an 11 seed.
+See the full list on the lowest seed to reach the Final Four page.
+So close, then done
+Every one of the seven lost its semifinal game.
+None of them reached the title game.
+No double-digit seed has ever won the title.
+The lowest seed to win is an 8 seed: Villanova, in 1985.
+Read about it on the lowest seed to win March Madness page.
+The run usually ends a round earlier
+A double-digit seed reached the Sweet 16 in 39 of 41 tournaments.
+The Final Four is a different wall.
+Only seven teams in 41 years got through it.
+See the counted record in the full upset analysis , and the first-round spots in how to pick upsets .
+How we counted
+Counted from the site’s tournament record, 1985 to 2026.
+That is 41 tournaments. There was no tournament in 2020.
+See every year on the tournament history page.
+Five questions start your bracket. Your picks finish it.
+The picker opens on Selection Sunday, March 14, 2027. Name your favorite and your upsets.
+Common questions
+How often does a double-digit seed make the Final Four?
+Seven times in 41 tournaments since 1985. Six were 11 seeds, and one was a 10 seed, Syracuse in 2016.
+Has a double-digit seed ever won March Madness?
+No. The lowest seed to win is an 8 seed, Villanova in 1985. None of the seven double-digit Final Four teams reached the title game.
+What is the lowest seed to reach the Final Four?
+An 11 seed. Six 11 seeds have done it, most recently NC State in 2024.
+More bracket basics
+How often does a double-digit seed make the Final Four?
+What is the lowest seed to reach the Final Four?
+What is the lowest seed to win?
+What is a Cinderella team?
+March Madness upset analysis
+How to pick upsets
+Share this page
+.fmbshare{margin:28px auto 8px;text-align:center}.fmb-share-btn{min-height:48px;padding:12px 26px;border-radius:999px;border:0;background:var(--accent,#7c2d12);color:#fff;font:inherit;font-weight:700;cursor:pointer}.fmbshare p{min-height:1.2em;margin:8px 0 0;font-size:.92rem}
+Built with Muse.
+Home Privacy Terms

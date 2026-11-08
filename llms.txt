@@ -93,6 +93,8 @@
 - [Which March Madness tournament had the fewest upsets?](https://fillmybracket.com/which-march-madness-tournament-had-the-fewest-upsets): The 2025 tournament, with 11 upsets in 63 games. A normal year has about 18. The most was 23, in 1999.
 - [How often do two 1 seeds play in the championship game?](https://fillmybracket.com/how-often-do-two-1-seeds-play-in-the-championship-game): Eleven times in 47 finals since seeding began in 1979. The last two finals, in 2024 and 2025, both paired two 1 seeds.
 
+- [How often does a double-digit seed make the Final Four?](https://fillmybracket.com/how-often-does-a-double-digit-seed-make-the-final-four): Seven times in 41 tournaments since 1985. Six were 11 seeds; the other was Syracuse, a 10 seed, in 2016. All seven lost in the semifinals.
+
 ## Optional
 
 - [Full page text](https://fillmybracket.com/llms-full.txt): the complete text of every page, for readers that prefer one file.
