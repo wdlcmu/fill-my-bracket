@@ -29,7 +29,7 @@
   transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 .rg-team:hover { border-color: var(--orange-soft); }
-.rg-team:focus-visible, .rg-next:focus-visible, .rg-again:focus-visible, .rg-linkbtn:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.rg-team:focus-visible, .rg-next:focus-visible, .rg-again:focus-visible, .rg-share:focus-visible, .rg-linkbtn:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
 .rg-seed {
   flex: 0 0 auto; width: 2.6rem; height: 2.6rem; border-radius: 999px;
   background: var(--orange); color: var(--navy); font-weight: 800; font-size: 1.25rem;
@@ -46,12 +46,12 @@
 .rg-verdict { font-size: 1.05rem; font-weight: 800; color: var(--cream); }
 .rg-verdict .good { color: var(--orange-soft); }
 .rg-line { color: var(--muted); font-size: 0.93rem; line-height: 1.45; margin: 0.35rem auto 0; max-width: 30rem; }
-.rg-next, .rg-again {
+.rg-next, .rg-again, .rg-share {
   margin-top: 0.8rem; background: var(--orange); color: var(--navy); border: 0;
   font: inherit; font-size: 1rem; font-weight: 800; border-radius: 999px;
   padding: 0.6rem 1.5rem; min-height: 48px; cursor: pointer;
 }
-.rg-next:hover, .rg-again:hover { background: var(--orange-soft); }
+.rg-next:hover, .rg-again:hover, .rg-share:hover { background: var(--orange-soft); }
 .rg-end { text-align: center; }
 .rg-final-score { font-size: clamp(2.4rem, 10vw, 3.2rem); font-weight: 800; line-height: 1.05; color: var(--cream); font-variant-numeric: tabular-nums; }
 .rg-final-score span { color: var(--orange); }
@@ -67,6 +67,7 @@
 .rg-recap .mark.miss { color: var(--muted); }
 .rg-recap .sc { margin-left: auto; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
 .rg-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; margin-top: 1rem; }
+.rg-share-msg { color: var(--muted); font-size: 0.93rem; min-height: 1.4em; margin-top: 0.6rem; }
 .rg-linkbtn {
   display: inline-flex; align-items: center; justify-content: center;
   background: none; border: 1px solid var(--orange); color: var(--orange-soft);

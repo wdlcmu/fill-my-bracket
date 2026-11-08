@@ -228,6 +228,28 @@
     });
     card.appendChild(recap);
     var actions = el("div", "rg-actions");
+    var shareMsg = el("p", "rg-share-msg");
+    shareMsg.setAttribute("role", "status");
+    shareMsg.setAttribute("aria-live", "polite");
+    var shareBtn = el("button", "rg-share", "Share your card");
+    shareBtn.type = "button";
+    shareBtn.id = "replayShareBtn";
+    shareBtn.addEventListener("click", function () {
+      var shareUrl = "https://fillmybracket.com/?via=share";
+      var shareText = "I called " + score + " of 8 in the March 2026 replay — try it:";
+      track("share_intent", { surface: "share", via: "replay" });
+      var data = { title: "Fill My Bracket", text: shareText, url: shareUrl };
+      if (navigator.share) {
+        navigator.share(data).catch(function () {});
+      } else if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(shareText + " " + shareUrl).then(function () {
+          shareMsg.textContent = "Link copied. Send it to a friend.";
+        }, function () { shareMsg.textContent = "Sharing didn't work on this device — copy the address from your browser bar to send it."; });
+      } else {
+        shareMsg.textContent = "Sharing didn't work on this device — copy the address from your browser bar to send it.";
+      }
+    });
+    actions.appendChild(shareBtn);
     var again = el("button", "rg-again", "Play again");
     again.type = "button";
     again.addEventListener("click", function () {
@@ -244,6 +266,7 @@
     every.href = "/which-first-round-upsets-happen-most";
     actions.appendChild(every);
     card.appendChild(actions);
+    card.appendChild(shareMsg);
     mount.appendChild(card);
   }
 
