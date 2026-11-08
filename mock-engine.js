@@ -710,6 +710,9 @@ function buildFromAnswers(dataByTournament, answers) {
 // validation anyway).
 function buildShareSummary(bracket) {
   const lines = [];
+  // SPEC-FMB-SHARE1108-01 (Nov 8, 2026): a result share leads with the
+  // outcome in plain words - the champion first - never the site pitch.
+  lines.push(`My mock bracket: ${sanitizeInlineText(bracket.champion.name)} wins it all.`);
   lines.push(`My bracket - ${sanitizeInlineText(bracket.dataLabel)}`);
   if (bracket.isTestData) lines.push("TEST DATA - not the real tournament field.");
   if (bracket.championPickNote) lines.push(sanitizeInlineText(bracket.championPickNote));
@@ -721,7 +724,7 @@ function buildShareSummary(bracket) {
     const loser = g.winner.id === g.a.id ? g.b : g.a;
     lines.push(`  ${g.round}: ${sanitizeInlineText(g.winner.name)} (seed ${g.winner.seed}) over ${sanitizeInlineText(loser.name)} - ${sanitizeInlineText(g.reason)}`);
   }
-  lines.push("", "Filled with Fill My Bracket. Five questions, one full bracket: https://fillmybracket.com/?via=share");
+  lines.push("", "Make yours: https://fillmybracket.com/mock-bracket?via=share");
   return lines.join("\n");
 }
 

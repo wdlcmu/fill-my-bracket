@@ -342,7 +342,7 @@
     var msg = $("shareMsg");
     track("share_intent", { surface: "share", via: "mock" });
     if (navigator.share) {
-      navigator.share({ title: "Fill My Bracket - mock bracket", text: summary }).catch(function () {});
+      navigator.share({ title: "My mock bracket: " + bracket.champion.name + " wins it all", text: summary, url: "https://fillmybracket.com/mock-bracket?via=share" }).catch(function () {});
     } else if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(summary).then(function () {
         msg.textContent = "Copied. Paste it anywhere - a pool chat, a note, a fridge door.";
