@@ -780,8 +780,8 @@ The First Four is March 16 and 17, 2027. The first round of the main bracket sta
 ## How often do upsets happen? (https://fillmybracket.com/how-often-do-upsets-happen)
 
 How often do upsets happen in March Madness?
-Every year. Since 1985, the lower seed has won about one first-round game in four. Picking all favorites is not the safe play it looks like.
-Visual: First-round upset rates since 1985: 9 seeds beat 8 seeds 52 times in 100, 10 seeds beat 7 seeds 39 times in 100, 11 over 6 is 39, 12 over 5 is 36, 13 over 4 is 21, 14 over 3 is 14, 15 over 2 is 7, 16 over 1 is 1.
+Every year. Since 1985, in the men's tournament, the lower seed has won about one first-round game in four. Picking all favorites is not the safe play it looks like.
+Visual: First-round upset rates since 1985: 9 seeds beat 8 seeds 53 times in 100, 10 seeds beat 7 seeds 38 times in 100, 11 over 6 is 39, 12 over 5 is 35, 13 over 4 is 20, 14 over 3 is 14, 15 over 2 is 7, 16 over 1 is 1.
 The first-round seed math, since 1985
 12 seed vs 5 seed: 58 wins in 164 games. 11 seed vs 6 seed: 64 wins in 164 games. 10 seed vs 7 seed: 63 wins in 164 games. 13 seed vs 4 seed: 33 wins in 164 games. 14 seed vs 3 seed: 23 wins in 164 games. 15 seed vs 2 seed: 11 wins in 164 games. 16 seed vs 1 seed: 2 wins in 164 games.
 The 12-over-5 upset is the famous one. The 8-vs-9 game is a coin flip. In fact, 9 seeds win it a bit more than half the time. We counted every game ourselves. All 2,583 men's tournament games, 1985 to 2026. In all, the lower seed has won 341 of 1,312 first-round games. That is about 8 upsets a year. First Four games are not counted. Every rate here starts at the round of 64. The full chart: which first-round upsets happen most.
@@ -796,7 +796,7 @@ Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 How often do upsets happen in March Madness?
-Every year. Since 1985, the lower seed has won about one first-round game in four. The famous 12-over-5 upset happens about 35 times in 100 tries, and 11 seeds beat 6 seeds about 39 times in 100.
+Every year. Since 1985, in the men's tournament, the lower seed has won about one first-round game in four. The famous 12-over-5 upset happens about 36 times in 100 tries, and 11 seeds beat 6 seeds about 39 times in 100.
 Has a 16 seed ever beaten a 1 seed?
 Yes, twice. UMBC beat Virginia in 2018, and Fairleigh Dickinson beat Purdue in 2023. In 164 tries, those are the only two.
 
@@ -827,7 +827,7 @@ How to pick upsets in March Madness
 Pick a few, in the right spots. About one first-round game in four is an upset, and most of them live in the same few matchups.
 Visual: First-round upset rates since 1985: 10 seeds beat 7 seeds 39 times in 100, 11 over 6 is 39, 12 over 5 is 36.
 Five rules, from the seed math
-Start with the 12-over-5 game. It hits about 35 times in 100. Add an 11 seed over a 6 seed. About 39 in 100, since 1985. Take two or three first-round upsets. That matches history without betting the bracket. Stop before the late rounds. Favorites rule late. Keep your champion a 1 or 2 seed. Never spend a pick on 16 over 1. Twice, ever, in 164 tries. Treat the 8-vs-9 game as a coin flip, not an upset. One low seed in your Sweet 16 is normal. Two is a story.
+Start with the 12-over-5 game. It hits about 36 times in 100. Add an 11 seed over a 6 seed. About 39 in 100, since 1985. Take two or three first-round upsets. That matches history without betting the bracket. Stop before the late rounds. Favorites rule late. Keep your champion a 1 or 2 seed. Never spend a pick on 16 over 1. Twice, ever, in 164 tries. Treat the 8-vs-9 game as a coin flip, not an upset. One low seed in your Sweet 16 is normal. Two is a story.
 A worked example
 Say you take two 12 seeds and one 11 seed. Each pick hits about 36 to 39 times in 100. Together, the chance at least one lands is about 3 in 4. Your other 29 first-round picks can stay safe. One landed upset beats every all-favorite bracket on that game.
 How our picker does it
@@ -917,7 +917,7 @@ Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 How often does a 10 seed beat a 7 seed?
-About 39 times in 100. Since 1985, 10 seeds have won 63 of 164 games against 7 seeds in the men's tournament.
+About 38 times in 100. Since 1985, 10 seeds have won 63 of 164 games against 7 seeds in the men's tournament.
 Did a 10 seed win in 2025?
 Yes, twice. Arkansas beat Kansas, and New Mexico beat Marquette. Arkansas reached the Sweet 16.
 
@@ -1030,7 +1030,7 @@ Flip a coin on the close ones. The 8-vs-9 game is a true coin flip. Treat it lik
 Mix them. Seeds for most games, mascots for the rest.
 Two rules that keep you in it
 Take a few upsets early. Low seeds win about one first-round game in four.
-The 12 seed beats the 5 seed about 35 times in 100.
+The 12 seed beats the 5 seed about 36 times in 100.
 Pick two or three of those, and stop there.
 Read how to pick upsets.
 Keep your champion safe. Champions are almost always 1 or 2 seeds.
@@ -1412,15 +1412,15 @@ Lower seeds won
 first-round games, about one in four.
 Each matchup below has been played exactly 164 times.
 9 vs 8
-~52%
+~53%
 10 vs 7
-~39%
+~38%
 11 vs 6
 ~39%
 12 vs 5
-~36%
+~35%
 13 vs 4
-~21%
+~20%
 14 vs 3
 ~14%
 15 vs 2
