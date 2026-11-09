@@ -336,7 +336,7 @@ A team that starts in the main bracket must win six straight games. A team that 
 
 What is the NIT?
 The NIT is postseason basketball's second stage. Strong teams miss March Madness yearly. The NIT invites the best of them.
-Visual: Bar showing the 100 postseason spots in 2027: 68 in the NCAA tournament and 32 in the NIT.
+Visual: Bar showing the 108 postseason spots in 2027: 76 in the NCAA tournament and 32 in the NIT.
 The full name says it
 NIT stands for National Invitation Tournament.
 Invitations decide the whole field here.
