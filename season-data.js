@@ -1,9 +1,12 @@
 /* Fill My Bracket - season data (projected field + rankings snapshots).
    THE RE-BASE POINT: a refresh replaces this file's field block with the
    newest bracketology projection and appends one rankings snapshot.
-   Field: CBS Sports preseason bracketology, Oct. 30, 2026 (see header in
-   scripts/build_data.py of the Nov 8, 2026 lane for provenance).
-   Rankings: Preseason AP Top 25 (Associated Press, Oct. 19, 2026). */
+   Field: CBS Sports preseason bracketology, Oct. 30, 2026, carried
+   forward on Nov. 9, 2026: no newer complete CBS Sports or ESPN
+   bracketology had been published, so the field is NOT re-dated.
+   Its teams' ap fields carry the Nov. 9, 2026 AP ranks.
+   Rankings: Preseason AP Top 25 (Oct. 19, 2026) + AP Top 25, Week 1
+   (Associated Press, Nov. 9, 2026). */
 window.FMB_SEASON = {
  "field": {
   "id": "mens-projected-2027-2026-11-08",
@@ -93,7 +96,7 @@ window.FMB_SEASON = {
         "conf": "SEC",
         "mascot": "Razorbacks",
         "colors": "cardinal and white",
-        "ap": 12
+        "ap": 19
        }
       ]
      },
@@ -129,7 +132,7 @@ window.FMB_SEASON = {
         "conf": "Big 12",
         "mascot": "Cyclones",
         "colors": "cardinal and gold",
-        "ap": 18
+        "ap": null
        }
       ]
      },
@@ -157,7 +160,7 @@ window.FMB_SEASON = {
         "conf": "Big Ten",
         "mascot": "Cornhuskers",
         "colors": "scarlet and cream",
-        "ap": null
+        "ap": 25
        }
       ]
      },
@@ -193,7 +196,7 @@ window.FMB_SEASON = {
         "conf": "Big 12",
         "mascot": "Jayhawks",
         "colors": "blue and crimson",
-        "ap": 17
+        "ap": 15
        }
       ]
      },
@@ -249,7 +252,7 @@ window.FMB_SEASON = {
         "conf": "SEC",
         "mascot": "Crimson Tide",
         "colors": "crimson and white",
-        "ap": 20
+        "ap": 18
        }
       ]
      },
@@ -291,7 +294,7 @@ window.FMB_SEASON = {
         "conf": "Big 12",
         "mascot": "Cougars",
         "colors": "red and white",
-        "ap": 10
+        "ap": 8
        }
       ]
      },
@@ -341,7 +344,7 @@ window.FMB_SEASON = {
         "conf": "Big Ten",
         "mascot": "Bruins",
         "colors": "blue and gold",
-        "ap": 22
+        "ap": 9
        }
       ]
      },
@@ -355,7 +358,7 @@ window.FMB_SEASON = {
         "conf": "Big Ten",
         "mascot": "Wolverines",
         "colors": "maize and blue",
-        "ap": 16
+        "ap": 20
        }
       ]
      },
@@ -391,7 +394,7 @@ window.FMB_SEASON = {
         "conf": "SEC",
         "mascot": "Volunteers",
         "colors": "orange and white",
-        "ap": 8
+        "ap": 11
        }
       ]
      },
@@ -447,7 +450,7 @@ window.FMB_SEASON = {
         "conf": "ACC",
         "mascot": "Cavaliers",
         "colors": "navy and orange",
-        "ap": 9
+        "ap": 6
        }
       ]
      },
@@ -475,7 +478,7 @@ window.FMB_SEASON = {
         "conf": "SEC",
         "mascot": "Wildcats",
         "colors": "blue and white",
-        "ap": 23
+        "ap": 24
        }
       ]
      },
@@ -573,7 +576,7 @@ window.FMB_SEASON = {
         "conf": "Big 12",
         "mascot": "Cougars",
         "colors": "navy and white",
-        "ap": 25
+        "ap": 23
        }
       ]
      },
@@ -637,7 +640,7 @@ window.FMB_SEASON = {
         "conf": "Pac-12",
         "mascot": "Bulldogs",
         "colors": "navy and white",
-        "ap": 15
+        "ap": 14
        }
       ]
      },
@@ -665,7 +668,7 @@ window.FMB_SEASON = {
         "conf": "ACC",
         "mascot": "Hurricanes",
         "colors": "orange and green",
-        "ap": 14
+        "ap": 17
        }
       ]
      },
@@ -701,7 +704,7 @@ window.FMB_SEASON = {
         "conf": "Big 12",
         "mascot": "Red Raiders",
         "colors": "red and black",
-        "ap": 19
+        "ap": 16
        }
       ]
      },
@@ -799,7 +802,7 @@ window.FMB_SEASON = {
         "conf": "Big 12",
         "mascot": "Wildcats",
         "colors": "red and blue",
-        "ap": 5
+        "ap": 12
        }
       ]
      },
@@ -927,7 +930,7 @@ window.FMB_SEASON = {
         "conf": "ACC",
         "mascot": "Cardinals",
         "colors": "red and black",
-        "ap": 11
+        "ap": 10
        }
       ]
      },
@@ -955,7 +958,7 @@ window.FMB_SEASON = {
         "conf": "SEC",
         "mascot": "Commodores",
         "colors": "black and gold",
-        "ap": 24
+        "ap": 22
        }
       ]
      },
@@ -1011,7 +1014,7 @@ window.FMB_SEASON = {
         "conf": "Big Ten",
         "mascot": "Spartans",
         "colors": "green and white",
-        "ap": 6
+        "ap": 5
        }
       ]
      },
@@ -1247,6 +1250,219 @@ window.FMB_SEASON = {
      }
     ],
     "othersReceivingVotes": "Missouri 167, Nebraska 70, Purdue 53, Ohio State 39, North Carolina 20, TCU 17, Saint Louis 13, VCU 12, Iowa 12, Virginia Tech 10, Indiana 8, Texas A&M 6, Villanova 6, Auburn 4, Marquette 3, Nevada 2, Grand Canyon 2, Utah State 2, Santa Clara 1"
+   },
+   {
+    "date": "2026-11-09",
+    "pollName": "AP Top 25, Week 1",
+    "pollSource": "The Associated Press",
+    "pollReleaseDate": "2026-11-09",
+    "pollNote": "First in-season AP poll, released Monday, Nov. 9, 2026. Florida stays No. 1 with 53 of 60 first-place votes; Duke holds the other 7. UCLA is the biggest riser (22 to 9); Arizona and Arkansas are the biggest fallers among ranked teams (down 7 each). Iowa State (was 18) fell out; Nebraska enters at 25. No newer complete CBS Sports or ESPN bracketology had been published as of Nov. 9, so the projected field still carries the CBS Sports preseason projection (Oct. 30, 2026), not re-dated.",
+    "modelName": "Bart Torvik T-Rank",
+    "modelReadDate": "2026-11-01",
+    "firstSnapshot": false,
+    "rows": [
+     {
+      "rank": 1,
+      "team": "Florida",
+      "firstPlaceVotes": 53,
+      "modelRank": 3,
+      "prevRank": 1,
+      "projectedSeed": "Midwest 1"
+     },
+     {
+      "rank": 2,
+      "team": "Duke",
+      "firstPlaceVotes": 7,
+      "modelRank": 1,
+      "prevRank": 2,
+      "projectedSeed": "East 1"
+     },
+     {
+      "rank": 3,
+      "team": "Illinois",
+      "firstPlaceVotes": 0,
+      "modelRank": 7,
+      "prevRank": 3,
+      "projectedSeed": "South 2"
+     },
+     {
+      "rank": 4,
+      "team": "UConn",
+      "firstPlaceVotes": 0,
+      "modelRank": 13,
+      "prevRank": 4,
+      "projectedSeed": "Midwest 2"
+     },
+     {
+      "rank": 5,
+      "team": "Michigan State",
+      "firstPlaceVotes": 0,
+      "modelRank": 11,
+      "prevRank": 6,
+      "projectedSeed": "West 2"
+     },
+     {
+      "rank": 6,
+      "team": "Virginia",
+      "firstPlaceVotes": 0,
+      "modelRank": 5,
+      "prevRank": 9,
+      "projectedSeed": "South 3"
+     },
+     {
+      "rank": 7,
+      "team": "Texas",
+      "firstPlaceVotes": 0,
+      "modelRank": 18,
+      "prevRank": 7,
+      "projectedSeed": "West 4"
+     },
+     {
+      "rank": 8,
+      "team": "Houston",
+      "firstPlaceVotes": 0,
+      "modelRank": 6,
+      "prevRank": 10,
+      "projectedSeed": "South 1"
+     },
+     {
+      "rank": 9,
+      "team": "UCLA",
+      "firstPlaceVotes": 0,
+      "modelRank": 24,
+      "prevRank": 22,
+      "projectedSeed": "South 9"
+     },
+     {
+      "rank": 10,
+      "team": "Louisville",
+      "firstPlaceVotes": 0,
+      "modelRank": 9,
+      "prevRank": 11,
+      "projectedSeed": "West 6"
+     },
+     {
+      "rank": 11,
+      "team": "Tennessee",
+      "firstPlaceVotes": 0,
+      "modelRank": 16,
+      "prevRank": 8,
+      "projectedSeed": "South 4"
+     },
+     {
+      "rank": 12,
+      "team": "Arizona",
+      "firstPlaceVotes": 0,
+      "modelRank": 2,
+      "prevRank": 5,
+      "projectedSeed": "West 1"
+     },
+     {
+      "rank": 13,
+      "team": "St. John's",
+      "firstPlaceVotes": 0,
+      "modelRank": 33,
+      "prevRank": 13,
+      "projectedSeed": "Midwest 5"
+     },
+     {
+      "rank": 14,
+      "team": "Gonzaga",
+      "firstPlaceVotes": 0,
+      "modelRank": 8,
+      "prevRank": 15,
+      "projectedSeed": "Midwest 4"
+     },
+     {
+      "rank": 15,
+      "team": "Kansas",
+      "firstPlaceVotes": 0,
+      "modelRank": 4,
+      "prevRank": 17,
+      "projectedSeed": "East 3"
+     },
+     {
+      "rank": 16,
+      "team": "Texas Tech",
+      "firstPlaceVotes": 0,
+      "modelRank": 17,
+      "prevRank": 19,
+      "projectedSeed": "Midwest 3"
+     },
+     {
+      "rank": 17,
+      "team": "Miami",
+      "firstPlaceVotes": 0,
+      "modelRank": 12,
+      "prevRank": 14,
+      "projectedSeed": "Midwest 6"
+     },
+     {
+      "rank": 18,
+      "team": "Alabama",
+      "firstPlaceVotes": 0,
+      "modelRank": 20,
+      "prevRank": 20,
+      "projectedSeed": "East 2"
+     },
+     {
+      "rank": 19,
+      "team": "Arkansas",
+      "firstPlaceVotes": 0,
+      "modelRank": 21,
+      "prevRank": 12,
+      "projectedSeed": "East 5"
+     },
+     {
+      "rank": 20,
+      "team": "Michigan",
+      "firstPlaceVotes": 0,
+      "modelRank": 14,
+      "prevRank": 16,
+      "projectedSeed": "South 5"
+     },
+     {
+      "rank": 21,
+      "team": "USC",
+      "firstPlaceVotes": 0,
+      "modelRank": 37,
+      "prevRank": 21,
+      "projectedSeed": null
+     },
+     {
+      "rank": 22,
+      "team": "Vanderbilt",
+      "firstPlaceVotes": 0,
+      "modelRank": 22,
+      "prevRank": 24,
+      "projectedSeed": "West 3"
+     },
+     {
+      "rank": 23,
+      "team": "BYU",
+      "firstPlaceVotes": 0,
+      "modelRank": 23,
+      "prevRank": 25,
+      "projectedSeed": "Midwest 8"
+     },
+     {
+      "rank": 24,
+      "team": "Kentucky",
+      "firstPlaceVotes": 0,
+      "modelRank": 26,
+      "prevRank": 23,
+      "projectedSeed": "South 7"
+     },
+     {
+      "rank": 25,
+      "team": "Nebraska",
+      "firstPlaceVotes": 0,
+      "modelRank": 15,
+      "prevRank": null,
+      "projectedSeed": "East 6"
+     }
+    ],
+    "othersReceivingVotes": "Memphis 97, Saint Louis 67, Iowa State 57, North Carolina 20, Iowa 15, Baylor 14, TCU 13, Marquette 10, Indiana 7, Nevada 5, Texas A&M 5, High Point 3, Santa Clara 2, East Texas A&M 1, Creighton 1, Utah State 1"
    }
   ]
  }
