@@ -153,7 +153,7 @@ localStorage.setItem("fleet_ft2",JSON.stringify(ft));
   <p class="identity">Fill My Bracket starts a full March Madness bracket from five questions.</p>
   <h1>2022 backtest: what all-chalk would have scored</h1>
   <p class="answer"><strong>Kansas beat North Carolina 72–69 for the title.</strong> The better seed won 42 of 63 games. A 15 seed reached the Elite Eight.</p>
-  <p class="countdown" id="countdown">128 days until Selection Sunday, Sunday, March 14, 2027.</p>
+  <p class="countdown" id="countdown">Selection Sunday is Sunday, March 14, 2027.</p>
   <a class="cta-main" href="/">Start your bracket</a>
   
   <div class="viz"><div class="bigstat">
@@ -189,7 +189,7 @@ localStorage.setItem("fleet_ft2",JSON.stringify(ft));
   </div>
 
 <script id="cd-logic">
-(function(){var el=document.getElementById("countdown");if(!el)return;var DATES=[new Date(2027,2,14),new Date(2028,2,12)];function fmt(d){return d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric",year:"numeric"});}function dayText(now){var today=new Date(now.getFullYear(),now.getMonth(),now.getDate());var target=null;for(var i=0;i<DATES.length;i++){if(today<=DATES[i]){target=DATES[i];break;}}if(!target)return "The field is set. The tournament is on.";if(today.getTime()===target.getTime())return "Selection Sunday is today, "+fmt(target)+". The field is set tonight.";var days=Math.max(0,Math.floor((target-now)/86400000));return days+(days===1?" day":" days")+" until Selection Sunday, "+fmt(target)+".";}el.textContent=dayText(new Date());})();
+(function(){var el=document.getElementById("countdown");if(!el)return;var DATES=[new Date(2027,2,14),new Date(2028,2,12)];function fmt(d){return d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric",year:"numeric"});}function dayText(now){var today=new Date(now.getFullYear(),now.getMonth(),now.getDate());var target=null;for(var i=0;i<DATES.length;i++){if(today<=DATES[i]){target=DATES[i];break;}}if(!target)return "The field is set. The tournament is on.";var days=Math.round((target-today)/86400000);if(days===0)return "Selection Sunday is today, "+fmt(target)+". The field is set tonight.";return days+(days===1?" day":" days")+" until Selection Sunday, "+fmt(target)+".";}el.textContent=dayText(new Date());})();
 </script>
 </main>
 <div class="fmbshare"><button type="button" class="fmb-share-btn">Share this page</button><p id="fmb-share-msg" role="status"></p></div>
