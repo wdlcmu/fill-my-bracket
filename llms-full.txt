@@ -784,7 +784,7 @@ Every year. Since 1985, the lower seed has won about one first-round game in fou
 Visual: First-round upset rates since 1985: 9 seeds beat 8 seeds 52 times in 100, 10 seeds beat 7 seeds 39 times in 100, 11 over 6 is 39, 12 over 5 is 36, 13 over 4 is 21, 14 over 3 is 14, 15 over 2 is 7, 16 over 1 is 1.
 The first-round seed math, since 1985
 12 seed vs 5 seed: 58 wins in 164 games. 11 seed vs 6 seed: 64 wins in 164 games. 10 seed vs 7 seed: 63 wins in 164 games. 13 seed vs 4 seed: 33 wins in 164 games. 14 seed vs 3 seed: 23 wins in 164 games. 15 seed vs 2 seed: 11 wins in 164 games. 16 seed vs 1 seed: 2 wins in 164 games.
-The 12-over-5 upset is the famous one. The 8-vs-9 game is a coin flip. In fact, 9 seeds win it a bit more than half the time. We counted every game ourselves. All 2,583 men's tournament games, 1985 to 2026. First Four games are not counted. Every rate here starts at the round of 64. The full chart: which first-round upsets happen most.
+The 12-over-5 upset is the famous one. The 8-vs-9 game is a coin flip. In fact, 9 seeds win it a bit more than half the time. We counted every game ourselves. All 2,583 men's tournament games, 1985 to 2026. In all, the lower seed has won 341 of 1,312 first-round games. That is about 8 upsets a year. First Four games are not counted. Every rate here starts at the round of 64. The full chart: which first-round upsets happen most.
 The two wins nobody forgets
 A 16 seed has beaten a 1 seed twice. UMBC beat Virginia in 2018. Fairleigh Dickinson beat Purdue in 2023. 164 tries. Two wins.
 What happens late

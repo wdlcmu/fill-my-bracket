@@ -80,8 +80,6 @@
   .cdx-more:hover { color: var(--orange-soft); }
   .cdx-more:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; border-radius: 8px; }
   .cdx-panel { border: 1px solid var(--line); border-radius: 12px; padding: .75rem .95rem; margin-top: .4rem; background: var(--navy); text-align: left; position: relative; }
-  .cdx-break { font-weight: 700; margin: 0 0 .3rem; color: var(--cream); }
-  .cdx-break:empty { display: none; }
   .cdx-mile { margin: 0; color: var(--cream); }
   .bracket-art {
     margin-top: 2rem; width: 100%; max-width: 46rem;
@@ -624,7 +622,6 @@ window.FLEET_CFG = {
     </a>
     <button class="cdx-more" id="cdx-more" type="button" aria-expanded="false" aria-controls="cdx-panel" hidden>What&rsquo;s next? <span aria-hidden="true">&#9662;</span></button>
     <div class="cdx-panel" id="cdx-panel" hidden>
-      <p class="cdx-break" id="cdx-break"></p>
       <p class="cdx-mile" id="cdx-mile">Fill it <strong>Sunday night, March 14</strong>. Pools lock the morning of <strong>Thursday, March 18</strong>.</p>
     </div>
   </div>
@@ -665,14 +662,9 @@ window.FLEET_CFG = {
     <p class="play-foot" data-fyg-watch>Every score is real, counted from men&rsquo;s tournament games, 1985 to 2026. <a href="/which-first-round-upsets-happen-most">See every matchup &rarr;</a> <a href="/tournament-history">Explore past tournaments &rarr;</a></p>
     <div class="fact-cards">
       <div class="fc">
-        <p class="fc-label">First-round upsets in a normal year</p>
-        <p class="fc-num"><span class="countup" data-target="8" data-prefix="About ">About 8</span></p>
-        <p class="fc-line">Counted over 41 tournaments, 1985 to 2026.</p>
-      </div>
-      <div class="fc">
         <p class="fc-label">First-round games won by the lower seed</p>
         <p class="fc-num"><span class="countup" data-target="26" data-suffix="%">26%</span></p>
-        <p class="fc-line">341 of 1,312 first-round games since 1985. About 1 in 4.</p>
+        <p class="fc-line">341 of 1,312 first-round games since 1985.</p>
       </div>
       <div class="fc">
         <p class="fc-label">Tournaments with a double-digit seed in the Sweet 16 (the round when 16 teams are left)</p>
@@ -1083,7 +1075,6 @@ window.FLEET_CFG = {
     var dLab = document.getElementById("cdx-dl");
     var moreBtn = document.getElementById("cdx-more");
     var panel = document.getElementById("cdx-panel");
-    var breakEl = document.getElementById("cdx-break");
       var mileEl = document.getElementById("cdx-mile");
       var lastMileKey = "";
 
@@ -1095,26 +1086,13 @@ window.FLEET_CFG = {
       var m = Math.floor(s / 60);
       return { d: d, h: h, m: m, s: s - m * 60 };
     }
-    var lastMs = null, panelOpen = false, lastBreakMin = -1, lastAriaMin = -1;
-    function updateBreak(now) {
-      if (!breakEl) return;
-      var min = Math.floor(now.getTime() / 60000);
-      if (min === lastBreakMin) return;
-      lastBreakMin = min;
-      if (lastMs === null) { breakEl.textContent = ""; return; }
-      var p = cdParts(lastMs), w = Math.floor(p.d / 7), rd = p.d - w * 7, seg = [];
-      if (w > 0) seg.push(cdUnit(w, "week"));
-      if (rd > 0) seg.push(cdUnit(rd, "day"));
-      seg.push(cdUnit(p.h, "hour"));
-      breakEl.textContent = "Time left: " + seg.join(", ") + ".";
-    }
+    var panelOpen = false, lastAriaMin = -1;
     if (moreBtn && panel) {
       moreBtn.hidden = false;
       moreBtn.addEventListener("click", function () {
         panelOpen = !panelOpen;
         panel.hidden = !panelOpen;
         moreBtn.setAttribute("aria-expanded", panelOpen ? "true" : "false");
-        if (panelOpen) { lastBreakMin = -1; updateBreak(new Date()); }
       });
     }
 
@@ -1153,9 +1131,8 @@ window.FLEET_CFG = {
           else mileEl.innerHTML = "The picker opens on Selection Sunday, <strong>" + fmt(target) + "</strong>.";
         }
       }
-      if (tickMs !== null) { lastMs = tickMs; showDigits(tickMs, tail); setAria(cdTick(tickMs, tail), now); }
-      else { lastMs = null; showSentence(sentence); setAria(sentence, now); }
-      if (panelOpen) updateBreak(now);
+      if (tickMs !== null) { showDigits(tickMs, tail); setAria(cdTick(tickMs, tail), now); }
+      else { showSentence(sentence); setAria(sentence, now); }
     }
     render();
     setInterval(render, RM ? 60000 : 1000);
