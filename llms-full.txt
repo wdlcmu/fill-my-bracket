@@ -796,7 +796,7 @@ Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 How often do upsets happen in March Madness?
-Every year. Since 1985, in the men's tournament, the lower seed has won about one first-round game in four. The famous 12-over-5 upset happens about 36 times in 100 tries, and 11 seeds beat 6 seeds about 39 times in 100.
+Every year. Since 1985, in the men's tournament, the lower seed has won about one first-round game in four. The famous 12-over-5 upset happens about 35 times in 100 tries, and 11 seeds beat 6 seeds about 39 times in 100.
 Has a 16 seed ever beaten a 1 seed?
 Yes, twice. UMBC beat Virginia in 2018, and Fairleigh Dickinson beat Purdue in 2023. In 164 tries, those are the only two.
 
@@ -825,11 +825,11 @@ To reward the best teams and save the big games for late. First-round games pair
 
 How to pick upsets in March Madness
 Pick a few, in the right spots. About one first-round game in four is an upset, and most of them live in the same few matchups.
-Visual: First-round upset rates since 1985: 10 seeds beat 7 seeds 39 times in 100, 11 over 6 is 39, 12 over 5 is 36.
+Visual: First-round upset rates since 1985: 10 seeds beat 7 seeds 39 times in 100, 11 over 6 is 39, 12 over 5 is 35.
 Five rules, from the seed math
-Start with the 12-over-5 game. It hits about 36 times in 100. Add an 11 seed over a 6 seed. About 39 in 100, since 1985. Take two or three first-round upsets. That matches history without betting the bracket. Stop before the late rounds. Favorites rule late. Keep your champion a 1 or 2 seed. Never spend a pick on 16 over 1. Twice, ever, in 164 tries. Treat the 8-vs-9 game as a coin flip, not an upset. One low seed in your Sweet 16 is normal. Two is a story.
+Start with the 12-over-5 game. It hits about 35 times in 100. Add an 11 seed over a 6 seed. About 39 in 100, since 1985. Take two or three first-round upsets. That matches history without betting the bracket. Stop before the late rounds. Favorites rule late. Keep your champion a 1 or 2 seed. Never spend a pick on 16 over 1. Twice, ever, in 164 tries. Treat the 8-vs-9 game as a coin flip, not an upset. One low seed in your Sweet 16 is normal. Two is a story.
 A worked example
-Say you take two 12 seeds and one 11 seed. Each pick hits about 36 to 39 times in 100. Together, the chance at least one lands is about 3 in 4. Your other 29 first-round picks can stay safe. One landed upset beats every all-favorite bracket on that game.
+Say you take two 12 seeds and one 11 seed. Each pick hits about 35 to 39 times in 100. Together, the chance at least one lands is about 3 in 4. Your other 29 first-round picks can stay safe. One landed upset beats every all-favorite bracket on that game.
 How our picker does it
 Our picker scores every team by seed strength. A 5 seed starts at 24. A 12 seed starts at 10. Your chaos answer hands the lower seed a bonus. Turn chaos up, and the 12 seed can pass the 5. Turn it down, and the favorite holds.
 Five questions start your bracket. Your picks finish it.
@@ -1030,7 +1030,7 @@ Flip a coin on the close ones. The 8-vs-9 game is a true coin flip. Treat it lik
 Mix them. Seeds for most games, mascots for the rest.
 Two rules that keep you in it
 Take a few upsets early. Low seeds win about one first-round game in four.
-The 12 seed beats the 5 seed about 36 times in 100.
+The 12 seed beats the 5 seed about 35 times in 100.
 Pick two or three of those, and stop there.
 Read how to pick upsets.
 Keep your champion safe. Champions are almost always 1 or 2 seeds.
@@ -3131,10 +3131,10 @@ When is Selection Sunday 2027?
 
 Every March Madness since 1985, game by game.
 Pick a year and the whole tournament unfolds: every score, every upset, and the road the champion took. Tap any team to see its story. 2,583 games, all counted from the real brackets.
-There was no tournament in 2020 — it was cancelled. Games are shown as they were played; a few teams later had results vacated by the NCAA, and those games still count here.
+There was no tournament in 2020, it was cancelled. Games are shown as they were played; a few teams later had results vacated by the NCAA, and those games still count here.
 Highlight the champion’s road
 Keep going
-Replay the 2026 first round — call all 8 games
+Replay the 2026 first round: call all 8 games
 March Madness champions list, 1939 to 2026
 Which first-round upsets happen most?
 March Madness upset analysis

@@ -410,16 +410,16 @@ window.FLEET_CFG = { site: "bracket", starts: [], ask: null, specials: [] };
 <main>
   <span class="kicker">Mock bracket &middot; Test runs</span>
   <h1>Fill a mock bracket today</h1>
-  <p class="answer">The real field is set on Selection Sunday, March 14, 2027. Until then, practice here: this mock runs on the projected field &mdash; if the season ended today. Five answers fill all 75 picks. Tap any team to change a pick. Print the poster when it looks right.</p>
+  <p class="answer">The real field is set on Selection Sunday, March 14, 2027. Until then, practice here: this mock runs on the projected field, if the season ended today. Five answers fill all 75 picks. Tap any team to change a pick. Print the poster when it looks right.</p>
   <div class="viz">
     <p><strong>Field projected Nov 8, 2026.</strong></p>
-    <p class="viz-cap">Projected field: CBS Sports preseason bracketology, released Oct. 30, 2026. The 2027 tournament has 76 teams and a 12-game opening round. Rankings: the Preseason AP Top 25 (The Associated Press, Oct. 19, 2026), still the latest poll today. A projection is a picture of today, not a promise about March &mdash; seeds will move all season. <a class="inline" href="/college-basketball-rankings">See the rankings and trends behind this field &rarr;</a></p>
+    <p class="viz-cap">Projected field: CBS Sports preseason bracketology, released Oct. 30, 2026. The 2027 tournament has 76 teams and a 12-game opening round. Rankings: the Preseason AP Top 25 (The Associated Press, Oct. 19, 2026), still the latest poll today. A projection is a picture of today, not a promise about March: seeds will move all season. <a class="inline" href="/college-basketball-rankings">See the rankings and trends behind this field &rarr;</a></p>
   </div>
 
   <section id="askSec" aria-labelledby="ask-heading">
     <h2 id="ask-heading">Five answers start your mock</h2>
     <div class="q" data-q="chaos">
-      <p class="q-prompt">Favorites or chaos &mdash; how many upsets feel fun?</p>
+      <p class="q-prompt">Favorites or chaos: how many upsets feel fun?</p>
       <div class="pills">
         <button type="button" class="pill" data-v="chalk">Keep it safe</button>
         <button type="button" class="pill on" data-v="some">A few upsets</button>
@@ -461,18 +461,18 @@ window.FLEET_CFG = { site: "bracket", starts: [], ask: null, specials: [] };
       <button type="button" class="fill-btn" id="fillBtn">Fill my mock bracket</button>
       <button type="button" class="ghost-btn" id="chalkBtn">Just fill it with favorites</button>
     </div>
-    <p>Every pick is a preference pick &mdash; your answers, not odds. No betting advice, no win chances. Change any pick after the fill.</p>
+    <p>Every pick is a preference pick: your answers, not odds. No betting advice, no win chances. Change any pick after the fill.</p>
   </section>
 
   <section id="bracketSec" hidden aria-labelledby="bracket-heading">
     <h2 id="bracket-heading">Your mock bracket</h2>
     <div class="champ-banner">
       <p class="cb-k">Your mock champion</p>
-      <p class="cb-name" id="champName">&mdash;</p>
+      <p class="cb-name" id="champName">-</p>
       <p class="cb-sub" id="champSub"></p>
     </div>
     <p class="mk-msg" id="mkMsg" role="status" aria-live="polite"></p>
-    <h3 class="round-h">Opening round &mdash; 12 games settle the last spots</h3>
+    <h3 class="round-h">Opening round: 12 games settle the last spots</h3>
     <div id="openGames"></div>
     <div id="regionBlocks"></div>
     <h3 class="round-h">Final Four and the title game</h3>
@@ -481,7 +481,7 @@ window.FLEET_CFG = { site: "bracket", starts: [], ask: null, specials: [] };
       <button type="button" class="fill-btn" id="posterBtn">See my poster</button>
       <button type="button" class="ghost-btn" id="againBtn">Start a new mock run</button>
     </div>
-    <p>Mock run <span id="runNo">1</span> on this device. Runs are practice &mdash; run it back as many times as you like. Each finished run can end in a poster.</p>
+    <p>Mock run <span id="runNo">1</span> on this device. Runs are practice. Run it back as many times as you like. Each finished run can end in a poster.</p>
   </section>
 
   <section id="posterSec" hidden aria-labelledby="poster-heading">
@@ -498,18 +498,18 @@ window.FLEET_CFG = { site: "bracket", starts: [], ask: null, specials: [] };
 
   <h2>How a mock run works</h2>
   <p><strong>1. You answer.</strong> Five short answers: upsets, tiebreakers, your team, your boosts.</p>
-  <p><strong>2. It fills.</strong> All 75 picks &mdash; the 12 opening-round games, then all 63 games to one champion. Every pick gets a one-line reason that names the answer that drove it.</p>
+  <p><strong>2. It fills.</strong> All 75 picks: the 12 opening-round games, then all 63 games to one champion. Every pick gets a one-line reason that names the answer that drove it.</p>
   <p><strong>3. You fix it.</strong> Tap the other team in any game to flip that pick. Later rounds move only where they have to, and the page tells you what moved.</p>
-  <p><strong>4. You keep it.</strong> The poster prints your full mock: champion, Final Four, every pick. Then run it again &mdash; test runs are the point.</p>
+  <p><strong>4. You keep it.</strong> The poster prints your full mock: champion, Final Four, every pick. Then run it again. Test runs are the point.</p>
 
   <h2>Where this field came from</h2>
-  <p>The field is CBS Sports' preseason bracketology (Oct. 30, 2026), the freshest full projection we could open, cross-checked against ESPN's bracketology (Oct. 27, 2026): both draw a 76-team field with Florida, Duke, Illinois and Arizona on the 1 line. These are other people's projections, printed here with their names and dates &mdash; never as our own rankings. The rankings view of the same picture lives on <a class="inline" href="/college-basketball-rankings">the rankings page</a>, with the trend arrows that start when the next poll lands.</p>
+  <p>The field is CBS Sports' preseason bracketology (Oct. 30, 2026), the freshest full projection we could open, cross-checked against ESPN's bracketology (Oct. 27, 2026): both draw a 76-team field with Florida, Duke, Illinois and Arizona on the 1 line. These are other people's projections, printed here with their names and dates, never as our own rankings. The rankings view of the same picture lives on <a class="inline" href="/college-basketball-rankings">the rankings page</a>, with the trend arrows that start when the next poll lands.</p>
   <p>When the real field is set on March 14, 2027, the real picker opens on the home page. The mock stays up all season, re-based as the projections move.</p>
 
   <section class="faqsec" aria-label="Mock bracket questions">
     <details>
       <summary>Is this the real 2027 bracket?</summary>
-      <p>No. This is a mock bracket. It runs on a projected field &mdash; if the season ended today &mdash; built from CBS Sports' preseason bracketology (Oct. 30, 2026) and stamped Nov. 8, 2026. The real field is set on Selection Sunday, March 14, 2027.</p>
+      <p>No. This is a mock bracket. It runs on a projected field, if the season ended today, built from CBS Sports' preseason bracketology (Oct. 30, 2026) and stamped Nov. 8, 2026. The real field is set on Selection Sunday, March 14, 2027.</p>
     </details>
     <details>
       <summary>Why does the mock have 76 teams?</summary>
