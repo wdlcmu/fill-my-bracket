@@ -12,8 +12,8 @@ DTSTAMP:20261107T195033Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Selection Sunday — the field is announced
-DESCRIPTION:Selection Sunday\, Sunday\, March 14\, 2027. The full field is 
- announced on TV that evening and brackets open right after the show. Fill 
+DESCRIPTION:Selection Sunday\, Sunday\, March 14\, 2027. The full field is
+ announced on TV that evening and brackets open right after the show. Fill
  yours: https://fillmybracket.com/when-is-selection-sunday-2027
 URL:https://fillmybracket.com/when-is-selection-sunday-2027
 STATUS:CONFIRMED
@@ -23,9 +23,9 @@ UID:fmb-first-four-2027@fillmybracket.com
 DTSTAMP:20261107T195033Z
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270318
-SUMMARY:First Four (4 games)
-DESCRIPTION:The First Four: Tuesday and Wednesday\, March 16-17\, 2027. Fou
- r early games trim the field to 64.
+SUMMARY:Opening Round (12 games)
+DESCRIPTION:The Opening Round: Tuesday and Wednesday\, March 16-17\,
+ 2027\, in Dayton and Wichita. Twelve early games trim the field to 64.
 URL:https://fillmybracket.com/when-is-selection-sunday-2027
 STATUS:CONFIRMED
 END:VEVENT
@@ -35,8 +35,8 @@ DTSTAMP:20261107T195033Z
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270320
 SUMMARY:First round — pools lock this morning
-DESCRIPTION:First round: Thursday and Friday\, March 18-19\, 2027. Pools lo
- ck before the first round starts\, the morning of Thursday\, March 18.
+DESCRIPTION:First round: Thursday and Friday\, March 18-19\, 2027. Pools
+ lock before the first round starts\, the morning of Thursday\, March 18.
 URL:https://fillmybracket.com/when-is-selection-sunday-2027
 STATUS:CONFIRMED
 END:VEVENT

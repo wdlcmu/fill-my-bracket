@@ -3,7 +3,7 @@
 > Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and seventy-six guide, history, and data pages — one section for every page in the sitemap.
 > Fill My Bracket starts a full March Madness bracket from five questions — your picks finish
 > it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
-> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all; four more long-tail pages added 2026-11-06, for seventy sitemap pages in all; four more long-tail pages added 2026-11-06 (wave 4), for seventy-four sitemap pages in all; three more long-tail pages added 2026-11-06 (wave 5), for seventy-seven sitemap pages in all; one more long-tail page added 2026-11-08, for seventy-eight sitemap pages in all; two more long-tail pages added 2026-11-08, for eighty sitemap pages in all.
+> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all; four more long-tail pages added 2026-11-06, for seventy sitemap pages in all; four more long-tail pages added 2026-11-06 (wave 4), for seventy-four sitemap pages in all; three more long-tail pages added 2026-11-06 (wave 5), for seventy-seven sitemap pages in all; one more long-tail page added 2026-11-08, for seventy-eight sitemap pages in all; two more long-tail pages added 2026-11-08, for eighty sitemap pages in all. Format correction applied 2026-11-08: the 2027 field is 76 teams with a 12-game Opening Round (NCAA announcement, May 7, 2026); the 68-team First Four format is kept as history through 2026.
 
 ## Homepage (https://fillmybracket.com/)
 
@@ -21,7 +21,7 @@ How it works
 1. You answer.
 Five questions. Your favorite team first. Safe picks or big upsets. Mascots or team colors.
 2. It starts.
-All 63 games started. Each pick has a reason. Flip any pick you want.
+All 75 games started. Each pick has a reason. Flip any pick you want.
 3. You finish it.
 Print it as a poster. Or share it with friends.
 Common questions
@@ -45,7 +45,7 @@ More family tools: ThawDay, the turkey timeline
 
 What is an automatic bid?
 An automatic bid is a guaranteed tournament spot. Win your conference tournament, and you are in. No committee vote can take it away.
-Visual: Bar showing the 68-team field: 32 automatic bids and 36 at-large bids.
+Visual: Bar showing the 76-team field for 2027: 32 automatic bids and 44 at-large bids.
 One spot for every conference
 Division I has 32 conferences, NCAA.com says.
 Each conference holds its own tournament.
@@ -65,14 +65,14 @@ It hopes for an
 at-large bid
 instead.
 Automatic bids in the field
-The 2027 field holds 68 teams.
+The 2027 field holds 76 teams.
 NCAA.com calls each winner an automatic qualifier.
 Every other spot goes to at-large teams.
-The four lowest-seeded automatic qualifiers play early.
-They play two First Four games.
+The twelve lowest-seeded automatic qualifiers play early.
+They play six Opening Round games.
 They face only other automatic qualifiers there.
 Read
-how the First Four works
+how the Opening Round works
 .
 Why your bracket cares
 These winners fill many small-conference spots.
@@ -94,7 +94,7 @@ Yes. NCAA.com says the winner earns the trip regardless of regular-season perfor
 
 What is an at-large bid?
 An at-large bid is the committee's own invitation. The team did not win its conference tournament. The committee still judged its season strong enough.
-Visual: Bar showing the 68-team field: 32 automatic bids and 36 at-large bids.
+Visual: Bar showing the 76-team field for 2027: 32 automatic bids and 44 at-large bids.
 The second way into the field
 Teams reach March Madness two ways.
 One way is winning your conference tournament.
@@ -111,7 +111,7 @@ There are separate men's and women's committees.
 Members cannot vote for their own teams.
 The committee works in three phases.
 First it selects the at-large teams.
-Then it seeds all 68 teams.
+Then it seeds all 76 teams.
 Then it places them in the bracket.
 Read
 what a seed is
@@ -131,8 +131,8 @@ Each conference gets one automatic bid.
 At-large bids have no such limit.
 The committee may pick several per conference.
 Strong leagues often send many teams.
-In 2027, the lowest four play early.
-They play two First Four games.
+In 2027, the lowest twelve play early.
+They play six Opening Round games.
 They face only other at-large teams there.
 The last picks learn last, on Sunday.
 Those teams sit
@@ -144,13 +144,13 @@ Common questions
 What is an at-large bid?
 An at-large bid is a March Madness invitation the selection committee gives a team that did not win its conference tournament. The committee judges the team's whole season strong enough to earn one of the spots the automatic bids do not fill.
 How many at-large bids are there?
-There are 36 at-large bids. The full field holds 68 teams. Automatic bids fill 32 spots first.
+There are 44 at-large bids in 2027. The full field holds 76 teams. Automatic bids fill 32 spots first.
 
 ## What is a bubble team? (https://fillmybracket.com/what-is-a-bubble-team)
 
 What is a bubble team?
 A bubble team could make the field, or miss it. It did not win its conference tournament. Its whole season sits on the cut line.
-Visual: Bar showing the 68-team field: 32 automatic bids and 36 at-large bids.
+Visual: Bar showing the 76-team field for 2027: 32 automatic bids and 44 at-large bids.
 On the bubble, in plain words
 Qualification could go either way.
 The team sits on the verge.
@@ -233,11 +233,11 @@ NCAA.com runs its own predictions too.
 Andy Katz files them all season.
 His final 2019 prediction scored 67.
 Just one picked team missed out.
-Bracketology in the 68-team era
-Some talk says the field may grow.
-The 2027 field holds 68 teams.
-No change has been decided.
-Any change is the NCAA's call.
+Bracketology in the 76-team era
+The NCAA announced the bigger field in May 2026.
+The 2027 field holds 76 teams.
+Through 2026, the field held 68 teams.
+The expanded field starts with the 2027 tournament.
 Every projection still dies on Sunday.
 The committee reveals the real field then.
 Check the
@@ -247,24 +247,24 @@ Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 What is bracketology?
-Bracketology is the practice of predicting which teams make the NCAA tournament field and how they are seeded, and sometimes who wins each game. NCAA.com calls it a made-up ology. The field being predicted holds 68 teams.
+Bracketology is the practice of predicting which teams make the NCAA tournament field and how they are seeded, and sometimes who wins each game. NCAA.com calls it a made-up ology. The field being predicted holds 76 teams in 2027.
 Who invented bracketology?
 Reports credit ESPN analyst Joe Lunardi. The word bracketologist appeared beside his name in The Philadelphia Inquirer in February 1996, and his bracket projections reached ESPN the same year. NCAA.com's own predictor is Andy Katz, whose final 2019 prediction named 67 of the 68 teams in the field.
 
 ## How many rounds are in March Madness? (https://fillmybracket.com/how-many-rounds-are-in-march-madness)
 
 How many rounds are in March Madness?
-Count seven stages in 2027. The First Four comes first. Six rounds follow in the main bracket.
-Visual: The seven stages of the tournament and the teams left at each: First Four 68, First Round 64, Second Round 32, Sweet 16 16, Elite Eight 8, Final Four 4, title game 2, champion 1.
+Count seven stages in 2027. The Opening Round comes first. Six rounds follow in the main bracket.
+Visual: The seven stages of the tournament and the teams left at each: Opening Round 76, First Round 64, Second Round 32, Sweet 16 16, Elite Eight 8, Final Four 4, title game 2, champion 1.
 The ladder, round by round
 Win, and you climb one rung.
 Lose once, and you go home.
 Round
 Men's 2027 dates
 Teams playing
-First Four
+Opening Round
 March 16 and 17
-8
+24
 First Round
 March 18 and 19
 64
@@ -291,15 +291,15 @@ Read about the
 Elite Eight
 round.
 Six rounds hold your bracket
-Your bracket covers the main bracket only.
-The First Four sits outside it.
+Your bracket here covers all 75 games.
+The Opening Round comes before the six rounds.
 Its winners simply join the 64.
 See
 how many games are in March Madness
 .
 How many wins make a champion?
 A main-bracket team needs six wins.
-A First Four team needs seven.
+An Opening Round team needs seven.
 The last win crowns the champion.
 No team has ever lost and stayed.
 The women's ladder matches
@@ -307,7 +307,7 @@ The women's tournament climbs the same ladder.
 Its dates shift by about a day.
 Round
 Women's 2027 dates
-First Four
+Opening Round
 March 17 and 18
 First Round
 March 19 and 20
@@ -328,9 +328,9 @@ Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 How many rounds are in March Madness?
-In 2027 there are seven stages: the First Four, then the First Round, Second Round, Sweet 16, Elite Eight, Final Four, and the championship game. The main bracket that fans pick holds six of those rounds, starting with 64 teams.
+In 2027 there are seven stages: the Opening Round, then the First Round, Second Round, Sweet 16, Elite Eight, Final Four, and the championship game. The main bracket that fans pick holds six of those rounds, starting with 64 teams.
 How many games must a team win to be champion?
-A team that starts in the main bracket must win six straight games. A team that starts in the First Four must win seven straight, because it has to win its way into the main bracket first.
+A team that starts in the main bracket must win six straight games. A team that starts in the Opening Round must win seven straight, because it has to win its way into the main bracket first.
 
 ## What is the NIT? (https://fillmybracket.com/what-is-the-nit)
 
@@ -354,10 +354,10 @@ The 2027 edition is its 89th.
 Its champion earns no national title.
 Who gets invited in 2027
 The 2027 field holds 32 teams.
-The NCAA field holds 68 teams.
-A bigger NCAA field has been talked about.
-No change has been decided.
-Total postseason spots add up to 100.
+The NCAA field holds 76 teams in 2027.
+The NCAA announced the bigger field in May 2026.
+Through 2026, the NCAA field held 68 teams.
+Total postseason spots add up to 108.
 The first four out headline it.
 Meet the
 bubble teams
@@ -392,7 +392,7 @@ No. March Madness is the NCAA tournament, which crowns the national champion. Th
 
 What is a conference tournament?
 A conference tournament is each league's own playoff. Every league holds one after the season. Its winner earns an automatic bid.
-Visual: Bar showing the 68-team field: 32 automatic bids and 36 at-large bids.
+Visual: Bar showing the 76-team field for 2027: 32 automatic bids and 44 at-large bids.
 Thirty-two leagues hold one
 Division I holds 32 conferences.
 Each conference runs its own tournament.
@@ -505,7 +505,7 @@ A Quad 1 win is a win over a top team in the NET rankings: at home against a tea
 
 What is a bid stealer?
 A bid stealer wins its conference tournament unexpectedly. It had no at-large case before. Its win takes one at-large spot.
-Visual: Bar showing the 68-team field: 32 automatic bids and 36 at-large bids.
+Visual: Bar showing the 76-team field for 2027: 32 automatic bids and 44 at-large bids.
 How a bid gets stolen
 Start with a team going nowhere.
 Its season was too weak for at-large.
@@ -535,7 +535,7 @@ The automatic bid saved its season.
 Then it kept winning in March.
 It reached the Final Four.
 Why steals matter in 2027
-The 2027 field holds 68 teams.
+The 2027 field holds 76 teams.
 Every league final can move the bubble.
 Watch the
 conference tournaments
@@ -552,7 +552,7 @@ NC State in 2024. The Wolfpack won the ACC tournament to secure a bid it would n
 
 What is the selection committee?
 The selection committee picks the at-large teams. It also seeds and brackets the field. Separate committees run the men's and women's tournaments.
-Visual: The selection committee's three jobs: pick the at-large teams, seed all 68 teams, and place them in the bracket.
+Visual: The selection committee's three jobs: pick the at-large teams, seed all 76 teams, and place them in the bracket.
 Twelve people sit on it
 Each committee holds 12 members.
 Members serve five-year terms.
@@ -562,7 +562,7 @@ They come from across Division I.
 Three jobs, one reveal
 First, they pick the at-large teams.
 Automatic qualifiers need no pick.
-Next, they seed all 68 teams.
+Next, they seed all 76 teams.
 Then they place teams into brackets.
 The reveal comes on Selection Sunday.
 See how
@@ -586,7 +586,7 @@ Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 What is the selection committee?
-The selection committee is the NCAA Division I Basketball Committee. Its 12 members pick the at-large teams, seed all 68 teams, and place them in the bracket for March Madness.
+The selection committee is the NCAA Division I Basketball Committee. Its 12 members pick the at-large teams, seed all 76 teams, and place them in the bracket for March Madness.
 Can a committee member vote for their own school?
 No. Committee members may not vote for their own school's team, and they may not monitor the league they represent. Every other pick is made by secret ballot.
 
@@ -702,7 +702,7 @@ The tournament runs for three weeks in March. Upsets happen almost every day. Bi
 How the chart works
 Teams are split into four regions. Each region has 16 teams. Every team gets a seed, a rank from 1 to 16. Seed 1 is the strongest. Seed 16 is the weakest. First games pair a high seed with a low seed. Lose once and you go home. Win and you move one step right on the chart.
 How many games?
-The main bracket has 63 games. 32 games in the first round. Then 16, then 8, then 4. The last four teams are the Final Four. Two more games leave one champion. The tournament holds 68 teams.
+The main bracket has 63 games. 32 games in the first round. Then 16, then 8, then 4. The last four teams are the Final Four. Two more games leave one champion. The tournament holds 76 teams in 2027.
 Why people fill one out
 Friends, families, and offices run pools. Everyone fills in a bracket. The best score wins the pool. Most players know very little basketball.
 Five questions start your bracket. Your picks finish it.
@@ -711,7 +711,7 @@ Common questions
 What is a March Madness bracket?
 A bracket is the chart of the whole NCAA basketball tournament. It lists every game. You fill it in by picking the winner of each game, round by round, until one champion is left.
 How many games are in a March Madness bracket?
-The main bracket has 63 games: 32 in the first round, then 16, 8, 4, 2, and the final. The tournament starts with 68 teams, and the First Four trims the field to 64 before the main bracket begins.
+The main bracket has 63 games: 32 in the first round, then 16, 8, 4, 2, and the final. The tournament starts with 76 teams in 2027, and the Opening Round trims the field to 64 before the main bracket begins.
 
 ## How does bracket scoring work? (https://fillmybracket.com/how-does-bracket-scoring-work)
 
@@ -759,14 +759,14 @@ A number 8 seed. Villanova won the title in 1985. No seed lower than 8 has ever 
 
 When is Selection Sunday 2027?
 Selection Sunday is Sunday, March 14, 2027. The full field is announced on TV that evening. Brackets open right after the show.
-Visual: The 2027 dates that matter: Selection Sunday March 14, First Four March 16 and 17, First Round March 18 and 19, Final Four April 3, title game April 5.
+Visual: The 2027 dates that matter: Selection Sunday March 14, Opening Round March 16 and 17, First Round March 18 and 19, Final Four April 3, title game April 5.
 What happens that night
 A committee names every team in the tournament. Each team learns its seed and its first game. You have about three days before the first round.
 The 2027 dates that matter
-Selection Sunday: Sunday, March 14. First Four (4 games): Tuesday and Wednesday, March 16-17. First round: Thursday and Friday, March 18-19. Second round: Saturday and Sunday, March 20-21. Sweet 16: Thursday and Friday, March 25-26. Elite Eight: Saturday and Sunday, March 27-28. Final Four, in Detroit: Saturday, April 3. Title game, in Detroit: Monday, April 5.
+Selection Sunday: Sunday, March 14. Opening Round (12 games): Tuesday and Wednesday, March 16-17. First round: Thursday and Friday, March 18-19. Second round: Saturday and Sunday, March 20-21. Sweet 16: Thursday and Friday, March 25-26. Elite Eight: Saturday and Sunday, March 27-28. Final Four, in Detroit: Saturday, April 3. Title game, in Detroit: Monday, April 5.
 The women's tournament shares Selection Sunday. Its Final Four is April 2 and 4, in Columbus.
 The field in 2027
-The field holds 68 teams. Four First Four games trim the field to 64.
+The field holds 76 teams. Twelve Opening Round games trim the field to 64.
 When to fill in your bracket
 Start on Sunday night, March 14. Pools lock before the first round starts. That is the morning of Thursday, March 18.
 Five questions start your bracket. Your picks finish it.
@@ -775,7 +775,7 @@ Common questions
 When is Selection Sunday 2027?
 Selection Sunday is Sunday, March 14, 2027. The full tournament field is announced on TV that evening, and brackets open right after.
 When does March Madness 2027 start?
-The First Four is March 16 and 17, 2027. The first round of the main bracket starts Thursday, March 18. The Final Four is April 3 in Detroit, and the title game is April 5.
+The Opening Round is March 16 and 17, 2027. The first round of the main bracket starts Thursday, March 18. The Final Four is April 3 in Detroit, and the title game is April 5.
 
 ## How often do upsets happen? (https://fillmybracket.com/how-often-do-upsets-happen)
 
@@ -806,7 +806,7 @@ What is a seed in March Madness?
 A seed is a team's rank inside its region. Seed 1 is the strongest team there. Seed 16 is the weakest.
 Visual: The eight first-round pairings in a region: 1 seed against 16, 2 against 15, 3 against 14, 4 against 13, 5 against 12, 6 against 11, 7 against 10, 8 against 9. Every pair adds up to 17.
 Who sets the seeds?
-A committee ranks the teams before the tournament starts. It splits the field into four regions. Each region gets seeds 1 through 16. In 2027, the tournament starts with 68 teams. The First Four trims the field to 64 first.
+A committee ranks the teams before the tournament starts. It splits the field into four regions. Each region gets seeds 1 through 16. In 2027, the tournament starts with 76 teams. The Opening Round trims the field to 64 first.
 How the first round pairs up
 First-round games pair seeds that add up to 17. 1 seed vs 16 seed: best team vs weakest team. 2 seed vs 15 seed: same idea, one step closer. 3 seed vs 14 seed: strong favorite. 4 seed vs 13 seed: strong favorite. 5 seed vs 12 seed: the famous upset game. 6 seed vs 11 seed: favorite, but not by much. 7 seed vs 10 seed: nearly even. 8 seed vs 9 seed: a coin flip.
 A worked example, from our picker
@@ -851,7 +851,7 @@ The 8-vs-9 game sits at the top. Nine seeds win it a bit more than half the time
 The patterns behind the numbers
 A normal year has about eight first-round upsets. The quietest year had 3. The wildest had 13. A double-digit seed reaches the Sweet 16 almost every year. It has happened in 39 of 41 tournaments, and 18 years in a row. The 11 seed is better than its number lately. Since 2013, 11 seeds have won half of their first-round games. Middle seeds can win twice. Of the 11 seeds that won in round one, 28 of 64 also won their next game. The top still rules late. One seeds have won 27 of the 41 titles since 1985.
 What about the field in 2027?
-The 2027 tournament holds 68 teams. Four First Four games come first. The winners join the same 64-team main bracket. These numbers count the main bracket only. Every rate starts at the round of 64.
+The 2027 tournament holds 76 teams. Twelve Opening Round games come first. The winners join the same 64-team main bracket. These numbers count the main bracket only. Every rate starts at the round of 64.
 How we counted
 We counted every men's tournament game from 1985 to 2026. That is 41 tournaments and 2,583 games. There was no tournament in 2020. Game results come from the public game-by-game record. Wikipedia tournament pages, compiled in the march-madness-games-csv dataset. History is a guide, not a promise.
 Five questions start your bracket. Your picks finish it.
@@ -860,7 +860,7 @@ Common questions
 How many first-round upsets happen in a normal year?
 About eight. Since 1985, the count runs from 3 to 13 upsets in a year. The average is 8.3 of the 32 first-round games.
 Do these numbers include the First Four?
-No. Every rate here counts the main bracket only, starting at the round of 64. In 2027, 4 First Four games come first, and the winners join the same 64-team bracket.
+No. Every rate here counts the main bracket only, starting at the round of 64. In 2027, 12 Opening Round games come first, and the winners join the same 64-team bracket.
 
 ## How often does a 12 seed beat a 5 seed? (https://fillmybracket.com/how-often-does-a-12-seed-beat-a-5-seed)
 
@@ -944,16 +944,16 @@ It happens about half as often. The 12 seed has 58 wins since 1985. The 13 seed 
 
 What is March Madness?
 March Madness is the NCAA college basketball tournament. Teams play single-elimination games until one champion is left. Lose once, and your season is over.
-Visual: March Madness 2027 dates: Selection Sunday March 14, First Four March 16 and 17, First Round starts March 18, Final Four April 3, title game April 5.
+Visual: March Madness 2027 dates: Selection Sunday March 14, Opening Round March 16 and 17, First Round starts March 18, Final Four April 3, title game April 5.
 One loss, and you are out
 The tournament crowns the national champion.
 It is played every spring, mostly in March.
-In 2027, 68 teams enter each tournament.
+In 2027, 76 teams enter each tournament.
 There is a men's tournament and a women's tournament.
 The field is split into four regions.
 Each team gets a seed, from 1 to 16.
 Winners move on. Losers go home.
-After the First Four, 64 teams remain.
+After the Opening Round, 64 teams remain.
 Then come the First Round and the Second Round.
 The Sweet 16, the Elite Eight, and the Final Four.
 New to the chart itself? Read what a bracket is.
@@ -971,7 +971,7 @@ You do not need to follow basketball to play.
 Plenty of brackets are picked by mascot or by colors.
 March Madness 2027, in short
 The field is set on Selection Sunday, March 14, 2027.
-The First Four is played March 16 and 17.
+The Opening Round is played March 16 and 17.
 The First Round starts Thursday, March 18.
 The men's Final Four is Saturday, April 3, in Detroit.
 The men's title game is Monday, April 5.
@@ -980,7 +980,7 @@ Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 What is March Madness?
-March Madness is the NCAA Division I college basketball tournament. In 2027, 68 teams enter each tournament, men's and women's. Every game is single-elimination: lose once, and you go home. The last team standing is the national champion.
+March Madness is the NCAA Division I college basketball tournament. In 2027, 76 teams enter each tournament, men's and women's. Every game is single-elimination: lose once, and you go home. The last team standing is the national champion.
 Why is it called March Madness?
 An Illinois high school official, Henry V. Porter, used the phrase for basketball in 1939. CBS broadcaster Brent Musburger used it for the NCAA tournament in 1982, and the name stuck. Most of the games are played in March.
 ## Has anyone ever had a perfect bracket? (https://fillmybracket.com/has-anyone-ever-had-a-perfect-bracket)
@@ -1037,7 +1037,7 @@ Keep your champion safe. Champions are almost always 1 or 2 seeds.
 Since 1985, 1 seeds hold more titles than all other seeds combined.
 How our picker does it
 Our picker asks the same kinds of questions.
-Your answers start all 63 games, with a reason on each pick.
+Your answers start all 75 games, with a reason on each pick.
 You can flip any pick you do not like.
 Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
@@ -1057,7 +1057,7 @@ NCAA.com names them South, East, West, and Midwest.
 Each region plays down to one winner.
 That winner is called the regional champion.
 Reaching this round takes four straight wins.
-A First Four team needs five straight wins.
+An Opening Round team needs five straight wins.
 Each region ends with its Elite Eight game.
 New to the chart? Read what a bracket is.
 The last weekend of the tournament
@@ -1102,23 +1102,23 @@ The men's Final Four is Saturday, April 3, 2027, at Ford Field in Detroit, with 
 ## How many teams are in March Madness? (https://fillmybracket.com/how-many-teams-are-in-march-madness)
 
 How many teams are in March Madness?
-Each March Madness tournament, men's and women's, holds 68 teams.
-Visual: Bar showing the 68-team field: 32 automatic bids and 36 at-large bids.
+Each March Madness tournament, men's and women's, holds 76 teams starting in 2027.
+Visual: Bar showing the 76-team field for 2027: 32 automatic bids and 44 at-large bids.
 The short answer
-Each tournament holds 68 teams today.
-A bigger field has been talked about.
-No change has been decided.
-Any change is the NCAA's call.
-The men's field last grew in 2011.
-The women's field last grew in 2022.
-How 68 teams become a 64-team bracket
+Each tournament holds 76 teams starting in 2027.
+The NCAA announced the change in May 2026.
+The field grows from 68 teams to 76.
+Through 2026, each tournament held 68 teams.
+The men's field held 68 teams from 2011 through 2026.
+The women's field held 68 teams from 2022 through 2026.
+How 76 teams become a 64-team bracket
 The main bracket still holds 64 teams.
 It still has the same 63 games.
-8 teams play in the First Four.
-They play 4 games over two days.
-The 4 winners move into the main bracket.
-They join 60 teams that waited.
-Read how the First Four works.
+24 teams play in the Opening Round.
+They play 12 games over two days.
+The 12 winners move into the main bracket.
+They join 52 teams that waited.
+Read how the Opening Round works.
 How teams get in
 Every conference champion earns an automatic spot.
 The selection committee picks the other teams.
@@ -1133,40 +1133,40 @@ The first men's tournament had just 8 teams.
 The field reached 16 teams in 1951.
 It reached 64 teams in 1985.
 It grew to 68 teams in 2011.
-The field is still 68 teams today.
+It stayed at 68 through the 2026 tournament.
 It reached 68 teams in 2022.
 The women's tournament began in 1982, with 32 teams.
-It holds 68 teams today too.
+It held 68 teams through 2026 too.
 What this means for your bracket
-Your bracket still covers the main 63 games.
-Selection Sunday names the 68 teams.
+Your bracket covers all 75 games: the 12 Opening Round games plus the 63 in the main bracket.
+Selection Sunday names the 76 teams.
 Pools, scoring, and deadlines work as before.
 See how bracket scoring works.
 Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 How many teams are in March Madness?
-68 teams in each tournament, men's and women's. A 4-game First Four trims the 68-team field to the 64 teams of the main bracket.
+76 teams in each tournament, men's and women's, starting in 2027. A 12-game Opening Round trims the 76-team field to the 64 teams of the main bracket.
 Will March Madness grow past 68 teams?
-A bigger field has been talked about, but no change has been decided. Any change is the NCAA's call. The 2027 fields are set on Selection Sunday, March 14, 2027.
+Yes. The NCAA decided in May 2026: the field grows from 68 to 76 teams starting in 2027. The 2027 fields are set on Selection Sunday, March 14, 2027.
 
 ## What is the opening round in March Madness? (https://fillmybracket.com/what-is-the-opening-round-in-march-madness)
 
 What is the opening round in March Madness?
-The opening round is the First Four. Eight teams play four games. The winners take the last spots in the main bracket.
-Visual: The First Four: four lowest-seeded at-large teams and four lowest-seeded automatic qualifiers play four games, and the four winners join 60 waiting teams to make the 64-team main bracket.
-The opening round is the First Four
-The tournament opens with the First Four.
-That is 8 teams playing 4 games.
-It has run since 2011.
-The field holds 68 teams.
-Four games trim the field to 64.
-Two games are played each day.
+The Opening Round is how March Madness starts in 2027. Twenty-four teams play 12 games. The 12 winners take the last spots in the main bracket.
+Visual: The Opening Round: twelve lowest-seeded at-large teams and twelve lowest-seeded automatic qualifiers play twelve games, and the twelve winners join 52 waiting teams to make the 64-team main bracket.
+A bigger opening round, new in 2027
+The tournament opens with the Opening Round.
+That is 24 teams playing 12 games.
+It replaces the First Four, which ran from 2011 through 2026.
+The field holds 76 teams.
+Twelve games trim the field to 64.
+Six games are played each day.
 It is played before the main bracket.
 See how many teams are in the tournament.
 Who plays in it
-The 8 teams come in two groups.
-Four are the lowest-seeded automatic qualifiers.
+The 24 teams come in two groups.
+Twelve are the lowest-seeded automatic qualifiers.
 Those teams won their conference tournaments.
 Four are the lowest-seeded at-large teams.
 The winners take the last four spots.
@@ -1176,15 +1176,15 @@ The other 60 teams are already in.
 When and where in 2027
 The men's games are Tuesday, March 16.
 They end on Wednesday, March 17.
-They are played in Dayton, Ohio.
+They are played in Dayton, Ohio, and Wichita, Kansas.
 
 The women's games start a day later.
-They are played March 17 and 18.
+They are played March 17 and 18, at 12 campus sites.
 
 See every key date for 2027.
 What the winners get
 Each winner earns a main bracket spot.
-The 4 winners join 60 waiting teams.
+The 12 winners join 52 waiting teams.
 Together they make the 64-team bracket.
 The First Round starts Thursday, March 18.
 In 2011, VCU started in the First Four.
@@ -1202,9 +1202,9 @@ Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 What is the opening round in March Madness?
-The opening round is the First Four. Eight teams play four games, and the four winners join 60 other teams in the 64-team main bracket. The First Four has opened the tournament since 2011.
-When is the First Four in 2027?
-The First Four games are Tuesday, March 16 and Wednesday, March 17, 2027. The women's games are Wednesday, March 17 and Thursday, March 18.
+The Opening Round is how the tournament starts in 2027. Twenty-four teams play 12 games, and the 12 winners join 52 other teams in the 64-team main bracket. It replaces the First Four, which opened the tournament from 2011 through 2026.
+When is the Opening Round in 2027?
+The Opening Round games are Tuesday, March 16 and Wednesday, March 17, 2027, in Dayton and Wichita. The women's games are Wednesday, March 17 and Thursday, March 18.
 
 ## What is the Sweet 16? (https://fillmybracket.com/what-is-the-sweet-16)
 
@@ -1217,7 +1217,7 @@ Each region starts with 16 teams.
 Two rounds cut each region to four.
 NCAA.com calls this round the regional semifinals.
 Every team here has won two straight games.
-A First Four team has won three straight.
+An Opening Round team has won three straight.
 New to the chart? Read
 what a bracket is
 .
@@ -1283,7 +1283,7 @@ NCAA.com calls this round the regional finals.
 Each game crowns one regional champion.
 The champion moves on to the Final Four.
 Every team here has won three straight games.
-A First Four team has won four straight.
+An Opening Round team has won four straight.
 New to this round? Read
 what the Sweet 16 is
 .
@@ -1332,15 +1332,15 @@ The men's Elite Eight is Saturday, March 27 and Sunday, March 28, 2027, in San A
 ## How many games are in March Madness? (https://fillmybracket.com/how-many-games-are-in-march-madness)
 
 How many games are in March Madness?
-March Madness has 67 games. The main bracket holds 63 of them. The First Four adds 4 more.
-Visual: Games per round: First Four 4, First Round 32, Second Round 16, Sweet 16 8, Elite Eight 4, Final Four 2, title game 1. Sixty-seven games in all.
+March Madness has 75 games in 2027. The main bracket holds 63 of them. The Opening Round adds 12 more.
+Visual: Games per round: Opening Round 12, First Round 32, Second Round 16, Sweet 16 8, Elite Eight 4, Final Four 2, title game 1. Seventy-five games in all.
 The count, round by round
 Every game sends exactly one team home.
-So 68 teams need 67 games total.
+So 76 teams need 75 games total.
 Round
 Games
-First Four
-4
+Opening Round
+12
 First Round
 32
 Second Round
@@ -1361,23 +1361,23 @@ The women's counts match, round by round.
 See
 how bracket scoring works
 .
-Where the extra four games come from
-Each tournament has 67 games in all.
-The First Four adds four games first.
-The field holds 68 teams.
-A bigger field has been talked about.
-No change has been decided.
-Any change is the NCAA's call.
+Where the extra twelve games come from
+Each 2027 tournament has 75 games in all.
+The Opening Round adds twelve games first.
+The field holds 76 teams.
+The NCAA announced the bigger field in May 2026.
+Through 2026, the field held 68 teams.
+Those tournaments had 67 games, with a 4-game First Four.
 The main bracket count never changed.
 It has held 63 games since 1985.
 Read
-how the First Four works
+how the Opening Round works
 .
 What this means for your picks
-You still pick only the 63 games.
+Here, you pick all 75 games.
 A champion wins six straight games.
-A First Four champion wins seven straight.
-No one has ever picked all 63 right.
+An Opening Round champion wins seven straight.
+No one has ever picked all 63 main-bracket games right.
 Read about
 the perfect bracket chase
 .
@@ -1385,9 +1385,9 @@ Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 Common questions
 How many games are in March Madness?
-There are 67 games in each tournament: 4 First Four games plus the 63 games of the main bracket.
+There are 75 games in each 2027 tournament: 12 Opening Round games plus the 63 games of the main bracket. Through 2026 there were 67: 4 First Four games plus the 63.
 How many games do you pick in a bracket?
-You pick 63 games, the whole main bracket from the First Round to the title game. Most pools do not score the First Four games, which finish before the main bracket starts.
+On this site you pick all 75 games, the 12 Opening Round games plus the whole main bracket. Most pools pick only the 63 main-bracket games and do not score the Opening Round, which finishes before the main bracket starts.
 
 ## Ask in your own words (https://fillmybracket.com/ask)
 
@@ -1706,7 +1706,7 @@ Counted from every men's tournament game, 1985 to 2026.
 Main bracket only. First Four games are not counted.
 That is 41 tournaments and 2,583 games. There was no tournament in 2020.
 Game results come from the public game-by-game record: Wikipedia tournament pages, compiled in the march-madness-games-csv dataset.
-The 2027 tournament holds 68 teams. Four First Four games come first, and the winners join this same 64-team bracket, so the counted frame still applies.
+The 2027 tournament holds 76 teams. Twelve Opening Round games come first, and the winners join this same 64-team bracket, so the counted frame still applies.
 History is a guide, not a promise.
 Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
@@ -1716,7 +1716,7 @@ History cannot name teams, but the shape is steady: about 8 first-round upsets (
 What is the deepest run a low seed has ever made?
 A 15 seed, Saint Peter's in 2022, reached the Elite Eight. Two 12 seeds have reached the Elite Eight. Six 11 seeds have reached the Final Four. The lowest seed ever to win the title is an 8 seed, Villanova in 1985.
 Do these numbers include the First Four?
-No. Every rate here counts the main bracket only, starting at the round of 64. In 2027, 4 First Four games come first, and the winners join the same 64-team bracket.
+No. Every rate here counts the main bracket only, starting at the round of 64. In 2027, 12 Opening Round games come first, and the winners join the same 64-team bracket.
 More bracket basics
 How to fill out a March Madness bracket
 What is a March Madness bracket?
@@ -2713,42 +2713,42 @@ How often do upsets happen?
 ## What is the First Four? (https://fillmybracket.com/what-is-the-first-four)
 
 What is the First Four?
-The First Four is the opening round of March Madness. Eight teams play four games. The four winners take the last spots in the main bracket of 64.
+The First Four was the opening round of March Madness from 2011 through 2026. Eight teams played four games. The four winners took the last spots in the main bracket of 64.
 Who plays in the First Four
-The field starts with 68 teams.
-Four of the eight are the lowest-seeded at-large picks.
-Four are the lowest-seeded conference champions.
-The other 60 teams wait for the main bracket.
-When it happens in 2027
+In those years, the field started with 68 teams.
+Four of the eight were the lowest-seeded at-large picks.
+Four were the lowest-seeded conference champions.
+The other 60 teams waited for the main bracket.
+What happens in 2027
 The field is named on Selection Sunday, March 14, 2027.
-The First Four games are Tuesday and Wednesday, March 16 and 17.
+The First Four does not run in 2027. A bigger Opening Round takes its place: 24 teams play 12 games. Those games are Tuesday and Wednesday, March 16 and 17.
 The main bracket starts Thursday, March 18.
 Does your bracket count these games
-Your bracket covers the main bracket only: 63 games.
-The First Four winners simply join the 64.
-Is the field getting bigger
-The field is 68 teams today. A bigger field has been talked about. No change has been decided. Any change is the NCAA's call.
+On this site, your bracket covers every game, the Opening Round included: 75 games in 2027, from the Opening Round to the title game.
+Most pools still score only the main bracket, the 63 games.
+The field got bigger
+The field was 68 teams through 2026. In May 2026, the NCAA announced the change. From 2027, the field holds 76 teams. The Opening Round replaces the First Four.
 
 ## How does March Madness work? (https://fillmybracket.com/how-does-march-madness-work)
 
 How does March Madness work?
-68 teams enter a fixed bracket. They play single-elimination games, round by round, until one champion is left. Lose once, and your season is over.
+76 teams enter in 2027. They play single-elimination games, round by round, until one champion is left. Lose once, and your season is over.
 How teams get in
 32 teams get in by winning their conference tournament (an automatic bid).
 The selection committee picks the other 36 teams (at-large bids) and seeds every team from 1 to 16.
 The whole field is named on Selection Sunday, March 14, 2027.
 How the bracket runs
 The field splits into four regions of 16 teams.
-The First Four trims 68 teams to 64.
+The Opening Round trims 76 teams to 64.
 Each round then cuts the field in half: 64, 32, 16 (Sweet 16), 8 (Elite Eight), 4 (Final Four), 2, 1 champion.
-2027 dates: First Four March 16-17, First Round March 18-19, Second Round March 20-21, Sweet 16 March 25-26, Elite Eight March 27-28, Final Four April 3, title game April 5.
+2027 dates: Opening Round March 16-17, First Round March 18-19, Second Round March 20-21, Sweet 16 March 25-26, Elite Eight March 27-28, Final Four April 3, title game April 5.
 How your bracket fits
 You pick the winner of each of the 63 main-bracket games before the games start. You choose your champion, your Final Four, and your upsets.
 
 ## When does March Madness start? (https://fillmybracket.com/when-does-march-madness-start)
 
 When does March Madness start?
-The games start on Tuesday, March 16, 2027, with the First Four. The main bracket starts two days later, on Thursday, March 18.
+The games start on Tuesday, March 16, 2027, with the Opening Round. The main bracket starts two days later, on Thursday, March 18.
 The field is named on Selection Sunday, March 14, 2027.
 Brackets open right after the show, and pools lock before the first round starts on March 18.
 The tournament runs about three weeks.
@@ -2975,7 +2975,7 @@ Start your bracket
 Selection Sunday
 Sun, Mar 14
 &#8594;
-First Four
+Opening Round
 Mar 16&#8211;17
 &#8594;
 First round
@@ -3080,13 +3080,13 @@ Which school has won the most titles?
 Fill My Bracket starts a full March Madness bracket from five questions.
 How long does March Madness last?
 About three weeks.
-In 2027, the games run from Tuesday, March 16 to Monday, April 5. That is 21 days and 67 games.
+In 2027, the games run from Tuesday, March 16 to Monday, April 5. That is 21 days and 75 games.
 128 days until Selection Sunday, Sunday, March 14, 2027.
 Start your bracket
 Selection Sunday
 Sun, Mar 14
 &#8594;
-First Four
+Opening Round
 Mar 16&#8211;17
 &#8594;
 First round
@@ -3098,7 +3098,7 @@ Sat, Apr 3
 Title game
 Mon, Apr 5
 The field shrinks fast
-68 teams start. Four leave in the First Four.
+76 teams start. Twelve leave in the Opening Round.
 The first weekend cuts 64 teams to 16.
 The second weekend cuts 16 to 4.
 One champion is left on April 5.
@@ -3118,7 +3118,7 @@ Common questions
 How long does March Madness last?
 About three weeks. In 2027, the games run from Tuesday, March 16 to Monday, April 5. That is 21 days.
 How many games are in March Madness?
-67 games. The First Four adds 4 games to the 63 in the main bracket.
+75 games in 2027. The Opening Round adds 12 games to the 63 in the main bracket.
 More bracket basics
 How long does March Madness last?
 When does March Madness start?
