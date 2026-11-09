@@ -26,7 +26,7 @@
   :root {
     --navy: #081c3a; --navy-2: #0d2b57; --navy-3: #123263;
     --orange: #ff7a1a; --orange-soft: #ffa25e;
-    --cream: #f7f2e7; --muted: #aebdd6; --line: #2a4a7f;
+    --cream: #f7f2e7; --muted: #cdd9ee; --line: #2a4a7f;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -153,7 +153,7 @@ localStorage.setItem("fleet_ft2",JSON.stringify(ft));
   <p class="identity">Fill My Bracket starts a full March Madness bracket from five questions.</p>
   <h1>2023 backtest: what all-chalk would have scored</h1>
   <p class="answer"><strong>UConn, a 4 seed, beat San Diego State 76–59 for the title.</strong> No 1 seed reached the Final Four. The Final Four seeds were 4, 5, 5, and 9.</p>
-  <p class="countdown" id="countdown">130 days until Selection Sunday, Sunday, March 14, 2027.</p>
+  <p class="countdown" id="countdown">128 days until Selection Sunday, Sunday, March 14, 2027.</p>
   <a class="cta-main" href="/">Start your bracket</a>
   
   <div class="viz"><div class="bigstat">
@@ -185,11 +185,11 @@ localStorage.setItem("fleet_ft2",JSON.stringify(ft));
   </section>
   <div class="nextup">
     <h2>More bracket basics</h2>
-    <ul><li><a href="/2025-bracket-backtest">2025 bracket backtest</a></li><li><a href="/2024-bracket-backtest">2024 bracket backtest</a></li><li><a href="/2022-bracket-backtest">2022 bracket backtest</a></li><li><a href="/how-often-do-upsets-happen">How often do upsets happen?</a></li><li><a href="/what-is-a-chalk-bracket">What is a chalk bracket?</a></li></ul>
+    <ul><li><a href="/2026-bracket-backtest">2026 bracket backtest</a></li><li><a href="/2025-bracket-backtest">2025 bracket backtest</a></li><li><a href="/2024-bracket-backtest">2024 bracket backtest</a></li><li><a href="/2022-bracket-backtest">2022 bracket backtest</a></li><li><a href="/how-often-do-upsets-happen">How often do upsets happen?</a></li><li><a href="/what-is-a-chalk-bracket">What is a chalk bracket?</a></li></ul>
   </div>
 
 <script id="cd-logic">
-(function(){var el=document.getElementById("countdown");if(!el)return;var DATES=[new Date(2027,2,14),new Date(2028,2,12)];function fmt(d){return d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric",year:"numeric"});}function dayText(now){var today=new Date(now.getFullYear(),now.getMonth(),now.getDate());var target=null;for(var i=0;i<DATES.length;i++){if(today<=DATES[i]){target=DATES[i];break;}}if(!target)return "The field is set. The tournament is on.";var days=Math.round((target-today)/86400000);if(days===0)return "Selection Sunday is today, "+fmt(target)+". The field is set tonight.";return days+(days===1?" day":" days")+" until Selection Sunday, "+fmt(target)+".";}el.textContent=dayText(new Date());})();
+(function(){var el=document.getElementById("countdown");if(!el)return;var DATES=[new Date(2027,2,14),new Date(2028,2,12)];function fmt(d){return d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric",year:"numeric"});}function dayText(now){var today=new Date(now.getFullYear(),now.getMonth(),now.getDate());var target=null;for(var i=0;i<DATES.length;i++){if(today<=DATES[i]){target=DATES[i];break;}}if(!target)return "The field is set. The tournament is on.";if(today.getTime()===target.getTime())return "Selection Sunday is today, "+fmt(target)+". The field is set tonight.";var days=Math.max(0,Math.floor((target-now)/86400000));return days+(days===1?" day":" days")+" until Selection Sunday, "+fmt(target)+".";}el.textContent=dayText(new Date());})();
 </script>
 </main>
 <div class="fmbshare"><button type="button" class="fmb-share-btn">Share this page</button><p id="fmb-share-msg" role="status"></p></div>
@@ -212,7 +212,7 @@ body{padding-bottom:80px}
 .askp-head strong{font-size:1.125rem;color:#f7f2e7}
 .askp-close{background:#123263;color:#f7f2e7;border:1px solid #2a4a7f;border-radius:10px;min-width:44px;min-height:44px;font-size:1.35rem;line-height:1;cursor:pointer}
 .askp-how{border:1px solid #2a4a7f;border-radius:12px;padding:.7rem .85rem;margin-bottom:.85rem}
-.askp-how p{color:#aebdd6;font-size:.9375rem;margin:0}
+.askp-how p{color:#cdd9ee;font-size:.9375rem;margin:0}
 .askp-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:.9rem}
 .askp-chip{background:#123263;color:#f7f2e7;border:1px solid #2a4a7f;border-radius:10px;min-height:44px;padding:.5rem .8rem;font-size:.9375rem;font-weight:600;cursor:pointer;font-family:inherit}
 .askp-reply{background:#0d2b57;border:2px solid #ff7a1a;border-radius:14px;padding:.9rem 1rem;margin:0 0 .9rem;display:none}
