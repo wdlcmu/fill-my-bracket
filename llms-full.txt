@@ -1,7 +1,7 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and seventy-six guide, history, and data pages — one section for every page in the sitemap.
-> Fill My Bracket starts a full March Madness bracket from five questions — your picks finish
+> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and seventy-six guide, history, and data pages, one section for every page in the sitemap.
+> Fill My Bracket starts a full March Madness bracket from five questions, your picks finish
 > it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
 > Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all; four more long-tail pages added 2026-11-06, for seventy sitemap pages in all; four more long-tail pages added 2026-11-06 (wave 4), for seventy-four sitemap pages in all; three more long-tail pages added 2026-11-06 (wave 5), for seventy-seven sitemap pages in all; one more long-tail page added 2026-11-08, for seventy-eight sitemap pages in all; two more long-tail pages added 2026-11-08, for eighty sitemap pages in all. Format correction applied 2026-11-08: the 2027 field is 76 teams with a 12-game Opening Round (NCAA announcement, May 7, 2026); the 68-team First Four format is kept as history through 2026.
 
