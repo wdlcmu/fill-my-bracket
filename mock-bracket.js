@@ -337,16 +337,49 @@
     $("posterSec").scrollIntoView({ block: "start", behavior: RM ? "auto" : "smooth" });
   });
   $("printBtn").addEventListener("click", function () { window.print(); });
+  /* SPEC-FMB-ADV1108-02: the per-bracket link. The finished bracket
+     packs into a short /b# code (bracket-link.js) a recipient can open
+     to see THIS bracket on the site. Null when the codec is missing or
+     the state cannot pack - sharing then falls back to the generic
+     link, exactly as before. The link itself is never printed on the
+     page; it travels only in share / clipboard payloads. */
+  function bracketLink() {
+    try {
+      if (!window.FMBLink || !bracket) return null;
+      return "https://fillmybracket.com/b#" + FMBLink.encodeBracket(F, answers, openingWinners, bracket);
+    } catch (e) { return null; }
+  }
   $("shareBtn").addEventListener("click", function () {
     var summary = buildShareSummary(bracket);
     var msg = $("shareMsg");
-    track("share_intent", { surface: "share", via: "mock" });
+    var link = bracketLink();
+    track("share_intent", { surface: "share", via: "mock", link: link ? "short" : "generic" });
     if (navigator.share) {
-      navigator.share({ title: "My mock bracket: " + bracket.champion.name + " wins it all", text: summary, url: "https://fillmybracket.com/mock-bracket?via=share" }).catch(function () {});
+      navigator.share({ title: "My mock bracket: " + bracket.champion.name + " wins it all", text: summary, url: link || "https://fillmybracket.com/mock-bracket?via=share" }).catch(function () {});
     } else if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(summary).then(function () {
+      var text = summary;
+      if (link) text = summary.replace("\n\nMake yours:", "\n\nSee my bracket: " + link + "\nMake yours:");
+      navigator.clipboard.writeText(text).then(function () {
         msg.textContent = "Copied. Paste it anywhere - a pool chat, a note, a fridge door.";
       }, function () { msg.textContent = "Sharing did not work on this device - the poster above has every pick."; });
+    } else {
+      msg.textContent = "Sharing did not work on this device - the poster above has every pick.";
+    }
+  });
+  $("linkBtn").addEventListener("click", function () {
+    var msg = $("shareMsg");
+    var link = bracketLink();
+    if (!link) {
+      msg.textContent = "Sharing did not work on this device - the poster above has every pick.";
+      return;
+    }
+    track("share_link_copy", { surface: "mock" });
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(link).then(function () {
+        msg.textContent = "Copied your bracket link. Anyone who opens it sees this bracket.";
+      }, function () { msg.textContent = "Sharing did not work on this device - the poster above has every pick."; });
+    } else if (navigator.share) {
+      navigator.share({ title: "My mock bracket: " + bracket.champion.name + " wins it all", url: link }).catch(function () {});
     } else {
       msg.textContent = "Sharing did not work on this device - the poster above has every pick.";
     }
