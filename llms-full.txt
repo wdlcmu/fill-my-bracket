@@ -1,45 +1,262 @@
 # Fill My Bracket: full page text
 
-> Complete text of fillmybracket.com: the homepage, the ask page, privacy, terms, and seventy-six guide, history, and data pages, one section for every page in the sitemap.
+> Complete text of fillmybracket.com: the homepage, the mock bracket page, the ask page, privacy, terms, and seventy-six guide, history, and data pages, one section for every page in the sitemap.
 > Fill My Bracket starts a full March Madness bracket from five questions, your picks finish
 > it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
-> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all; four more long-tail pages added 2026-11-06, for seventy sitemap pages in all; four more long-tail pages added 2026-11-06 (wave 4), for seventy-four sitemap pages in all; three more long-tail pages added 2026-11-06 (wave 5), for seventy-seven sitemap pages in all; one more long-tail page added 2026-11-08, for seventy-eight sitemap pages in all; two more long-tail pages added 2026-11-08, for eighty sitemap pages in all. Format correction applied 2026-11-08: the 2027 field is 76 teams with a 12-game Opening Round (NCAA announcement, May 7, 2026); the 68-team First Four format is kept as history through 2026.
+> Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all; four more long-tail pages added 2026-11-06, for seventy sitemap pages in all; four more long-tail pages added 2026-11-06 (wave 4), for seventy-four sitemap pages in all; three more long-tail pages added 2026-11-06 (wave 5), for seventy-seven sitemap pages in all; one more long-tail page added 2026-11-08, for seventy-eight sitemap pages in all; two more long-tail pages added 2026-11-08, for eighty sitemap pages in all. Homepage and rankings sections refreshed and the mock bracket section added 2026-11-09, for eighty-one sitemap pages in all. Format correction applied 2026-11-08: the 2027 field is 76 teams with a 12-game Opening Round (NCAA announcement, May 7, 2026); the 68-team First Four format is kept as history through 2026.
 
 ## Homepage (https://fillmybracket.com/)
 
 Fill My Bracket
 Five questions start your bracket. Your picks finish it.
+days hrs min sec
+Selection Sunday is March 14, 2027.
+How it works →
+What’s next? ▾
+Fill it Sunday night, March 14 . Pools lock the morning of Thursday, March 18 .
 Your team. Your upsets. Your calls.
-The field will be set on Sunday, March 14, 2027.
+New today: practice season
+Fill a mock bracket today
+The real field lands Sunday, March 14, 2027. Until then, run test brackets on the projected field, if the season ended today: Florida, Duke, Illinois and Arizona on the 1 line. Five answers fill all 75 picks, and the poster is yours to keep.
+Start a mock run
+Field projected Nov 8, 2026 · CBS Sports bracketology · See the rankings and trends
+Replay March 2026
+Eight real first-round games from the last tournament. Call each one, then see what really happened.
+The game needs JavaScript. The full 2026 story is in the 2026 bracket backtest .
+Every score is real, counted from men’s tournament games, 1985 to 2026. See every matchup → Explore past tournaments →
+First-round games won by the lower seed
+26%
+341 of 1,312 first-round games since 1985.
+Tournaments with a double-digit seed in the Sweet 16 (the round when 16 teams are left)
+39 of 41
 Share
+Questions before March? Ask in your own words
+1
+Seed 1
+16
+Seed 16
+8
+Seed 8
+9
+Seed 9
+5
+Seed 5
+12
+Seed 12
+4
+Seed 4
+13
+Seed 13
+CHAMPION
 One region of a sample bracket: eight teams in, one champion out.
 Your bracket, as a poster
 Fill My Bracket
 Champion: your pick here
 Print it. Pin it up. Every game, round by round.
+Made by a dad, on the side
+I'm Billy, a dad in Redmond, Washington. I build these tools on the side, with AI. One idea, one website, no company behind it.
 How it works
 1. You answer.
-Five questions. Root for a home team, or not. Safe picks or big upsets. Mascots or team colors.
+Five questions.
+Root for a home team, or not.
+Safe picks or big upsets.
+Mascots or team colors.
 2. It starts.
-All 75 games started. Each pick has a reason. Flip any pick you want.
+All 75 games started.
+Each pick has a reason.
+Flip any pick you want.
 3. You finish it.
-Print it as a poster. Or share it with friends.
+Print it as a poster.
+Or share it with friends.
 Common questions
 Do I need to know basketball?
-No. Answer five simple questions about what you like. Your answers pick each game.
+No.
+Answer five simple questions.
+Your answers pick each game.
+Can I fill a bracket before Selection Sunday?
+Yes, a mock one.
+Practice on the projected field.
+Five answers fill all 75 picks.
+Print the poster when it looks right.
+Start a mock run
 When can I fill my bracket?
-Teams are announced on Selection Sunday, March 14, 2027. Come back that evening. Fill it before first games start.
+Teams are announced on Selection Sunday.
+That is March 14, 2027.
+Come back that evening.
+Fill yours before first games start.
+Practice until then with a mock bracket.
 Is it free?
-Yes. Fill My Bracket is free forever. No ads. No accounts.
+Yes. Fill My Bracket is free forever.
+No ads.
+No accounts.
 What is a seed?
-A seed is a team's regional rank. Seed 1 is strongest. Seed 16 is weakest. First games pair high against low.
+A seed is a team's regional rank.
+Seed 1 is strongest.
+Seed 16 is weakest.
+First games pair high against low.
 What we don't do
-We don't fill brackets yet. The picker opens on Selection Sunday, March 14, 2027.
-We don't host pools, take entries, or handle prize money. You print or share your bracket and run your own pool.
-We don't pick from expert rankings or team stats. Your five answers do the picking.
+The picker opens on Selection Sunday, March 14, 2027. Brackets start then.
+We don't host pools (group contests where friends each enter a bracket), take entries, or handle prize money: you print or share your bracket and run your own pool.
+Your five answers do the picking: your favorite, your upsets, your calls. Not a rankings or stats model.
+Bracket basics, in plain words
+How to fill out a March Madness bracket
+Five plain steps, from Selection Sunday to one champion.
+What is a March Madness bracket?
+One chart, 75 games in 2027, one champion. How the chart works.
+How does bracket scoring work?
+Points for right picks. Late rounds are worth the most.
+What is a Cinderella team?
+The low seed that steals the ball, and famous runs.
+When is Selection Sunday 2027?
+Sunday, March 14, 2027. Plus every key date.
+How often do upsets happen?
+The seed math since 1985. Some upsets are normal.
+What is a seed in March Madness?
+A team's rank in its region, 1 to 16. How seeds are set and paired.
+How to pick upsets
+Two or three first-round upsets, in the right spots.
+Which first-round upsets happen most often?
+Every first-round matchup, counted since 1985.
+March Madness upsets: the full analysis
+Every seed, every round, counted since 1985.
+How often does a 12 seed beat a 5 seed?
+About 35 times in 100. The famous one, counted.
+How often does an 11 seed beat a 6 seed?
+About 39 times in 100. Half the time lately.
+How often does a double-digit seed make the Final Four?
+Seven times in 41 tournaments. Six were 11 seeds.
+Has a 5 seed ever won March Madness?
+No. Nine reached the Final Four. Four lost the final.
+What is a chalk bracket?
+Pick the better seed in every game. It gets 42 to 49 of 63 right.
+What is March Madness?
+76 teams in 2027, lose once and you are out, one champion.
+Has anyone ever had a perfect bracket?
+No. The best proven run is 49 straight right picks.
+How to fill out a bracket if you know nothing about basketball
+Mascots, colors, seeds, or a coin flip. No knowledge needed.
+What is the Final Four?
+The last four teams. Two semifinals, then one title game.
+How many teams are in March Madness?
+76 teams in 2027. The main bracket still has 64.
+What is the opening round in March Madness?
+12 games before the main bracket. The Opening Round opens the tournament.
+What is the Sweet 16?
+The regional semifinals. Sixteen teams, eight games.
+What is the Elite Eight?
+The regional finals. Winners reach the Final Four.
+How many games are in March Madness?
+75 games in all in 2027. Your bracket picks all 75.
+What is an automatic bid?
+Win your conference tournament, and you are in.
+What is an at-large bid?
+The committee's invitation. Your season earns it.
+What is a bubble team?
+Right on the cut line. In, or just out.
+What is bracketology?
+The prediction game before Selection Sunday.
+How many rounds are in March Madness?
+Seven stages. Six rounds hold your picks.
+What is the NIT?
+The other big tournament, for teams left out.
+What is a conference tournament?
+Win your league's playoff, and you are in.
+What are NET rankings?
+The committee's main sorting tool, explained.
+Today's rankings, explained for March
+The Week 1 Top 25, read as seed lines.
+What is a bid stealer?
+The surprise winner that shrinks the bubble.
+What is the selection committee?
+The twelve people who pick the field.
+What is Wins Above Bubble?
+The resume score the committee watches.
+Ask in your own words
+Ask about seeds, scoring, upsets, or the 2027 dates. Ask anything else, too. Plain answers from checked data and a real AI.
+Works with your AI
+Your AI can pull the same rankings published on this site and help you build your bracket from real numbers.
+Connect this site to Claude, Cursor, or any other MCP client (MCP, the standard way AI apps connect to outside tools). It is free, and it takes about a minute.
+1. Copy the server address
+https://mcp.fillmybracket.com/mcp
+Copy
+2. Add it to your AI
+Claude Code: one command
+claude mcp add --transport http fill-my-bracket https://mcp.fillmybracket.com/mcp
+Claude Desktop or Cursor: paste into the MCP settings
+{
+"mcpServers": {
+"fill-my-bracket": {
+"url": "https://mcp.fillmybracket.com/mcp"
+}
+}
+}
+3. Ask your AI: “Who are the top teams right now, and which low seed is the best upset pick?”
 Built with Muse.
 Privacy Terms
-More family tools: ThawDay, the turkey timeline
+More family tools: ThawDay, the turkey timeline · Keep One Resolution, one goal for the year
+
+## Mock bracket - practice on the projected field (https://fillmybracket.com/mock-bracket)
+
+Fill My Bracket
+Mock bracket · Test runs
+Fill a mock bracket today
+The real field is set on Selection Sunday, March 14, 2027. Until then, practice here: this mock runs on the projected field, if the season ended today. Five answers fill all 75 picks. Tap any team to change a pick. Print the poster when it looks right.
+Field projected Nov 8, 2026.
+Projected field: CBS Sports preseason bracketology, released Oct. 30, 2026. The 2027 tournament has 76 teams and a 12-game opening round. Rankings: the AP Top 25, Week 1 (The Associated Press, Nov. 9, 2026), with Florida still No. 1 and UCLA up 13 spots to No. 9. No newer complete CBS Sports or ESPN bracketology had been published by Nov. 9, so this field keeps its Nov. 8 stamp. A projection is a picture of today, not a promise about March: seeds will move all season. See the rankings and trends behind this field →
+Five answers start your mock
+Favorites or chaos: how many upsets feel fun?
+Keep it safe
+A few upsets
+Lots of upsets
+Maximum chaos
+When two teams feel tied, what should break the tie?
+Best mascot
+Best colors
+School I have heard of
+Is there one team you want to see win it all?
+Boost the little guys? (Double-digit seeds get a small lift in every game.)
+Yes, boost them
+No boost
+Ride one conference? (Its teams get the same small lift.)
+SEC
+Big Ten
+Big 12
+ACC
+Big East
+No ride
+Fill my mock bracket
+Just fill it with favorites
+Every pick is a preference pick: your answers, not odds. No betting advice, no win chances. Change any pick after the fill.
+Your mock bracket
+Your mock champion
+-
+Opening round: 12 games settle the last spots
+Final Four and the title game
+See my poster
+Start a new mock run
+Mock run 1 on this device. Runs are practice. Run it back as many times as you like. Each finished run can end in a poster.
+Your mock bracket, as a poster
+Print my poster
+Share my mock
+Copy my bracket link
+Back to my bracket
+How a mock run works
+1. You answer. Five short answers: upsets, tiebreakers, your team, your boosts.
+2. It fills. All 75 picks: the 12 opening-round games, then all 63 games to one champion. Every pick gets a one-line reason that names the answer that drove it.
+3. You fix it. Tap the other team in any game to flip that pick. Later rounds move only where they have to, and the page tells you what moved.
+4. You keep it. The poster prints your full mock: champion, Final Four, every pick. Then run it again. Test runs are the point.
+Where this field came from
+The field is CBS Sports' preseason bracketology (Oct. 30, 2026), the freshest full projection we could open, cross-checked against ESPN's bracketology (Oct. 27, 2026): both draw a 76-team field with Florida, Duke, Illinois and Arizona on the 1 line. These are other people's projections, printed here with their names and dates, never as our own rankings. The rankings view of the same picture lives on the rankings page , with the trend arrows, live since the Nov. 9 poll.
+When the real field is set on March 14, 2027, the real picker opens on the home page. The mock stays up all season, re-based as the projections move.
+Is this the real 2027 bracket?
+No. This is a mock bracket. It runs on a projected field, if the season ended today, built from CBS Sports' preseason bracketology (Oct. 30, 2026) and stamped Nov. 8, 2026. The real field is set on Selection Sunday, March 14, 2027.
+Why does the mock have 76 teams?
+The tournament grows from 68 teams to 76 in 2027. Twelve opening-round games settle the last 12 spots in the 64-team bracket, so a full mock has 75 picks: 12 opening-round games plus the 63 games of the main bracket.
+Does the mock bracket count for anything?
+No. It is practice. There are no pools, entries, or prizes here. Fill as many mock runs as you like, print the poster, and be sharp when the real picker opens on March 14, 2027.
+Stuck on a word like seed or at-large? Ask in your own words
+Built with Muse.
+Home Rankings Ask Privacy Terms
 
 ## What is an automatic bid? (https://fillmybracket.com/what-is-an-automatic-bid)
 
@@ -1770,153 +1987,178 @@ Open the full ask page
 
 ## Today's rankings, read with March eyes (https://fillmybracket.com/college-basketball-rankings)
 
+Fill My Bracket
 2026-27 season
 Today's rankings, explained for March
-The season started Sunday, November 1. Here is the full preseason Top 25, translated into the only language March speaks: seed lines, trap games, and the unranked names that become Cinderellas.
-Rankings as of Sunday, November 1, 2026.
-The Preseason AP Top 25, from The Associated Press, released Monday, October 19, 2026. First-place votes in parentheses. Rankings move every week; this page refreshes every week, and the stamp above always says which poll you are reading.
-One game is already in the books
+The first in-season poll is in. Here is the full Top 25 after one week of games, translated into the only language March speaks: seed lines, projected seeds, real trend movement, and the unranked names that become Cinderellas.
+Rankings as of Monday, November 9, 2026.
+The AP Top 25, Week 1, from The Associated Press, released Monday, November 9, 2026: the first in-season poll. First-place votes in parentheses. Florida stays No. 1, with 53 of the 60 first-place votes; Duke holds the other 7. This page keeps a dated snapshot every week: this is snapshot two, so the trend column shows real movement from the preseason poll (Oct. 19, 2026). The projected seeds come from CBS Sports' preseason bracketology (Oct. 30, 2026), still the freshest complete projection published as of Nov. 9, a projection, not the committee's seeds. Rankings move every week; this page refreshes every week, and the stamp above always says which poll you are reading.
+The first week is in the books
 Notre Dame beat Villanova 74–72 in Rome on the morning of Sunday, November 1, 2026 (Eternal City Tip-Off, Palazzo dello Sport). Both teams were unranked; Villanova had 6 votes in the poll.
 Monday, November 2 brought more than 100 games, headlined by No. 1 Florida vs No. 14 Miami in Tampa and No. 5 Arizona vs No. 22 UCLA in Las Vegas.
-Nobody's March fate moves this week. But the picture that March will rearrange starts here.
-The full preseason Top 25
-Through Sunday, November 1, 2026.
-Poll: Preseason AP Top 25, released Monday, October 19, 2026. Model: Bart Torvik T-Rank, read November 1, 2026. Both lists cover all 25 teams below.
+The first in-season poll landed Monday, November 9, and the picture already moved: UCLA climbed 13 spots to No. 9 after beating Arizona, Arizona and Arkansas fell seven spots each, Iowa State dropped out, and Nebraska climbed in at No. 25. Nobody's March fate is settled this week, but the rearrangement has started.
+The full Top 25, with projected seeds and trends
+Through Monday, November 9, 2026. Poll: AP Top 25, Week 1, released Monday, November 9, 2026. Trend reads against the Preseason AP Top 25, released October 19, 2026. Model: Bart Torvik T-Rank, read November 1, 2026, carried forward with its date. Both lists cover all 25 teams below.
 Each rank cell holds two numbers.
 The big number is the voters' rank.
 The small raised number is the model's rank.
 The model ranks all 365 teams.
 Florida reads 1, with a small 3.
 Voters say first. The model says third.
+The trend column now shows real movement. This is snapshot two, read against the preseason poll: UCLA climbed 13 spots, the biggest rise, and Arizona and Arkansas fell seven each, the biggest drops among teams still ranked. Iowa State (was No. 18) fell out entirely, and Nebraska is new at No. 25.
+The last columns are each team's projected seed in the Nov. 8 projected field, the field the mock bracket plays on, and the rank band this page has always read. The field did not change this week: no newer complete CBS Sports or ESPN bracketology had been published by Nov. 9, so the Nov. 8 field carries forward as-is, not re-dated. One ranked team is missing from the field entirely. Find USC at No. 21.
 AP rank, model rank
 Team
-March seed line
+Trend
+Projected seed (Nov. 8)
+Rank band
+1 3
+Florida (53)
+No change
+Midwest 1
 1
-3
-Florida (47)
+2 1
+Duke (7)
+No change
+East 1
 1
-2
+3 7
+Illinois
+No change
+South 2
 1
-Duke (10)
-1
-3
-7
-Illinois (2)
-1
-4
-13
+4 13
 UConn
+No change
+Midwest 2
 1
-5
-2
-Arizona
-2
-6
-11
+5 11
 Michigan State
+Up 1
+West 2
 2
-7
-18
-Texas
-2
-8
-16
-Tennessee
-2
-9
-5
+6 5
 Virginia
-3
-10
-6
+Up 3
+South 3
+2
+7 18
+Texas
+No change
+West 4
+2
+8 6
 Houston
-3
-11
-9
-Louisville
-3
-12
-21
-Arkansas
-3
-13
-33
-St. John's
-4
-14
-12
-Miami
-4
-15
-8
-Gonzaga
-4
-16
-14
-Michigan
-4
-17
-4
-Kansas
-5
-18
-10
-Iowa State
-5
-19
-17
-Texas Tech
-5
-20
-20
-Alabama
-5
-21
-37
-USC
-6
-22
-24
+Up 2
+South 1
+2
+9 24
 UCLA
+Up 13
+South 9
+3
+10 9
+Louisville
+Up 1
+West 6
+3
+11 16
+Tennessee
+Down 3
+South 4
+3
+12 2
+Arizona
+Down 7
+West 1
+3
+13 33
+St. John's
+No change
+Midwest 5
+4
+14 8
+Gonzaga
+Up 1
+Midwest 4
+4
+15 4
+Kansas
+Up 2
+East 3
+4
+16 17
+Texas Tech
+Up 3
+Midwest 3
+4
+17 12
+Miami
+Down 3
+Midwest 6
+5
+18 20
+Alabama
+Up 2
+East 2
+5
+19 21
+Arkansas
+Down 7
+East 5
+5
+20 14
+Michigan
+Down 4
+South 5
+5
+21 37
+USC
+No change
+Not in the field
 6
-23
-26
-Kentucky
-6
-24
-22
+22 22
 Vanderbilt
+Up 2
+West 3
 6
-25
-23
+23 23
 BYU
+Up 2
+Midwest 8
+6
+24 26
+Kentucky
+Down 1
+South 7
+6
+25 15
+Nebraska
+New in Top 25
+East 6
 7
 A far-apart pair means the lists disagree.
-See them next:
-the teams the numbers doubt
-.
-Others receiving votes: Missouri 167, Nebraska 70, Purdue 53, Ohio State 39, North Carolina 20, TCU 17, Saint Louis 13, VCU 12, Iowa 12, Virginia Tech 10, Indiana 8, Texas A&M 6, Villanova 6, Auburn 4, Marquette 3, Nevada 2, Grand Canyon 2, Utah State 2, Santa Clara 1.
+See them next: the teams the numbers doubt .
+Others receiving votes: Memphis 97, Saint Louis 67, Iowa State 57, North Carolina 20, Iowa 15, Baylor 14, TCU 13, Marquette 10, Indiana 7, Nevada 5, Texas A&M 5, High Point 3, Santa Clara 2, East Texas A&M 1, Creighton 1, Utah State 1.
 Seven of the 25 are SEC teams, led by Florida at No. 1.
-Michigan, which won the April 2026 national title, opens down at No. 16.
+One ranked team is missing from the projected field entirely: USC, at No. 21, is the only Top 25 team CBS Sports' projection leaves out. The poll and the projection are different judges; March sorts them out.
+Michigan, which won the April 2026 national title, sits at No. 20 after losing its title-game rematch with UConn.
+The projected field at a glance
+Seventy-six teams, twelve opening-round games, one picture of March if the season ended today. The 1 seeds: Duke in the East, Houston in the South, Florida in the Midwest, Arizona in the West. The last four in, Colorado State, West Virginia, LSU and Baylor, all start in the opening round. Rechecked Monday, November 9: no newer complete CBS Sports or ESPN bracketology had been published, so this field carries forward unchanged, with its Nov. 8 stamp.
+That field is not just a list. It is playable, today, as many times as you like.
+Fill a mock bracket on this field
+Test runs on the projected field. Five answers, 75 picks, one poster.
 What these bands become in March
 November ranks are not March seeds.
 The committee seeds the field on the whole season, and four months of games will shuffle this list.
-But the bands rhyme with the seed lines, and the seed lines carry 41 years of counted history (
-the full analysis
-).
+But the bands rhyme with the seed lines, and the seed lines carry 41 years of counted history ( the full analysis ).
 Read today's list in bands:
-Ranks 1 to 4 (Florida, Duke, Illinois, UConn): the 1-seed line.
-One seeds have won 27 of 41 titles and 162 of their 164 first games. The safest seat in sports, with two famous exceptions.
-Ranks 5 to 8 (Arizona, Michigan State, Texas, Tennessee): the 2-seed line.
-Strong, not safe: 15 seeds have beaten 2 seeds 11 times, about once every four years.
-Ranks 9 to 12 (Virginia, Houston, Louisville, Arkansas): the 3-seed line.
-Three seeds lose to 14 seeds about 14 times in 100.
-Ranks 13 to 16 (St. John's, Miami, Gonzaga, Michigan): the 4-seed line.
-The first bullseye. Four seeds lose to 13 seeds 33 times in 164, about one time in five. The reigning champion, Michigan, sits in this band today.
-Ranks 17 to 20 (Kansas, Iowa State, Texas Tech, Alabama): the 5-seed line.
-The most famous trap in the tournament. Five seeds lose to 12 seeds 58 times in 164, better than one time in three. And no 5 seed has ever won the title.
-Ranks 21 to 25 (USC, UCLA, Kentucky, Vanderbilt, BYU): the 6 and 7 lines.
-Favorites in the two most upset-heavy games after the coin flip: 6 seeds lose to 11 seeds about 39 times in 100, and 7 seeds lose to 10 seeds about 38 times in 100.
+Ranks 1 to 4 (Florida, Duke, Illinois, UConn): the 1-seed line. One seeds have won 27 of 41 titles and 162 of their 164 first games. The safest seat in sports, with two famous exceptions.
+Ranks 5 to 8 (Michigan State, Virginia, Texas, Houston): the 2-seed line. Strong, not safe: 15 seeds have beaten 2 seeds 11 times, about once every four years.
+Ranks 9 to 12 (UCLA, Louisville, Tennessee, Arizona): the 3-seed line. Three seeds lose to 14 seeds about 14 times in 100.
+Ranks 13 to 16 (St. John's, Gonzaga, Kansas, Texas Tech): the 4-seed line. The first bullseye. Four seeds lose to 13 seeds 33 times in 164, about one time in five.
+Ranks 17 to 20 (Miami, Alabama, Arkansas, Michigan): the 5-seed line. The most famous trap in the tournament. Five seeds lose to 12 seeds 58 times in 164, better than one time in three. And no 5 seed has ever won the title. The reigning champion, Michigan, sits in this band today.
+Ranks 21 to 25 (USC, Vanderbilt, BYU, Kentucky, Nebraska): the 6 and 7 lines. Favorites in the two most upset-heavy games after the coin flip: 6 seeds lose to 11 seeds about 39 times in 100, and 7 seeds lose to 10 seeds about 38 times in 100.
 High-ranked teams the numbers doubt
 Two rankings came out this fall.
 The voters published theirs, the AP poll above.
@@ -1940,6 +2182,11 @@ No. 21
 37
 6-seed line
 11 seeds beat 6 seeds about 39 times in 100.
+UCLA
+No. 9
+24
+3-seed line
+14 seeds beat 3 seeds about 14 times in 100.
 Texas
 No. 7
 18
@@ -1950,107 +2197,80 @@ No. 4
 13
 1-seed line
 Even the safest line has cracked twice: 16 seeds own 2 wins in 164.
-Arkansas
-No. 12
-21
-3-seed line
-14 seeds beat 3 seeds about 14 times in 100.
-Tennessee
-No. 8
-16
+Michigan State
+No. 5
+11
 2-seed line
 15 seeds have beaten 2 seeds 11 times in 164.
-Read this the honest way:
-this is one model's preseason baseline, a projection, never a certainty.
+Read this the honest way: this is one model's preseason baseline, a projection, never a certainty.
 It will be wrong about some of these teams by January.
 That is why this page re-scores the list every week instead of carving it in stone.
 The disagreement runs both ways:
-Kansas: voters No. 17, model No. 4.
-If the model is right, a top-line team is hiding in the 5-seed band today.
-Nebraska: unranked, model No. 15.
-The model's 15th-best team in the country did not make the voters' Top 25 at all, on 70 votes. Somebody moves toward somebody by January.
-Gonzaga: voters No. 15, model No. 8.
-The model likes the Zags more than the poll does, even on the 4-seed band where 13 seeds win one time in five.
+Kansas: voters No. 15, model No. 4. If the model is right, a top-line team is hiding in the 4-seed band today.
+Nebraska: voters No. 25, model No. 15. The voters moved toward the model this week: Nebraska enters the Top 25 after opening unranked on 70 votes.
+Gonzaga: voters No. 14, model No. 8. The model likes the Zags more than the poll does, even on the 4-seed band where 13 seeds win one time in five.
 Cinderella Radar: unranked teams that could surprise in March
 March's 11, 12, and 13 seeds are almost never ranked in November.
 They are conference champions and fighters from leagues the polls barely watch.
 Count the whole first round and about eight games a year go to the lower seed. About two double-digit seeds are still standing in the Sweet 16.
 So this page scores the unranked names on three signals. All three are public, and you can check every one:
-Model strength.
-Torvik's model rates the team in the national top 70 even though the voters left it out. Teams that play above their seed line are where upsets come from.
-Poll notice.
-The team received AP votes. At least a few voters thought it belonged, which separates it from the 300 or so teams nobody mentioned.
-A live path.
-Its league's road to March lands teams on the 10 to 14 seed lines, where the counted upset rates run from about 14 to 39 in 100.
+Model strength. Torvik's model rates the team in the national top 70 even though the voters left it out. Teams that play above their seed line are where upsets come from.
+Poll notice. The team received AP votes. At least a few voters thought it belonged, which separates it from the 300 or so teams nobody mentioned.
+A live path. Its league's road to March lands teams on the 10 to 14 seed lines, where the counted upset rates run from about 14 to 39 in 100.
 Team
 AP votes
 Model rank
 Signals lit
 Why it is on the radar
-Grand Canyon
-(Mountain West)
-2
-43
-3 of 3
-The widest gap on this page: the model rates Grand Canyon 43rd of 365 teams, and the voters gave them 2 votes.
-VCU
-(Atlantic 10)
-12
-56
-3 of 3
-Twelve voters noticed them, none ranked them, and the model puts them 56th. The classic profile of an 11 seed.
-Utah State
-(Pac-12)
-2
-59
-3 of 3
-Two votes against a model rating of 59th. Quiet in November; that is exactly what a future 12 seed looks like in November.
-Saint Louis
-(Atlantic 10)
-13
+Saint Louis (Atlantic 10)
+67
 68
 3 of 3
-The most AP votes of any unranked team here, 13, with a model rating of 68th, right at the radar's edge.
-Nevada
-(Mountain West)
-2
+Sixty-seven votes in the Nov. 9 poll, second only to Memphis among unranked teams, with a model rating of 68th, right at the radar's edge.
+Iowa State (Big 12)
+57
+10
+2 of 3
+Fell out of the Top 25 this week (was No. 18) after losing to Memphis. The model still rates the Cyclones 10th, but their league path points at a top seed line, not a double-digit one.
+Utah State (Pac-12)
+1
+59
+3 of 3
+One vote against a model rating of 59th. Quiet in November; that is exactly what a future 12 seed looks like in November.
+Nevada (Mountain West)
+5
 85
 2 of 3
-The model is cooler on Nevada (85th), and this page says so: they make the radar on votes and league path alone.
-Santa Clara
-(West Coast Conference)
-1
+The model is cooler on Nevada (85th), and this page says so: they make the radar on votes (5 in the Nov. 9 poll) and league path alone.
+Santa Clara (West Coast Conference)
+2
 89
 2 of 3
-One vote and the model's 89th rating. The faintest signal here, kept because WCC teams land on live seed lines.
-The radar is a watch list, not a promise: most of these teams will not make the field, and the page will say so when their signals go dark.
-And the famous name both lists agree on:
-North Carolina
-. Twenty votes, no ranking, and the model puts the Tar Heels 47th too. A giant starts the season doubted by everyone.
+Two votes and the model's 89th rating. The faintest signal here, kept because WCC teams land on live seed lines.
+The radar is a watch list, not a promise: most of these teams will not make the field, and the page will say so when their signals go dark. Grand Canyon and VCU fell off the radar this week: neither received a vote in the Nov. 9 poll.
+And the famous name both lists agree on: North Carolina . Twenty votes, no ranking, and the model puts the Tar Heels 47th too. A giant starts the season doubted by everyone.
 What this page cannot see
 Plain words about the limits, because a forecast that hides them is a sales pitch:
-One model, named every time.
-Torvik's T-Rank is free, public, and on the committee's own team sheets. Other respected ratings sit behind paywalls, or publish nothing in November that can be checked. One model you can verify beats three we cannot.
-Preseason means priors.
-In November, the model is rating last season's program, returning players, and history, not games this roster has played. Its disagreements with the voters are hypotheses, and this page treats them that way.
-No injuries, no roster news.
-This page does not track who is hurt or who transferred. By February, that will matter more than anything printed here, and the weekly refresh will say what changed.
-A rank is not a seed.
-The bands rhyme with the seed lines. The committee holds the real pen, in March.
+One model, named every time. Torvik's T-Rank is free, public, and on the committee's own team sheets. Other respected ratings sit behind paywalls, or publish nothing in November that can be checked. One model you can verify beats three we cannot.
+Preseason means priors. In November, the model is rating last season's program, returning players, and history, not games this roster has played. Its disagreements with the voters are hypotheses, and this page treats them that way.
+No injuries, no roster news. This page does not track who is hurt or who transferred. By February, that will matter more than anything printed here, and the weekly refresh will say what changed.
+A rank is not a seed. The bands rhyme with the seed lines. The committee holds the real pen, in March.
 Why a bracket site keeps a rankings page
 A bracket is a set of choices, and the choices start forming now.
-Every Monday, this page refreshes with the new poll, restamps its date, and re-reads the bands.
+Monday, November 2 brought more than 100 games, headlined by No. 1 Florida vs No. 14 Miami in Tampa and No. 5 Arizona vs No. 22 UCLA in Las Vegas, and a full week of games followed. The voters waited for Monday, and the Nov. 9 poll delivered the first real trend arrows: UCLA up 13, Arizona and Arkansas down seven each, Iowa State out, Nebraska in.
+Every Monday, this page refreshes with the new poll, restamps its date, and re-reads the bands. Each refresh is saved as a dated snapshot, so the trend column is history, not a rewrite.
 By March, the teams you have been watching all winter will land on seed lines whose history you already know.
 That is the whole idea here: your team, your upsets, your calls, made with the counted record open next to them.
 Five questions start your bracket. Your picks finish it.
 Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Practice today: the mock bracket runs on this page's projected field: test runs, as many as you like, each ending in a poster.
 Common questions
 Are the November rankings the same as the March seeds?
 No. The committee seeds the tournament on the whole season in March. November ranks are a starting picture. The bands rhyme with the seed lines, which is why this page reads them that way, but any team can climb or fall by March.
 When does this page update?
-Every week of the season. The AP poll lands on Mondays once games begin, and this page refreshes with it, with the date and source stamped at the top.
+Every week of the season. The AP poll lands on Mondays once games begin, and this page refreshes with it, with the date and source stamped at the top. Every refresh is saved as a dated snapshot, and the trend column reads from those snapshots: week one honestly read "First snapshot," and from Nov. 9 on it shows real movement between dated polls.
 Who is the defending champion?
-Michigan, which won the April 2026 title game. The Wolverines open this season at No. 16 in the preseason AP poll.
+Michigan, which won the April 2026 title game. The Wolverines sit at No. 20 in the Nov. 9, 2026 AP poll after losing to UConn.
 Which unranked teams could surprise in March?
 A list of unranked teams picked out using three public signals: a top-70 rating in Bart Torvik's T-Rank model, votes in the AP poll, and a league path that lands teams on the 10 to 14 seed lines. It is a list to watch, not a prediction that any of them makes the field.
 Why does each Top 25 rank have a small second number?
@@ -2092,21 +2312,9 @@ What is the selection committee?
 What is Wins Above Bubble?
 Back to the game
 Make your calls on the eight matchups waiting on the home page.
+Share this page
 Built with Muse.
-Home
-Privacy
-Terms
-Ask in your own words
-Ask in your own words
-&times;
-Bracket answers use this site's checked counts and history first. Ask anything else and a real AI answers in plain words. It cannot pick your 2027 bracket. Nothing you type is stored.
-What is a seed?
-How does scoring work?
-How often do upsets happen?
-When is Selection Sunday 2027?
-What are the five questions?
-Ask
-Open the full ask page
+Home Privacy Terms
 
 ## Which school has won the most March Madness titles? (https://fillmybracket.com/which-school-has-won-the-most-march-madness-titles)
 
@@ -2743,7 +2951,7 @@ The Opening Round trims 76 teams to 64.
 Each round then cuts the field in half: 64, 32, 16 (Sweet 16), 8 (Elite Eight), 4 (Final Four), 2, 1 champion.
 2027 dates: Opening Round March 16-17, First Round March 18-19, Second Round March 20-21, Sweet 16 March 25-26, Elite Eight March 27-28, Final Four April 3, title game April 5.
 How your bracket fits
-You pick the winner of each of the 63 main-bracket games before the games start. You choose your champion, your Final Four, and your upsets.
+On this site you pick all 75 games before the games start: the 12 Opening Round games plus the 63 main-bracket games. You choose your champion, your Final Four, and your upsets.
 
 ## When does March Madness start? (https://fillmybracket.com/when-does-march-madness-start)
 

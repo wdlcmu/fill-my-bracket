@@ -15,7 +15,7 @@
 
 - [Homepage](https://fillmybracket.com/): how it works, and common questions.
 - [How to fill out a March Madness bracket](https://fillmybracket.com/how-to-fill-out-a-march-madness-bracket): five plain steps, from Selection Sunday to one champion.
-- [What is a March Madness bracket?](https://fillmybracket.com/what-is-a-march-madness-bracket): one chart, 63 games, one champion. How the chart works.
+- [What is a March Madness bracket?](https://fillmybracket.com/what-is-a-march-madness-bracket): one chart, 75 games in 2027 (63 in the main bracket), one champion. How the chart works.
 - [How does bracket scoring work?](https://fillmybracket.com/how-does-bracket-scoring-work): points for right picks, doubling each round in the common system.
 - [What is a Cinderella team?](https://fillmybracket.com/what-is-a-cinderella-team): the low seed that beats big teams and stays alive late, with famous runs.
 - [When is Selection Sunday 2027?](https://fillmybracket.com/when-is-selection-sunday-2027): Sunday, March 14, 2027, plus every key date of the 2027 tournament.
