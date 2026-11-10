@@ -9,7 +9,7 @@
 
 Fill My Bracket
 Five questions start your bracket. Your picks finish it.
-days hrs min sec
+123 days 21 hrs 22 min 08 sec
 Selection Sunday is March 14, 2027.
 How it works →
 What’s next? ▾
@@ -31,28 +31,17 @@ Tournaments with a double-digit seed in the Sweet 16 (the round when 16 teams ar
 39 of 41
 Share
 Questions before March? Ask in your own words
-1
-Seed 1
-16
-Seed 16
-8
-Seed 8
-9
-Seed 9
-5
-Seed 5
-12
-Seed 12
-4
-Seed 4
-13
-Seed 13
-CHAMPION
-One region of a sample bracket: eight teams in, one champion out.
+Duke
+First round: Duke over LIU, Arkansas over Indiana, Kansas over Yale, Alabama over Merrimack.
+Second round: Duke over Georgia, Kansas over Nebraska.
+Regional final: Duke over Kansas.
+Final Four: Duke, Houston, Florida and Michigan State.
+Title game: Duke over Florida.
+One real mock run, finished: the five starting answers on the mock page, run on the projected field (Nov 8, 2026, CBS Sports bracketology).
 Your bracket, as a poster
 Fill My Bracket
-Champion: your pick here
-Print it. Pin it up. Every game, round by round.
+Champion: Duke
+The poster from the mock run above. Print it. Pin it up. Every game, round by round.
 Made by a dad, on the side
 I'm Billy, a dad in Redmond, Washington. I build these tools on the side, with AI. One idea, one website, no company behind it.
 How it works
@@ -2353,7 +2342,8 @@ What is the lowest seed to win March Madness?
 What is the Final Four?
 How to pick upsets
 When is Selection Sunday 2027?
-
+How often does a 14 seed beat a 3 seed?
+Which school has the most Final Four appearances?
 ## What is the lowest seed to win March Madness? (https://fillmybracket.com/what-is-the-lowest-seed-to-win-march-madness)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -2581,13 +2571,12 @@ Common questions
 How often does a 16 seed beat a 1 seed?Twice in 164 games since 1985. UMBC beat Virginia in 2018, and Fairleigh Dickinson beat Purdue in 2023.
 Has a 16 seed ever reached the Sweet 16?No. The two winners, UMBC and Fairleigh Dickinson, both lost their next game, in the round of 32.
 More bracket basics
-How often does a 16 seed beat a 1 seed?
 How often does a 15 seed beat a 2 seed?
 How often does a 14 seed beat a 3 seed?
 How often does a 12 seed beat a 5 seed?
 Which first-round upsets happen most often?
 2023 bracket backtest: the year a 16 seed won
-
+What is the First Four?
 ## How often does a 15 seed beat a 2 seed? (https://fillmybracket.com/how-often-does-a-15-seed-beat-a-2-seed)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -2627,12 +2616,11 @@ How often does a 15 seed beat a 2 seed?11 times in 164 games since 1985, about 7
 Has a 15 seed ever reached the Final Four?No. Saint Peter's came closest, reaching the Elite Eight in 2022.
 More bracket basics
 How often does a 16 seed beat a 1 seed?
-How often does a 15 seed beat a 2 seed?
 How often does a 14 seed beat a 3 seed?
 How often does a 12 seed beat a 5 seed?
 Which first-round upsets happen most often?
 2022 bracket backtest: Saint Peter's reached the Elite Eight
-
+How often does a 9 seed beat an 8 seed?
 ## How often does a 14 seed beat a 3 seed? (https://fillmybracket.com/how-often-does-a-14-seed-beat-a-3-seed)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -2685,11 +2673,10 @@ Has a 14 seed ever reached the Elite Eight?No. Two reached the Sweet 16: Clevela
 More bracket basics
 How often does a 16 seed beat a 1 seed?
 How often does a 15 seed beat a 2 seed?
-How often does a 14 seed beat a 3 seed?
 How often does a 12 seed beat a 5 seed?
 Which first-round upsets happen most often?
 2024 bracket backtest: 11 first-round upsets
-
+How long does March Madness last?
 ## 2026 backtest: what all-chalk would have scored (https://fillmybracket.com/2026-bracket-backtest)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -2735,7 +2722,9 @@ More bracket basics
 2023 bracket backtest
 2022 bracket backtest
 How often do upsets happen?
-
+Who won March Madness in 2026?
+What is a chalk bracket?
+How often does a 9 seed beat an 8 seed?
 ## 2025 backtest: what all-chalk would have scored (https://fillmybracket.com/2025-bracket-backtest)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -2780,7 +2769,8 @@ More bracket basics
 2023 bracket backtest
 2022 bracket backtest
 How often do upsets happen?
-
+What is a chalk bracket?
+How often does a 9 seed beat an 8 seed?
 ## 2024 backtest: what all-chalk would have scored (https://fillmybracket.com/2024-bracket-backtest)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -2828,7 +2818,8 @@ More bracket basics
 2023 bracket backtest
 2022 bracket backtest
 How often do upsets happen?
-
+What is a chalk bracket?
+How often does a 16 seed beat a 1 seed?
 ## 2023 backtest: what all-chalk would have scored (https://fillmybracket.com/2023-bracket-backtest)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -2871,7 +2862,8 @@ More bracket basics
 2024 bracket backtest
 2022 bracket backtest
 How often do upsets happen?
-
+What is a chalk bracket?
+How often does a 15 seed beat a 2 seed?
 ## 2022 backtest: what all-chalk would have scored (https://fillmybracket.com/2022-bracket-backtest)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -2917,7 +2909,8 @@ More bracket basics
 2024 bracket backtest
 2023 bracket backtest
 How often do upsets happen?
-
+What is a chalk bracket?
+How often does a 14 seed beat a 3 seed?
 ## What is the First Four? (https://fillmybracket.com/what-is-the-first-four)
 
 What is the First Four?
@@ -3013,14 +3006,12 @@ How often does a 9 seed beat an 8 seed?
 Has a 9 seed ever reached the Final Four?
 Yes, twice. Wichita State in 2013 and Florida Atlantic in 2023. Both teams lost in the semifinals.
 More bracket basics
-How often does a 9 seed beat an 8 seed?
 How often does a 10 seed beat a 7 seed?
 How often does an 11 seed beat a 6 seed?
 How often does a 12 seed beat a 5 seed?
 Which first-round upsets happen most often?
 March Madness upset analysis
-
-
+How often does a 14 seed beat a 3 seed?
 ## How often does a 1 seed win March Madness? (https://fillmybracket.com/how-often-does-a-1-seed-win-march-madness)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3067,14 +3058,14 @@ How often does a 1 seed win March Madness?
 Which seed wins March Madness most often?
 The 1 seed, by far. Since 1985, 1 seeds have won 27 titles. The next best seed, the 2 seed, has won 5.
 More bracket basics
-How often does a 1 seed win March Madness?
 How many 1 seeds make the Final Four?
 March Madness champions list
 Which school has won the most titles?
 What is the lowest seed to win?
 Who won March Madness in 2026?
-
-
+How often do two 1 seeds play in the final?
+Has a 5 seed ever won March Madness?
+How often does a double-digit seed make the Final Four?
 ## How many 1 seeds make the Final Four? (https://fillmybracket.com/how-many-1-seeds-make-the-final-four)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3116,14 +3107,13 @@ Yes, twice. In 2008 and again in 2025, all four Final Four teams were 1 seeds.
 Has the Final Four ever had no 1 seed?
 Yes, three times since 1985: 2006, 2011, and 2023.
 More bracket basics
-How many 1 seeds make the Final Four?
 How often does a 1 seed win March Madness?
 What is the Final Four?
 Lowest seed to reach the Final Four
 When is the Final Four in 2027?
 Tournament history explorer
-
-
+How often do two 1 seeds play in the final?
+What is the First Four?
 ## What is the lowest seed to reach the Final Four? (https://fillmybracket.com/what-is-the-lowest-seed-to-reach-the-final-four)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3164,14 +3154,14 @@ An 11 seed. Six 11 seeds have reached the Final Four, and no seed above 11 ever 
 Has an 11 seed ever won March Madness?
 No. All six 11 seeds lost in the semifinals. None reached the title game.
 More bracket basics
-Lowest seed to reach the Final Four
 What is the lowest seed to win?
 What is a Cinderella team?
 What is the Final Four?
 How many 1 seeds make the Final Four?
 Tournament history explorer
-
-
+What is the lowest seed to reach the title game?
+How often does a double-digit seed make the Final Four?
+When does March Madness start?
 ## When is the Final Four in 2027? (https://fillmybracket.com/when-is-the-final-four-in-2027)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3217,14 +3207,12 @@ The semifinals are Saturday, April 3, 2027. The title game is Monday, April 5, 2
 Where is the Final Four in 2027?
 Detroit. The semifinals and the title game are played in Detroit.
 More bracket basics
-When is the Final Four in 2027?
 What is the Final Four?
 When does March Madness start?
 How long does March Madness last?
 When is Selection Sunday 2027?
 How many 1 seeds make the Final Four?
-
-
+How often does a 16 seed beat a 1 seed?
 ## Who won March Madness in 2026? (https://fillmybracket.com/who-won-march-madness-in-2026)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3275,14 +3263,12 @@ Michigan. The Wolverines beat UConn 69 to 63 in the title game, on April 6, 2026
 How many March Madness titles has Michigan won?
 Two. Michigan won in 1989 and again in 2026.
 More bracket basics
-Who won March Madness in 2026?
 2026 bracket backtest
 March Madness champions list
 How often does a 1 seed win?
 Tournament history explorer
 Which school has won the most titles?
-
-
+How long does March Madness last?
 ## How long does March Madness last? (https://fillmybracket.com/how-long-does-march-madness-last)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3328,13 +3314,12 @@ About three weeks. In 2027, the games run from Tuesday, March 16 to Monday, Apri
 How many games are in March Madness?
 75 games in 2027. The Opening Round adds 12 games to the 63 in the main bracket.
 More bracket basics
-How long does March Madness last?
 When does March Madness start?
 How many games are in March Madness?
 When is the Final Four in 2027?
 How many rounds are in March Madness?
 When is Selection Sunday 2027?
-
+How often does a 9 seed beat an 8 seed?
 ## Tournament history explorer (https://fillmybracket.com/tournament-history)
 
 Every March Madness since 1985, game by game.
@@ -3408,15 +3393,14 @@ UCLA won seven titles in a row, from 1967 to 1973. No other school has won more 
 Who was the last team to win two years in a row?
 UConn. UConn beat San Diego State in 2023 and Purdue in 2024.
 More bracket basics
-Has a team ever won two years in a row?
 Has the final ever gone to overtime?
 What was the closest March Madness final?
 What is the lowest seed to reach the title game?
 March Madness champions list
 Which school has won the most titles?
 Who won March Madness in 2026?
-
-
+What is the longest gap between titles?
+Has a 5 seed ever won March Madness?
 ## Has the March Madness final ever gone to overtime? (https://fillmybracket.com/has-the-march-madness-final-ever-gone-to-overtime)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3482,14 +3466,12 @@ Has a March Madness final ever gone to double overtime?
 No. Seven took one overtime. One took three. None took two.
 More bracket basics
 Has a team ever won two years in a row?
-Has the final ever gone to overtime?
 What was the closest March Madness final?
 What is the lowest seed to reach the title game?
 March Madness champions list
 What is the Final Four?
 When is the Final Four in 2027?
-
-
+Has a 5 seed ever won March Madness?
 ## What was the closest March Madness final? (https://fillmybracket.com/what-was-the-closest-march-madness-final)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3548,13 +3530,12 @@ The 2025 final. Florida beat Houston 65 to 63, a two-point game. No final since 
 More bracket basics
 Has a team ever won two years in a row?
 Has the final ever gone to overtime?
-What was the closest March Madness final?
 What is the lowest seed to reach the title game?
 March Madness champions list
 What is the Final Four?
 Who won March Madness in 2026?
-
-
+What was the biggest blowout in the final?
+What was the highest-scoring final?
 ## What is the lowest seed to reach the championship game? (https://fillmybracket.com/what-is-the-lowest-seed-to-reach-the-championship-game)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3606,12 +3587,11 @@ More bracket basics
 Has a team ever won two years in a row?
 Has the final ever gone to overtime?
 What was the closest March Madness final?
-What is the lowest seed to reach the title game?
 What is the lowest seed to win?
 What is the lowest seed to reach the Final Four?
 What is a Cinderella team?
-
-
+2025 backtest: what all-chalk would have scored
+How often do two 1 seeds play in the championship game?
 ## What was the biggest blowout in the March Madness final? (https://fillmybracket.com/what-was-the-biggest-blowout-in-the-march-madness-final)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3661,15 +3641,14 @@ Yes, once. UNLV scored 103 points against Duke in 1990. No other team has reache
 Are March Madness finals usually close?
 Most are. The middle margin is 9 points, and six finals were decided by one point.
 More bracket basics
-What was the biggest blowout in the final?
 Which school has the most straight Final Fours?
 What was the highest-scoring final?
 Which tournament had the most upsets?
 What was the closest March Madness final?
 March Madness champions list
 Who won March Madness in 2026?
-
-
+What was the biggest blowout in March Madness history?
+What is the lowest seed to reach the Final Four?
 ## Which school has the most consecutive Final Four appearances? (https://fillmybracket.com/which-school-has-the-most-consecutive-final-four-appearances)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3731,14 +3710,14 @@ Has any other school reached ten straight Final Fours?
 No. The next best is five in a row, by Cincinnati from 1959 to 1963 and Duke from 1988 to 1992.
 More bracket basics
 What was the biggest blowout in the final?
-Which school has the most straight Final Fours?
 What was the highest-scoring final?
 Which tournament had the most upsets?
 Which school has the most Final Four appearances?
 What is the Final Four?
 When is the Final Four in 2027?
-
-
+How often does a 15 seed beat a 2 seed?
+What is the longest gap between Final Four appearances?
+Which school has the most Final Four appearances without winning a title?
 ## What was the highest-scoring March Madness final? (https://fillmybracket.com/what-was-the-highest-scoring-march-madness-final)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3787,13 +3766,11 @@ Since 2000, the highest is the 2000 final. Michigan State beat Florida 89 to 76,
 More bracket basics
 What was the biggest blowout in the final?
 Which school has the most straight Final Fours?
-What was the highest-scoring final?
 Which tournament had the most upsets?
 March Madness champions list
 What is the Final Four?
 Who won March Madness in 2026?
-
-
+What was the highest-scoring game in March Madness history?
 ## Which March Madness tournament had the most upsets? (https://fillmybracket.com/which-march-madness-tournament-had-the-most-upsets)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3840,12 +3817,11 @@ More bracket basics
 What was the biggest blowout in the final?
 Which school has the most straight Final Fours?
 What was the highest-scoring final?
-Which tournament had the most upsets?
 March Madness upset analysis
 How often do upsets happen?
 How to pick upsets
-
-
+Which tournament had the fewest upsets?
+Which school has the most Final Four appearances?
 ## What was the biggest blowout in March Madness history? (https://fillmybracket.com/what-was-the-biggest-blowout-in-march-madness-history)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3890,15 +3866,13 @@ UNLV beat Duke by 30 points in 1990. The score was 103 to 73.
 Has any team won a game by 60 points?
 No. The widest margin since 1985 is 59 points.
 More bracket basics
-What was the biggest blowout in March Madness history?
 What was the highest-scoring game in March Madness history?
 Which school has the most Final Fours without a title?
 What is the longest gap between titles?
 What was the biggest blowout in the final?
 March Madness upset analysis
 Which tournament had the most upsets?
-
-
+How long does March Madness last?
 ## What was the highest-scoring game in March Madness history? (https://fillmybracket.com/what-was-the-highest-scoring-game-in-march-madness-history)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -3944,14 +3918,12 @@ What was the highest-scoring March Madness final?
 Kentucky beat Duke 94 to 88 in 1978, for 182 points in all.
 More bracket basics
 What was the biggest blowout in March Madness history?
-What was the highest-scoring game in March Madness history?
 Which school has the most Final Fours without a title?
 What is the longest gap between titles?
 What was the highest-scoring final?
 March Madness champions list
 Who won March Madness in 2026?
-
-
+How often does a 14 seed beat a 3 seed?
 ## Which school has the most Final Four appearances without winning a title? (https://fillmybracket.com/which-school-has-the-most-final-four-appearances-without-winning-a-title)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -4000,13 +3972,11 @@ No. Houston lost the final in 1983, 1984, and 2025.
 More bracket basics
 What was the biggest blowout in March Madness history?
 What was the highest-scoring game in March Madness history?
-Which school has the most Final Fours without a title?
 What is the longest gap between titles?
 Which school has the most Final Four appearances?
 What is the Final Four?
 Which school has won the most titles?
-
-
+How often does a 16 seed beat a 1 seed?
 ## What is the longest gap between March Madness titles? (https://fillmybracket.com/what-is-the-longest-gap-between-march-madness-titles)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -4057,12 +4027,11 @@ More bracket basics
 What was the biggest blowout in March Madness history?
 What was the highest-scoring game in March Madness history?
 Which school has the most Final Fours without a title?
-What is the longest gap between titles?
 Has a team ever won two years in a row?
 March Madness champions list
 Who won March Madness in 2026?
-
-
+What is the longest gap between Final Four appearances?
+What is the First Four?
 ## What is the longest gap between Final Four appearances? (https://fillmybracket.com/what-is-the-longest-gap-between-final-four-appearances)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -4115,14 +4084,12 @@ Duquesne. It last reached the Final Four in 1940, 86 years ago.
 What is the longest gap between March Madness titles?
 Michigan waited 37 years. It won in 1989 and again in 2026.
 More bracket basics
-What is the longest gap between Final Four appearances?
 Which tournament had the fewest upsets?
 How often do two 1 seeds play in the final?
 Which school has the most Final Four appearances?
 What is the longest gap between titles?
 What is the Final Four?
-
-
+How often does a 15 seed beat a 2 seed?
 ## Which March Madness tournament had the fewest upsets? (https://fillmybracket.com/which-march-madness-tournament-had-the-fewest-upsets)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -4174,13 +4141,11 @@ Which March Madness tournament had the most upsets?
 The 1999 tournament, with 23 upsets.
 More bracket basics
 What is the longest gap between Final Four appearances?
-Which tournament had the fewest upsets?
 How often do two 1 seeds play in the final?
 Which tournament had the most upsets?
 March Madness upset analysis
 How often do upsets happen?
-
-
+How does March Madness work?
 ## How often do two 1 seeds play in the championship game? (https://fillmybracket.com/how-often-do-two-1-seeds-play-in-the-championship-game)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -4248,12 +4213,11 @@ How many 1 seeds make the Final Four?
 More bracket basics
 What is the longest gap between Final Four appearances?
 Which tournament had the fewest upsets?
-How often do two 1 seeds play in the final?
 How many 1 seeds make the Final Four?
 How often does a 1 seed win March Madness?
 March Madness champions list
-
-
+How does March Madness work?
+What was the highest-scoring game in March Madness history?
 ## How often does a double-digit seed make the Final Four? (https://fillmybracket.com/how-often-does-a-double-digit-seed-make-the-final-four)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -4322,18 +4286,13 @@ No. The lowest seed to win is an 8 seed, Villanova in 1985. None of the seven do
 What is the lowest seed to reach the Final Four?
 An 11 seed. Six 11 seeds have done it, most recently NC State in 2024.
 More bracket basics
-How often does a double-digit seed make the Final Four?
 What is the lowest seed to reach the Final Four?
 What is the lowest seed to win?
 What is a Cinderella team?
 March Madness upset analysis
 How to pick upsets
-Share this page
-.fmbshare{margin:28px auto 8px;text-align:center}.fmb-share-btn{min-height:48px;padding:12px 26px;border-radius:999px;border:0;background:var(--accent,#7c2d12);color:#fff;font:inherit;font-weight:700;cursor:pointer}.fmbshare p{min-height:1.2em;margin:8px 0 0;font-size:.92rem}
-Built with Muse.
-Home Privacy Terms
-
-
+Has a 5 seed ever won March Madness?
+When does March Madness start?
 ## Has a 5 seed ever won March Madness? (https://fillmybracket.com/has-a-5-seed-ever-won-march-madness)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -4418,18 +4377,13 @@ Nine teams, in seven tournaments. Two tournaments sent two 5 seeds each: 2010 (B
 Which 5 seed came closest to winning?
 Butler in 2010. It lost the title game to Duke 61 to 59, the closest of the four 5-seed finals.
 More bracket basics
-Has a 5 seed ever won March Madness?
 What is the lowest seed to win?
 How often does a 1 seed win March Madness?
 How often does a double-digit seed make the Final Four?
 March Madness upset analysis
 How often does a 12 seed beat a 5 seed?
-Share this page
-.fmbshare{margin:28px auto 8px;text-align:center}.fmb-share-btn{min-height:48px;padding:12px 26px;border-radius:999px;border:0;background:var(--accent,#7c2d12);color:#fff;font:inherit;font-weight:700;cursor:pointer}.fmbshare p{min-height:1.2em;margin:8px 0 0;font-size:.92rem}
-Built with Muse.
-Home Privacy Terms
-
-
+How often does a 16 seed beat a 1 seed?
+Has a team ever won March Madness two years in a row?
 ## What is a chalk bracket? (https://fillmybracket.com/what-is-a-chalk-bracket)
 
 Fill My Bracket starts a full March Madness bracket from five questions.
@@ -4495,14 +4449,10 @@ Between 42 and 49 of 63 in the last five tournaments. The site backtested 2022 t
 Has an all-chalk bracket ever been perfect?
 Not in any of the five backtested years. Even the chalkiest year, 2025, had 11 upsets in 63 games.
 More bracket basics
-What is a chalk bracket?
 2026 bracket backtest
 2025 bracket backtest
 2024 bracket backtest
 2023 bracket backtest
 2022 bracket backtest
 How does bracket scoring work?
-Share this page
-.fmbshare{margin:28px auto 8px;text-align:center}.fmb-share-btn{min-height:48px;padding:12px 26px;border-radius:999px;border:0;background:var(--accent,#7c2d12);color:#fff;font:inherit;font-weight:700;cursor:pointer}.fmbshare p{min-height:1.2em;margin:8px 0 0;font-size:.92rem}
-Built with Muse.
-Home Privacy Terms
+How does March Madness work?

@@ -616,7 +616,7 @@ window.FLEET_CFG = {
   <div class="cdx">
     <svg class="cdx-ball" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="50" cy="50" r="47"/><path d="M3 50h94"/><path d="M50 3v94"/><path d="M14 9c14 12 14 70 0 82"/><path d="M86 9c-14 12-14 70 0 82"/></g></svg>
     <a class="cdx-main" id="cdx-main" href="#how" aria-label="Selection Sunday is March 14, 2027.">
-      <span class="cdx-digits" id="cdx-digits" aria-hidden="true" hidden><span class="cdx-cell cd-d"><b id="cdx-d"></b><i id="cdx-dl">days</i></span><span class="cdx-cell"><b id="cdx-h"></b><i>hrs</i></span><span class="cdx-cell"><b id="cdx-m"></b><i>min</i></span><span class="cdx-cell"><b id="cdx-s"></b><i>sec</i></span></span>
+      <span class="cdx-digits" id="cdx-digits" aria-hidden="true" hidden><span class="cdx-cell cd-d"><b id="cdx-d">123</b><i id="cdx-dl">days</i></span><span class="cdx-cell"><b id="cdx-h">21</b><i>hrs</i></span><span class="cdx-cell"><b id="cdx-m">22</b><i>min</i></span><span class="cdx-cell"><b id="cdx-s">08</b><i>sec</i></span></span>
       <span class="countdown" id="countdown">Selection Sunday is March 14, 2027.</span>
       <span class="cdx-cta">How it works &rarr;</span>
     </a>
@@ -679,83 +679,29 @@ window.FLEET_CFG = {
   </div>
   <p class="ask-door">Questions before March? <a href="/ask" style="color:var(--orange-soft);font-weight:600;text-decoration:none;">Ask in your own words</a></p>
 
-  <figure class="bracket-art">
-    <svg viewBox="0 0 720 360" role="img" aria-label="A tournament bracket: eight first-round slots narrow round by round to one champion spot.">
-      <!-- connectors: round 1 to round 2 -->
-      <g stroke="#ffa25e" stroke-width="3" fill="none" stroke-linecap="round">
-        <path d="M150 35 H175 V57 H200"/>
-        <path d="M150 79 H175 V57"/>
-        <path d="M150 123 H175 V145 H200"/>
-        <path d="M150 167 H175 V145"/>
-        <path d="M150 211 H175 V233 H200"/>
-        <path d="M150 255 H175 V233"/>
-        <path d="M150 299 H175 V321 H200"/>
-        <path d="M150 343 H175 V321"/>
-        <!-- round 2 to final four -->
-        <path d="M310 57 H345 V101 H380"/>
-        <path d="M310 145 H345 V101"/>
-        <path d="M310 233 H345 V277 H380"/>
-        <path d="M310 321 H345 V277"/>
-        <!-- final four to champion -->
-        <path d="M490 101 H515 V180 H540"/>
-        <path d="M490 277 H515 V180"/>
-      </g>
-      <!-- round 1 slots -->
-      <g>
-        <g font-family="inherit" font-size="22" font-weight="700" fill="#f7f2e7">
-          <rect x="10" y="19" width="140" height="32" rx="8" fill="#123263" stroke="#2a4a7f"/>
-          <circle cx="31" cy="35" r="12.5" fill="#ff7a1a"/><text x="31" y="41" text-anchor="middle" font-size="17" fill="#081c3a">1</text>
-          <text x="52" y="43">Seed 1</text>
-          <rect x="10" y="63" width="140" height="32" rx="8" fill="#123263" stroke="#2a4a7f"/>
-          <circle cx="31" cy="79" r="12.5" fill="#f7f2e7"/><text x="31" y="85" text-anchor="middle" font-size="16" fill="#081c3a">16</text>
-          <text x="52" y="87">Seed 16</text>
-          <rect x="10" y="107" width="140" height="32" rx="8" fill="#123263" stroke="#2a4a7f"/>
-          <circle cx="31" cy="123" r="12.5" fill="#ff7a1a"/><text x="31" y="129" text-anchor="middle" font-size="17" fill="#081c3a">8</text>
-          <text x="52" y="131">Seed 8</text>
-          <rect x="10" y="151" width="140" height="32" rx="8" fill="#123263" stroke="#2a4a7f"/>
-          <circle cx="31" cy="167" r="12.5" fill="#f7f2e7"/><text x="31" y="173" text-anchor="middle" font-size="17" fill="#081c3a">9</text>
-          <text x="52" y="175">Seed 9</text>
-          <rect x="10" y="195" width="140" height="32" rx="8" fill="#123263" stroke="#2a4a7f"/>
-          <circle cx="31" cy="211" r="12.5" fill="#ff7a1a"/><text x="31" y="217" text-anchor="middle" font-size="17" fill="#081c3a">5</text>
-          <text x="52" y="219">Seed 5</text>
-          <rect x="10" y="239" width="140" height="32" rx="8" fill="#123263" stroke="#2a4a7f"/>
-          <circle cx="31" cy="255" r="12.5" fill="#f7f2e7"/><text x="31" y="261" text-anchor="middle" font-size="16" fill="#081c3a">12</text>
-          <text x="52" y="263">Seed 12</text>
-          <rect x="10" y="283" width="140" height="32" rx="8" fill="#123263" stroke="#2a4a7f"/>
-          <circle cx="31" cy="299" r="12.5" fill="#ff7a1a"/><text x="31" y="305" text-anchor="middle" font-size="17" fill="#081c3a">4</text>
-          <text x="52" y="307">Seed 4</text>
-          <rect x="10" y="327" width="140" height="32" rx="8" fill="#123263" stroke="#2a4a7f"/>
-          <circle cx="31" cy="343" r="12.5" fill="#f7f2e7"/><text x="31" y="349" text-anchor="middle" font-size="16" fill="#081c3a">13</text>
-          <text x="52" y="351">Seed 13</text>
-        </g>
-        <!-- round 2 slots -->
-        <g fill="#0d2b57" stroke="#ffa25e" stroke-width="2">
-          <rect x="200" y="42" width="110" height="30" rx="8"/>
-          <rect x="200" y="130" width="110" height="30" rx="8"/>
-          <rect x="200" y="218" width="110" height="30" rx="8"/>
-          <rect x="200" y="306" width="110" height="30" rx="8"/>
-        </g>
-        <!-- final four slots -->
-        <g fill="#0d2b57" stroke="#ffa25e" stroke-width="2">
-          <rect x="380" y="86" width="110" height="30" rx="8"/>
-          <rect x="380" y="262" width="110" height="30" rx="8"/>
-        </g>
-        <!-- champion box -->
-        <rect x="540" y="128" width="170" height="104" rx="14" fill="#ff7a1a"/>
-        <path d="M625 148 l7.6 15.4 17 2.5 -12.3 12 2.9 16.9 -15.2 -8 -15.2 8 2.9 -16.9 -12.3 -12 17 -2.5 Z" fill="#081c3a"/>
-        <text x="625" y="216" text-anchor="middle" font-family="inherit" font-size="24" font-weight="800" fill="#081c3a" letter-spacing="1">CHAMPION</text>
-      </g>
-    </svg>
-    <figcaption>One region of a sample bracket: eight teams in, one champion out.</figcaption>
-  </figure>
+  <section class="run-example" aria-labelledby="run-example-heading" style="max-width:44rem;margin:2rem auto 0;padding:0 1rem;">
+    <div style="border:2px solid #2a4a7f;border-radius:14px;background:#0d2b57;padding:1.3rem 1.25rem;">
+      <h2 id="run-example-heading" style="margin:0 0 .6rem;font-size:1.5rem;line-height:1.25;text-align:center;">One real mock run, finished</h2>
+      <p style="margin:0 0 .9rem;">The five starting answers on the mock page: a few upsets, best mascot breaks ties, no champion pick, no little-guy boost, no conference ride. Run on the projected field, the site's own engine filled all 75 picks. One region, the East:</p>
+      <ul style="margin:0 0 .9rem;padding-left:1.2rem;line-height:1.65;">
+        <li>First round: Duke over LIU, Arkansas over Indiana, Kansas over Yale, Alabama over Merrimack.</li>
+        <li>Second round: Duke over Georgia, Kansas over Nebraska.</li>
+        <li>Regional final: Duke over Kansas.</li>
+        <li>Final Four: Duke, Houston, Florida and Michigan State.</li>
+        <li>Title game: Duke over Florida.</li>
+      </ul>
+      <p style="margin:0 0 .9rem;font-size:.9rem;">A real run of the mock engine, not a prediction: the field is projected (Nov 8, 2026, CBS Sports bracketology) and the picks are preference picks from those five answers.</p>
+      <p style="margin:0;text-align:center;"><a href="/mock-bracket" style="display:inline-flex;align-items:center;min-height:48px;padding:.7rem 1.4rem;background:#ff7a1a;color:#081c3a;font-weight:800;border-radius:12px;text-decoration:none;">Run your own mock bracket</a></p>
+    </div>
+  </section>
 </main>
 
 <section class="poster-strip" aria-labelledby="poster-heading">
   <h2 id="poster-heading" style="font-size:1.5rem;font-weight:700;letter-spacing:-0.01em;text-align:center;margin:2rem 0 1.25rem;">Your bracket, as a poster</h2>
   <div class="poster-card">
     <p class="pc-kicker">Fill My Bracket</p>
-    <p class="pc-champ">Champion: your pick here</p>
-    <p>Print it. Pin it up. Every game, round by round.</p>
+    <p class="pc-champ">Champion: Duke</p>
+    <p>The poster from the mock run above. Print it. Pin it up. Every game, round by round.</p>
   </div>
 </section>
 
