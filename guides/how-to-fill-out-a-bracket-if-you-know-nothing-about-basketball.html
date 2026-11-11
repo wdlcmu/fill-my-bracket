@@ -330,7 +330,7 @@ body{padding-bottom:80px}
      once clear. The data-fyg-watch blocks are the ones under the pill at
      scroll 0, so the pill covers no text at arrival either. Rollback =
      remove this block and the data-fyg-watch attributes. -->
-<style>.fyg-pill{transition:transform .25s ease,opacity .25s ease}.fyg-pill.fyg-yield{opacity:.18}@media (prefers-reduced-motion:reduce){.fyg-pill{transition:none}}</style>
+<style>.fyg-pill{transition:transform .25s ease,opacity .25s ease}.fyg-pill.fyg-yield{opacity:.18;pointer-events:none}@media (prefers-reduced-motion:reduce){.fyg-pill{transition:none}}</style>
 <script>
 (function (global) {
   'use strict';
