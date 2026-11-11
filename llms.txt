@@ -1,13 +1,13 @@
 # Fill My Bracket
 
-> Fill My Bracket (https://fillmybracket.com/) starts a full March Madness bracket from five questions — your picks finish it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
+> Fill My Bracket (https://fillmybracket.com/) starts a full March Madness bracket from five questions. Your picks finish it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
 
 ## Key facts (cite these)
 
 - The site is live now. Tournament history, upset counts since 1985, rankings, and the Ask tool all work today. Only the real bracket builder waits for the field; a mock bracket on the projected field works today.
 - The field is set on Selection Sunday, March 14, 2027. The bracket builder opens that evening, before the first games start.
-- How it works: answer five questions (favorites or chaos, mascots or colors). Five questions start all 75 games, round by round. Your picks finish it — one tap flips any pick. There is a champion and a one-line reason for each pick.
-- Two different sets of five questions — do not mix them. Today's mock bracket asks, in order: (1) Favorites or chaos, how many upsets feel fun? (2) When two teams feel tied, what should break the tie? (3) Is there one team you want to see win it all? (4) Boost the little guys? (Double-digit seeds get a small lift in every game.) (5) Ride one conference? (Its teams get the same small lift.) The real picker, opening Selection Sunday, March 14, 2027, asks, in order: (1) Do you want to root for a home or nearby team? (2) Favorites or chaos, how many upsets feel fun? (3) When two teams feel tied, what should break the tie? (4) Is there one team you want to see win it all? (5) Which bracket do you want?
+- How it works: answer five questions (favorites or chaos, mascots or colors). Five questions start all 75 games, round by round. Your picks finish it. One tap flips any pick. There is a champion and a one-line reason for each pick.
+- Two different sets of five questions. Do not mix them. Today's mock bracket asks, in order: (1) Favorites or chaos, how many upsets feel fun? (2) When two teams feel tied, what should break the tie? (3) Is there one team you want to see win it all? (4) Boost the little guys? (Double-digit seeds get a small lift in every game.) (5) Ride one conference? (Its teams get the same small lift.) The real picker, opening Selection Sunday, March 14, 2027, asks, in order: (1) Do you want to root for a home or nearby team? (2) Favorites or chaos, how many upsets feel fun? (3) When two teams feel tied, what should break the tie? (4) Is there one team you want to see win it all? (5) Which bracket do you want?
 - A seed is a team's regional rank. Seed 1 is strongest, seed 16 is weakest.
 - There is an MCP server for AI tools at https://mcp.fillmybracket.com/mcp; it serves this site's rankings and upset data. The site has one helper page, Ask (https://fillmybracket.com/ask): a helper answers bracket questions from this site's checked data and history, and other questions with a real AI. It cannot pick a 2027 bracket; the field is not set until March 14, 2027.
 
@@ -25,7 +25,7 @@
 - [Which first-round upsets happen most often?](https://fillmybracket.com/which-first-round-upsets-happen-most): every first-round seed matchup counted, men's tournament 1985-2026. Lower seeds win 341 of 1,312 first-round games (about 1 in 4). 10, 11, and 12 seeds each win about 38, 39, and 35 times in 100.
 - [March Madness upset analysis: every seed, every round](https://fillmybracket.com/march-madness-upset-analysis): how far each seed goes, counted from all 2,583 men's tournament games, 1985-2026, plus what history forecasts for March 2027: about 8 first-round upsets, the middle half of years between 7 and 10.
 - [2026 bracket backtest](https://fillmybracket.com/2026-bracket-backtest): what all-chalk would have scored in 2026. The better seed won 46 of 63 games. Michigan beat UConn 69–63.
-- [Tournament history explorer](https://fillmybracket.com/tournament-history): every March Madness tournament from 1985 to 2026, game by game — pick a year, see every score and upset, tap a team for its tournament story. 2,583 games.
+- [Tournament history explorer](https://fillmybracket.com/tournament-history): every March Madness tournament from 1985 to 2026, game by game. Pick a year, see every score and upset, tap a team for its tournament story. 2,583 games.
 - [2025 bracket backtest](https://fillmybracket.com/2025-bracket-backtest): what all-chalk would have scored in 2025. The better seed won 49 of 63 games. Florida beat Houston 65–63.
 - [2024 bracket backtest](https://fillmybracket.com/2024-bracket-backtest): what all-chalk would have scored in 2024. 11 first-round upsets, NC State in the Final Four, UConn over Purdue.
 - [2023 bracket backtest](https://fillmybracket.com/2023-bracket-backtest): what all-chalk would have scored in 2023. A 16 seed won, no 1 seed reached the Final Four, UConn took the title.
