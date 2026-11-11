@@ -328,7 +328,7 @@ body{padding-bottom:80px}
      once clear. The data-fyg-watch blocks are the ones under the pill at
      scroll 0, so the pill covers no text at arrival either. Rollback =
      remove this block and the data-fyg-watch attributes. -->
-<style>.fyg-pill{transition:transform .25s ease}.fyg-pill.fyg-yield{transform:translateY(calc(100% + var(--fyg-gap, 20px)))}@media (prefers-reduced-motion:reduce){.fyg-pill{transition:none}}</style>
+<style>.fyg-pill{transition:transform .25s ease,opacity .25s ease}.fyg-pill.fyg-yield{opacity:.18}@media (prefers-reduced-motion:reduce){.fyg-pill{transition:none}}</style>
 <script>
 (function (global) {
   'use strict';
@@ -388,9 +388,10 @@ body{padding-bottom:80px}
       if (left !== null && cs.left !== 'auto') box.left = left;
       else if (right !== null && cs.right !== 'auto') box.left = vw - right - w;
       else box.left = vw - w; /* fallback: assume right-anchored */
+      var vvh = (window.visualViewport && window.visualViewport.height) || vh;
       if (top !== null && cs.top !== 'auto') box.top = top;
-      else if (bottom !== null && cs.bottom !== 'auto') box.top = vh - bottom - h;
-      else box.top = vh - h;
+      else if (bottom !== null && cs.bottom !== 'auto') box.top = vvh - bottom - h;
+      else box.top = vvh - h;
       box.right = box.left + w;
       box.bottom = box.top + h;
       resting = box;

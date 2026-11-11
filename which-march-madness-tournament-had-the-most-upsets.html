@@ -306,7 +306,7 @@ body{padding-bottom:80px}
      once clear. The data-fyg-watch blocks are the ones under the pill at
      scroll 0, so the pill covers no text at arrival either. Rollback =
      remove this block and the data-fyg-watch attributes. -->
-<style>.fyg-pill{transition:transform .25s ease}.fyg-pill.fyg-yield{transform:translateY(calc(100% + var(--fyg-gap, 20px)))}.fyg-pill.fyg-hidden{display:none}@media (prefers-reduced-motion:reduce){.fyg-pill{transition:none}}</style>
+<style>.fyg-pill{transition:transform .25s ease,opacity .25s ease}.fyg-pill.fyg-yield{opacity:.18}@media (prefers-reduced-motion:reduce){.fyg-pill{transition:none}}</style>
 <script>
 (function (global) {
   'use strict';
@@ -366,9 +366,16 @@ body{padding-bottom:80px}
       if (left !== null && cs.left !== 'auto') box.left = left;
       else if (right !== null && cs.right !== 'auto') box.left = vw - right - w;
       else box.left = vw - w; /* fallback: assume right-anchored */
+      /* Visual viewport height: window.innerHeight tracks the LAYOUT
+         viewport, which on mobile Safari can exceed the visible area
+         while the URL bar is expanded — the resting box then sat below
+         the fold and resting-state targets (the reveal list, the
+         works-with-ai text) never registered a hit. The visual viewport
+         is what the pill is actually seen against. */
+      var vvh = (window.visualViewport && window.visualViewport.height) || vh;
       if (top !== null && cs.top !== 'auto') box.top = top;
-      else if (bottom !== null && cs.bottom !== 'auto') box.top = vh - bottom - h;
-      else box.top = vh - h;
+      else if (bottom !== null && cs.bottom !== 'auto') box.top = vvh - bottom - h;
+      else box.top = vvh - h;
       box.right = box.left + w;
       box.bottom = box.top + h;
       resting = box;
@@ -432,26 +439,27 @@ body{padding-bottom:80px}
       setYield(hit);
     }
 
-    var hideTimer = null;
+    /* SPEC-SS-ASKPILL-01 (Nov 10, 2026): yielding is now a FADE, not a
+       disappearance. The old behaviour slid the pill off-screen and then
+       display:none'd it (SPEC-05), so on any page stretch where watched
+       content sat under the pill's corner — long text sections included,
+       via the .works-with-ai watch — the page's ONE AI entry point was
+       simply gone, sometimes for most of the scroll (Billy's dogfood
+       screenshots, Nov 10: pill present mid-page, absent at the saved
+       draw). A vanished door reads as a broken site; a faded one does
+       not. The pill now stays in place at low opacity while yielded:
+       still visible, still tappable, content readable through it, and
+       it never fully covers a full-opacity target the way the resting
+       pill did. Tapping it (or keyboard focus) restores full opacity
+       via the focus rule in update() and the CSS :focus-within below.
+       Resting-box bookkeeping is unchanged, so SPEC-05's parked-rect
+       concern no longer applies — the pill never leaves its box. */
     function setYield(on) {
       if (on === yielded) return;
       yielded = on;
-      if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; }
       if (on) {
         pill.classList.add(className);
-        /* SPEC-05 (Nov 4, 2026): after the slide-out finishes, remove the
-           pill from layout. Parked below the fold it still had a rect that
-           overlapped tap targets scrolling near the bottom edge (the
-           cold-QA settled sweep caught chips and footer links under that
-           parked rect). With display:none the rect is zero and the settled
-           pill can cover nothing, at any scroll depth. */
-        hideTimer = setTimeout(function () {
-          hideTimer = null;
-          if (yielded) pill.classList.add('fyg-hidden');
-        }, 300);
       } else {
-        pill.classList.remove('fyg-hidden');
-        void pill.offsetWidth; /* reflow so the slide back in still animates */
         pill.classList.remove(className);
       }
     }
