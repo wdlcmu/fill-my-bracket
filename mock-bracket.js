@@ -384,6 +384,30 @@
       msg.textContent = "Sharing did not work on this device - the poster above has every pick.";
     }
   });
+  /* Challonge bracket-module transfer (Nov 18, 2026): the same
+     bracket as a portable module. The embed code travels only in
+     the clipboard payload, like the link - it is never printed on
+     the page. Pasted into a post or a page, it renders THIS bracket
+     (poster card only, no site chrome) from /b?embed=1#<code>. */
+  $("embedBtn").addEventListener("click", function () {
+    var msg = $("shareMsg");
+    var link = bracketLink();
+    if (!link) {
+      msg.textContent = "Sharing did not work on this device - the poster above has every pick.";
+      return;
+    }
+    var snippet = "<iframe src=\"" + link.replace("/b#", "/b?embed=1#") + "\" width=\"100%\" height=\"720\" style=\"border:0;border-radius:12px;max-width:560px;display:block;margin:0 auto\" loading=\"lazy\" title=\"A mock bracket, filled with Fill My Bracket\"></iframe>";
+    track("share_embed_copy", { surface: "mock" });
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(snippet).then(function () {
+        msg.textContent = "Copied the embed code. Paste it into a post or a page - this bracket shows there, every pick.";
+      }, function () { msg.textContent = "Sharing did not work on this device - the poster above has every pick."; });
+    } else if (navigator.share) {
+      navigator.share({ title: "My mock bracket: " + bracket.champion.name + " wins it all", url: link }).catch(function () {});
+    } else {
+      msg.textContent = "Sharing did not work on this device - the poster above has every pick.";
+    }
+  });
   $("backBtn").addEventListener("click", function () {
     $("posterSec").hidden = true;
     $("bracketSec").scrollIntoView({ block: "start", behavior: RM ? "auto" : "smooth" });

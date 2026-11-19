@@ -24,6 +24,8 @@
     return n;
   }
 
+  var EMBED = false;
+  try { EMBED = new URLSearchParams(window.location.search).get("embed") === "1"; } catch (e) {}
   var code = "";
   try { code = (window.location.hash || "").replace(/^#/, ""); } catch (e) {}
   var view = null;
@@ -31,7 +33,7 @@
 
   if (!view) {
     $("errSec").hidden = false;
-    track("share_arrival", { tool: "fill-my-bracket", via: "bracket-link", result: "invalid" });
+    track("share_arrival", { tool: "fill-my-bracket", via: EMBED ? "bracket-embed" : "bracket-link", result: "invalid" });
     $("errBtn").addEventListener("click", function () {
       track("gen2_start", { surface: "recipient-error", via: "bracket-link" });
     });
@@ -39,7 +41,7 @@
   }
 
   var F = S.field;
-  track("share_arrival", { tool: "fill-my-bracket", via: "bracket-link", result: "view" });
+  track("share_arrival", { tool: "fill-my-bracket", via: EMBED ? "bracket-embed" : "bracket-link", result: "view" });
   ["gen2Btn", "gen2Btn2"].forEach(function (id) {
     $(id).addEventListener("click", function () {
       track("gen2_start", { surface: "recipient", via: "bracket-link" });

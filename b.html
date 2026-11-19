@@ -9,6 +9,15 @@
 <link rel="canonical" href="https://fillmybracket.com/b">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon.ico" sizes="any">
+<script>
+/* Embed mode (Challonge bracket-module transfer, Nov 18, 2026):
+   /b?embed=1#<code> renders this bracket as a portable module -
+   the poster card only, no site chrome - so a shared bracket can
+   live inside a post or a page, the way Challonge's /module view
+   does. The class is set before first paint so the chrome never
+   flashes inside the frame. */
+try { if (new URLSearchParams(location.search).get("embed") === "1") document.documentElement.classList.add("embed"); } catch (e) {}
+</script>
 <style>
   :root {
     --navy: #081c3a; --navy-2: #0d2b57; --navy-3: #123263;
@@ -63,6 +72,16 @@
   footer p { margin: 0; }
   footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
   footer a:hover { text-decoration: underline; }
+  .embed-credit { display: none; }
+  html.embed body { min-height: 0; }
+  html.embed header.site, html.embed footer, html.embed body > p,
+  html.embed .kicker, html.embed h1, html.embed .answer,
+  html.embed .champ-banner, html.embed .ff-line,
+  html.embed #gen2Btn, html.embed #gen2Btn2, html.embed .cta-note,
+  html.embed #errBtn { display: none !important; }
+  html.embed main { padding: 0.75rem; max-width: 36rem; }
+  html.embed .embed-credit { display: block; text-align: center; font-size: 0.875rem; color: var(--muted); margin: 0.9rem 0 0.25rem; }
+  html.embed .embed-credit a { color: var(--orange-soft); font-weight: 700; display: inline-block; padding: 12px 4px; min-height: 44px; }
 </style>
 </head>
 <body>
@@ -85,6 +104,7 @@
     <div class="poster-card" id="vCard"></div>
     <p><a class="fill-btn" id="gen2Btn2" href="/mock-bracket?via=own">Fill your own bracket</a></p>
     <p class="cta-note">A mock bracket: practice on a projection, not the real field. The real field is set March 14, 2027.</p>
+    <p class="embed-credit">Filled with <a href="https://fillmybracket.com/mock-bracket?via=embed" target="_top" rel="noopener">Fill My Bracket</a> - fill your own, free.</p>
   </section>
 
   <section id="errSec" hidden aria-labelledby="err-heading">
@@ -92,6 +112,7 @@
     <p>The link may be old, or a piece of it went missing on the way here. Nothing is broken on your end, and you can still fill the same mock yourself.</p>
     <p><a class="fill-btn" id="errBtn" href="/mock-bracket?via=own">Fill your own bracket</a></p>
     <p class="cta-note">Five answers fill all 75 of your picks. About a minute.</p>
+    <p class="embed-credit">Filled with <a href="https://fillmybracket.com/mock-bracket?via=embed" target="_top" rel="noopener">Fill My Bracket</a> - fill your own, free.</p>
   </section>
 
   <noscript>
