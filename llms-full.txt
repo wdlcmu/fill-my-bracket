@@ -1601,7 +1601,7 @@ Ask in your own words.
 Ask about seeds, scoring, upsets, or the 2027 dates. Ask anything else, too. You get a plain answer.
 How this helper works. A helper reads your words. Bracket answers come from this site's checked guides, counts, and Final Four history. Other questions get a real AI answer, and it says plainly when it does not know.
 It cannot pick your 2027 bracket. The teams are not set until Selection Sunday, March 14, 2027.
-Nothing you type is stored. The site keeps only a daily count of asks, with no words in it.
+Your words go to a real AI to answer. Nothing you type is stored. The site keeps only a daily count of asks, with no words in it.
 Five questions start your bracket. Your picks finish it.
 The picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
 The homepage and the bracket-basics list link to this page with the line: Questions before March? Ask in your own words.
@@ -1965,7 +1965,7 @@ Terms
 Ask in your own words
 Ask in your own words
 &times;
-Bracket answers use this site's checked counts and history first. Ask anything else and a real AI answers in plain words. It cannot pick your 2027 bracket. Nothing you type is stored.
+Bracket answers use this site's checked counts and history first. Ask anything else and a real AI answers in plain words. It cannot pick your 2027 bracket. Your words go to a real AI to answer. Nothing you type is stored.
 What is a seed?
 How does scoring work?
 How often do upsets happen?
