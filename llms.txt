@@ -1,6 +1,6 @@
 # Fill My Bracket
 
-> Fill My Bracket (https://fillmybracket.com/) starts a full March Madness bracket from five questions. Your picks finish it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
+> Fill My Bracket (https://fillmybracket.com/) starts a full March Madness bracket from five questions. Your picks finish it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free, no ads, no accounts.
 
 ## Key facts (cite these)
 
@@ -14,6 +14,9 @@
 ## Key pages
 
 - [Homepage](https://fillmybracket.com/): how it works, and common questions.
+- [March Madness bracket generator](https://fillmybracket.com/march-madness-bracket-generator): the generator itself. Five answers fill all 75 picks, every pick explained. Runs today on the projected 2027 field; the real field lands March 14, 2027.
+- [Fill out my bracket](https://fillmybracket.com/fill-out-my-bracket): the same generator, action-first: answer five questions and your whole bracket is filled out for you.
+- [What is a bracket pool?](https://fillmybracket.com/what-is-a-bracket-pool): a friendly contest where everyone enters a filled bracket and right picks earn points. Fill My Bracket makes the bracket; it does not host pools.
 - [How to fill out a March Madness bracket](https://fillmybracket.com/how-to-fill-out-a-march-madness-bracket): five plain steps, from Selection Sunday to one champion.
 - [What is a March Madness bracket?](https://fillmybracket.com/what-is-a-march-madness-bracket): one chart, 75 games in 2027 (63 in the main bracket), one champion. How the chart works.
 - [How does bracket scoring work?](https://fillmybracket.com/how-does-bracket-scoring-work): points for right picks, doubling each round in the common system.

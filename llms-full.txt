@@ -2,7 +2,7 @@
 
 > Complete text of fillmybracket.com: the homepage, the mock bracket page, the ask page, privacy, terms, and seventy-six guide, history, and data pages, one section for every page in the sitemap.
 > Fill My Bracket starts a full March Madness bracket from five questions, your picks finish
-> it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free forever, no ads, no accounts.
+> it, with zero basketball knowledge required. The site is live now. The bracket builder opens on Selection Sunday, March 14, 2027. Free, no ads, no accounts.
 > Text captured from the live pages, 2026-11-01; four history pages added 2026-11-04; three matchup pages and four backtest pages added 2026-11-04; homepage hero and legal lines updated 2026-11-05; seven long-tail pages added 2026-11-06; the tournament history explorer section added 2026-11-06, completing all sixty-two sitemap pages; four more long-tail pages added 2026-11-06, for sixty-six sitemap pages in all; four more long-tail pages added 2026-11-06, for seventy sitemap pages in all; four more long-tail pages added 2026-11-06 (wave 4), for seventy-four sitemap pages in all; three more long-tail pages added 2026-11-06 (wave 5), for seventy-seven sitemap pages in all; one more long-tail page added 2026-11-08, for seventy-eight sitemap pages in all; two more long-tail pages added 2026-11-08, for eighty sitemap pages in all. Homepage and rankings sections refreshed and the mock bracket section added 2026-11-09, for eighty-one sitemap pages in all. Format correction applied 2026-11-08: the 2027 field is 76 teams with a 12-game Opening Round (NCAA announcement, May 7, 2026); the 68-team First Four format is kept as history through 2026.
 
 ## Homepage (https://fillmybracket.com/)
@@ -75,7 +75,7 @@ Come back that evening.
 Fill yours before first games start.
 Practice until then with a mock bracket.
 Is it free?
-Yes. Fill My Bracket is free forever.
+Yes. Fill My Bracket is free.
 No ads.
 No accounts.
 What is a seed?
@@ -289,7 +289,7 @@ See
 how many teams make the field
 .
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is an automatic bid?
 An automatic bid is the March Madness spot a team earns by winning its conference tournament. Every Division I conference tournament winner gets one, whatever its regular-season record was. The selection committee does not choose these teams.
@@ -345,7 +345,7 @@ Those teams sit
 on the bubble
 all week.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is an at-large bid?
 An at-large bid is a March Madness invitation the selection committee gives a team that did not win its conference tournament. The committee judges the team's whole season strong enough to earn one of the spots the automatic bids do not fill.
@@ -397,7 +397,7 @@ More edge teams will get in.
 Every bubble bursts on Selection Sunday.
 In 2027, that is Sunday, March 14.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is a bubble team?
 A bubble team is a team on the edge of the March Madness field. It did not win its conference tournament, so it needs one of the last at-large bids from the selection committee, and its qualification could go either way.
@@ -450,7 +450,7 @@ Check the
 Selection Sunday 2027
 date.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is bracketology?
 Bracketology is the practice of predicting which teams make the NCAA tournament field and how they are seeded, and sometimes who wins each game. NCAA.com calls it a made-up ology. The field being predicted holds 76 teams in 2027.
@@ -531,7 +531,7 @@ The women's Final Four is April 2.
 Its title game is April 4.
 Both play in Columbus, Ohio.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 How many rounds are in March Madness?
 In 2027 there are seven stages: the Opening Round, then the First Round, Second Round, Sweet 16, Elite Eight, Final Four, and the championship game. The main bracket that fans pick holds six of those rounds, starting with 64 teams.
@@ -587,7 +587,7 @@ Read about the
 Final Four
 weekend.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is the NIT?
 The NIT is the National Invitation Tournament, a single-elimination postseason tournament run by the NCAA for teams that miss the NCAA tournament field. In 2027 it holds 32 teams, and its champion is crowned at Detroit Mercy on Sunday, April 4.
@@ -630,7 +630,7 @@ See
 when Selection Sunday 2027
 falls.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is a conference tournament?
 A conference tournament is the postseason tournament each of the 32 Division I conferences holds after the regular season. The winner earns an automatic bid to the NCAA tournament, no matter how its regular season went.
@@ -700,7 +700,7 @@ Meet the
 bubble teams
 chasing them.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What are NET rankings?
 NET rankings are the NCAA Evaluation Tool rankings, the selection committee's primary sorting tool since the 2018-19 season. They combine the Team Value Index with adjusted net efficiency, and they replaced the RPI.
@@ -747,7 +747,7 @@ Watch the
 conference tournaments
 closely.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is a bid stealer?
 A bid stealer is a team that would not have earned an at-large bid but wins its conference tournament and claims the automatic bid instead. Each steal leaves one fewer at-large spot for bubble teams.
@@ -789,7 +789,7 @@ help.
 Members cannot vote for their own school.
 Every pick comes by secret ballot.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is the selection committee?
 The selection committee is the NCAA Division I Basketball Committee. Its 12 members pick the at-large teams, seed all 76 teams, and place them in the bracket for March Madness.
@@ -835,7 +835,7 @@ See who weighs them: the
 selection committee
 .
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is Wins Above Bubble?
 Wins Above Bubble, or WAB, is a results-based metric that shows how many more or fewer wins a team earned than a bubble team would average against the same schedule. The NCAA committees use it beside the NET rankings.
@@ -891,7 +891,7 @@ Do not send all four 1 seeds to the Final Four. It has happened twice: in 2008 a
 Pick a few upsets early. Low seeds win about one first-round game in four.
 Keep your champion safe. Most champions are 1 or 2 seeds.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 How do you fill out a March Madness bracket?
 Wait for Selection Sunday, when the teams are announced. Then pick a winner for every game, round by round, until one champion is left. Pools lock before the first main-round games, so hand it in on time.
@@ -912,7 +912,7 @@ The main bracket has 63 games. 32 games in the first round. Then 16, then 8, the
 Why people fill one out
 Friends, families, and offices run pools. Everyone fills in a bracket. The best score wins the pool. Most players know very little basketball.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is a March Madness bracket?
 A bracket is the chart of the whole NCAA basketball tournament. It lists every game. You fill it in by picking the winner of each game, round by round, until one champion is left.
@@ -932,7 +932,7 @@ One right champion pick earns 320 points. That equals 32 right picks in the firs
 Every pool sets its own rules
 Some pools use 1, 2, 4, 8, 16, 32 points. Some give bonus points when a low seed wins. Ask how your pool scores before you pick. Most pools also ask for a tiebreaker. Guess the total points scored in the title game. Closest guess wins a tie.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 How does bracket scoring work?
 You earn points for every pick you get right. Later rounds are worth more points. In one common system, a right pick earns 10 points in the first round, then 20, 40, 80, 160, and 320 for the final. The highest total after the title game wins the pool.
@@ -954,7 +954,7 @@ Florida Gulf Coast, 2013. The first 15 seed to reach the Sweet 16.
 Why Cinderellas wreck brackets
 One Cinderella run busts all those picks at once. Almost every year, a team seeded 10 or worse reaches the Sweet 16. The art is picking one or two, not ten.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is a Cinderella team in March Madness?
 A Cinderella is a low seed that nobody expected to win, which beats strong teams and stays alive late into the tournament. The name comes from the fairy tale: a team in rags shows up at the ball and steals the night.
@@ -976,7 +976,7 @@ The field holds 76 teams. Twelve Opening Round games trim the field to 64.
 When to fill in your bracket
 Start on Sunday night, March 14. Pools lock before the first round starts. That is the morning of Thursday, March 18.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 When is Selection Sunday 2027?
 Selection Sunday is Sunday, March 14, 2027. The full tournament field is announced on TV that evening, and brackets open right after.
@@ -999,7 +999,7 @@ What this means for your picks
 Take one or two 12 seeds and an 11 seed in round one. Treat 8 vs 9 as a guess. History gives no real edge. Keep your champion safe. Pick a 1 or 2 seed to win it all.
 History is a guide, not a promise.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 How often do upsets happen in March Madness?
 Every year. Since 1985, in the men's tournament, the lower seed has won about one first-round game in four. The famous 12-over-5 upset happens about 35 times in 100 tries, and 11 seeds beat 6 seeds about 39 times in 100.
@@ -1020,7 +1020,7 @@ Our picker scores every team by seed strength. A 1 seed starts at 32. A 16 seed 
 A seed is a rank, not a promise
 Since 1985, the lower seed has won about one first-round game in four. The lowest seed to win the title is 8. That was Villanova, in 1985.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is a seed in March Madness?
 A seed is a team's rank inside its region, from 1 to 16. A committee ranks every team before the tournament starts. Seed 1 is the strongest team in the region, and seed 16 is the weakest.
@@ -1039,7 +1039,7 @@ Say you take two 12 seeds and one 11 seed. Each pick hits about 35 to 39 times i
 How our picker does it
 Our picker scores every team by seed strength. A 5 seed starts at 24. A 12 seed starts at 10. Your chaos answer hands the lower seed a bonus. Turn chaos up, and the 12 seed can pass the 5. Turn it down, and the favorite holds.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 How many upsets should I pick in my bracket?
 Two or three in the first round is the normal range. Since 1985, about one first-round game in four is an upset, but they cluster in a few matchups, like the 12 seed against the 5 seed.
@@ -1061,7 +1061,7 @@ The 2027 tournament holds 76 teams. Twelve Opening Round games come first. The w
 How we counted
 We counted every men's tournament game from 1985 to 2026. That is 41 tournaments and 2,583 games. There was no tournament in 2020. Game results come from the public game-by-game record. Wikipedia tournament pages, compiled in the march-madness-games-csv dataset. History is a guide, not a promise.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 How many first-round upsets happen in a normal year?
 About eight. Since 1985, the count runs from 3 to 13 upsets in a year. The average is 8.3 of the 32 first-round games.
@@ -1080,7 +1080,7 @@ When a 12 wins, it can win again
 How we counted
 Counted from every men's tournament game, 1985 to 2026. Main bracket only. First Four games are not counted. The full table lives on which first-round upsets happen most.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 How often does a 12 seed beat a 5 seed?
 About 35 times in 100. Since 1985, 12 seeds have won 58 of 164 games against 5 seeds in the men's tournament.
@@ -1101,7 +1101,7 @@ Six 11 seeds have reached the Final Four. LSU in 1986. George Mason in 2006. VCU
 How we counted
 Counted from every men's tournament game, 1985 to 2026. Main bracket only. First Four games are not counted. The full table lives on which first-round upsets happen most.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 How often does an 11 seed beat a 6 seed?
 About 39 times in 100. Since 1985, 11 seeds have won 64 of 164 games against 6 seeds in the men's tournament. Since 2013, they have won half.
@@ -1120,7 +1120,7 @@ Winning again is harder
 How we counted
 Counted from every men's tournament game, 1985 to 2026. Main bracket only. First Four games are not counted. The full table lives on which first-round upsets happen most.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 How often does a 10 seed beat a 7 seed?
 About 38 times in 100. Since 1985, 10 seeds have won 63 of 164 games against 7 seeds in the men's tournament.
@@ -1139,7 +1139,7 @@ Only 6 of the 33 winning 13 seeds won their next game. The next game is usually 
 How we counted
 Counted from every men's tournament game, 1985 to 2026. Main bracket only. First Four games are not counted. The full table lives on which first-round upsets happen most.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 How often does a 13 seed beat a 4 seed?
 About 20 times in 100. Since 1985, 13 seeds have won 33 of 164 games against 4 seeds in the men's tournament.
@@ -1183,7 +1183,7 @@ The men's Final Four is Saturday, April 3, in Detroit.
 The men's title game is Monday, April 5.
 See every key date for 2027.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is March Madness?
 March Madness is the NCAA Division I college basketball tournament. In 2027, 76 teams enter each tournament, men's and women's. Every game is single-elimination: lose once, and you go home. The last team standing is the national champion.
@@ -1216,7 +1216,7 @@ A strong first weekend does most of the work.
 So does keeping your champion alive late.
 See how bracket scoring works.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 Has anyone ever had a perfect March Madness bracket?
 No. No verifiable perfect bracket has ever been turned in. The longest proven streak is 49 straight correct picks, by Greg Nigl in 2019. His bracket broke in the Sweet 16.
@@ -1246,7 +1246,7 @@ Our picker asks the same kinds of questions.
 Your answers start all 75 games, with a reason on each pick.
 You can flip any pick you do not like.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 Can I fill out a bracket if I know nothing about basketball?
 Yes. Pick by seed, by mascot, by colors, or by coin flip. None of these needs basketball knowledge, and every March they fill millions of brackets. Knowledge helps the odds a little. It is not required to play.
@@ -1298,7 +1298,7 @@ They are played in Columbus, Ohio.
 The women's title game is Sunday, April 4.
 See every key date for 2027.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is the Final Four?
 The Final Four is the last four teams in the NCAA tournament, one winner from each of the four regions. The four teams play two semifinal games, and the winners meet in the national championship game.
@@ -1349,7 +1349,7 @@ Selection Sunday names the 76 teams.
 Pools, scoring, and deadlines work as before.
 See how bracket scoring works.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 How many teams are in March Madness?
 76 teams in each tournament, men's and women's, starting in 2027. A 12-game Opening Round trims the 76-team field to the 64 teams of the main bracket.
@@ -1405,7 +1405,7 @@ That is Thursday morning, March 18, in 2027.
 Ask your pool how it scores them.
 See how bracket scoring works.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is the opening round in March Madness?
 The Opening Round is how the tournament starts in 2027. Twenty-four teams play 12 games, and the 12 winners join 52 other teams in the 64-team main bracket. It replaces the First Four, which opened the tournament from 2011 through 2026.
@@ -1469,7 +1469,7 @@ Read more in
 what a Cinderella team is
 .
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is the Sweet 16?
 The Sweet 16 is the regional semifinal round of the NCAA tournament, when 16 teams remain, four in each region. Teams reach it by winning two games in the main bracket, and the winners move on to the Elite Eight.
@@ -1528,7 +1528,7 @@ Read
 what the Final Four is
 .
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What is the Elite Eight?
 The Elite Eight is the round of the NCAA tournament when eight teams remain, two in each region. Each game is a regional final, and the four winners advance to the Final Four.
@@ -1588,7 +1588,7 @@ Read about
 the perfect bracket chase
 .
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 How many games are in March Madness?
 There are 75 games in each 2027 tournament: 12 Opening Round games plus the 63 games of the main bracket. Through 2026 there were 67: 4 First Four games plus the 63.
@@ -1603,7 +1603,7 @@ How this helper works. A helper reads your words. Bracket answers come from this
 It cannot pick your 2027 bracket. The teams are not set until Selection Sunday, March 14, 2027.
 Your words go to a real AI to answer. Nothing you type is stored. The site keeps only a daily count of asks, with no words in it.
 Five questions start your bracket. Your picks finish it.
-The picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+The picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 The homepage and the bracket-basics list link to this page with the line: Questions before March? Ask in your own words.
 
 
@@ -1915,7 +1915,7 @@ Game results come from the public game-by-game record: Wikipedia tournament page
 The 2027 tournament holds 76 teams. Twelve Opening Round games come first, and the winners join this same 64-team bracket, so the counted frame still applies.
 History is a guide, not a promise.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Common questions
 What does history say will happen in March 2027?
 History cannot name teams, but the shape is steady: about 8 first-round upsets (the middle half of years land between 7 and 10), about 4 or 5 more upsets in the second round, and about 2 double-digit seeds in the Sweet 16. The 2027 field is not set until Selection Sunday, March 14, 2027.
@@ -2251,7 +2251,7 @@ Every Monday, this page refreshes with the new poll, restamps its date, and re-r
 By March, the teams you have been watching all winter will land on seed lines whose history you already know.
 That is the whole idea here: your team, your upsets, your calls, made with the counted record open next to them.
 Five questions start your bracket. Your picks finish it.
-Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free forever, no ads, no accounts.
+Our picker opens on Selection Sunday, March 14, 2027. Five answers start your bracket. You can flip any pick. Free, no ads, no accounts.
 Practice today: the mock bracket runs on this page's projected field: test runs, as many as you like, each ending in a poster.
 Common questions
 Are the November rankings the same as the March seeds?
@@ -4456,3 +4456,16 @@ More bracket basics
 2022 bracket backtest
 How does bracket scoring work?
 How does March Madness work?
+
+
+## March Madness bracket generator (https://fillmybracket.com/march-madness-bracket-generator)
+
+Fill My Bracket is a bracket generator that picks for you. Answer five questions - favorites or chaos, mascots or colors - and it fills all 75 games, with a one-line reason for every pick. Free, no account, no email. Today it runs on the projected 2027 field, so you can practice now; the same generator opens on the real field on Selection Sunday, March 14, 2027. A bracket generator fills a March Madness bracket for you instead of asking you to pick all 75 games one by one. Flip any pick with one tap, then print the poster.
+
+## Fill out my bracket (https://fillmybracket.com/fill-out-my-bracket)
+
+You do not have to pick 75 games one by one. Answer five questions and Fill My Bracket fills out your whole bracket for you: every pick explained, any pick flippable with one tap. Free, no account, no email. Practice today on the projected 2027 field; fill out the real one on Selection Sunday, March 14, 2027.
+
+## What is a bracket pool? (https://fillmybracket.com/what-is-a-bracket-pool)
+
+A bracket pool is a friendly contest: everyone fills out a March Madness bracket before the games start, right picks earn points as the real games finish, and the bracket with the most points when one champion is left wins. Most pools are free, and most are played for bragging rights. In the common scoring system the points double each round: 1, 2, 4, 8, 16, then 32 for the champion. Fill My Bracket fills out your bracket; it does not host pools, take entries, or handle prize money.

@@ -25,6 +25,10 @@ Allow: /
 User-agent: Claude-User
 Allow: /
 
+# Common Crawl (feeds several AI indexes)
+User-agent: CCBot
+Allow: /
+
 # Google's AI crawler (Gemini)
 User-agent: Google-Extended
 Allow: /
