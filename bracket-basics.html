@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bracket Basics, in Plain Words | Fill My Bracket</title>
+<meta name="description" content="Answer five questions and this March Madness bracket picker fills all 75 games for you. Free, no account needed.">
+<link rel="canonical" href="https://fillmybracket.com/bracket-basics">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fillmybracket.com/">
+<meta property="og:site_name" content="Fill My Bracket">
+<meta property="og:title" content="March Madness Bracket Picker - Fill My Bracket">
+<meta property="og:description" content="Answer five questions and this March Madness bracket picker fills all 75 games for you. Free, no account needed.">
+<meta property="og:image" content="https://fillmybracket.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Fill My Bracket. Five questions start your bracket. Your picks finish it.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="March Madness Bracket Picker - Fill My Bracket">
+<meta name="twitter:description" content="Answer five questions and this March Madness bracket picker fills all 75 games for you. Free, no account needed.">
+<meta name="twitter:image" content="https://fillmybracket.com/og-image.png">
+<meta name="twitter:image:alt" content="Fill My Bracket. Five questions start your bracket. Your picks finish it.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/replay.css">
+<style>
+  :root {
+    --navy: #081c3a;
+    --navy-2: #0d2b57;
+    --navy-3: #123263;
+    --orange: #ff7a1a;
+    --orange-soft: #ffa25e;
+    --cream: #f7f2e7;
+    --muted: #cdd9ee; /* 2026-11-05 contrast pass: the old muted tone was 8.9:1 on navy; #cdd9ee is 11.9:1 on navy, 9.8:1 on navy-2, 8.9:1 on navy-3 */
+    --line: #2a4a7f;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--cream); background: var(--navy); line-height: 1.5;
+    display: flex; flex-direction: column; min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center; padding: 2.5rem 1.25rem 2rem; max-width: 62rem; margin: 0 auto; width: 100%;
+  }
+  h1 { font-size: clamp(2.5rem, 8vw, 4rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.9rem; }
+  .tagline { font-size: clamp(1.125rem, 4vw, 1.5rem); color: var(--cream); max-width: 34rem; margin-bottom: 1.1rem; }
+  .promise { font-size: 1rem; font-weight: 600; color: var(--cream); margin-top: 1.15rem; }
+  .promise span { color: var(--orange); }
+  .countdown { margin-top: 0.6rem; font-size: 0.9375rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+  /* 2026-11-01 interactive countdown unit: digits, one tap target, What's-next panel */
+  /* 2026-11-05 hero promotion (Billy dogfood): the countdown is a hero card
+     directly under the tagline — bordered navy-2 card, hero-size digits, and
+     a basketball seam watermark (orange outline ball, low opacity) behind
+     the digits so the theme reads basketball at a glance. */
+  .cdx {
+    margin-top: 0.4rem; position: relative; overflow: hidden; width: 100%; max-width: 35rem;
+    background: var(--navy-2); border: 1px solid var(--line); border-radius: 16px;
+    padding: 0.85rem 1rem 0.65rem;
+  }
+  .cdx [hidden] { display: none !important; }
+  .cdx-ball {
+    position: absolute; right: -36px; top: 50%; transform: translateY(-50%);
+    width: 195px; height: 195px; color: var(--orange); opacity: 0.15; pointer-events: none;
+  }
+  .cdx-main { display: block; position: relative; text-decoration: none; color: inherit; text-align: center; padding: .15rem .4rem; border-radius: 14px; cursor: pointer; }
+  .cdx-main:hover { background: rgba(255, 122, 26, .08); }
+  .cdx-main:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+  .cdx-digits { display: flex; gap: 1rem; justify-content: center; align-items: flex-start; margin-bottom: .35rem; }
+  .cdx-cell { display: flex; flex-direction: column; align-items: center; min-width: 2.7ch; }
+  .cdx-cell.cd-d { min-width: 3.7ch; }
+  .cdx-cell b { font-size: clamp(2.35rem, 10vw, 3.2rem); line-height: 1; font-weight: 800; font-variant-numeric: tabular-nums; color: var(--orange-soft); }
+  .cdx-cell i { font-style: normal; font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-top: .32rem; }
+  .cdx .countdown { display: block; margin: 0; font-size: 1rem; }
+  .cdx-cta { display: block; margin-top: .5rem; font-weight: 700; color: var(--orange-soft); }
+  .ask-door a { display: inline-flex; align-items: center; min-height: 44px; }
+  .cdx-more { display: block; position: relative; margin: 0 auto; background: none; border: 0; font: inherit; font-size: .92rem; font-weight: 600; color: var(--muted); cursor: pointer; padding: .55rem .8rem; min-height: 44px; }
+  .cdx-more:hover { color: var(--orange-soft); }
+  .cdx-more:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; border-radius: 8px; }
+  .cdx-panel { border: 1px solid var(--line); border-radius: 12px; padding: .75rem .95rem; margin-top: .4rem; background: var(--navy); text-align: left; position: relative; }
+  .cdx-mile { margin: 0; color: var(--cream); }
+  .bracket-art {
+    margin-top: 2rem; width: 100%; max-width: 46rem;
+    background: var(--navy-2); border: 1px solid var(--line); border-radius: 16px;
+    padding: 1.25rem 1rem 0.9rem;
+  }
+  .bracket-art svg { display: block; width: 100%; height: auto; }
+  .bracket-art figcaption { margin-top: 0.6rem; font-size: 0.9375rem; font-weight: 600; color: var(--muted); }
+  .bracket-art figcaption strong { color: var(--orange); }
+  /* 2026-11-01 interactive landing (Billy's 10x directive, benchmarked on
+     worldcupprices.com): the counted facts become things you DO. One fact
+     per card, the giant number is the hero of each card, a short plain
+     label, big type, strong contrast, lots of air. Matchup cards are
+     tappable: pick a seed, history answers back with an animated count-up
+     and a filled bar. A running tally keeps the visitor's calls. Mobile:
+     the rail swipes (native scroll-snap); the swipe targets carry an
+     explicit touch-action (pan-x pan-y) so a horizontal drag scrolls the
+     rail and a vertical drag scrolls the page — the Oct 13 iPhone lesson.
+     Reduced motion: no count-up animation, no transitions. */
+  .play { margin-top: 0; width: 100%; max-width: 46rem; text-align: left; }
+  .play h2 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.01em; text-align: center; margin-bottom: 0.1rem; line-height: 1.15; }
+  .play-sub { text-align: center; color: var(--muted); font-size: 0.95rem; max-width: 32rem; margin: 0 auto 0.25rem; line-height: 1.35; }
+  .tally {
+    background: var(--navy-3); border: 1px solid var(--line); border-radius: 14px;
+    padding: 0.4rem 1rem; text-align: center; margin-bottom: 0.2rem;
+  }
+  .tally-count { font-weight: 800; font-size: 1.05rem; color: var(--cream); font-variant-numeric: tabular-nums; }
+  .tally-react { color: var(--muted); font-size: 0.9rem; margin-top: 0.15rem; }
+  .tally-reset {
+    margin-top: 0.55rem; background: none; border: 1px solid var(--orange); color: var(--orange-soft);
+    font: inherit; font-size: 0.9rem; font-weight: 700; border-radius: 999px;
+    padding: 0.45rem 1.1rem; min-height: 44px; cursor: pointer;
+  }
+  .tally-reset[hidden] { display: none; }
+  .tally-next {
+    display: inline-flex; align-items: center; justify-content: center;
+    margin-top: 0.55rem; margin-left: 0.5rem; background: var(--orange); color: var(--navy);
+    font-size: 0.9rem; font-weight: 800; border-radius: 999px;
+    padding: 0.45rem 1.1rem; min-height: 44px; text-decoration: none;
+  }
+  .tally-next[hidden] { display: none; }
+  .tally-next:hover { background: var(--orange-soft); }
+  .tally-reset:focus-visible, .pick-btn:focus-visible, .tally-next:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+  .match-rail {
+    display: flex; gap: 0.8rem; overflow-x: auto; padding: 0 0.2rem 0.7rem;
+    scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+    touch-action: pan-x pan-y; scrollbar-width: none;
+  }
+  .match-rail::-webkit-scrollbar { display: none; }
+  .match-card {
+    flex: 0 0 84%; scroll-snap-align: center; touch-action: pan-x pan-y;
+    background: var(--navy-2); border: 1px solid var(--line); border-radius: 16px;
+    padding: 0.7rem 1rem 0.9rem;
+  }
+  .mc-match { display: flex; align-items: baseline; justify-content: center; gap: 0.55rem; font-weight: 800; font-size: 1.15rem; }
+  .mc-match em { font-style: normal; color: var(--orange); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
+  .mc-q { text-align: center; color: var(--muted); font-size: 0.9rem; margin: 0.1rem 0 0.35rem; }
+  .mc-picks { display: flex; gap: 0.6rem; }
+  .pick-btn {
+    flex: 1 1 0; display: flex; flex-direction: column; align-items: center; gap: 0.1rem;
+    background: var(--navy-3); color: var(--cream); border: 1px solid var(--line); border-radius: 12px;
+    padding: 0.5rem 0.4rem; min-height: 64px; cursor: pointer; font: inherit;
+    transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  .pick-btn b { font-size: 2rem; line-height: 1; font-weight: 800; color: var(--orange-soft); font-variant-numeric: tabular-nums; }
+  .pick-btn span { font-size: 0.85rem; font-weight: 600; }
+  .pick-btn:hover { border-color: var(--orange-soft); }
+  .pick-btn.sel { border-color: var(--orange); background: #1a3f7c; box-shadow: 0 0 0 1px var(--orange); }
+  .mc-result { min-height: 7.3rem; padding-top: 0.75rem; text-align: center; }
+  .mc-hint { color: var(--muted); font-size: 0.9rem; padding-top: 1.1rem; }
+  .mc-pct { font-size: 2.6rem; line-height: 1; font-weight: 800; color: var(--orange); font-variant-numeric: tabular-nums; }
+  .mc-bar { height: 10px; border-radius: 999px; background: var(--navy); border: 1px solid var(--line); margin: 0.55rem auto 0.5rem; max-width: 15rem; overflow: hidden; }
+  .mc-bar i { display: block; height: 100%; width: 0; background: var(--orange); border-radius: 999px; transition: width 0.7s ease; }
+  .mc-line { font-size: 0.9rem; color: var(--cream); }
+  .play-foot { margin-top: 0.35rem; font-size: 0.875rem; color: var(--muted); text-align: center; }
+  .play-foot a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 10px 4px; min-height: 44px; }
+  .play-foot a:hover { text-decoration: underline; }
+  .fact-cards { display: flex; flex-direction: column; gap: 0.8rem; margin-top: 0.9rem; }
+  .fc { background: var(--navy-2); border: 1px solid var(--line); border-radius: 16px; padding: 1rem 1.1rem; }
+  .fc-label { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--orange-soft); margin-bottom: 0.3rem; }
+  .fc-num { font-size: clamp(2.6rem, 11vw, 3.4rem); line-height: 1.05; font-weight: 800; color: var(--cream); font-variant-numeric: tabular-nums; }
+  .fc-line { color: var(--muted); font-size: 0.92rem; margin-top: 0.3rem; }
+  @media (min-width: 900px) {
+    .match-rail { display: grid; grid-template-columns: repeat(4, 1fr); overflow: visible; scroll-snap-type: none; padding: 0.2rem 0 0.2rem; }
+    .match-card { flex: none; }
+    .fact-cards { flex-direction: row; }
+    .fc { flex: 1 1 0; }
+  }
+
+  /* 2026-11-03 evening cold-QA SPEC-QA1103E-02: desktop first-screen fix.
+     At 1280x800 the first card row's pick buttons ran 755.8-848.2px, cut at
+     the fold, and the first pick grew the tally ~53px, pushing the card
+     down. Compact the desktop hero/play stack (the same pattern as the
+     mobile compact hero below) and reserve the tally's post-pick height,
+     so the first pick buttons sit fully in view and the result lands in
+     view after a scroll-0 centre click. Mobile (<900px) is untouched. */
+  @media (min-width: 900px) {
+    main { padding-top: 1rem; }
+    h1 { font-size: 3rem; margin-bottom: 0.55rem; }
+    .tagline { font-size: 1.28rem; max-width: 44rem; margin-bottom: 0.55rem; }
+    .cdx { margin-top: 0.3rem; }
+    .cdx-main { padding: 0.2rem 0.5rem; }
+    .cdx-cell b { font-size: 2.8rem; }
+    .cdx-cell i { margin-top: 0.2rem; }
+    .cdx-cta { margin-top: 0.3rem; }
+    .play h2 { font-size: 1.3rem; }
+    .play-sub { margin-bottom: 0.1rem; }
+    .tally { min-height: 7.3rem; padding-top: 0.3rem; padding-bottom: 0.3rem; }
+    .match-card { padding-top: 0.5rem; }
+    .mc-q { margin-bottom: 0.2rem; }
+    .pick-btn { padding-top: 0.45rem; padding-bottom: 0.45rem; }
+    .pick-btn b { font-size: 1.8rem; }
+    .mc-result { padding-top: 0.5rem; }
+  }
+
+  /* 2026-11-02 first-tap payoff fix (cold-QA SPEC-first-tap-payoff, option A).
+     On small phones the result block landed at viewport 811-934px after the
+     first pick: the tally grew ~74px (the Start-over row appears and the
+     react line wraps to two lines), pushing the card down until the payoff
+     sat sliced at the fold, partly under the fixed Ask pill (780-828px).
+     Page-level fix only — the fleet-shared Ask pill is untouched. Compact
+     the hero, countdown, tally and card on small screens, and reserve the
+     tally's final height so the first pick no longer pushes the card down.
+     The locked line and every number are untouched. */
+  @media (max-width: 899px) {
+    main { padding-top: 0.9rem; }
+    h1 { font-size: 2.3rem; line-height: 1.1; margin-bottom: 0.5rem; }
+    .tagline { font-size: 1.05rem; line-height: 1.25; margin-bottom: 0.6rem; }
+    .cdx { margin-top: 0.15rem; }
+    .cdx-main { padding-top: 0.15rem; padding-bottom: 0.15rem; }
+    .cdx-digits { margin-bottom: 0.15rem; }
+    .cdx-cell b { font-size: 2.05rem; }
+    .cdx-cell i { margin-top: 0.18rem; }
+    .cdx-cta { margin-top: 0.3rem; }
+    .play h2 { font-size: 1.35rem; }
+    .play-sub { font-size: 0.9rem; line-height: 1.3; margin-bottom: 0.15rem; }
+    .tally { padding-top: 0.3rem; padding-bottom: 0.3rem; min-height: 7.9rem; }
+    .tally-count { font-size: 1rem; line-height: 1.3; }
+    .tally-react { font-size: 0.85rem; line-height: 1.35; margin-top: 0.1rem; }
+    .tally-reset, .tally-next { margin-top: 0.35rem; font-size: 0.85rem; padding: 0.4rem 0.9rem; }
+    .match-card { padding-top: 0.55rem; padding-bottom: 0.7rem; }
+    .mc-match { font-size: 1.05rem; line-height: 1.25; }
+    .mc-q { margin-top: 0.05rem; margin-bottom: 0.25rem; line-height: 1.35; }
+    .pick-btn { padding-top: 0.4rem; padding-bottom: 0.4rem; }
+    .pick-btn b { font-size: 1.75rem; }
+    .pick-btn span { line-height: 1.3; }
+    .mc-result { min-height: 6.4rem; padding-top: 0.5rem; }
+    .mc-hint { padding-top: 0.9rem; }
+    .mc-pct { font-size: 2.3rem; }
+    .mc-bar { margin-top: 0.4rem; margin-bottom: 0.4rem; }
+    .mc-line { line-height: 1.4; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .pick-btn, .mc-bar i { transition: none !important; }
+    .match-rail { scroll-behavior: auto; }
+  }
+  section.details { max-width: 42rem; margin: 0 auto; width: 100%; padding: 0 1.5rem 1rem; }
+  section.details h2 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em; text-align: center; margin: 2rem 0 1.25rem; }
+  .steps { list-style: none; text-align: left; }
+  .steps li { margin-bottom: 1.25rem; background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; }
+  .steps h3 { font-size: 1.0625rem; margin-bottom: 0.35rem; color: var(--cream); }
+  .steps p, .faq-item p { color: var(--muted); }
+  section.details p + p { margin-top: 0.4rem; }
+  .faq-item { text-align: left; margin-bottom: 1.25rem; }
+  .faq-item h3 { font-size: 1.0625rem; margin-bottom: 0.35rem; }
+  section.details .faq-item h3 a { display: inline-flex; align-items: center; min-height: 44px; }
+  .poster-strip {
+    max-width: 42rem; margin: 0 auto; width: 100%; padding: 0 1.5rem;
+  }
+  .poster-card {
+    border: 2px solid var(--orange); border-radius: 14px; background: var(--navy-2);
+    padding: 1.25rem 1.4rem; text-align: left;
+  }
+  .poster-card .pc-kicker { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--orange); margin-bottom: 0.4rem; }
+  .poster-card .pc-champ { font-size: 1.5rem; font-weight: 800; margin-bottom: 0.3rem; color: var(--cream); }
+  .poster-card p { color: var(--muted); font-size: 0.9375rem; }
+  .share-row { margin-top: 1.25rem; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
+  .share-btn {
+    background: var(--orange); color: var(--navy); font: inherit; font-size: 1rem; font-weight: 700;
+    border: 0; border-radius: 999px; padding: 0.75rem 2.25rem; min-height: 48px; min-width: 44px; cursor: pointer;
+  }
+  .share-btn:hover { background: var(--orange-soft); }
+  .share-btn:focus-visible { outline: 3px solid var(--cream); outline-offset: 2px; }
+  .share-msg { font-size: 0.9375rem; color: var(--muted); min-height: 1.4em; }
+  footer {
+    text-align: center; padding: 2rem 1.5rem; border-top: 1px solid var(--line);
+    font-size: 0.9375rem; color: var(--muted); margin-top: 2rem;
+  }
+  footer p { margin: 0; }
+  footer a { color: var(--orange-soft); font-weight: 600; text-decoration: none; display: inline-block; padding: 12px 6px; min-height: 44px; }
+  footer a:hover { text-decoration: underline; }
+</style>
+<script>
+/* FLEET-FT2-2026-11-08: first-touch capture at the door. The first page
+   this browser ever loads on this site stores its referrer, UTM tags and
+   landing address in localStorage (first write wins, never overwritten).
+   The PostHog first-touch writer reads this store, so a creator's
+   discovery channel survives the tool-page to homepage hop that used
+   to erase it (attribution trace, Nov 8, 2026, BP-5). The address is
+   cut to origin + path, /s/ and /g/ code segments are dropped, and no
+   query beyond utm_* and a whitelisted ?via= kind word is kept. */
+(function(){try{
+if(localStorage.getItem("fleet_ft2"))return;
+var q=new URLSearchParams(location.search);
+function utm(n){var v=q.get(n)||"";return v.slice(0,100);}
+var p=location.pathname||"/";
+if(/^\/(s|g)\/[^/]/.test(p))p=p.replace(/^\/(s|g)\/[^/]+.*$/,"/$1/");
+var via=q.get("via")||"";
+var ft={r:document.referrer||"",u:location.origin+p,
+via:["share","own","group"].indexOf(via)>=0?via:"",
+s:utm("utm_source"),m:utm("utm_medium"),c:utm("utm_campaign"),
+at:new Date().toISOString()};
+localStorage.setItem("fleet_ft2",JSON.stringify(ft));
+}catch(e){}})();
+</script>
+
+<script>
+/* Fleet instrumentation (Nov 1, 2026) — canonical taxonomy config for
+   Fill My Bracket (site slug "bracket"). The staged patch from
+   builds/fleet-instrumentation-2026-11-01/fmb-staged-patch.md, applied
+   with the interactive landing. MEASURE-1 (Nov 5, 2026): the picker
+   surface is owned by replay.js, whose per-run gate fires
+   tool_start {surface:"picker"} on a run's first pick and
+   tool_complete {surface:"picker"} once at its end card — the old
+   ".pick-btn" start selector matched no element on this page (the
+   replay game uses ".rg-team"), so picker completes fired with zero
+   starts; the dead selector is removed, replay.js is the one owner.
+   The share button keeps its tool_complete {surface:"share"} special,
+   and the FA block below latches it to once per page view behind a
+   same-surface tool_start, so a complete can never exceed its start
+   per cohort. The ask classification derives from the homepage panel's
+   own wording: this panel always answers (its worker falls back to a
+   generic on-topic answer), so the only fallback surface here is the
+   panel's own error line ("The helper had a hiccup..."), classified
+   missing:"other". Chip taps ask without touching the Ask button, so
+   a specials entry fires ask_asked for chips; the button fires it via
+   goSel. Visitor text is never sent. */
+window.FLEET_CFG = {
+  site: "bracket",
+  starts: [
+    {sel: "#askpBtn", surface: "ask"},
+    {sel: "#askpInput", on: "focus", surface: "ask"}
+  ],
+  ask: {
+    goSel: "#askpSend", answerSel: "#askpReply", completeOnAnswer: true,
+    fallbacks: [{re: /hiccup/, missing: "other"}],
+    defaultOutcome: "answered"
+  },
+  specials: [
+    {on: "click", sel: "#sharebtn", name: "tool_complete", props: {surface: "share"}},
+    {on: "click", sel: ".askp-chip", name: "ask_asked", props: {surface: "ask"}}
+  ]
+};
+</script>
+<!-- Fleet analytics — shared instrumentation (Nov 1, 2026; taxonomy:
+     ~/workspace/chief-of-staff/fleet-instrumentation-taxonomy-2026-11-01.md).
+     PostHog project 624507. Anonymous metadata only: event names + enum
+     properties. Never sends typed text, names, emails, pairings, or
+     tokens. Session recording off, autocapture off.
+     Per site: set window.FLEET_CFG (site slug + hooks) in a small script
+     block BEFORE this block. Internal rule (fleet-wide): ?internal=1
+     once on a device sets a localStorage flag; every event from that
+     device carries internal:true; funnel queries filter it out. -->
+<script>
+(function(){
+  var CFG = window.FLEET_CFG || {};
+  var SITE = CFG.site || "unknown";
+  var KEY = "phc_t9dkHXAZR5VEjPFm3K5JDzGKFsNNxKcwSxxcEBEeLbS7";
+  var _int = null;
+  function isInternal(){
+    if (_int !== null) return _int;
+    var flag = false;
+    try {
+      var q = location.search || "";
+      if (/[?&]internal=1(?:&|$)/.test(q)) { try { localStorage.setItem("fleet_internal", "1"); } catch(e){} flag = true; }
+      else if (/[?&]internal=0(?:&|$)/.test(q)) { try { localStorage.removeItem("fleet_internal"); } catch(e){} }
+      else if (/[?&](probe|sim)=/.test(q)) { flag = true; }
+      else { try { flag = localStorage.getItem("fleet_internal") === "1"; } catch(e){} }
+    } catch(e2){}
+    _int = flag;
+    return flag;
+  }
+  var Q = [];
+  function track(name, props){
+    props = props || {};
+    props.site = SITE;
+    try { if (isInternal()) props.internal = true; } catch(e){}
+    try {
+      if (window.posthog && posthog.capture) posthog.capture(name, props);
+      else { Q.push([name, props]); if (Q.length > 100) Q.shift(); }
+    } catch(e){}
+  }
+  window.FA = { track: track };
+  /* FLEET-ATTRIB-2026-11-07: first-touch attribution (pattern: SPEC-SS-ATTRIB-01).
+     On first pageview, persist the door as PostHog person properties via
+     people.set_once (a later visit never overwrites): entry_referrer (bare
+     origin only), entry_referring_domain, entry_url (origin+path, no query,
+     no fragment, no tokens), entry_at, entry_app (app kind classified from
+     the user-agent string - in-app browsers name themselves there even when
+     they strip the referrer). No raw UA stored, no PII. */
+    function fleetFirstTouch(){
+    try {
+      if (!window.posthog || !posthog.people || !posthog.people.set_once) return;
+      var ft = null;
+      try { ft = JSON.parse(localStorage.getItem("fleet_ft2") || "null"); } catch (e) {}
+      var ref = (ft && typeof ft.r === "string") ? ft.r : (document.referrer || "");
+      var refOrigin = "", refDomain = "$direct";
+      if (ref) {
+        try {
+          var ru = new URL(ref);
+          if (ru.origin && ru.origin !== "null") { refOrigin = ru.origin + "/"; refDomain = ru.hostname || "$direct"; }
+        } catch (e) {}
+        if (!refOrigin) {
+          var m = /^[a-z][a-z0-9+.-]*:\/\/[^/?#]+/i.exec(ref);
+          if (m) { refOrigin = m[0] + "/"; refDomain = m[0].split("://")[1] || "$direct"; }
+        }
+      }
+      var entryUrl, entryAt;
+      if (ft && ft.u) {
+        entryUrl = ft.u + (ft.via ? "?via=" + ft.via : "");
+        entryAt = ft.at || new Date().toISOString();
+      } else {
+        var path = window.location.pathname || "/";
+        if (/^\/(s|g)\/[^/]/.test(path)) path = path.replace(/^\/(s|g)\/[^/]+.*$/, "/$1/");
+        var viaRaw = "";
+        try { viaRaw = new URLSearchParams(window.location.search).get("via") || ""; } catch (e) {}
+        var via = (viaRaw === "share" || viaRaw === "own" || viaRaw === "group") ? "?via=" + viaRaw : "";
+        entryUrl = window.location.origin + path + via;
+        entryAt = new Date().toISOString();
+      }
+      var ua = (navigator.userAgent || "").slice(0, 500);
+      var l = ua.toLowerCase();
+      var app = "other";
+      if (l.indexOf("kakaotalk") !== -1) app = "kakaotalk";
+      else if (l.indexOf("whatsapp") !== -1) app = "whatsapp";
+      else if (l.indexOf("instagram") !== -1) app = "instagram";
+      else if (l.indexOf("telegram") !== -1) app = "telegram";
+      else if (l.indexOf("teams") !== -1) app = "teams";
+      else if (l.indexOf("fban") !== -1 || l.indexOf("fbav") !== -1 || l.indexOf("fb_iab") !== -1 || l.indexOf("facebook") !== -1) app = "facebook";
+      else if (l.indexOf("mozilla/") !== -1) app = "browser";
+      var props = {
+        entry_referrer: refOrigin,
+        entry_referring_domain: refDomain,
+        entry_url: entryUrl,
+        entry_at: entryAt,
+        entry_app: app
+      };
+      if (ft && ft.s) props.entry_utm_source = ft.s;
+      if (ft && ft.m) props.entry_utm_medium = ft.m;
+      if (ft && ft.c) props.entry_utm_campaign = ft.c;
+      posthog.people.set_once(props);
+    } catch (e) {}
+  }
+
+  var s = document.createElement("script");
+  s.async = true;
+  s.src = "https://us.i.posthog.com/static/array.js";
+  s.onload = function(){
+    try {
+      if (window.posthog && posthog.init) {
+        posthog.init(KEY, {api_host: "https://us.i.posthog.com", autocapture: false, capture_pageview: true, disable_session_recording: true, persistence: "localStorage"});
+        try { posthog.register({site: SITE, internal: isInternal()}); } catch(e){}
+        try { if (isInternal() && posthog.people && posthog.people.set) posthog.people.set({fleet_internal: true}); } catch(e){}
+        try { fleetFirstTouch(); } catch(e){}
+        while (Q.length) { var e0 = Q.shift(); try { posthog.capture(e0[0], e0[1]); } catch(e){} }
+      }
+    } catch(e){}
+  };
+  document.head.appendChild(s);
+
+  function onReady(fn){ if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", fn); else fn(); }
+  function vis(el){
+    if (!el) return false;
+    var cs = getComputedStyle(el);
+    if (cs.display === "none" || cs.visibility === "hidden") return false;
+    return !!(el.offsetWidth || el.offsetHeight || (el.getClientRects && el.getClientRects().length));
+  }
+  function txt(el){ return ((el && el.textContent) || "").replace(/\s+/g, " ").trim(); }
+
+  onReady(function(){
+    try {
+      var started = {};
+      (CFG.starts || []).forEach(function(st){
+        Array.prototype.forEach.call(document.querySelectorAll(st.sel), function(el){
+          el.addEventListener(st.on || "click", function(){
+            var k = st.surface || "tool";
+            if (started[k]) return;
+            started[k] = true;
+            track("tool_start", {surface: k});
+          });
+        });
+      });
+      (CFG.completes || []).forEach(function(cp){
+        var done = false;
+        function check(){
+          if (done) return;
+          var el = document.querySelector(cp.sel);
+          if (el && vis(el) && txt(el).length >= (cp.minText || 1)) {
+            done = true;
+            track("tool_complete", {surface: cp.surface || "tool"});
+          }
+        }
+        /* Observe the body and re-resolve the selector on every batch:
+           some tools replace the result node instead of filling it. */
+        new MutationObserver(check).observe(document.body, {childList: true, subtree: true, characterData: true, attributes: true});
+        check();
+      });
+      if (CFG.ask) {
+        var A = CFG.ask;
+        var lastText = "", completed = false;
+        var go = A.goSel ? document.querySelector(A.goSel) : null;
+        if (go) go.addEventListener("click", function(){
+          track("ask_asked", {surface: "ask"});
+          lastText = "";   // a new submission: the observer must classify the coming rendering even if its text matches the previous turn's
+        });
+        var ans = A.answerSel ? document.querySelector(A.answerSel) : null;
+        if (ans) {
+          var checkA = function(){
+            var el = document.querySelector(A.answerSel);
+            if (!el) return;
+            var t = txt(el);
+            if (!t || t === lastText) return;
+            lastText = t;
+            var fb = null;
+            (A.fallbacks || []).some(function(f){ if (f.re.test(t)) { fb = f; return true; } return false; });
+            if (fb) { track("ask_fallback", {surface: "ask", missing: fb.missing}); return; }
+            var props = {surface: "ask"};
+            (A.kinds || []).some(function(k){ if (k.re.test(t)) { props.outcome = k.outcome; return true; } return false; });
+            if (!props.outcome && A.defaultOutcome) props.outcome = A.defaultOutcome;
+            track("ask_answered", props);
+            if (A.completeOnAnswer && !completed) { completed = true; if (!started["ask"]) { started["ask"] = true; track("tool_start", {surface: "ask"}); } track("tool_complete", {surface: "ask"}); }
+          };
+          new MutationObserver(checkA).observe(document.body, {childList: true, subtree: true, characterData: true});
+        }
+      }
+      var specialDone = {};
+      (CFG.specials || []).forEach(function(sp){
+        try {
+          if (sp.on === "click") {
+            Array.prototype.forEach.call(document.querySelectorAll(sp.sel), function(el){
+              el.addEventListener("click", function(){
+                if (sp.name === "tool_complete") {
+                  /* MEASURE-1: a specials complete fires at most once
+                     per page view for its surface, and only behind a
+                     same-surface start (fired first if none yet), so
+                     completes can never exceed starts per cohort. */
+                  var sk = (sp.props && sp.props.surface) || "tool";
+                  if (specialDone[sk]) return;
+                  specialDone[sk] = true;
+                  if (!started[sk]) { started[sk] = true; track("tool_start", {surface: sk}); }
+                }
+                track(sp.name, sp.props || {});
+                if (sp.name === "ask_asked") lastText = "";   // a chip tap is a new submission: the observer must classify the coming rendering even if its text matches the previous turn's
+              });
+            });
+          } else if (sp.on === "appear") {
+            var fired = false;
+            var chk = function(){
+              if (fired) return;
+              var el = document.querySelector(sp.sel);
+              if (el && vis(el) && txt(el).length) { fired = true; track(sp.name, sp.props || {}); }
+            };
+            new MutationObserver(chk).observe(document.body, {childList: true, subtree: true, characterData: true, attributes: true});
+            chk();
+          } else if (sp.on === "loadmatch") {
+            if (sp.re.test(location.href)) track(sp.name, sp.props || {});
+          }
+        } catch(e){}
+      });
+    } catch(e){}
+  });
+})();
+</script>
+</head>
+<body>
+<main>
+  <h1>Bracket basics, in plain words</h1>
+  <p class="tagline">Every plain-words guide from the home page, on one page.</p>
+  <p><a href="/" style="color:var(--orange-soft);font-weight:600;">Back to Fill My Bracket</a></p>
+<section class="details" aria-label="Bracket basics guides">
+  <div class="faq-item">
+    <h3><a href="/how-to-fill-out-a-march-madness-bracket" style="color:var(--orange-soft);text-decoration:none;">How to fill out a March Madness bracket</a></h3>
+    <p>Five plain steps, from Selection Sunday to one champion.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-a-march-madness-bracket" style="color:var(--orange-soft);text-decoration:none;">What is a March Madness bracket?</a></h3>
+    <p>One chart, 75 games in 2027, one champion. How the chart works.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/how-does-bracket-scoring-work" style="color:var(--orange-soft);text-decoration:none;">How does bracket scoring work?</a></h3>
+    <p>Points for right picks. Late rounds are worth the most.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-a-cinderella-team" style="color:var(--orange-soft);text-decoration:none;">What is a Cinderella team?</a></h3>
+    <p>The low seed that steals the ball, and famous runs.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/when-is-selection-sunday-2027" style="color:var(--orange-soft);text-decoration:none;">When is Selection Sunday 2027?</a></h3>
+    <p>Sunday, March 14, 2027. Plus every key date.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/how-often-do-upsets-happen" style="color:var(--orange-soft);text-decoration:none;">How often do upsets happen?</a></h3>
+    <p>The seed math since 1985. Some upsets are normal.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-a-seed-in-march-madness" style="color:var(--orange-soft);text-decoration:none;">What is a seed in March Madness?</a></h3>
+    <p>A team's rank in its region, 1 to 16. How seeds are set and paired.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/how-to-pick-upsets" style="color:var(--orange-soft);text-decoration:none;">How to pick upsets</a></h3>
+    <p>Two or three first-round upsets, in the right spots.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/which-first-round-upsets-happen-most" style="color:var(--orange-soft);text-decoration:none;">Which first-round upsets happen most often?</a></h3>
+    <p>Every first-round matchup, counted since 1985.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/march-madness-upset-analysis" style="color:var(--orange-soft);text-decoration:none;">March Madness upsets: the full analysis</a></h3>
+    <p>Every seed, every round, counted since 1985.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/how-often-does-a-12-seed-beat-a-5-seed" style="color:var(--orange-soft);text-decoration:none;">How often does a 12 seed beat a 5 seed?</a></h3>
+    <p>About 35 times in 100. The famous one, counted.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/how-often-does-an-11-seed-beat-a-6-seed" style="color:var(--orange-soft);text-decoration:none;">How often does an 11 seed beat a 6 seed?</a></h3>
+    <p>About 39 times in 100. Half the time lately.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/how-often-does-a-double-digit-seed-make-the-final-four" style="color:var(--orange-soft);text-decoration:none;">How often does a double-digit seed make the Final Four?</a></h3>
+    <p>Seven times in 41 tournaments. Six were 11 seeds.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/has-a-5-seed-ever-won-march-madness" style="color:var(--orange-soft);text-decoration:none;">Has a 5 seed ever won March Madness?</a></h3>
+    <p>No. Nine reached the Final Four. Four lost the final.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-a-chalk-bracket" style="color:var(--orange-soft);text-decoration:none;">What is a chalk bracket?</a></h3>
+    <p>Pick the better seed in every game. It gets 42 to 49 of 63 right.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-march-madness" style="color:var(--orange-soft);text-decoration:none;">What is March Madness?</a></h3>
+    <p>76 teams in 2027, lose once and you are out, one champion.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/has-anyone-ever-had-a-perfect-bracket" style="color:var(--orange-soft);text-decoration:none;">Has anyone ever had a perfect bracket?</a></h3>
+    <p>No. The best proven run is 49 straight right picks.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/how-to-fill-out-a-bracket-if-you-know-nothing-about-basketball" style="color:var(--orange-soft);text-decoration:none;">How to fill out a bracket if you know nothing about basketball</a></h3>
+    <p>Mascots, colors, seeds, or a coin flip. No knowledge needed.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-the-final-four" style="color:var(--orange-soft);text-decoration:none;">What is the Final Four?</a></h3>
+    <p>The last four teams. Two semifinals, then one title game.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/how-many-teams-are-in-march-madness" style="color:var(--orange-soft);text-decoration:none;">How many teams are in March Madness?</a></h3>
+    <p>76 teams in 2027. The main bracket still has 64.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-the-opening-round-in-march-madness" style="color:var(--orange-soft);text-decoration:none;">What is the opening round in March Madness?</a></h3>
+    <p>12 games before the main bracket. The Opening Round opens the tournament.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-the-sweet-16" style="color:var(--orange-soft);text-decoration:none;">What is the Sweet 16?</a></h3>
+    <p>The regional semifinals. Sixteen teams, eight games.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-the-elite-eight" style="color:var(--orange-soft);text-decoration:none;">What is the Elite Eight?</a></h3>
+    <p>The regional finals. Winners reach the Final Four.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/how-many-games-are-in-march-madness" style="color:var(--orange-soft);text-decoration:none;">How many games are in March Madness?</a></h3>
+    <p>75 games in all in 2027. Your bracket picks all 75.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-an-automatic-bid" style="color:var(--orange-soft);text-decoration:none;">What is an automatic bid?</a></h3>
+    <p>Win your conference tournament, and you are in.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-an-at-large-bid" style="color:var(--orange-soft);text-decoration:none;">What is an at-large bid?</a></h3>
+    <p>The committee's invitation. Your season earns it.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-a-bubble-team" style="color:var(--orange-soft);text-decoration:none;">What is a bubble team?</a></h3>
+    <p>Right on the cut line. In, or just out.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-bracketology" style="color:var(--orange-soft);text-decoration:none;">What is bracketology?</a></h3>
+    <p>The prediction game before Selection Sunday.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/how-many-rounds-are-in-march-madness" style="color:var(--orange-soft);text-decoration:none;">How many rounds are in March Madness?</a></h3>
+    <p>Seven stages. Six rounds hold your picks.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-the-nit" style="color:var(--orange-soft);text-decoration:none;">What is the NIT?</a></h3>
+    <p>The other big tournament, for teams left out.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-a-conference-tournament" style="color:var(--orange-soft);text-decoration:none;">What is a conference tournament?</a></h3>
+    <p>Win your league's playoff, and you are in.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-are-net-rankings" style="color:var(--orange-soft);text-decoration:none;">What are NET rankings?</a></h3>
+    <p>The committee's main sorting tool, explained.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/college-basketball-rankings" style="color:var(--orange-soft);text-decoration:none;">Today's rankings, explained for March</a></h3>
+    <p>The Week 1 Top 25, read as seed lines.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-a-bid-stealer" style="color:var(--orange-soft);text-decoration:none;">What is a bid stealer?</a></h3>
+    <p>The surprise winner that shrinks the bubble.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-the-selection-committee" style="color:var(--orange-soft);text-decoration:none;">What is the selection committee?</a></h3>
+    <p>The twelve people who pick the field.</p>
+  </div>
+  <div class="faq-item">
+    <h3><a href="/what-is-wins-above-bubble" style="color:var(--orange-soft);text-decoration:none;">What is Wins Above Bubble?</a></h3>
+    <p>The resume score the committee watches.</p>
+  </div>
+</section>
+</main>
+<footer>
+  <p>Built with Muse.</p>
+  <p><a href="/">Home</a> <a href="/college-basketball-rankings">Rankings</a> <a href="/ask">Ask</a> <a href="/privacy">Privacy</a> <a href="/terms">Terms</a></p>
+</footer>
+</body>
+</html>
