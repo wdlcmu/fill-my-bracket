@@ -1175,7 +1175,7 @@ That prediction sheet is the bracket.
 Offices, schools, and families run pools on it.
 You do not need to follow basketball to play.
 Plenty of brackets are picked by mascot or by colors.
-March Madness 2027, in short
+March Madness 2027
 The field is set on Selection Sunday, March 14, 2027.
 The Opening Round is played March 16 and 17.
 The First Round starts Thursday, March 18.
@@ -1310,7 +1310,6 @@ The men's Final Four is Saturday, April 3, 2027, at Ford Field in Detroit, with 
 How many teams are in March Madness?
 Each March Madness tournament, men's and women's, holds 76 teams starting in 2027.
 Visual: Bar showing the 76-team field for 2027: 32 automatic bids and 44 at-large bids.
-The short answer
 Each tournament holds 76 teams starting in 2027.
 The NCAA announced the change in May 2026.
 The field grows from 68 teams to 76.
